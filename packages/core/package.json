@@ -1,0 +1,64 @@
+{
+  "name": "@cropgraph/core",
+  "version": "1.0.0",
+  "description": "CropGraph core library: curated crop calendar (1,000 entries), companion planting relationships, USDA hardiness zone lookup, and climate classification. Offline, zero network calls.",
+  "keywords": [
+    "cropgraph",
+    "agriculture",
+    "planting-calendar",
+    "companion-planting",
+    "usda-zones",
+    "hardiness-zone",
+    "climate",
+    "garden",
+    "crops",
+    "permaculture",
+    "frost-dates",
+    "zod",
+    "typescript"
+  ],
+  "author": "Andrew Christison",
+  "license": "MIT",
+  "homepage": "https://github.com/Cropgraph/cropgraph/tree/main/packages/core",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cropgraph/cropgraph",
+    "directory": "packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/Cropgraph/cropgraph/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

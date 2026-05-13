@@ -1,0 +1,1097 @@
+{
+  "version": "1",
+  "source": "USDA Cooperative Extension (Cornell, WSU, UC ANR, UF/IFAS); USDA-ARS Three Sisters and allelopathy research; Xerces Society pollinator publications; Riotte, Carrots Love Tomatoes; Cunningham, Great Garden Companions; SARE Cover Crops field guide. Strength grades curated honestly: strong = empirical research support, moderate = widely corroborated traditional + some research. Folk-only (weak) entries excluded; community PRs welcome.",
+  "license": "CC-BY-4.0",
+  "lastUpdated": "2026-05-10",
+  "entries": [
+    {
+      "crop": "pole-bean",
+      "companion": "sweet-corn",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Beans fix atmospheric nitrogen via Rhizobium root-nodule symbiosis; nitrogen released to companion corn over the season enriches the soil heavy-feeding corn depletes. The defining N-cycle pairing of the Three Sisters.",
+      "strength": "strong",
+      "source": "USDA-ARS Three Sisters research; Iroquois agricultural tradition"
+    },
+    {
+      "crop": "sweet-corn",
+      "companion": "pole-bean",
+      "type": "beneficial",
+      "mechanism": "structural_support",
+      "description": "Corn stalks serve as a living trellis for climbing bean vines, eliminating the need for separate trellising. Plant beans after corn reaches ~6 inches so vines don't outpace the support.",
+      "strength": "strong",
+      "source": "USDA-ARS Three Sisters research; Iroquois agricultural tradition"
+    },
+    {
+      "crop": "winter-squash",
+      "companion": "sweet-corn",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Sprawling squash vines and large leaves shade the soil at the base of the corn, retain moisture, and suppress weeds. The third sister's job is the ground layer.",
+      "strength": "strong",
+      "source": "USDA-ARS Three Sisters research; Iroquois agricultural tradition"
+    },
+    {
+      "crop": "winter-squash",
+      "companion": "pole-bean",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Squash leaves shade the base of bean plants and conserve moisture; spiny varieties (Hubbard, Buttercup) also help deter raccoons and other corn-bed raiders.",
+      "strength": "strong",
+      "source": "USDA-ARS Three Sisters research; Iroquois agricultural tradition"
+    },
+    {
+      "crop": "sweet-corn",
+      "companion": "winter-squash",
+      "type": "beneficial",
+      "mechanism": "shade_provider",
+      "description": "Tall corn provides afternoon shade to young squash vines, reducing transplant shock and heat stress in high-sun regions; especially valuable in arid and continental climates.",
+      "strength": "moderate",
+      "source": "USDA-ARS Three Sisters research; Iroquois agricultural tradition"
+    },
+    {
+      "crop": "pole-bean",
+      "companion": "winter-squash",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Nitrogen released by bean root-nodule activity supplements squash needs as developing fruit ripens.",
+      "strength": "strong",
+      "source": "USDA-ARS Three Sisters research; Iroquois agricultural tradition"
+    },
+    {
+      "crop": "basil",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Basil's aromatic volatile oils repel aphids, whiteflies, and tomato hornworm moths searching for egg-laying sites. The widely-claimed flavor-enhancement effect lacks formal study but is reported across traditional sources.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "tomato",
+      "companion": "basil",
+      "type": "beneficial",
+      "mechanism": "shade_provider",
+      "description": "Tomato canopy provides afternoon shade that protects basil from leaf scorch and bolting in hot summer climates; useful pairing in mediterranean and arid beds.",
+      "strength": "moderate",
+      "source": "UC ANR Master Gardener publications"
+    },
+    {
+      "crop": "marigold",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "French marigolds (Tagetes patula) produce alpha-terthienyl and other thiophene compounds in their roots that suppress root-knot nematodes (Meloidogyne spp.). The strongest empirically-supported companion-planting effect known. Plant 12-18 inches from tomato roots.",
+      "strength": "strong",
+      "source": "UC ANR; USDA-ARS nematology research"
+    },
+    {
+      "crop": "marigold-signet",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Signet marigolds (Tagetes tenuifolia) repel whitefly and aphids and provide some nematode suppression, though less than French marigolds. Edible flowers double as garnish.",
+      "strength": "moderate",
+      "source": "UC ANR Master Gardener publications"
+    },
+    {
+      "crop": "nasturtium",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "trap_crop",
+      "description": "Nasturtium attracts aphids and whiteflies away from tomato plants as a sacrificial host. Spray nasturtium with insecticidal soap to kill the aphid colony before it spreads back to the tomatoes.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "borage",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Borage flowers attract bumblebees and honey bees that improve tomato fruit set through buzz pollination. Reputed to deter tomato hornworm; folklore claims flavor improvement.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "carrot",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "space_efficiency",
+      "description": "Carrots fit under sprawling tomato canopy; different root depth (carrots deep, tomato mid-deep) minimizes competition. The pairing is the title of Riotte's classic gardening canon.",
+      "strength": "moderate",
+      "source": "Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "tomato",
+      "companion": "carrot",
+      "type": "beneficial",
+      "mechanism": "shade_provider",
+      "description": "Tomato canopy shades carrot tops during late summer heat, slowing bolting and reducing greening on exposed shoulders of carrot roots.",
+      "strength": "moderate",
+      "source": "Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "parsley-flat",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Parsley flowers (in its second biennial year) attract parasitic wasps and hoverflies that prey on tomato hornworm and aphids.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "asparagus",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Asparagus produces compounds (asparagine derivatives) that deter root-knot nematodes around tomato roots. The reciprocal: tomato deters asparagus beetle. Long-standing mutual pairing in extension literature.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "tomato",
+      "companion": "asparagus",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Tomato leaves contain solanine that deters asparagus beetle; planting tomatoes adjacent to permanent asparagus beds protects spear development from feeding damage.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "dill",
+      "companion": "cabbage",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Dill flowers (umbels) attract parasitic wasps (Trichogramma, Cotesia) and hoverflies that prey on cabbage worm and cabbage looper larvae. Let some dill bolt for sustained flowering.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "dill",
+      "companion": "broccoli",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as with cabbage \u2014 dill's umbel flowers draw beneficial parasitoid wasps and hoverflies, controlling cabbage moth larvae on broccoli.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "dill",
+      "companion": "cauliflower",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Dill flowers draw parasitoid wasps that target cabbage moth caterpillars and aphids on cauliflower curds.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "dill",
+      "companion": "brussels-sprouts",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Long-season brussels sprouts benefit from sustained beneficial-insect populations supported by bolted dill flowers through summer.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "dill",
+      "companion": "kale",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Bolted dill flowers attract hoverflies and parasitic wasps that control aphid colonies on kale.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "thyme",
+      "companion": "cabbage",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Thyme's volatile oils (thymol, carvacrol) deter cabbage moth (Pieris rapae). Most effective when planted as a perimeter border around brassica beds.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "sage",
+      "companion": "cabbage",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Sage repels cabbage moth and cabbage looper; the traditional pairing of European kitchen gardens. Aromatic perimeter planting works best.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "rosemary",
+      "companion": "cabbage",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Rosemary deters cabbage moth via aromatic oils; effective as a permanent perimeter shrub around brassica beds in mediterranean and warm continental climates.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "oregano",
+      "companion": "broccoli",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Oregano's volatile oils deter cabbage moth and aphids; useful aromatic perimeter planting around brassica beds.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "nasturtium",
+      "companion": "cabbage",
+      "type": "beneficial",
+      "mechanism": "trap_crop",
+      "description": "Nasturtium attracts cabbage white butterflies (Pieris rapae) as an egg-laying decoy, drawing pressure away from the cabbage heads. Inspect nasturtium weekly for eggs and caterpillars.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "nasturtium",
+      "companion": "broccoli",
+      "type": "beneficial",
+      "mechanism": "trap_crop",
+      "description": "Same mechanism as cabbage \u2014 nasturtium decoys cabbage white butterflies away from broccoli heads.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "garlic",
+      "companion": "rose-rugosa",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Garlic interplanted with roses reduces aphid and Japanese beetle pressure; sulfur compounds in garlic act as a fungistat against black spot. The classic rose-garden companion pairing.",
+      "strength": "strong",
+      "source": "UC ANR; American Rose Society"
+    },
+    {
+      "crop": "garlic",
+      "companion": "apple-standard",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Garlic planted around fruit trees deters borers and aphids; traditional orchard guild planting. Sulfur compounds and aromatic volatiles disrupt pest host-finding.",
+      "strength": "moderate",
+      "source": "Permaculture Research Institute; traditional orchard guides"
+    },
+    {
+      "crop": "nasturtium",
+      "companion": "cucumber",
+      "type": "beneficial",
+      "mechanism": "trap_crop",
+      "description": "Nasturtium attracts aphids and cucumber beetles away from cucumber vines as a sacrificial host. Best planted at the ends of cucumber rows.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "dill",
+      "companion": "cucumber",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Dill flowers bring beneficial insects (hoverflies, parasitic wasps) that control cucumber pests; minor traditional claim of pickling-flavor synergy when grown adjacent.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "radish",
+      "companion": "cucumber",
+      "type": "beneficial",
+      "mechanism": "trap_crop",
+      "description": "Radishes planted among cucumber vines attract cucumber beetles and flea beetles; let some bolt to flower and continue trapping. Sacrificial radishes can be removed and replanted as needed.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "onion",
+      "companion": "carrot",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Onion's volatile sulfur compounds confuse and deter carrot rust fly (Psila rosae), one of the worst carrot pests in temperate gardens. Interplant in alternating rows. The classic mutual European-tradition pairing.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "carrot",
+      "companion": "onion",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Carrot foliage scent reciprocally deters onion fly and thrips; less strongly supported than the reverse direction but still a documented benefit.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "onion",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Onion beds adjacent to tomato deter aphids and some leaf miners via sulfur compound volatiles.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "leek",
+      "companion": "carrot",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Leeks provide the same carrot-rust-fly deterrent as onion via shared allium chemistry; useful where onion bulbing is unreliable.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "chive",
+      "companion": "carrot",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Chives deter carrot rust fly through allium volatiles, with the bonus of an edible perennial border crop.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "chive",
+      "companion": "rose-rugosa",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Chive border around roses deters aphids and reduces black spot through sulfur compounds in the plant tissue. Smaller-scale alternative to garlic interplanting.",
+      "strength": "moderate",
+      "source": "American Rose Society"
+    },
+    {
+      "crop": "garlic-chive",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Garlic chive (Allium tuberosum) provides milder allium deterrence than bulb garlic; less root competition with tomato. Perennial border option.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "radish",
+      "companion": "lettuce-leaf",
+      "type": "beneficial",
+      "mechanism": "space_efficiency",
+      "description": "Radishes mature in 25-30 days and are harvested before lettuce reaches full size \u2014 often interplanted in the same row to maximize bed productivity.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "radish",
+      "companion": "lettuce-head",
+      "type": "beneficial",
+      "mechanism": "space_efficiency",
+      "description": "Same mechanism as leaf lettuce \u2014 radishes mature quickly and clear the row before head lettuce needs the full space.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "radish",
+      "companion": "pole-bean",
+      "type": "beneficial",
+      "mechanism": "trap_crop",
+      "description": "Radish attracts flea beetles away from young bean plants; allow some radishes to flower to maintain trap activity through bean establishment.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "cucumber",
+      "companion": "sweet-corn",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Cucumber vines crawl through corn rows, shading soil and suppressing weeds at the bed level. Don't combine with squash in the same row \u2014 only one ground-layer crop per bed.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "yarrow",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Yarrow's flat umbel flowers attract hoverflies (Syrphidae) and parasitic wasps that prey on tomato hornworm and aphids. Drought-tolerant perennial \u2014 plant in bed corners.",
+      "strength": "moderate",
+      "source": "Xerces Society pollinator habitat publications"
+    },
+    {
+      "crop": "yarrow",
+      "companion": "broccoli",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Yarrow draws hoverflies and parasitoid wasps that control cabbage moth larvae and aphids.",
+      "strength": "moderate",
+      "source": "Xerces Society pollinator habitat publications"
+    },
+    {
+      "crop": "calendula",
+      "companion": "broccoli",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Calendula attracts beneficial insects (hoverflies, lacewings) and reportedly deters cabbage white butterfly through scent. Edible flowers for garnish.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "calendula",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Calendula's bright orange composite flowers attract hoverflies and bees; minor pest-deterrent claims for whitefly.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "borage",
+      "companion": "strawberry",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Borage greatly improves bee visitation to strawberry flowers; documented yield increase in trial plots, especially in cool climates where strawberries flower before native pollinator populations build.",
+      "strength": "strong",
+      "source": "UC ANR strawberry production guide; UK Bumblebee Conservation Trust"
+    },
+    {
+      "crop": "nasturtium",
+      "companion": "winter-squash",
+      "type": "beneficial",
+      "mechanism": "trap_crop",
+      "description": "Nasturtium attracts squash bugs and cucumber beetles away from squash vines; plant at the ends of squash rows for trap interception.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "nasturtium",
+      "companion": "summer-squash",
+      "type": "beneficial",
+      "mechanism": "trap_crop",
+      "description": "Same mechanism as winter squash \u2014 nasturtium decoys squash bugs and cucumber beetles.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "mint-spear",
+      "companion": "cabbage",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Spearmint deters cabbage moth, cabbage looper, and ants. Plant in containers sunk in the bed to limit mint's invasive runner spread.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "mint-spear",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Mint deters whitefly and aphids near tomatoes. Always grow in containers around the tomato bed \u2014 never plant runners directly.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "lavender",
+      "companion": "cabbage",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Lavender deters cabbage moth and many other lepidopteran pests through camphor-rich volatiles. Aromatic perimeter planting in dry mediterranean and continental climates.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "fennel-herb",
+      "companion": "tomato",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Fennel produces anethole and other allelopathic compounds that inhibit germination and growth of nearby crops; tomato is severely affected. Plant fennel in its own bed at the property edge.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "fennel-bulb",
+      "companion": "tomato",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Florence fennel exhibits the same allelopathic effects as herb fennel \u2014 anethole and related volatiles inhibit tomato growth.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "fennel-herb",
+      "companion": "bush-bean",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Fennel inhibits bean growth via allelopathic root and leaf compounds; observed stunting at planting distances under 4 ft.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "fennel-herb",
+      "companion": "pole-bean",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Same mechanism as bush bean \u2014 pole bean is also severely affected by fennel's allelopathic chemistry.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "fennel-herb",
+      "companion": "snap-pea",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Snap pea is allelopathically inhibited by adjacent fennel; legume growth and pod set both reduced.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "fennel-herb",
+      "companion": "dill",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Fennel and dill cross-pollinate at the seed stage if both are allowed to flower; also exhibit mutual allelopathic effects when planted adjacent. Save seed from only one of the two each season.",
+      "strength": "moderate",
+      "source": "Seed Savers Exchange; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "fennel-herb",
+      "companion": "cilantro",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Fennel inhibits cilantro germination and growth via shared apiaceae-family allelopathic compounds; keep separated in the garden plan.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "fennel-herb",
+      "companion": "cabbage",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Fennel allelochemistry stunts brassica seedling establishment; observed reduction in head formation when planted under 4 ft separation.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "fennel-herb",
+      "companion": "broccoli",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Same mechanism as cabbage \u2014 fennel stunts broccoli head development at close range.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "garlic",
+      "companion": "bush-bean",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Garlic's sulfur compounds inhibit Rhizobium nitrogen-fixing bacteria in bean root nodules, reducing nitrogen fixation and stunting growth. Plant at minimum 3 ft separation.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "garlic",
+      "companion": "pole-bean",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Same mechanism as bush bean \u2014 garlic disrupts Rhizobium symbiosis in pole bean nodules.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "garlic",
+      "companion": "snap-pea",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Garlic inhibits pea nodule Rhizobium activity; pea growth and pod set reduced when planted under 3 ft separation.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "garlic",
+      "companion": "snow-pea",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Same mechanism as snap pea \u2014 garlic disrupts nodule formation in all leguminous pea species.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "garlic",
+      "companion": "fava-bean",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Garlic strongly inhibits fava bean nitrogen fixation; keep at minimum 3 ft separation from any allium bed.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "onion",
+      "companion": "bush-bean",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Onion sulfur compounds disrupt Rhizobium symbiosis in bean nodules, reducing nitrogen fixation and stunting growth.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "onion",
+      "companion": "pole-bean",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Same mechanism as bush bean \u2014 onion disrupts pole bean Rhizobium activity.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "onion",
+      "companion": "snap-pea",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Onion volatiles inhibit pea nodule formation and pod set; keep separated by 3 ft minimum.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "leek",
+      "companion": "bush-bean",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Leek shares allium-family allelopathic effects on bean Rhizobium symbiosis, though less pronounced than bulb garlic or onion.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "chive",
+      "companion": "bush-bean",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Chive sulfur compounds inhibit bean nodule activity; effect mild but documented. Keep chive perennial bed away from bean rotation.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "cabbage",
+      "companion": "strawberry",
+      "type": "antagonist",
+      "mechanism": "disease_vector",
+      "description": "Brassicas share Verticillium wilt with strawberry; same-bed planting accumulates pathogens. Also compete for soil calcium. Rotate 3+ years between brassica and strawberry beds.",
+      "strength": "moderate",
+      "source": "UC ANR strawberry production guide"
+    },
+    {
+      "crop": "broccoli",
+      "companion": "strawberry",
+      "type": "antagonist",
+      "mechanism": "disease_vector",
+      "description": "Same mechanism as cabbage \u2014 broccoli and strawberry share Verticillium wilt pathogen.",
+      "strength": "moderate",
+      "source": "UC ANR strawberry production guide"
+    },
+    {
+      "crop": "kale",
+      "companion": "strawberry",
+      "type": "antagonist",
+      "mechanism": "disease_vector",
+      "description": "Kale shares Verticillium wilt with strawberry; rotate 3+ years before planting kale where strawberries grew (and vice versa).",
+      "strength": "moderate",
+      "source": "UC ANR strawberry production guide"
+    },
+    {
+      "crop": "cauliflower",
+      "companion": "strawberry",
+      "type": "antagonist",
+      "mechanism": "disease_vector",
+      "description": "Cauliflower and strawberry share Verticillium wilt; observe 3-year rotation between them in the same bed.",
+      "strength": "moderate",
+      "source": "UC ANR strawberry production guide"
+    },
+    {
+      "crop": "potato",
+      "companion": "tomato",
+      "type": "antagonist",
+      "mechanism": "disease_vector",
+      "description": "Potato and tomato share late blight (Phytophthora infestans), early blight (Alternaria solani), and Verticillium wilt. Rotate 3-4 years between nightshade beds; never plant adjacent.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "tomato",
+      "companion": "potato",
+      "type": "antagonist",
+      "mechanism": "disease_vector",
+      "description": "Same disease sharing as potato \u2192 tomato. Either direction concentrates blight, early blight, and Verticillium pathogens in the soil.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "eggplant",
+      "companion": "tomato",
+      "type": "antagonist",
+      "mechanism": "disease_vector",
+      "description": "Eggplant and tomato share Verticillium and Fusarium wilts; same-bed planting accumulates pathogens. Rotate beds across the nightshade family.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "eggplant",
+      "companion": "potato",
+      "type": "antagonist",
+      "mechanism": "disease_vector",
+      "description": "Eggplant and potato share Colorado potato beetle and Verticillium wilt pathogen; rotate as part of nightshade-family planning.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "dill",
+      "companion": "carrot",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Dill cross-pollinates with carrot when both are flowering, degrading carrot seed quality for replanting. Dill flowers also stunt carrot root growth in close proximity at flowering. Beneficial earlier in the season; problematic when seed-saving.",
+      "strength": "moderate",
+      "source": "Seed Savers Exchange"
+    },
+    {
+      "crop": "wormwood",
+      "companion": "tomato",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Wormwood (Artemisia absinthium) produces absinthin and santonin \u2014 powerful allelopathic compounds. Keep wormwood well away from vegetable beds; minimum 6 ft separation.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "wormwood",
+      "companion": "bush-bean",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Same mechanism as tomato \u2014 wormwood absinthin severely inhibits bean germination and growth.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "kohlrabi",
+      "companion": "tomato",
+      "type": "antagonist",
+      "mechanism": "nutrient_competition",
+      "description": "Kohlrabi and tomato compete heavily for soil potassium and calcium; observed yield reduction on both crops when planted in the same bed.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "garlic",
+      "companion": "asparagus",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Garlic inhibits asparagus growth via shared sulfur compounds and root competition. The opposite pattern from tomato \u2014 never plant alliums in or near asparagus beds.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "onion",
+      "companion": "asparagus",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Same mechanism as garlic \u2014 onion sulfur compounds inhibit asparagus development.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "bush-bean",
+      "companion": "sweet-corn",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Bush beans fix nitrogen via Rhizobium nodules, available to adjacent corn over the season. Non-climbing habit avoids competing with corn stalks for canopy space.",
+      "strength": "strong",
+      "source": "USDA-ARS Three Sisters research; Iroquois agricultural tradition"
+    },
+    {
+      "crop": "bush-bean",
+      "companion": "cabbage",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Bush beans planted in rotation or as adjacent interplant supply nitrogen to heavy-feeding brassicas; rotation works better than same-bed in most climates.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "fava-bean",
+      "companion": "cabbage",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Fava beans fix nitrogen efficiently in cool conditions and tolerate brassica-friendly temperatures; plant before or alongside spring brassicas to boost the crop.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "fava-bean",
+      "companion": "broccoli",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Same mechanism as cabbage \u2014 fava bean nitrogen fixation is a strong fit for spring broccoli's heavy nitrogen demand.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "crimson-clover",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Crimson clover winter cover crop tilled or rolled in spring releases substantial nitrogen for the tomato crop; reduces synthetic fertilizer needs by 30-50% in trials.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension cover crop guides; SARE"
+    },
+    {
+      "crop": "crimson-clover",
+      "companion": "sweet-corn",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Crimson clover preceding heavy-feeding sweet corn supplies 70-130 lb N/acre when terminated at full bloom. Standard rotation in organic systems.",
+      "strength": "strong",
+      "source": "SARE Cover Crops field guide"
+    },
+    {
+      "crop": "white-clover",
+      "companion": "apple-standard",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "White clover living mulch under fruit trees fixes nitrogen and attracts beneficial insects; reduces mowing frequency and competes well with weeds.",
+      "strength": "moderate",
+      "source": "Permaculture Research Institute; orchard guild literature"
+    },
+    {
+      "crop": "white-clover",
+      "companion": "european-pear",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Same mechanism as apple \u2014 white clover living-mulch ring around pear trees fixes nitrogen and supports beneficials.",
+      "strength": "moderate",
+      "source": "Permaculture Research Institute; orchard guild literature"
+    },
+    {
+      "crop": "hairy-vetch",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Hairy vetch winter cover crop fixes 100-150 lb N/acre; rolled or tilled before tomato transplant, no-till tomato production with vetch residue mulch is a documented yield-boost technique.",
+      "strength": "strong",
+      "source": "SARE Cover Crops field guide; USDA-ARS Beltsville no-till research"
+    },
+    {
+      "crop": "austrian-winter-pea",
+      "companion": "cabbage",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Winter pea cover crop fixes nitrogen for spring brassica beds; especially effective in mild winters where vetch may not establish.",
+      "strength": "strong",
+      "source": "SARE Cover Crops field guide"
+    },
+    {
+      "crop": "red-clover",
+      "companion": "sweet-corn",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Red clover preceding or interseeded with corn fixes substantial nitrogen; longer-lived than crimson clover, fits multi-year rotation.",
+      "strength": "strong",
+      "source": "SARE Cover Crops field guide"
+    },
+    {
+      "crop": "rosemary",
+      "companion": "carrot",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Rosemary deters carrot rust fly via aromatic oils; permanent rosemary shrub at the corner of carrot beds gives season-long protection in mild climates.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "sage",
+      "companion": "carrot",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Sage repels carrot rust fly with similar mechanism to rosemary; aromatic perimeter planting.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "mustard-cover",
+      "companion": "cabbage",
+      "type": "beneficial",
+      "mechanism": "trap_crop",
+      "description": "Mustard cover crop attracts harlequin bug and flea beetle away from the main brassica crop; mow or remove the mustard before pests disperse back. Also biofumigates the soil when tilled in.",
+      "strength": "moderate",
+      "source": "SARE Cover Crops field guide; UC IPM"
+    },
+    {
+      "crop": "nasturtium",
+      "companion": "bush-bean",
+      "type": "beneficial",
+      "mechanism": "trap_crop",
+      "description": "Nasturtium attracts aphids and Mexican bean beetle away from bean plants; sacrificial host.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "white-clover",
+      "companion": "sweet-corn",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "White clover living mulch suppresses weeds between corn rows and fixes some nitrogen. Mow before corn pollinates to avoid competition.",
+      "strength": "moderate",
+      "source": "SARE Cover Crops field guide"
+    },
+    {
+      "crop": "phacelia",
+      "companion": "cucumber",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Lacy phacelia is among the most attractive bee plants known; massively increases honey-bee and bumblebee visitation to cucurbit flowers. Documented yield boost in pollinator-limited regions.",
+      "strength": "strong",
+      "source": "Xerces Society pollinator habitat publications"
+    },
+    {
+      "crop": "phacelia",
+      "companion": "winter-squash",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as cucumber \u2014 phacelia draws bees to squash flowers, increasing female-flower fruit set rates.",
+      "strength": "strong",
+      "source": "Xerces Society pollinator habitat publications"
+    },
+    {
+      "crop": "phacelia",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Tomato is self-pollinating but bumblebee buzz-pollination significantly improves fruit set, especially in cool maritime climates. Phacelia draws those bumblebees.",
+      "strength": "moderate",
+      "source": "Xerces Society pollinator habitat publications"
+    },
+    {
+      "crop": "sunflower",
+      "companion": "cucumber",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Sunflower's large composite flowers attract diverse native and managed pollinators; cucumber yield benefits from increased bee visitation.",
+      "strength": "moderate",
+      "source": "Xerces Society pollinator habitat publications"
+    },
+    {
+      "crop": "cilantro",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Cilantro (when bolted) attracts hoverflies and parasitic wasps that prey on aphids. Let some cilantro flower for the beneficials, save the seed as coriander.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "parsley-flat",
+      "companion": "asparagus",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Parsley flowers attract beneficial insects (parasitic wasps, hoverflies) in permanent asparagus beds; supports asparagus-beetle predator populations.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "anise-hyssop",
+      "companion": "winter-squash",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Anise hyssop (Agastache foeniculum) is a top-tier bee magnet; improves squash pollination and supports beneficial-insect habitat.",
+      "strength": "moderate",
+      "source": "Xerces Society pollinator habitat publications"
+    },
+    {
+      "crop": "cilantro",
+      "companion": "bush-bean",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Cilantro flowers attract hoverflies that prey on bean aphids; bolt cilantro intentionally near beans for sustained beneficial-insect support.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "bee-balm",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Native bee balm (Monarda fistulosa, M. didyma) attracts bumblebees whose buzz pollination boosts tomato fruit set; also attracts hummingbirds and beneficial wasps. Long bloom season.",
+      "strength": "moderate",
+      "source": "Xerces Society pollinator habitat publications"
+    },
+    {
+      "crop": "bee-balm",
+      "companion": "pepper-sweet",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Pepper benefits from increased bee visitation that bee balm draws; native plant supports broader pollinator-population health.",
+      "strength": "moderate",
+      "source": "Xerces Society pollinator habitat publications"
+    },
+    {
+      "crop": "bee-balm",
+      "companion": "eggplant",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as pepper \u2014 eggplant flowers benefit from bumblebee buzz pollination, which bee balm enhances.",
+      "strength": "moderate",
+      "source": "Xerces Society pollinator habitat publications"
+    },
+    {
+      "crop": "echinacea",
+      "companion": "cucumber",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Native purple coneflower attracts native bees, butterflies, and parasitic wasps; long bloom period (8+ weeks) supports pollinators throughout cucurbit flowering.",
+      "strength": "moderate",
+      "source": "Xerces Society pollinator habitat publications"
+    },
+    {
+      "crop": "echinacea",
+      "companion": "winter-squash",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as cucumber \u2014 echinacea supports pollinators near squash beds through a long blooming window.",
+      "strength": "moderate",
+      "source": "Xerces Society pollinator habitat publications"
+    },
+    {
+      "crop": "milkweed-common",
+      "companion": "winter-squash",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Native common milkweed (Asclepias syriaca) supports monarch butterflies, native bees, and beneficial wasps near squash. Plant in bed corners; sap is toxic so site away from where children harvest.",
+      "strength": "moderate",
+      "source": "Xerces Society pollinator habitat publications"
+    },
+    {
+      "crop": "comfrey",
+      "companion": "apple-standard",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Classic fruit-tree guild plant \u2014 comfrey's deep taproot mines subsoil potassium and phosphorus; foliage chopped and dropped serves as a nutrient-rich mulch. Suppresses weeds under tree canopy.",
+      "strength": "strong",
+      "source": "Permaculture Research Institute; UK orchard guild literature"
+    },
+    {
+      "crop": "comfrey",
+      "companion": "european-pear",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Same mechanism as apple \u2014 comfrey ring under pear tree provides chop-and-drop fertility and weed suppression.",
+      "strength": "strong",
+      "source": "Permaculture Research Institute; UK orchard guild literature"
+    },
+    {
+      "crop": "comfrey",
+      "companion": "peach",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Comfrey under peach trees mines potassium for stone fruit's heavy K demand; mulch with cut foliage 3-4 times per season.",
+      "strength": "strong",
+      "source": "Permaculture Research Institute"
+    },
+    {
+      "crop": "comfrey",
+      "companion": "plum-european",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Same mechanism as peach and apple \u2014 comfrey under plum trees provides chop-drop fertility cycling.",
+      "strength": "strong",
+      "source": "Permaculture Research Institute"
+    }
+  ]
+}

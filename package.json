@@ -1,0 +1,25 @@
+{
+  "name": "cropgraph-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Commercial agricultural intelligence platform — monorepo root",
+  "author": "Andrew Christison",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@11.0.8",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "pnpm -r --filter \"./packages/**\" run build",
+    "typecheck": "pnpm -r --filter \"./packages/**\" run typecheck",
+    "test": "pnpm -r --filter \"./packages/**\" run test",
+    "clean": "pnpm -r exec rm -rf dist node_modules"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": "@cropgraph/mcp",
+  "version": "1.0.0",
+  "description": "Garden planning MCP server. 1000 curated crops with frost-anchored planting windows, 121 companion relationships, USDA hardiness zones, and a six-type climate classifier. Eight tools, all offline.",
+  "keywords": [
+    "cropgraph",
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "tools",
+    "claude-desktop",
+    "cursor",
+    "garden",
+    "planting",
+    "companion-planting",
+    "usda-hardiness",
+    "agriculture",
+    "crop-calendar",
+    "gardening",
+    "plants",
+    "permaculture"
+  ],
+  "author": "Andrew Christison",
+  "license": "MIT",
+  "homepage": "https://github.com/Cropgraph/cropgraph/tree/main/packages/mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cropgraph/cropgraph",
+    "directory": "packages/mcp"
+  },
+  "bugs": {
+    "url": "https://github.com/Cropgraph/cropgraph/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "cropgraph-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "server.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "@cropgraph/core": "workspace:^",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "mcpName": "io.github.cropgraph/cropgraph"
+}

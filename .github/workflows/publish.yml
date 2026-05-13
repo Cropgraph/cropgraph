@@ -1,0 +1,82 @@
+name: Publish
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  npm-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm -r build
+
+      - name: Configure npm auth
+        run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish to npm
+        run: pnpm -r publish --access public --no-git-checks
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  mcp-registry:
+    needs: npm-publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Download mcp-publisher
+        run: |
+          curl -L "https://github.com/modelcontextprotocol/registry/releases/download/v1.7.8/mcp-publisher_linux_amd64.tar.gz" | tar xz
+          chmod +x mcp-publisher
+
+      - name: Publish server.json to MCP registry
+        run: |
+          set -e
+          dir=packages/mcp
+          version=$(node -p "require('./$dir/package.json').version")
+          pkg_name=$(node -p "require('./$dir/package.json').name")
+          node -e "
+            const fs = require('fs');
+            const p = './$dir/server.json';
+            const s = JSON.parse(fs.readFileSync(p, 'utf8'));
+            s.version = '$version';
+            s.packages[0].version = '$version';
+            fs.writeFileSync(p, JSON.stringify(s, null, 2) + '\n');
+          "
+          ./mcp-publisher login github-oidc
+          ./mcp-publisher publish "$dir/server.json"
+          echo "Published $pkg_name $version"
+          {
+            echo "## MCP registry publish summary"
+            echo "- $pkg_name@$version"
+          } >> "$GITHUB_STEP_SUMMARY"

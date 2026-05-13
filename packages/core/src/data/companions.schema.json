@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Cropgraph/cropgraph/blob/main/packages/core/src/data/companions.schema.json",
+  "title": "CropGraph Companion Planting Relationships",
+  "description": "The first edge layer of the CropGraph, directed relationships between crops (beneficial or antagonist) with a categorized mechanism, gardener-facing description, evidence-strength grade, and citation. Every `crop` and `companion` value is a slug from crop-calendar.json; the loader cross-references both at parse time and fails loud if a slug is missing.\n\nEvidence grounding: companion planting literature ranges from peer-reviewed agricultural research to widely repeated traditional/folk knowledge. This dataset is curated against (a) USDA Cooperative Extension publications (Cornell, WSU, UC ANR, UF/IFAS, OSU, Penn State, Texas A&M), (b) USDA-ARS research on Three Sisters and allelopathic interactions, (c) Xerces Society pollinator research, (d) the canonical traditional sources (Riotte's `Carrots Love Tomatoes`, Cunningham's `Great Garden Companions`, the Rodale Encyclopedia), and (e) structural references like Plant Anywhere's relationship matrix and the Seeds for Generations matrix.\n\nStrength grades are honest: `strong` is reserved for empirically supported relationships (Three Sisters nitrogen-fixation cycle, French marigold root-knot nematode suppression, allium / Rhizobium inhibition of legumes, nightshade-family disease sharing, peer-reviewed pollinator-attractor work). `moderate` covers widely-corroborated traditional pairings with at least some research support. `weak` (folk-only) entries are deliberately excluded from this fixture; community PRs can add them with proper citation in the future.\n\nRelationships are directed because mechanisms are often asymmetric: corn provides structural support to climbing beans (corn → bean), and beans fix nitrogen for corn (bean → corn), two distinct edges, each with its own mechanism. Where the relationship is symmetric, one direction is stored and helpers expose a reverse-lookup fallback so callers don't need to know storage direction.",
+  "type": "object",
+  "required": ["version", "source", "license", "entries"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Schema version. Bump on breaking changes only; additive optional fields keep the version constant."
+    },
+    "source": {
+      "type": "string",
+      "description": "Provenance / citation block for the whole fixture. Per-entry `source` overrides this when present."
+    },
+    "license": {
+      "type": "string",
+      "description": "License under which the data is redistributed (e.g. CC-BY-4.0)."
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date of the last hand-curation pass."
+    },
+    "entries": {
+      "type": "array",
+      "description": "Directed relationship edges between crops. Order is not significant; helpers index by slug at load time.",
+      "items": { "$ref": "#/$defs/Entry" }
+    }
+  },
+  "$defs": {
+    "Entry": {
+      "type": "object",
+      "required": ["crop", "companion", "type", "mechanism", "description", "strength", "source"],
+      "additionalProperties": false,
+      "properties": {
+        "crop": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]{1,40}$",
+          "description": "Subject crop slug. Must exist in crop-calendar.json."
+        },
+        "companion": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]{1,40}$",
+          "description": "Related crop slug. Must exist in crop-calendar.json. May equal `crop` only in unusual cases (self-allelopathy), avoid where possible."
+        },
+        "type": {
+          "type": "string",
+          "enum": ["beneficial", "antagonist"],
+          "description": "Whether the relationship helps or harms the subject crop."
+        },
+        "mechanism": {
+          "type": "string",
+          "enum": [
+            "nitrogen_fixing",
+            "pest_repellent",
+            "trap_crop",
+            "pollinator_attractor",
+            "shade_provider",
+            "ground_cover",
+            "allelopathic",
+            "disease_vector",
+            "nutrient_competition",
+            "space_efficiency",
+            "flavor_enhancement",
+            "structural_support"
+          ],
+          "description": "Categorized reason for the relationship. Curator judgment selects the dominant mechanism when several apply."
+        },
+        "description": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 400,
+          "description": "Gardener-facing explanation. Concrete and actionable, what the gardener should know or do, not just what the relationship is."
+        },
+        "strength": {
+          "type": "string",
+          "enum": ["strong", "moderate", "weak"],
+          "description": "Evidence grade. `strong` = empirical research support. `moderate` = widely-corroborated traditional + some research. `weak` = folk only. This fixture ships `strong` + `moderate` only; `weak` reserved for future community contributions."
+        },
+        "source": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 300,
+          "description": "Citation, extension service, research publication, or traditional reference. Multiple sources separated by semicolons."
+        }
+      }
+    }
+  }
+}
