@@ -20,3 +20,7 @@ export * from "./crop-calendar.js";
 // Companion relationships: directed edges, mechanism categories, evidence
 // strengths.
 export * from "./companions.js";
+
+// Rotation families: botanical-family partition of every calendar slug with
+// year-gap, follow-with, and never-follow rules per family.
+export * from "./rotation.js";

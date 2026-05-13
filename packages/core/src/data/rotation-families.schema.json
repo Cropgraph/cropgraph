@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Cropgraph/cropgraph/blob/main/packages/core/src/data/rotation-families.schema.json",
+  "title": "CropGraph Rotation Families",
+  "description": "The second graph layer of CropGraph: a partition of every crop slug from crop-calendar.json into a botanical rotation family, with rotation rules (year-gap, follow-with, never-follow) attached at the family level.\n\nWhy a partition: rotation is a property of the family, not the individual cultivar. Tomato, cherry-tomato, brandywine-tomato, eggplant, and pepper all carry the same nightshade-family pathogen risk, so they share a single 3-year self-gap rule. Storing the rule once per family keeps the data tight and the helper helpers fast.\n\nEvidence grounding: USDA Cooperative Extension (Cornell, WSU, UC ANR, UF/IFAS, OSU, Penn State, Texas A&M AgriLife), SARE Cover Crops field guide, Rodale Encyclopedia, USDA-ARS rotation research. Year-gap recommendations are the conservative end of published ranges; lower-pressure systems may shorten them.\n\nEvery crop slug in crop-calendar.json is mapped exactly once. Crops that don't cleanly fit one of the 11 botanical families (perennial fruit, nuts, asparagus, rhubarb, mushrooms, aquatic crops, ornamental flowers in their own minor families) land in `miscellaneous` with rotationYears 0 (no family-level rule). Their rotation needs are crop-specific and live in the calendar's per-entry notes.",
+  "type": "object",
+  "required": ["version", "source", "license", "entries"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Schema version. Bump on breaking changes only; additive optional fields keep the version constant."
+    },
+    "source": {
+      "type": "string",
+      "description": "Provenance / citation block for the whole fixture. Per-entry `source` overrides this when present."
+    },
+    "license": {
+      "type": "string",
+      "description": "License under which the data is redistributed (e.g. CC-BY-4.0)."
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date of the last hand-curation pass."
+    },
+    "entries": {
+      "type": "array",
+      "description": "Family records. Exactly one per family slug. Crops listed in `crops` are validated against crop-calendar.json at load time; the union across all entries must cover every calendar slug exactly once.",
+      "items": { "$ref": "#/$defs/Family" }
+    }
+  },
+  "$defs": {
+    "Family": {
+      "type": "object",
+      "required": [
+        "family",
+        "scientificFamily",
+        "rotationYears",
+        "crops",
+        "followWith",
+        "neverFollow",
+        "reason",
+        "source"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "family": {
+          "type": "string",
+          "enum": [
+            "nightshades",
+            "brassicas",
+            "cucurbits",
+            "alliums",
+            "legumes",
+            "umbellifers",
+            "grasses",
+            "amaranthaceae",
+            "composites",
+            "mints",
+            "malvaceae",
+            "miscellaneous"
+          ],
+          "description": "Family slug, the stable identifier referenced by `followWith` and `neverFollow`."
+        },
+        "scientificFamily": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 60,
+          "description": "Botanical family name (e.g. Solanaceae). The miscellaneous bucket uses `Various`."
+        },
+        "rotationYears": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 7,
+          "description": "Recommended minimum years between successive plantings of the same family in the same bed. 0 for the miscellaneous bucket (no family rule) and for grasses/mints where self-rotation is tolerable."
+        },
+        "crops": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]{1,40}$"
+          },
+          "description": "Crop slugs in this family. Every slug must exist in crop-calendar.json; the loader cross-references at parse time."
+        },
+        "followWith": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "nightshades",
+              "brassicas",
+              "cucurbits",
+              "alliums",
+              "legumes",
+              "umbellifers",
+              "grasses",
+              "amaranthaceae",
+              "composites",
+              "mints",
+              "malvaceae",
+              "miscellaneous"
+            ]
+          },
+          "description": "Family slugs recommended as follow crops after this family. Drives the `getRotationPartners` helper."
+        },
+        "neverFollow": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "nightshades",
+              "brassicas",
+              "cucurbits",
+              "alliums",
+              "legumes",
+              "umbellifers",
+              "grasses",
+              "amaranthaceae",
+              "composites",
+              "mints",
+              "malvaceae",
+              "miscellaneous"
+            ]
+          },
+          "description": "Family slugs that should not follow this family. Most families list themselves; cucurbits also list malvaceae because of shared southern-pest pressure."
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 20,
+          "maxLength": 600,
+          "description": "Gardener-facing explanation of why this rotation rule exists. Names the dominant pathogens or pests when relevant."
+        },
+        "source": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 300,
+          "description": "Citation, extension service, or research publication. Multiple sources separated by semicolons."
+        }
+      }
+    }
+  }
+}

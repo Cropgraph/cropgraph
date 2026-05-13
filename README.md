@@ -53,6 +53,7 @@ getPlantingPlan({ zone: "8b", climateType: "maritime" });
 |-------|-------|-------|
 | Crop calendar | 1,000 entries | Frost-anchored windows, climate modifiers for 6 climate types |
 | Companion relationships | 333 | 281 beneficial, 52 antagonist, 11 mechanism categories |
+| Rotation families | 12 | Nightshades, brassicas, cucurbits, alliums, legumes, umbellifers, grasses, amaranthaceae, composites, mints, malvaceae, miscellaneous. Every calendar slug mapped. |
 | USDA hardiness zones | 40,283 ZIPs | PRISM 2023 + waldoj/frostline centroids, offline lookup |
 | Climate classifier | 6 types | Maritime, mediterranean, continental, humid subtropical, arid, semi-arid |
 

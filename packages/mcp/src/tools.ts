@@ -1,6 +1,7 @@
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import {
   checkBedCompatibility,
+  checkRotationSequence,
   err,
   findCrop,
   getClimateType,
@@ -11,6 +12,8 @@ import {
   getHardinessZoneByZip,
   getPlantingPlan,
   getRelationship,
+  getRotationAdvice,
+  getRotationPartners,
   searchCrops,
   type ClimateType,
   type Coordinates,
@@ -49,6 +52,8 @@ export function registerAllTools(server: McpServer): void {
   registerGetCompanions(server);
   registerCheckCompanionPair(server);
   registerPlanBedCompatibility(server);
+  registerGetRotationAdvice(server);
+  registerCheckRotationSequence(server);
 }
 
 // ---------------------------------------------------------------------------
@@ -440,6 +445,99 @@ function registerPlanBedCompatibility(server: McpServer): void {
         });
       }
       const report = checkBedCompatibility(slugs);
+      return success({
+        resolved,
+        ...report,
+      });
+    },
+  );
+}
+
+// ---------------------------------------------------------------------------
+// 9. get_rotation_advice
+// ---------------------------------------------------------------------------
+
+function registerGetRotationAdvice(server: McpServer): void {
+  server.registerTool(
+    "get_rotation_advice",
+    {
+      title: "Rotation Family + Year-Gap Rule for a Crop",
+      description:
+        "Returns the botanical rotation family and rotation rules for a crop, drawn from the bundled 12-family partition of all 1000 calendar crops (USDA Cooperative Extension, SARE, Rodale sources). " +
+        "Each crop is in exactly one family (nightshades, brassicas, cucurbits, alliums, legumes, umbellifers, grasses, amaranthaceae, composites, mints, malvaceae, or miscellaneous). " +
+        "Per family: `rotationYears` (recommended minimum years between successive plantings of the family in the same bed), `followWith` (families that work well after this one), `neverFollow` (families to avoid following), and `reason` (the dominant pathogens or pests behind the rule). " +
+        "Returns `partners.follow` (crops in recommended follow-with families) and `partners.avoid` (crops in never-follow families). " +
+        "The miscellaneous bucket covers perennial fruit, nuts, asparagus, rhubarb, mushrooms, aquatic crops, and ornamental flowers; their rotation needs are crop-specific. " +
+        "Accepts slug or common name. No API key required; works offline.",
+      inputSchema: {
+        crop: cropNameField,
+      },
+      annotations: READ_ONLY,
+    },
+    async ({ crop }) => {
+      const hit = findCrop(crop);
+      if (!hit) {
+        return failure({
+          source: SOURCE,
+          message: `no crop calendar match for "${crop}"`,
+        });
+      }
+      const advice = getRotationAdvice(hit.slug);
+      if (!advice) {
+        return failure({
+          source: SOURCE,
+          message: `no rotation family for "${hit.slug}"`,
+        });
+      }
+      const partners = getRotationPartners(hit.slug);
+      return success({
+        commonName: hit.commonName,
+        scientificName: hit.scientificName,
+        ...advice,
+        partners,
+      });
+    },
+  );
+}
+
+// ---------------------------------------------------------------------------
+// 10. check_rotation_sequence
+// ---------------------------------------------------------------------------
+
+function registerCheckRotationSequence(server: McpServer): void {
+  server.registerTool(
+    "check_rotation_sequence",
+    {
+      title: "Validate a Multi-Year Crop Rotation Plan",
+      description:
+        "Validates a multi-year sequence of crops planted in the same bed. `crops[0]` is year 1, `crops[1]` is year 2, and so on. " +
+        "Reports each violation (a crop family replants inside its required year-gap, e.g. tomato in year 1 then pepper in year 2 violates the 3-year nightshade gap) and each warning (a family lands directly after one it should never follow, e.g. cucurbit after malvaceae). " +
+        "Returns `{ sequence: [{slug, family}], issues: [...], ok: boolean }`. Use the `severity` field to triage: `violation` is a hard rule break, `warning` is a soft caution. " +
+        "Accepts slugs or common names. Useful for AI agents validating a 3-5 year garden plan or asking 'what should I plant after my tomatoes?'.",
+      inputSchema: {
+        crops: cropListField,
+      },
+      annotations: READ_ONLY,
+    },
+    async ({ crops }) => {
+      const slugs: string[] = [];
+      const resolved: { input: string; slug: string; commonName: string }[] = [];
+      for (const c of crops) {
+        const hit = findCrop(c);
+        if (!hit) {
+          return failure({
+            source: SOURCE,
+            message: `no crop calendar match for "${c}"`,
+          });
+        }
+        slugs.push(hit.slug);
+        resolved.push({
+          input: c,
+          slug: hit.slug,
+          commonName: hit.commonName,
+        });
+      }
+      const report = checkRotationSequence(slugs);
       return success({
         resolved,
         ...report,

@@ -1,6 +1,6 @@
 # cropgraph (CLI)
 
-Command-line interface for the CropGraph dataset. Seven verbs, all offline,
+Command-line interface for the CropGraph dataset. Nine verbs, all offline,
 no API keys.
 
 ## Install
@@ -22,6 +22,8 @@ npx cropgraph zone --lat 48.118 --lng -123.43
 | `cropgraph companions <crop>` | Companion and antagonist plants for a crop. |
 | `cropgraph check <c1> <c2>` | Check a single pairwise relationship. |
 | `cropgraph plan <crops...>` | Evaluate a bed of 2-20 crops together. |
+| `cropgraph rotation <crop>` | Rotation family + year-gap rule + recommended partners for a crop. |
+| `cropgraph rotation-check <crops...>` | Validate a multi-year planting sequence. |
 | `cropgraph config set-location` | Save a default location used when `--lat/--lng` are omitted. |
 
 Every command supports `--json` for machine-readable output.
@@ -40,6 +42,12 @@ cropgraph companions tomato
 
 # Sanity-check a bed.
 cropgraph plan tomato basil marigold carrot
+
+# Rotation rule for a single crop.
+cropgraph rotation tomato
+
+# Validate a 4-year plan in the same bed.
+cropgraph rotation-check tomato bush-bean sweet-corn cabbage
 ```
 
 ## Configuration

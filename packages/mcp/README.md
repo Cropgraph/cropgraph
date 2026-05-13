@@ -1,8 +1,9 @@
 # @cropgraph/mcp
 
-Model Context Protocol server for garden planning. Eight tools backed by the
-curated CropGraph datasets (1,000 crops, 333 companion relationships, USDA
-hardiness zones, climate types). Runs over stdio. No API key, no network.
+Model Context Protocol server for garden planning. Ten tools backed by the
+curated CropGraph datasets (1,000 crops, 333 companion relationships,
+12 rotation families, USDA hardiness zones, climate types). Runs over
+stdio. No API key, no network.
 
 ## Install / run
 
@@ -28,7 +29,7 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json`
 }
 ```
 
-Restart Claude Desktop. The eight tools will appear in the connector list.
+Restart Claude Desktop. The ten tools will appear in the connector list.
 
 ## Cursor
 
@@ -57,6 +58,8 @@ Add to `~/.cursor/mcp.json`:
 | `get_companions` | Companion and antagonist plants for a crop with mechanisms, evidence strength, citations. |
 | `check_companion_pair` | Look up a single beneficial/antagonist relationship between two crops. |
 | `plan_bed_compatibility` | Evaluate 2-20 crops together: pairwise relationships + hub-antagonist warnings. |
+| `get_rotation_advice` | Rotation family + year-gap rule for a crop, with recommended follow-with and never-follow crops. |
+| `check_rotation_sequence` | Validate a multi-year sequence: flags rotation-gap violations and never-follow warnings. |
 
 All tools are read-only and offline. Schemas describe each input field
 in detail so an LLM can call them without external docs.
