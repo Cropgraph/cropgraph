@@ -12,6 +12,7 @@ calls, no API keys, no runtime dependencies beyond Zod.
 | Rotation families | 12 botanical families (nightshades, brassicas, cucurbits, alliums, legumes, umbellifers, grasses, amaranthaceae, composites, mints, malvaceae, miscellaneous). Every calendar slug is mapped. Year-gap, follow-with, and never-follow rules per family. |
 | Succession chains | 33 time-sequenced planting chains: greens cycles, root cadences, legume relays, brassica spring/fall, cucurbit replacements, herb successions, cut-flower staggers, cover-crop relays. Frost-anchored phases with per-climate notes. |
 | Pest/disease associations | 158 crop-to-pest edges with diagnostic symptoms, ordered organic management options, prevention practices, and regions of significance. OMRI-listed materials, biocontrols, and physical/cultural practices only. Curated against Cornell, UC IPM, UF/IFAS, Penn State, OSU, WSU, and Texas A&M Extension publications. |
+| Growing degree days | 65 GDD models covering the major vegetables, fruits, grains, and herbs. Literature-grounded base temperatures and heat-unit ranges from Purdue, Cornell, UC Davis, USDA-ARS, OSU, and WSU Extension. Harvest-date estimator with NOAA Climate Normals 1991-2020 fallback (720 entries, 10 zone groups x 6 climate types x 12 months) so predictions work offline without a live weather API call. |
 | USDA hardiness zones | 40,283 ZIP-code centroids from PRISM 2023 + waldoj/frostline, with offline lookup by coordinates or ZIP. Frost-date table by zone. |
 | Climate types | Six-type classifier (maritime, mediterranean, continental, humid_subtropical, arid, semi_arid) from a coordinate-based heuristic. |
 
@@ -78,6 +79,28 @@ getSuccessionPlan({ slug: "lettuce-leaf", zone: zone.data, climateType: "maritim
 // Pests and diseases.
 getPestsByCrop("tomato");          // ~21 entries sorted by severity
 getPestDetail("tomato-hornworm");  // every crop the pest affects + management
+
+// Growing degree days and harvest prediction.
+getGddModel("tomato");
+// → { baseTemp: 50, gddToMaturity: { min: 1200, max: 1800 }, ... }
+
+estimateHarvestDate({
+  slug: "tomato",
+  plantDate: "2026-05-15",
+  zone: "8b",
+  climateType: "maritime",
+});
+// → { ok: true, data: {
+//     estimatedDate: "2026-09-02",   // earliest cultivar harvest
+//     gddAccumulated: 1207,
+//     confidence: "moderate",
+//     monthlyAccumulation: [{ month: "May", gdd: 180 }, ...],
+//     latestDate: "2026-10-14",      // full-season cultivar harvest
+//     latestGddAccumulated: 1804,
+//   } }
+
+getClimateNormalTemps("8b", "maritime", 7);
+// → { avgHigh: 78, avgLow: 58 }
 ```
 
 ## Data sources
@@ -88,9 +111,13 @@ peer-reviewed source. See the per-entry `source` field in
 [`src/data/companions.json`](./src/data/companions.json),
 [`src/data/rotation-families.json`](./src/data/rotation-families.json),
 [`src/data/succession-chains.json`](./src/data/succession-chains.json),
-and [`src/data/pest-disease.json`](./src/data/pest-disease.json),
+[`src/data/pest-disease.json`](./src/data/pest-disease.json),
+and [`src/data/gdd-models.json`](./src/data/gdd-models.json),
 and the file-level descriptions in the matching `*.schema.json` files for
-the methodology rundown.
+the methodology rundown. Climate normals in
+[`src/data/climate-normals.json`](./src/data/climate-normals.json) are derived
+from NOAA Climate Normals 1991-2020 reference cities (Seattle, Sacramento,
+Chicago, Atlanta, Phoenix, Denver) scaled to USDA zone groups.
 
 ## License
 

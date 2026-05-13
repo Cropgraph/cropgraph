@@ -32,3 +32,8 @@ export * from "./succession.js";
 // Pest and disease associations: crop-to-pest edges with diagnostic symptoms,
 // organic management options, prevention, and regions of significance.
 export * from "./pest-disease.js";
+
+// Growing degree day models: literature-grounded heat unit ranges per crop
+// plus a harvest-date estimator that falls back to NOAA Climate Normals when
+// live daily temperatures are not available.
+export * from "./gdd.js";

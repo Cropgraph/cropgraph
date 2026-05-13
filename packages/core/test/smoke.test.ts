@@ -3,10 +3,14 @@
 
 import { describe, expect, test } from "vitest";
 import {
+  estimateHarvestDate,
   findCrop,
+  getClimateNormalTemps,
   getClimateType,
   getCompanions,
   getCropsAffected,
+  getGddMeta,
+  getGddModel,
   getHardinessZone,
   getOrganicManagement,
   getPestDetail,
@@ -17,6 +21,7 @@ import {
   getSuccessionChain,
   getSuccessionMeta,
   getSuccessionPlan,
+  listGddModels,
   listSuccessionChains,
   searchCrops,
   searchPests,
@@ -125,6 +130,102 @@ describe("@cropgraph/core smoke", () => {
   test("searchPests('mildew') finds downy and powdery mildew", () => {
     const hits = searchPests("mildew");
     expect(hits.length).toBeGreaterThan(0);
+  });
+
+  test("getGddMeta reports 60+ models", () => {
+    const meta = getGddMeta();
+    expect(meta.totalModels).toBeGreaterThanOrEqual(60);
+    expect(meta.totalModels).toBeLessThanOrEqual(80);
+  });
+
+  test("listGddModels returns entries with sane shape", () => {
+    const all = listGddModels();
+    expect(all.length).toBe(getGddMeta().totalModels);
+    for (const m of all) {
+      expect(m.baseTemp).toBeGreaterThanOrEqual(30);
+      expect(m.baseTemp).toBeLessThanOrEqual(70);
+      expect(m.gddToMaturity.min).toBeLessThanOrEqual(m.gddToMaturity.max);
+    }
+  });
+
+  test("getGddModel('tomato') matches the spec example", () => {
+    const m = getGddModel("tomato");
+    expect(m).not.toBeNull();
+    expect(m?.baseTemp).toBe(50);
+    expect(m?.gddToMaturity.min).toBe(1200);
+    expect(m?.gddToMaturity.max).toBe(1800);
+  });
+
+  test("getGddModel('mizuna') returns null (no model curated)", () => {
+    expect(getGddModel("mizuna")).toBeNull();
+  });
+
+  test("getClimateNormalTemps('8b', 'maritime', 7) is a reasonable Pacific Northwest July", () => {
+    const cell = getClimateNormalTemps("8b", "maritime", 7);
+    expect(cell).not.toBeNull();
+    if (cell) {
+      expect(cell.avgHigh).toBeGreaterThanOrEqual(70);
+      expect(cell.avgHigh).toBeLessThanOrEqual(85);
+      expect(cell.avgLow).toBeGreaterThanOrEqual(50);
+      expect(cell.avgLow).toBeLessThanOrEqual(65);
+    }
+  });
+
+  test("getClimateNormalTemps('9a', 'arid', 7) is a hot southwestern July", () => {
+    const cell = getClimateNormalTemps("9a", "arid", 7);
+    expect(cell).not.toBeNull();
+    if (cell) {
+      expect(cell.avgHigh).toBeGreaterThanOrEqual(98);
+    }
+  });
+
+  test("estimateHarvestDate for tomato at Port Angeles, plant May 15", () => {
+    const r = estimateHarvestDate({
+      slug: "tomato",
+      plantDate: "2026-05-15",
+      zone: "8b",
+      climateType: "maritime",
+    });
+    expect(r.ok).toBe(true);
+    if (!r.ok) return;
+    const d = r.data;
+    expect(d.confidence).toBe("moderate");
+    expect(d.estimatedDate).toMatch(/^2026-/);
+    expect(d.estimatedDate >= "2026-08-01").toBe(true);
+    expect(d.estimatedDate <= "2026-10-31").toBe(true);
+    expect(d.gddAccumulated).toBeGreaterThanOrEqual(1200);
+    expect(d.monthlyAccumulation.length).toBeGreaterThanOrEqual(3);
+  });
+
+  test("estimateHarvestDate with manual temps reports high confidence", () => {
+    const r = estimateHarvestDate({
+      slug: "bush-bean",
+      plantDate: "2026-06-01",
+      avgDailyHigh: 80,
+      avgDailyLow: 60,
+    });
+    expect(r.ok).toBe(true);
+    if (!r.ok) return;
+    expect(r.data.confidence).toBe("high");
+    expect(r.data.estimatedDate).toMatch(/^2026-/);
+  });
+
+  test("estimateHarvestDate errors for unknown slug", () => {
+    const r = estimateHarvestDate({
+      slug: "not-a-real-crop",
+      plantDate: "2026-05-15",
+      zone: "8b",
+      climateType: "maritime",
+    });
+    expect(r.ok).toBe(false);
+  });
+
+  test("estimateHarvestDate errors when neither temps nor zone+climate supplied", () => {
+    const r = estimateHarvestDate({
+      slug: "tomato",
+      plantDate: "2026-05-15",
+    });
+    expect(r.ok).toBe(false);
   });
 
   test("getSuccessionPlan resolves Port Angeles + maritime to dated phases", () => {
