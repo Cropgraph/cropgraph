@@ -1,0 +1,953 @@
+{
+  "version": "1",
+  "source": "Johnny's Selected Seeds succession planting guide; Cornell Cooperative Extension small-farm planting calendars; UF/IFAS Extension Florida vegetable production handbook; UC ANR Master Gardener succession planting publications; SARE Cover Crops field guide; Eliot Coleman, The New Organic Grower (succession-planting tables). Frost-anchored windows use last-spring-frost (LSF) as day 0; negative days fall before LSF and positive days after. Climate notes flag the climate types where the base window materially shifts; absence of a climate note means the base window is workable.",
+  "license": "CC-BY-4.0",
+  "lastUpdated": "2026-05-13",
+  "entries": [
+    {
+      "slug": "lettuce-succession",
+      "primaryCrop": "lettuce-leaf",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "lettuce-leaf",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": -28,
+          "endRelativeToFrost": 42,
+          "climateNotes": {
+            "maritime": "Season extends comfortably through June; keep sowing every 2 weeks until daytime highs cross 75F.",
+            "humid_subtropical": "Bolts by mid-May; stop spring sowings around day +21 and switch to phase 2 early.",
+            "arid": "Shade cloth (30 percent) extends the spring window by 2-3 weeks into early summer."
+          },
+          "notes": "Choose loose-leaf and Batavian types for the most heat tolerance late in the spring window."
+        },
+        {
+          "phase": 2,
+          "crop": "malabar-spinach",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 42,
+          "endRelativeToFrost": 120,
+          "notes": "Heat-tolerant climbing substitute when lettuce bolts; one planting on a trellis fills the summer salad gap."
+        },
+        {
+          "phase": 3,
+          "crop": "lettuce-leaf",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": 120,
+          "endRelativeToFrost": 180,
+          "climateNotes": {
+            "maritime": "Carries into November under a low tunnel.",
+            "continental": "Stop sowings 30 days before first fall frost; cold-hardy varieties (Winter Density, Rouge d'Hiver) extend by 2 weeks under row cover."
+          },
+          "notes": "Fall succession; pick cold-hardy varieties as the window closes."
+        }
+      ],
+      "source": "Johnny's Selected Seeds succession guide; Cornell Cooperative Extension"
+    },
+    {
+      "slug": "romaine-succession",
+      "primaryCrop": "lettuce-romaine",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "lettuce-romaine",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": -21,
+          "endRelativeToFrost": 35,
+          "notes": "Romaine takes longer than leaf lettuce; space sowings 3 weeks to avoid harvest pileups."
+        },
+        {
+          "phase": 2,
+          "crop": "lettuce-romaine",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": 110,
+          "endRelativeToFrost": 170,
+          "climateNotes": {
+            "humid_subtropical": "Best fall crop; sow weekly here, the cool season is short."
+          },
+          "notes": "Fall romaine often outperforms spring romaine in flavor and storage life."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; UC ANR lettuce production guide"
+    },
+    {
+      "slug": "butterhead-succession",
+      "primaryCrop": "lettuce-butterhead",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "lettuce-butterhead",
+          "sowMethod": "transplant",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": -21,
+          "endRelativeToFrost": 28,
+          "notes": "Butterheads bolt fast in heat; transplant 4-week starts every 2 weeks for steady heads."
+        },
+        {
+          "phase": 2,
+          "crop": "lettuce-butterhead",
+          "sowMethod": "transplant",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": 115,
+          "endRelativeToFrost": 165,
+          "climateNotes": {
+            "maritime": "Mid-September transplants size up under cool fall nights for late-October harvest."
+          }
+        }
+      ],
+      "source": "Johnny's Selected Seeds succession guide; UC ANR Master Gardener publications"
+    },
+    {
+      "slug": "spinach-succession",
+      "primaryCrop": "spinach",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "spinach",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": -35,
+          "endRelativeToFrost": 21,
+          "climateNotes": {
+            "humid_subtropical": "Spring window is narrow; stop by day +7 to avoid bolting."
+          },
+          "notes": "Cold-tolerant; first sowings can go in as soon as soil works."
+        },
+        {
+          "phase": 2,
+          "crop": "new-zealand-spinach",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 21,
+          "endRelativeToFrost": 90,
+          "notes": "Heat-tolerant cooking-greens substitute; single planting after soil reaches 60F."
+        },
+        {
+          "phase": 3,
+          "crop": "spinach",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": 100,
+          "endRelativeToFrost": 160,
+          "climateNotes": {
+            "continental": "Bloomsdale and Tyee overwinter under straw mulch in zone 5 and warmer."
+          },
+          "notes": "Fall spinach is the best spinach; pick savoyed types for cold tolerance."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; Eliot Coleman, The New Organic Grower"
+    },
+    {
+      "slug": "arugula-succession",
+      "primaryCrop": "arugula",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "arugula",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": -28,
+          "endRelativeToFrost": 35,
+          "notes": "Cut at 4 inches before flower stalks elongate."
+        },
+        {
+          "phase": 2,
+          "crop": "arugula",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": 105,
+          "endRelativeToFrost": 165,
+          "climateNotes": {
+            "maritime": "Holds in the ground through December under a low tunnel."
+          },
+          "notes": "Summer gap is intentional; arugula goes bitter and flowers in heat above 80F."
+        }
+      ],
+      "source": "Johnny's Selected Seeds succession guide; Cornell Cooperative Extension"
+    },
+    {
+      "slug": "asian-greens-succession",
+      "primaryCrop": "mizuna",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "mizuna",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": -21,
+          "endRelativeToFrost": 28,
+          "notes": "Cut-and-come-again; harvest at 5 inches and the crown regrows twice."
+        },
+        {
+          "phase": 2,
+          "crop": "tatsoi",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": 100,
+          "endRelativeToFrost": 150,
+          "notes": "Most cold-tolerant of the brassica greens; sweet after a frost."
+        },
+        {
+          "phase": 3,
+          "crop": "bok-choy",
+          "sowMethod": "transplant",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": 110,
+          "endRelativeToFrost": 155,
+          "climateNotes": {
+            "humid_subtropical": "Best fall crop; spring sowings bolt before heading."
+          },
+          "notes": "Use small head varieties (Toy Choi) for tighter spacing."
+        }
+      ],
+      "source": "Johnny's Selected Seeds Asian greens guide; UF/IFAS Extension"
+    },
+    {
+      "slug": "chard-cut-and-come",
+      "primaryCrop": "swiss-chard",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "swiss-chard",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 21,
+          "notes": "Single spring planting carries through summer when picked weekly from the outside in."
+        },
+        {
+          "phase": 2,
+          "crop": "swiss-chard",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 90,
+          "endRelativeToFrost": 130,
+          "climateNotes": {
+            "maritime": "Often overwinters; cut back hard in February and the same plant resumes.",
+            "humid_subtropical": "Fall planting is the main crop; spring bolts by June."
+          },
+          "notes": "Second sowing for fall and overwintering."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; Eliot Coleman, The New Organic Grower"
+    },
+    {
+      "slug": "kale-cut-and-come",
+      "primaryCrop": "kale",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "kale",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 21,
+          "notes": "Spring planting; harvest from the bottom up so the crown keeps growing."
+        },
+        {
+          "phase": 2,
+          "crop": "lacinato-kale",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 75,
+          "endRelativeToFrost": 110,
+          "climateNotes": {
+            "continental": "Frost-sweetened fall kale is the prize crop; sow by mid-July for zone 5.",
+            "maritime": "Overwinters reliably under a low tunnel."
+          },
+          "notes": "Fall storage kale; lacinato holds quality longest in the ground."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; UC ANR Master Gardener publications"
+    },
+    {
+      "slug": "radish-succession",
+      "primaryCrop": "radish",
+      "category": "root-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "radish",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": -28,
+          "endRelativeToFrost": 35,
+          "notes": "Spring sowings; ready in 25-30 days. Stop when daytime highs cross 75F."
+        },
+        {
+          "phase": 2,
+          "crop": "radish",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": 90,
+          "endRelativeToFrost": 150,
+          "climateNotes": {
+            "humid_subtropical": "Fall is the main season; summer sowings split and turn woody."
+          },
+          "notes": "Fall sowings size up slower and store longer."
+        }
+      ],
+      "source": "Johnny's Selected Seeds succession guide; Cornell Cooperative Extension"
+    },
+    {
+      "slug": "carrot-succession",
+      "primaryCrop": "carrot",
+      "category": "root-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "carrot",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 70,
+          "notes": "Keep seedbed evenly moist for 14 days; spotty germination is the main carrot succession failure."
+        },
+        {
+          "phase": 2,
+          "crop": "carrot",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": 95,
+          "endRelativeToFrost": 130,
+          "climateNotes": {
+            "continental": "Fall carrots store best in the ground under straw; harvest as needed through January in zone 5.",
+            "arid": "Mulch heavily to keep soil temperature below 85F for germination."
+          },
+          "notes": "Fall and storage crop."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; OSU Extension"
+    },
+    {
+      "slug": "beet-succession",
+      "primaryCrop": "beet",
+      "category": "root-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "beet",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 56,
+          "notes": "Soak seedballs 8 hours before sowing for faster, more even germination."
+        },
+        {
+          "phase": 2,
+          "crop": "beet",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": 90,
+          "endRelativeToFrost": 130,
+          "notes": "Fall beets are the storage crop; harvest at 2-3 inches for best texture."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; Penn State Extension"
+    },
+    {
+      "slug": "turnip-succession",
+      "primaryCrop": "turnip",
+      "category": "root-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "turnip",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": -21,
+          "endRelativeToFrost": 21,
+          "notes": "Salad turnips (Hakurei) at 40 days; storage types (Purple Top) at 60 days."
+        },
+        {
+          "phase": 2,
+          "crop": "turnip",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": 90,
+          "endRelativeToFrost": 130,
+          "climateNotes": {
+            "humid_subtropical": "Fall is the main season; spring sowings bolt by May."
+          },
+          "notes": "Fall and storage crop; sweetens after first light frost."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; UF/IFAS Extension"
+    },
+    {
+      "slug": "daikon-succession",
+      "primaryCrop": "daikon",
+      "category": "root-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "daikon",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 75,
+          "endRelativeToFrost": 105,
+          "climateNotes": {
+            "maritime": "Sow late July through August for fall harvest into December.",
+            "continental": "Plant 10-12 weeks before first hard freeze for full-size roots."
+          },
+          "notes": "Daikons need cool nights to size up; spring plantings bolt before bulbing."
+        }
+      ],
+      "source": "Johnny's Selected Seeds Asian roots guide; WSU Extension"
+    },
+    {
+      "slug": "bush-bean-succession",
+      "primaryCrop": "bush-bean",
+      "category": "legume-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "bush-bean",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": 0,
+          "endRelativeToFrost": 84,
+          "climateNotes": {
+            "humid_subtropical": "Stop sowings 70 days before first fall frost; rust pressure rises late summer.",
+            "maritime": "Last sowing by day +70; bean season is short here."
+          },
+          "notes": "Wait for soil at 60F; rotting risk is high in cold wet soil. Sow every 2-3 weeks for continuous picking."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; Johnny's Selected Seeds succession guide"
+    },
+    {
+      "slug": "pea-bean-pea-relay",
+      "primaryCrop": "snap-pea",
+      "category": "legume-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "snap-pea",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -42,
+          "endRelativeToFrost": -14,
+          "notes": "Spring peas; trellis at planting time. Plant as soon as soil works."
+        },
+        {
+          "phase": 2,
+          "crop": "bush-bean",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 42,
+          "notes": "Pull spent pea vines, leave roots and nodules in place, replant the same bed to beans."
+        },
+        {
+          "phase": 3,
+          "crop": "snow-pea",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 100,
+          "endRelativeToFrost": 130,
+          "climateNotes": {
+            "maritime": "Fall peas reliable here; harvest into November.",
+            "continental": "Fall peas only succeed where first frost is after October 15."
+          },
+          "notes": "Fall pea on the same trellis; reuses the structure twice."
+        }
+      ],
+      "source": "Eliot Coleman, The New Organic Grower; Cornell Cooperative Extension"
+    },
+    {
+      "slug": "edamame-succession",
+      "primaryCrop": "edamame",
+      "category": "legume-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "edamame",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": 7,
+          "endRelativeToFrost": 49,
+          "notes": "Two or three sowings 2 weeks apart spread harvest; all-at-once pods are the default failure."
+        }
+      ],
+      "source": "Johnny's Selected Seeds edamame guide; Cornell Cooperative Extension"
+    },
+    {
+      "slug": "snow-pea-succession",
+      "primaryCrop": "snow-pea",
+      "category": "legume-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "snow-pea",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": -42,
+          "endRelativeToFrost": -7,
+          "notes": "Spring sowings; first crop is the heaviest."
+        },
+        {
+          "phase": 2,
+          "crop": "snow-pea",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": 100,
+          "endRelativeToFrost": 135,
+          "climateNotes": {
+            "maritime": "Fall window is reliable.",
+            "humid_subtropical": "Fall is the main season; spring is too brief."
+          },
+          "notes": "Fall sowings for cool-season harvest."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; UC ANR Master Gardener publications"
+    },
+    {
+      "slug": "broccoli-succession",
+      "primaryCrop": "broccoli",
+      "category": "brassica-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "broccoli",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -28,
+          "endRelativeToFrost": -7,
+          "notes": "Spring crop; transplant 4-6 week starts. Side shoots extend harvest 4-6 weeks past the main head."
+        },
+        {
+          "phase": 2,
+          "crop": "broccoli",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 80,
+          "endRelativeToFrost": 105,
+          "climateNotes": {
+            "continental": "Fall broccoli is the better crop in zones 5-6; cool nights tighten heads.",
+            "humid_subtropical": "Fall sowings only; spring is too short."
+          },
+          "notes": "Fall direct sow when soil cools below 75F."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; Penn State Extension"
+    },
+    {
+      "slug": "cabbage-succession",
+      "primaryCrop": "cabbage",
+      "category": "brassica-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "cabbage",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -35,
+          "endRelativeToFrost": -14,
+          "notes": "Early-season variety (Early Jersey Wakefield, Caraflex) for late spring harvest."
+        },
+        {
+          "phase": 2,
+          "crop": "cabbage",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 70,
+          "endRelativeToFrost": 95,
+          "notes": "Mid-season variety; transplant when daytime highs drop below 80F."
+        },
+        {
+          "phase": 3,
+          "crop": "cabbage-savoy",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 85,
+          "endRelativeToFrost": 110,
+          "climateNotes": {
+            "maritime": "Storage savoy holds through December.",
+            "continental": "Plant 12 weeks before first hard freeze for storage size."
+          },
+          "notes": "Storage variety (savoy or red drumhead); frost-sweetened."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; OSU Extension"
+    },
+    {
+      "slug": "cauliflower-succession",
+      "primaryCrop": "cauliflower",
+      "category": "brassica-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "cauliflower",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -28,
+          "endRelativeToFrost": -7,
+          "notes": "Spring crop; cauliflower bolts at heat above 80F, so timing is tight."
+        },
+        {
+          "phase": 2,
+          "crop": "cauliflower",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 80,
+          "endRelativeToFrost": 105,
+          "climateNotes": {
+            "humid_subtropical": "Fall is the only reliable season; spring almost always buttons."
+          },
+          "notes": "Fall crop; the better cauliflower season in most climates."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; UC ANR Master Gardener publications"
+    },
+    {
+      "slug": "cucumber-relay",
+      "primaryCrop": "cucumber",
+      "category": "cucurbit-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "cucumber",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 7,
+          "endRelativeToFrost": 21,
+          "notes": "First sowing once soil is 65F. Trellis to extend bearing life."
+        },
+        {
+          "phase": 2,
+          "crop": "cucumber",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 35,
+          "endRelativeToFrost": 56,
+          "climateNotes": {
+            "humid_subtropical": "Second planting outruns the first against downy mildew which arrives in late July.",
+            "maritime": "Second sowing only succeeds in long-season pockets; usually skip."
+          },
+          "notes": "Second planting takes over as the first declines from bacterial wilt or downy mildew. 3-4 weeks apart."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; UF/IFAS Extension"
+    },
+    {
+      "slug": "zucchini-relay",
+      "primaryCrop": "zucchini",
+      "category": "cucurbit-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "zucchini",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 7,
+          "endRelativeToFrost": 21,
+          "notes": "First planting; squash vine borer typically takes plants by late July."
+        },
+        {
+          "phase": 2,
+          "crop": "zucchini",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 49,
+          "endRelativeToFrost": 70,
+          "climateNotes": {
+            "humid_subtropical": "Second planting is essential against vine borer; first plants rarely make August.",
+            "maritime": "Second planting often succeeds well into September."
+          },
+          "notes": "Replacement planting around the time borers hit phase 1."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; Penn State Extension"
+    },
+    {
+      "slug": "summer-squash-relay",
+      "primaryCrop": "summer-squash",
+      "category": "cucurbit-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "yellow-crookneck",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 7,
+          "endRelativeToFrost": 21,
+          "notes": "Crookneck and patty-pan together cover the early summer window."
+        },
+        {
+          "phase": 2,
+          "crop": "patty-pan-squash",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 49,
+          "endRelativeToFrost": 70,
+          "notes": "Second planting carries through August into early fall."
+        }
+      ],
+      "source": "UF/IFAS Extension; Texas A&M AgriLife Extension"
+    },
+    {
+      "slug": "basil-succession",
+      "primaryCrop": "basil",
+      "category": "herb-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "basil",
+          "sowMethod": "transplant",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": 7,
+          "endRelativeToFrost": 75,
+          "climateNotes": {
+            "maritime": "Last sowing by day +60; basil sulks below 55F nights.",
+            "humid_subtropical": "Downy mildew arrives mid-summer; later sowings outrun first-planting losses."
+          },
+          "notes": "Pinch flower buds; second and third plantings step in as the first goes woody."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; Johnny's Selected Seeds basil guide"
+    },
+    {
+      "slug": "cilantro-succession",
+      "primaryCrop": "cilantro",
+      "category": "herb-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "cilantro",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": -21,
+          "endRelativeToFrost": 21,
+          "notes": "Bolts fast in long days and heat; 2-week succession is the only way to keep leaves coming."
+        },
+        {
+          "phase": 2,
+          "crop": "cilantro",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": 100,
+          "endRelativeToFrost": 150,
+          "climateNotes": {
+            "humid_subtropical": "Fall is the main season; cilantro is a cool-season herb here.",
+            "arid": "Use Calypso or Slow Bolt strains; even fall sowings bolt fast in low-humidity heat."
+          },
+          "notes": "Fall succession; cool nights slow bolting."
+        }
+      ],
+      "source": "Johnny's Selected Seeds cilantro guide; UC ANR Master Gardener publications"
+    },
+    {
+      "slug": "dill-succession",
+      "primaryCrop": "dill",
+      "category": "herb-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "dill",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": -7,
+          "endRelativeToFrost": 70,
+          "notes": "For leaf dill (fronds), succession every 3 weeks; for seed dill, single early planting that flowers in midsummer."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; Johnny's Selected Seeds herb guide"
+    },
+    {
+      "slug": "zinnia-succession",
+      "primaryCrop": "zinnia",
+      "category": "flower-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "zinnia-elegans",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": 7,
+          "endRelativeToFrost": 56,
+          "climateNotes": {
+            "humid_subtropical": "Powdery mildew arrives in August; later sowings hold longer in bloom."
+          },
+          "notes": "Two or three sowings keeps cut-flower production steady from July through frost. Pinch first stems at 8 inches to encourage branching."
+        }
+      ],
+      "source": "Johnny's Selected Seeds cut flower guide; Cornell Cooperative Extension"
+    },
+    {
+      "slug": "cosmos-succession",
+      "primaryCrop": "cosmos",
+      "category": "flower-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "cosmos-sensation",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 0,
+          "endRelativeToFrost": 21,
+          "notes": "Early planting blooms July through August."
+        },
+        {
+          "phase": 2,
+          "crop": "cosmos-sulphureus",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 35,
+          "endRelativeToFrost": 56,
+          "notes": "Mid-season planting blooms September through frost; sulphureus types are more heat-tolerant."
+        }
+      ],
+      "source": "Johnny's Selected Seeds cut flower guide; Xerces Society pollinator publications"
+    },
+    {
+      "slug": "sunflower-succession",
+      "primaryCrop": "sunflower",
+      "category": "flower-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "sunflower",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": 7,
+          "endRelativeToFrost": 70,
+          "climateNotes": {
+            "continental": "Last sowing by day +60 to bloom before first frost.",
+            "maritime": "Late sowings struggle to ripen; stop by day +49."
+          },
+          "notes": "Branching types (Autumn Beauty, Lemon Queen) flower continuously off a single plant; single-stem types (ProCut, Sunrich) need 2-week succession for continuous blooms."
+        }
+      ],
+      "source": "Johnny's Selected Seeds cut flower guide; UC ANR Master Gardener publications"
+    },
+    {
+      "slug": "clover-tomato-rye-relay",
+      "primaryCrop": "tomato",
+      "category": "cover-crop-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "crimson-clover",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -210,
+          "endRelativeToFrost": -150,
+          "notes": "Fall-sown the previous September; overwinters and fixes 70-130 lb N per acre by spring termination."
+        },
+        {
+          "phase": 2,
+          "crop": "tomato",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 35,
+          "notes": "Roll-crimp the clover at full bloom 2 weeks before transplanting; tomatoes go through the mulch into stored N."
+        },
+        {
+          "phase": 3,
+          "crop": "winter-rye",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 150,
+          "endRelativeToFrost": 180,
+          "climateNotes": {
+            "continental": "Sow by day +160 for adequate fall establishment in zones 5-6."
+          },
+          "notes": "After tomato harvest, pull plants and overseed winter rye for next year's biomass and erosion control."
+        }
+      ],
+      "source": "SARE Cover Crops field guide; Rodale Institute farming systems trial"
+    },
+    {
+      "slug": "buckwheat-brassica-vetch-relay",
+      "primaryCrop": "buckwheat",
+      "category": "cover-crop-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "buckwheat",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 49,
+          "notes": "Fast warm-season smother crop; flowers at 5-6 weeks. Mow at first bloom before seed sets."
+        },
+        {
+          "phase": 2,
+          "crop": "broccoli",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 80,
+          "endRelativeToFrost": 105,
+          "notes": "Fall brassica transplanted into the rolled buckwheat residue; weed-free bed and freed-up phosphorus."
+        },
+        {
+          "phase": 3,
+          "crop": "hairy-vetch",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 130,
+          "endRelativeToFrost": 165,
+          "climateNotes": {
+            "continental": "Sow by day +150 in zones 5-6; vetch needs 6 weeks of growth before hard freeze."
+          },
+          "notes": "Overseeded between brassica rows in fall; overwinters and fixes 100-150 lb N per acre by spring."
+        }
+      ],
+      "source": "SARE Cover Crops field guide; Cornell Cooperative Extension"
+    },
+    {
+      "slug": "winter-pea-corn-clover-relay",
+      "primaryCrop": "sweet-corn",
+      "category": "cover-crop-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "austrian-winter-pea",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -210,
+          "endRelativeToFrost": -150,
+          "notes": "Fall-sown legume cover; overwinters in zones 6 and warmer, fixes 90-150 lb N per acre by spring termination."
+        },
+        {
+          "phase": 2,
+          "crop": "sweet-corn",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 7,
+          "endRelativeToFrost": 28,
+          "notes": "Heavy nitrogen feeder placed after the winter pea; takes up the freed-up N over the season."
+        },
+        {
+          "phase": 3,
+          "crop": "red-clover",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 70,
+          "endRelativeToFrost": 100,
+          "climateNotes": {
+            "maritime": "Frost-seed in February instead, the cool wet spring establishes the clover well.",
+            "continental": "Overseed at last cultivation around day +70 in zones 5-6 for fall establishment."
+          },
+          "notes": "Overseeded into the corn between rows at last cultivation; provides ground cover after corn harvest and overwinters for next year."
+        }
+      ],
+      "source": "SARE Cover Crops field guide; Penn State Extension"
+    }
+  ]
+}

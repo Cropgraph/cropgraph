@@ -1,4 +1,5 @@
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
+import { z } from "zod";
 import {
   checkBedCompatibility,
   checkRotationSequence,
@@ -14,6 +15,11 @@ import {
   getRelationship,
   getRotationAdvice,
   getRotationPartners,
+  getCropsAffected,
+  getPestDetail,
+  getPestsByCrop,
+  getSuccessionChain,
+  getSuccessionPlan,
   searchCrops,
   type ClimateType,
   type Coordinates,
@@ -36,6 +42,8 @@ import {
   padDaysField,
   queryField,
   slugOrNameField,
+  pestSlugField,
+  yearField,
   zipField,
   zoneField,
 } from "./schemas.js";
@@ -54,6 +62,10 @@ export function registerAllTools(server: McpServer): void {
   registerPlanBedCompatibility(server);
   registerGetRotationAdvice(server);
   registerCheckRotationSequence(server);
+  registerGetSuccessionChain(server);
+  registerGetSuccessionPlan(server);
+  registerGetCropPests(server);
+  registerGetPestDetail(server);
 }
 
 // ---------------------------------------------------------------------------
@@ -541,6 +553,178 @@ function registerCheckRotationSequence(server: McpServer): void {
       return success({
         resolved,
         ...report,
+      });
+    },
+  );
+}
+
+// ---------------------------------------------------------------------------
+// 11. get_succession_chain
+// ---------------------------------------------------------------------------
+
+function registerGetSuccessionChain(server: McpServer): void {
+  server.registerTool(
+    "get_succession_chain",
+    {
+      title: "Succession Planting Chain for a Crop",
+      description:
+        "Returns the time-sequenced succession chain for a crop, drawn from the bundled 33-chain fixture (Johnny's Selected Seeds, Cornell Extension, UC ANR, SARE, Eliot Coleman's New Organic Grower). " +
+        "Each chain has an ordered list of phases. Each phase carries: `crop` (calendar slug), `sowMethod` (`direct_sow` / `transplant` / `start_indoors`), `intervalWeeks` (null means a single sowing, otherwise a recurring cadence), `startRelativeToFrost` and `endRelativeToFrost` (days from last spring frost; negative = before LSF, positive = after), optional per-climate `climateNotes`, and gardener-facing `notes`. " +
+        "Categories: `continuous-harvest` (lettuce, spinach, arugula cycles), `root-succession` (radish, carrot, beet, turnip cadences), `legume-succession` (bean / pea relays), `brassica-succession` (broccoli, cabbage spring + fall), `cucurbit-relay` (replacement plantings against vine borer / mildew), `herb-succession` (basil, cilantro, dill cadences), `flower-succession` (zinnia, cosmos, sunflower for continuous cut flowers), `cover-crop-relay` (winter cover → cash crop → fall cover chains). " +
+        "Lookup is by chain slug (e.g. `lettuce-succession`), primary crop slug (e.g. `lettuce-leaf`), or any crop slug that appears as a phase. Pair this tool with `get_succession_plan` to resolve the phases to concrete ISO dates for a zone.",
+      inputSchema: {
+        crop: cropNameField,
+      },
+      annotations: READ_ONLY,
+    },
+    async ({ crop }) => {
+      const hit = findCrop(crop);
+      const chain =
+        getSuccessionChain(crop) ??
+        (hit ? getSuccessionChain(hit.slug) : undefined);
+      if (!chain) {
+        return failure({
+          source: SOURCE,
+          message: `no succession chain for "${crop}"`,
+        });
+      }
+      return success({
+        ...(hit
+          ? { commonName: hit.commonName, scientificName: hit.scientificName }
+          : {}),
+        ...chain,
+      });
+    },
+  );
+}
+
+// ---------------------------------------------------------------------------
+// 12. get_succession_plan
+// ---------------------------------------------------------------------------
+
+function registerGetSuccessionPlan(server: McpServer): void {
+  server.registerTool(
+    "get_succession_plan",
+    {
+      title: "Dated Succession Planting Plan for a Location",
+      description:
+        "Resolves a succession chain into concrete ISO dates for a location. Provide a USDA zone string ('5b', '8b') OR a coordinate pair / zip; coordinates resolve to a zone via the same lookup as `get_hardiness_zone`. " +
+        "Each returned phase carries `windowStart` and `windowEnd` (ISO dates), and `sowingDates` (the dated sowing events within the window when the chain specifies an `intervalWeeks` cadence). " +
+        "Climate-aware: pass `climate_type` to apply per-climate notes. When you supply lat/lng or zip without `climate_type`, the tool auto-detects climate from coordinates. The response echoes `climateType` and includes the resolved `zone` and `frostDates`. " +
+        "Use `year` to anchor the plan to a specific calendar year (defaults to the current UTC year). " +
+        "No API key required; works offline.",
+      inputSchema: {
+        crop: cropNameField,
+        zone: zoneField.optional(),
+        lat: latField.optional(),
+        lng: lngField.optional(),
+        zip: zipField.optional(),
+        climate_type: climateTypeField.optional(),
+        year: yearField.optional(),
+      },
+      annotations: READ_ONLY,
+    },
+    async (args) => {
+      const hit = findCrop(args.crop);
+      const chain =
+        getSuccessionChain(args.crop) ??
+        (hit ? getSuccessionChain(hit.slug) : undefined);
+      if (!chain) {
+        return failure({
+          source: SOURCE,
+          message: `no succession chain for "${args.crop}"`,
+        });
+      }
+      const zoneRes = await resolveZoneFromArgs(args);
+      if (!zoneRes.ok) return failure(zoneRes.error);
+      const climateType = resolveClimateType(args);
+      const planRes = getSuccessionPlan({
+        slug: chain.slug,
+        zone: zoneRes.data,
+        ...(climateType ? { climateType } : {}),
+        ...(args.year !== undefined ? { year: args.year } : {}),
+      });
+      if (!planRes.ok) return failure(planRes.error);
+      return success(planRes.data);
+    },
+  );
+}
+
+// ---------------------------------------------------------------------------
+// 13. get_crop_pests
+// ---------------------------------------------------------------------------
+
+function registerGetCropPests(server: McpServer): void {
+  server.registerTool(
+    "get_crop_pests",
+    {
+      title: "Pests and Diseases Affecting a Crop",
+      description:
+        "Returns the pests and diseases recorded for a crop, drawn from the bundled 158-entry organic-first pest fixture (Cornell, UC IPM, UF/IFAS, Penn State, OSU, WSU, Texas A&M sources). Each entry carries: `pest` (kebab-case slug, separate namespace from crop slugs), `type` (`pest` for insects/mites/mollusks/nematodes/vertebrates, `disease` for fungi/oomycetes/bacteria/viruses/disorders), `severity` (`low` / `moderate` / `high` / `severe`), `symptoms` (diagnostic prose written for a gardener with a hand lens), `organicManagement` (ordered list of OMRI-listed materials, biocontrols, and physical/cultural practices), `prevention` (cultural and pre-planting practices), `regions` (`all` or informal labels like `southern-us`, `pnw`, `arid`), and a citation. " +
+        "Sorted by severity desc, then alphabetically. The fixture is curated, not exhaustive; absence of an entry is not absence of pressure. Pair with `get_companions` to find pest-repellent companion plants for the same crop. " +
+        "Accepts slug or common name. No API key required; works offline.",
+      inputSchema: {
+        crop: cropNameField,
+      },
+      annotations: READ_ONLY,
+    },
+    async ({ crop }) => {
+      const hit = findCrop(crop);
+      if (!hit) {
+        return failure({
+          source: SOURCE,
+          message: `no crop calendar match for "${crop}"`,
+        });
+      }
+      const entries = getPestsByCrop(hit.slug);
+      return success({
+        slug: hit.slug,
+        commonName: hit.commonName,
+        scientificName: hit.scientificName,
+        entries,
+      });
+    },
+  );
+}
+
+// ---------------------------------------------------------------------------
+// 14. get_pest_detail
+// ---------------------------------------------------------------------------
+
+function registerGetPestDetail(server: McpServer): void {
+  server.registerTool(
+    "get_pest_detail",
+    {
+      title: "Full Management Guide for a Pest or Disease",
+      description:
+        "Returns the full record for one pest or disease across every crop it touches: aggregated severity grades, the union of regions of significance, and per-crop symptoms and organic management. " +
+        "Use this when the question is 'tell me about cabbage worm' (a single pest across crops) rather than 'what hits cabbage' (`get_crop_pests`). " +
+        "Returns an error when the pest slug isn't in the fixture. Use `get_crop_pests` first to discover pest slugs for a given crop. " +
+        "Common slugs include: tomato-hornworm, late-blight, early-blight, cabbage-worm, cabbage-looper, squash-bug, squash-vine-borer, cucumber-beetle-striped, cucumber-beetle-spotted, flea-beetle, japanese-beetle, colorado-potato-beetle, spider-mite, aphid-green-peach, powdery-mildew, downy-mildew, fusarium-wilt, verticillium-wilt, septoria-leaf-spot, bacterial-wilt, mexican-bean-beetle, slug, cutworm, corn-earworm, spotted-wing-drosophila.",
+      inputSchema: {
+        pest: pestSlugField,
+        crops_affected: z
+          .boolean()
+          .optional()
+          .describe(
+            "If true, include `cropsAffected` (deduplicated crop slug list) on the response. Default true; helpers infer it from the affects array regardless, but setting false omits the convenience array.",
+          ),
+      },
+      annotations: READ_ONLY,
+    },
+    async ({ pest, crops_affected }) => {
+      const detail = getPestDetail(pest);
+      if (!detail) {
+        return failure({
+          source: SOURCE,
+          message: `no pest or disease entry for "${pest}"`,
+        });
+      }
+      const includeCrops = crops_affected !== false;
+      const cropsAffected = includeCrops ? getCropsAffected(pest) : undefined;
+      return success({
+        ...detail,
+        ...(cropsAffected ? { cropsAffected } : {}),
       });
     },
   );

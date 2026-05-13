@@ -1,8 +1,8 @@
 # CropGraph
 
 Commercial agricultural intelligence. Curated data, MCP server, and CLI for
-crop calendars, companion planting, USDA hardiness zones, and climate
-classification.
+crop calendars, companion planting, crop rotation, succession planting, pest
+and disease management, USDA hardiness zones, and climate classification.
 
 - **Website:** https://cropgraph.com
 - **API:** https://api.cropgraph.com (see [cropgraph-api](https://github.com/Cropgraph/cropgraph-api))
@@ -11,9 +11,9 @@ classification.
 
 | Package | What |
 |---------|------|
-| [`@cropgraph/core`](./packages/core) | Crop calendar (1,000 entries), companion relationships, USDA zones, climate types. Pure TypeScript, offline. |
-| [`@cropgraph/mcp`](./packages/mcp) | Model Context Protocol server (stdio). Eight garden-planning tools for AI agents. |
-| [`cropgraph`](./packages/cli) | Command-line interface. Seven subcommands for humans. |
+| [`@cropgraph/core`](./packages/core) | Crop calendar (1,000 entries), companion relationships, rotation families, succession chains, pest/disease associations, USDA zones, climate types. Pure TypeScript, offline. |
+| [`@cropgraph/mcp`](./packages/mcp) | Model Context Protocol server (stdio). Fourteen garden-planning tools for AI agents. |
+| [`cropgraph`](./packages/cli) | Command-line interface. Subcommands for zones, planting, crop lookup, companions, rotation, succession, pests, and pest-detail. |
 
 ## Quick start
 
@@ -31,6 +31,8 @@ See [`packages/mcp/README.md`](./packages/mcp/README.md) for client config.
 npx cropgraph zone --lat 48.118 --lng -123.43
 npx cropgraph companions tomato
 npx cropgraph planting --zone 8b --climate maritime
+npx cropgraph succession lettuce --zone 8b --climate maritime
+npx cropgraph pests tomato
 ```
 
 ### Library
@@ -40,11 +42,17 @@ npm install @cropgraph/core
 ```
 
 ```ts
-import { getHardinessZone, getCompanions, getPlantingPlan } from "@cropgraph/core";
+import {
+  getHardinessZone,
+  getCompanions,
+  getPlantingPlan,
+  getSuccessionPlan,
+} from "@cropgraph/core";
 
 getHardinessZone(48.118, -123.43);   // "8b"
 getCompanions("tomato");             // 18 entries
 getPlantingPlan({ zone: "8b", climateType: "maritime" });
+getSuccessionPlan({ slug: "lettuce-leaf", zone, climateType: "maritime" });
 ```
 
 ## Data
@@ -54,6 +62,8 @@ getPlantingPlan({ zone: "8b", climateType: "maritime" });
 | Crop calendar | 1,000 entries | Frost-anchored windows, climate modifiers for 6 climate types |
 | Companion relationships | 333 | 281 beneficial, 52 antagonist, 11 mechanism categories |
 | Rotation families | 12 | Nightshades, brassicas, cucurbits, alliums, legumes, umbellifers, grasses, amaranthaceae, composites, mints, malvaceae, miscellaneous. Every calendar slug mapped. |
+| Succession chains | 33 | Greens, roots, legumes, brassicas, cucurbits, herbs, flowers, cover crops. Frost-anchored phases with per-climate notes. |
+| Pest/disease associations | 158 | Crop-to-pest edges with diagnostic symptoms, organic management, prevention, and regions. OMRI-listed management only. |
 | USDA hardiness zones | 40,283 ZIPs | PRISM 2023 + waldoj/frostline centroids, offline lookup |
 | Climate classifier | 6 types | Maritime, mediterranean, continental, humid subtropical, arid, semi-arid |
 

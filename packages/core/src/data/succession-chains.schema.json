@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Cropgraph/cropgraph/blob/main/packages/core/src/data/succession-chains.schema.json",
+  "title": "CropGraph Succession Planting Chains",
+  "description": "The third edge layer of the CropGraph, time-sequenced planting chains that turn a single bed into a continuous-harvest schedule. Each chain has a primary crop, a category, and an ordered list of phases. Every phase references a crop slug from crop-calendar.json; the loader cross-references at parse time and fails loud if a slug is missing.\n\nFrost anchor: all phase dates are days relative to the typical last spring frost (LSF) for the gardener's zone. Negative days fall before LSF (early-spring sowings, fall-sown cover crops planted the prior autumn). Day 0 is LSF. Positive days run forward through spring, summer, and fall. The single-anchor model is intentional: chains describe how a sequence flows from spring through fall in one growing-year cadence, not how a single crop maps to two separate anchors.\n\nClimate notes per phase flag the climate types where the base window or sowing cadence materially shifts. Absence of a climate-note key means the base values are appropriate. Notes are gardener-facing prose, not parsed for machine logic.\n\nEvidence grounding: Johnny's Selected Seeds succession planting publications, Cornell Cooperative Extension small-farm planting calendars, UF/IFAS Extension vegetable production handbooks, UC ANR Master Gardener succession publications, SARE Cover Crops field guide, Eliot Coleman's The New Organic Grower succession tables, USDA-NRCS cover crop publications, Rodale Institute farming systems trial. Each chain carries its own citation; the file-level source documents the overall provenance.",
+  "type": "object",
+  "required": ["version", "source", "license", "entries"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Schema version. Bump on breaking changes only; additive optional fields keep the version constant."
+    },
+    "source": {
+      "type": "string",
+      "description": "Provenance / citation block for the whole fixture. Per-entry `source` is the authoritative citation; file-level source documents the overall curation pass."
+    },
+    "license": {
+      "type": "string",
+      "description": "License under which the data is redistributed (e.g. CC-BY-4.0)."
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date of the last hand-curation pass."
+    },
+    "entries": {
+      "type": "array",
+      "description": "Succession chains. Order is not significant; helpers index by slug at load time.",
+      "items": { "$ref": "#/$defs/Chain" }
+    }
+  },
+  "$defs": {
+    "Chain": {
+      "type": "object",
+      "required": ["slug", "primaryCrop", "category", "chains", "source"],
+      "additionalProperties": false,
+      "properties": {
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]{1,60}$",
+          "description": "Kebab-case identifier for the chain. Distinct from `primaryCrop` because one crop can appear in multiple chains (e.g. `radish-succession` for fresh use vs. an oilseed-radish cover-crop relay)."
+        },
+        "primaryCrop": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]{1,40}$",
+          "description": "The crop the gardener is asking about. Must be a slug from crop-calendar.json. Chain lookups by crop find the chain whose primaryCrop matches, or whose chain.crop entries include the requested slug."
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "continuous-harvest",
+            "root-succession",
+            "legume-succession",
+            "brassica-succession",
+            "cucurbit-relay",
+            "herb-succession",
+            "flower-succession",
+            "cover-crop-relay"
+          ],
+          "description": "High-level grouping for filtering and presentation."
+        },
+        "chains": {
+          "type": "array",
+          "minItems": 1,
+          "description": "Ordered phases of the succession. The `phase` field is the canonical order; array order is expected to match.",
+          "items": { "$ref": "#/$defs/Phase" }
+        },
+        "source": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 300,
+          "description": "Citation for the chain. Multiple sources separated by semicolons."
+        }
+      }
+    },
+    "Phase": {
+      "type": "object",
+      "required": ["phase", "crop", "sowMethod", "intervalWeeks", "startRelativeToFrost", "endRelativeToFrost"],
+      "additionalProperties": false,
+      "properties": {
+        "phase": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 12,
+          "description": "Sequence number within the chain. Phase 1 is the earliest in the year."
+        },
+        "crop": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]{1,40}$",
+          "description": "Crop slug from crop-calendar.json. The loader validates existence at parse time."
+        },
+        "sowMethod": {
+          "type": "string",
+          "enum": ["direct_sow", "transplant", "start_indoors"],
+          "description": "How this phase enters the bed. `start_indoors` is rare and indicates the gardener starts seeds indoors with no transplant in scope for the chain."
+        },
+        "intervalWeeks": {
+          "type": ["integer", "null"],
+          "minimum": 1,
+          "maximum": 12,
+          "description": "Cadence within the phase window: a sowing happens every N weeks until the window closes. `null` means a single sowing or transplant event."
+        },
+        "startRelativeToFrost": {
+          "type": "integer",
+          "minimum": -270,
+          "maximum": 270,
+          "description": "Days from last-spring-frost (LSF) when the phase window opens. Negative is before LSF; -210 covers the prior September for overwintering cover crops."
+        },
+        "endRelativeToFrost": {
+          "type": "integer",
+          "minimum": -270,
+          "maximum": 270,
+          "description": "Days from LSF when the phase window closes. Must be >= startRelativeToFrost."
+        },
+        "climateNotes": {
+          "type": "object",
+          "description": "Per-climate-type prose notes. Keys are climate types from `climate-types.ts`. Absence means the base window applies.",
+          "additionalProperties": false,
+          "properties": {
+            "maritime": { "type": "string", "minLength": 1, "maxLength": 300 },
+            "mediterranean": { "type": "string", "minLength": 1, "maxLength": 300 },
+            "continental": { "type": "string", "minLength": 1, "maxLength": 300 },
+            "humid_subtropical": { "type": "string", "minLength": 1, "maxLength": 300 },
+            "arid": { "type": "string", "minLength": 1, "maxLength": 300 },
+            "semi_arid": { "type": "string", "minLength": 1, "maxLength": 300 }
+          }
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 300,
+          "description": "Gardener-facing prose for this phase. Optional."
+        }
+      }
+    }
+  }
+}

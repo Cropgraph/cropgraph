@@ -1,6 +1,6 @@
 # cropgraph (CLI)
 
-Command-line interface for the CropGraph dataset. Nine verbs, all offline,
+Command-line interface for the CropGraph dataset. Twelve verbs, all offline,
 no API keys.
 
 ## Install
@@ -24,6 +24,9 @@ npx cropgraph zone --lat 48.118 --lng -123.43
 | `cropgraph plan <crops...>` | Evaluate a bed of 2-20 crops together. |
 | `cropgraph rotation <crop>` | Rotation family + year-gap rule + recommended partners for a crop. |
 | `cropgraph rotation-check <crops...>` | Validate a multi-year planting sequence. |
+| `cropgraph succession <crop>` | Succession planting chain for a crop. Pass `--zone`/`--lat`/`--lng`/`--zip` for concrete dates. |
+| `cropgraph pests <crop>` | Pests and diseases affecting a crop, with organic management and prevention. |
+| `cropgraph pest-detail <pest>` | Full record for one pest or disease across every crop it touches. |
 | `cropgraph config set-location` | Save a default location used when `--lat/--lng` are omitted. |
 
 Every command supports `--json` for machine-readable output.
@@ -48,6 +51,15 @@ cropgraph rotation tomato
 
 # Validate a 4-year plan in the same bed.
 cropgraph rotation-check tomato bush-bean sweet-corn cabbage
+
+# Succession chain for lettuce, with concrete dates for zone 8b maritime.
+cropgraph succession lettuce --zone 8b --climate maritime
+
+# Pests and diseases affecting tomato, sorted by severity.
+cropgraph pests tomato
+
+# Full record for one pest across every crop it touches.
+cropgraph pest-detail cabbage-worm
 ```
 
 ## Configuration

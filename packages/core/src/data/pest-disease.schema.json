@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Cropgraph/cropgraph/blob/main/packages/core/src/data/pest-disease.schema.json",
+  "title": "CropGraph Pest and Disease Associations",
+  "description": "The fourth edge layer of the CropGraph, directed associations between crops and the pests or diseases that affect them. Each entry has a crop slug (validated against crop-calendar.json at load time), a pest or disease slug (kebab-case, in its own namespace), a `type` flag distinguishing pest from disease, a severity grade, diagnostic symptoms text, an array of organic management options, prevention text, an array of regions where the pest/disease is significant, and a citation. The same pest can appear against many crops (cabbage worm is on cabbage, broccoli, kale, collards, etc.); per-entry symptoms and management are crop-specific even when the underlying agent is shared.\n\nEvidence grounding: Cornell Cooperative Extension, UC IPM Online, UF/IFAS Extension, Penn State Extension, OSU Extension, WSU Extension, Texas A&M AgriLife Extension, Rodale Encyclopedia of Organic Gardening, USDA-ARS pest profiles. Management is intentionally restricted to OMRI-listed materials, biocontrols, and physical/cultural practices; conventional synthetic pesticides are out of scope for this fixture.\n\nSeverity grades are calibrated for the gardener: `severe` warrants scouting twice weekly and warrants resistant cultivars or long rotations; `high` causes significant yield loss; `moderate` is cosmetic or partial; `low` is tolerable in most beds and sometimes a deliberate trade-off (e.g. parsleyworm on dill).",
+  "type": "object",
+  "required": ["version", "source", "license", "entries"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Schema version. Bump on breaking changes only."
+    },
+    "source": {
+      "type": "string",
+      "description": "Provenance / curation block for the whole fixture."
+    },
+    "license": {
+      "type": "string",
+      "description": "License under which the data is redistributed (e.g. CC-BY-4.0)."
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date of the last hand-curation pass."
+    },
+    "entries": {
+      "type": "array",
+      "description": "Crop-to-pest/disease association edges. Order is not significant; helpers index by crop and pest slug at load time.",
+      "items": { "$ref": "#/$defs/Entry" }
+    }
+  },
+  "$defs": {
+    "Entry": {
+      "type": "object",
+      "required": ["crop", "pest", "type", "severity", "symptoms", "organicManagement", "prevention", "regions", "source"],
+      "additionalProperties": false,
+      "properties": {
+        "crop": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]{1,40}$",
+          "description": "Subject crop slug. Must exist in crop-calendar.json."
+        },
+        "pest": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]{1,60}$",
+          "description": "Kebab-case identifier for the pest or disease. Distinct namespace from crop slugs. Same `pest` slug appears against many crops when the agent is shared."
+        },
+        "type": {
+          "type": "string",
+          "enum": ["pest", "disease"],
+          "description": "Whether the agent is an animal (`pest`: insects, mites, mollusks, nematodes, vertebrates) or a pathogen (`disease`: fungi, oomycetes, bacteria, viruses, plus physiological disorders like blossom end rot)."
+        },
+        "severity": {
+          "type": "string",
+          "enum": ["low", "moderate", "high", "severe"],
+          "description": "Calibrated for the gardener. `severe` warrants resistant cultivars and long rotations; `high` causes significant yield loss; `moderate` is partial / cosmetic; `low` is tolerable."
+        },
+        "symptoms": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 600,
+          "description": "Diagnostic prose for the gardener with a hand lens. Concrete and recognition-focused, not encyclopedic."
+        },
+        "organicManagement": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 3, "maxLength": 300 },
+          "description": "Ordered list of organic management options. OMRI-listed materials, biocontrols, and physical/cultural practices only. Conventional synthetics are out of scope."
+        },
+        "prevention": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 400,
+          "description": "Cultural and pre-planting practices that reduce future pressure."
+        },
+        "regions": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 2, "maxLength": 40 },
+          "description": "Where the pest/disease is significant. `all` for ubiquitous problems; otherwise informal region labels (`southern-us`, `pnw`, `arid`, `eastern-us`)."
+        },
+        "source": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 300,
+          "description": "Citation, extension service, or research publication. Multiple sources separated by semicolons."
+        }
+      }
+    }
+  }
+}

@@ -24,3 +24,11 @@ export * from "./companions.js";
 // Rotation families: botanical-family partition of every calendar slug with
 // year-gap, follow-with, and never-follow rules per family.
 export * from "./rotation.js";
+
+// Succession chains: time-sequenced planting cadence per crop, with concrete
+// dated plans resolved against a zone's frost dates.
+export * from "./succession.js";
+
+// Pest and disease associations: crop-to-pest edges with diagnostic symptoms,
+// organic management options, prevention, and regions of significance.
+export * from "./pest-disease.js";

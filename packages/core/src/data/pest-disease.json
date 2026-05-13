@@ -1,0 +1,2181 @@
+{
+  "version": "1",
+  "source": "Cornell Cooperative Extension; UC IPM Online (University of California Statewide Integrated Pest Management Program); UF/IFAS Extension; Penn State Extension; OSU Extension; WSU Extension; Texas A&M AgriLife Extension; Rodale Encyclopedia of Organic Gardening; USDA-ARS pest profiles. Organic management options are restricted to OMRI-listed materials and physical/cultural controls; conventional synthetic pesticide options are intentionally omitted (this is an organic-gardener-facing fixture). Severity grades are honest: `severe` is reserved for crop-killing pests/diseases that warrant scouting twice weekly; `high` is significant yield loss; `moderate` is cosmetic or partial yield; `low` is tolerable in most beds. Symptoms strings are diagnostic, not encyclopedic, written for a gardener with a hand lens.",
+  "license": "CC-BY-4.0",
+  "lastUpdated": "2026-05-13",
+  "entries": [
+    {
+      "crop": "tomato",
+      "pest": "tomato-hornworm",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Large green caterpillars (3-4 inches at maturity) with white diagonal stripes and a curved horn at the rear. Defoliation of upper leaves first, working down the plant. Dark green droppings on lower leaves are usually the first sign before the caterpillar itself is spotted.",
+      "organicManagement": [
+        "Handpick into soapy water; the most effective control for small gardens.",
+        "Spray Bt (Bacillus thuringiensis var. kurstaki) on foliage; works on larvae under 1.5 inches.",
+        "Encourage parasitic braconid wasps (white rice-like cocoons on hornworm backs); leave parasitized hornworms in place to release the next wasp generation.",
+        "Companion plant with dill, basil, marigold to draw braconid wasps."
+      ],
+      "prevention": "Fall tilling exposes overwintering pupae to predators and freezing. Rotate nightshades on a 3-year cycle. Inspect plants twice weekly from July through August.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension; UC IPM"
+    },
+    {
+      "crop": "tomato",
+      "pest": "tomato-fruitworm",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Small holes near the stem end of fruit. Inside, a 1-1.5 inch striped caterpillar (yellow-green to pink-brown) eating from the inside out. Same species as corn earworm.",
+      "organicManagement": [
+        "Spray Bt on developing fruit weekly during egg-laying flights.",
+        "Release Trichogramma wasps (egg parasitoid) when adult moths are first trapped.",
+        "Remove and destroy infested fruit; do not compost."
+      ],
+      "prevention": "Pheromone traps to monitor adult flights. Plant trap crops of corn or sunflower at the bed edge to draw egg-laying moths away from tomatoes.",
+      "regions": ["all"],
+      "source": "UC IPM; Penn State Extension"
+    },
+    {
+      "crop": "tomato",
+      "pest": "early-blight",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Dark brown concentric-ring spots on lower leaves first, expanding upward. Yellow halo around each lesion. Stem cankers at the soil line. Defoliated lower stems with green upper canopy is the classic pattern.",
+      "organicManagement": [
+        "Copper-based fungicide (OMRI-listed) weekly once symptoms appear.",
+        "Remove and destroy infected leaves; do not compost.",
+        "Mulch heavily to block soil splash that spreads Alternaria spores."
+      ],
+      "prevention": "Stake or cage plants for airflow. Drip irrigation, not overhead. Three-year rotation away from all nightshades. Resistant varieties (Mountain Magic, Iron Lady).",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension; UC IPM"
+    },
+    {
+      "crop": "tomato",
+      "pest": "late-blight",
+      "type": "disease",
+      "severity": "severe",
+      "symptoms": "Water-soaked dark green to brown blotches on leaves with pale-green halos. White downy growth on leaf undersides in humid conditions. Fruit develop dark greasy-looking patches. Whole plants collapse within days in cool wet weather.",
+      "organicManagement": [
+        "Copper-based fungicide (OMRI-listed) as a preventive when forecast turns cool and wet; rarely effective once symptoms appear.",
+        "Remove and bag infected plants immediately; do not compost.",
+        "Sanitize stakes, cages, and tools."
+      ],
+      "prevention": "Plant resistant varieties (Mountain Magic, Defiant, Iron Lady). Avoid overhead watering. Provide airflow. Destroy volunteer tomato and potato plants. Buy certified disease-free seed potatoes.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension; USDA-APHIS late blight monitoring"
+    },
+    {
+      "crop": "tomato",
+      "pest": "septoria-leaf-spot",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Small circular spots (1/8 inch) with dark borders and gray-tan centers on lower leaves, with tiny black fruiting bodies visible in the center under a hand lens. Leaves yellow and drop from the bottom up.",
+      "organicManagement": [
+        "Copper or Bacillus subtilis (Serenade) sprays at first symptom.",
+        "Remove and destroy infected leaves at the first spot.",
+        "Mulch to block spore-laden soil splash."
+      ],
+      "prevention": "Three-year rotation. Stake for airflow. Drip irrigation. Sanitize stakes and tools between seasons.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension; UC IPM"
+    },
+    {
+      "crop": "tomato",
+      "pest": "blossom-end-rot",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Dark brown to black sunken leathery patch on the blossom end of fruit. Not a pathogen, a calcium uptake disorder. First-set fruit are the most susceptible; later fruit often clean up on the same plant.",
+      "organicManagement": [
+        "Remove affected fruit, the plant cannot recover individual fruit but later set is usually clean.",
+        "Mulch heavily and water deeply 1-2 times per week to keep soil moisture even."
+      ],
+      "prevention": "Avoid drought stress at fruit-set; calcium uptake fails under fluctuating soil moisture, not under low soil calcium in most beds. Mulch. Avoid high-nitrogen fertilizer at fruit-set.",
+      "regions": ["all"],
+      "source": "UC IPM; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "pest": "fusarium-wilt",
+      "type": "disease",
+      "severity": "severe",
+      "symptoms": "One-sided yellowing then wilting, often starting on one branch and progressing up. Brown vascular discoloration when stem is cut. Plant typically dies within 2-3 weeks once wilt is visible.",
+      "organicManagement": [
+        "No organic cure; remove and destroy infected plants.",
+        "Solarize the bed with clear plastic for 6-8 weeks of midsummer sun."
+      ],
+      "prevention": "Plant resistant varieties (look for F, FF, or FFF designation). Five-year rotation away from all nightshades. Avoid working beds when soil is wet.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension; UC IPM"
+    },
+    {
+      "crop": "tomato",
+      "pest": "verticillium-wilt",
+      "type": "disease",
+      "severity": "severe",
+      "symptoms": "V-shaped yellow patches on lower leaves spreading upward. Brown vascular discoloration in stems and roots. Wilting in midday heat with partial recovery overnight. Plants survive but produce reduced fruit.",
+      "organicManagement": [
+        "No organic cure; remove infected plants.",
+        "Solarize the bed for 6-8 weeks in midsummer."
+      ],
+      "prevention": "Plant resistant varieties (V designation). Long rotation away from nightshades, strawberries, and stone fruit. Verticillium has a wide host range, so a 5-year break is conservative.",
+      "regions": ["all"],
+      "source": "WSU Extension; UC IPM"
+    },
+    {
+      "crop": "tomato",
+      "pest": "aphid-green-peach",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Soft-bodied green insects clustered on new growth and leaf undersides. Sticky honeydew on leaves below. Curled, distorted new leaves. Sooty mold on honeydew deposits.",
+      "organicManagement": [
+        "Strong water spray dislodges most aphids; repeat every 2-3 days.",
+        "Insecticidal soap or neem oil on heavy infestations.",
+        "Release lady beetles, lacewings, or syrphid fly larvae."
+      ],
+      "prevention": "Avoid high-nitrogen fertilization that pushes soft new growth. Encourage beneficials by planting umbellifer flowers (dill, fennel, cilantro left to flower) at the bed edge.",
+      "regions": ["all"],
+      "source": "UC IPM; Xerces Society"
+    },
+    {
+      "crop": "tomato",
+      "pest": "whitefly",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Tiny white moth-like insects flutter up when foliage is disturbed. Yellow stippling on leaf upper surface. Sticky honeydew and sooty mold below. Pupae are flat oval scales on leaf undersides.",
+      "organicManagement": [
+        "Yellow sticky traps placed at canopy height.",
+        "Insecticidal soap or neem oil, focused on leaf undersides, every 5-7 days.",
+        "Release Encarsia formosa (parasitoid wasp) in greenhouse settings."
+      ],
+      "prevention": "Inspect transplants before bringing into the garden. Reflective silver mulch deters adults from landing.",
+      "regions": ["all"],
+      "source": "UF/IFAS Extension; UC IPM"
+    },
+    {
+      "crop": "pepper-sweet",
+      "pest": "pepper-maggot",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Small white maggots inside fruit. External dimples or oviposition scars on fruit skin. Premature color change and rot. Adults are small flies with patterned wings.",
+      "organicManagement": [
+        "Remove and destroy infested fruit; do not compost.",
+        "Yellow sticky traps to monitor adult emergence.",
+        "Spinosad applied at first adult-flight detection."
+      ],
+      "prevention": "Three-year rotation. Cull cherry-pepper hosts at field edges. Heavy mulch traps emerging adults.",
+      "regions": ["northeast-us", "midwest-us"],
+      "source": "Cornell Cooperative Extension; Penn State Extension"
+    },
+    {
+      "crop": "pepper-sweet",
+      "pest": "aphid-green-peach",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Curled new growth, sticky honeydew, sooty mold. Peppers tolerate moderate aphid pressure but heavy infestations vector potato virus Y and tobacco etch virus.",
+      "organicManagement": [
+        "Water spray, insecticidal soap, neem oil.",
+        "Release lady beetles or lacewings."
+      ],
+      "prevention": "Reflective mulch deters winged aphids. Companion umbellifers attract aphid predators.",
+      "regions": ["all"],
+      "source": "UC IPM; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "pepper-sweet",
+      "pest": "bacterial-spot",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Small dark water-soaked spots on leaves and fruit, expanding to brown angular lesions with yellow halos. Fruit lesions become scabby. Defoliation in severe cases.",
+      "organicManagement": [
+        "Copper sprays every 7-10 days during humid weather; rotate with Bacillus subtilis to slow resistance.",
+        "Remove infected leaves; sanitize tools."
+      ],
+      "prevention": "Buy certified disease-free transplants. Hot-water seed treatment (122F for 25 minutes) before planting. Three-year rotation. Drip irrigation, not overhead. Resistant varieties.",
+      "regions": ["all"],
+      "source": "UF/IFAS Extension; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "potato",
+      "pest": "colorado-potato-beetle",
+      "type": "pest",
+      "severity": "severe",
+      "symptoms": "Yellow-and-black-striped adult beetles (1/3 inch). Bright orange larvae (humpbacked, soft-bodied) feeding in clusters on leaves. Orange egg clusters on leaf undersides. Defoliation can be total within a week of egg hatch.",
+      "organicManagement": [
+        "Handpick adults, larvae, and crush egg clusters daily once spotted.",
+        "Spinosad or Bt var. tenebrionis (Bt-t) on small larvae.",
+        "Mulch heavily with straw; the rough surface impedes adult movement.",
+        "Encourage tachinid flies (which parasitize adults) by planting umbellifer flowers nearby."
+      ],
+      "prevention": "Rotate potatoes at least 1/4 mile from prior year's field (small gardens cannot rotate this far, so cultural controls and resistant cultivars matter more). Trap crops of eggplant lure adults early in the season for handpicking.",
+      "regions": ["all"],
+      "source": "UC IPM; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "potato",
+      "pest": "potato-late-blight",
+      "type": "disease",
+      "severity": "severe",
+      "symptoms": "Same Phytophthora infestans as tomato late blight. Water-soaked irregular spots on leaves, white fuzzy sporulation on undersides in humid weather. Tubers develop firm brown patches that rot in storage.",
+      "organicManagement": [
+        "Copper as preventive before symptoms.",
+        "Kill foliage 2 weeks before harvest if blight is in the field; tubers survive if cut off from foliar inoculum."
+      ],
+      "prevention": "Plant certified disease-free seed potatoes. Resistant varieties (Sarpo Mira, Defender). Destroy cull piles and volunteer plants. Wide spacing for airflow. Hill plants well so spores cannot reach tubers.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension; USDA-APHIS"
+    },
+    {
+      "crop": "potato",
+      "pest": "wireworm",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Yellow-brown wiry hard-bodied larvae (1/2 to 1.5 inches) tunneling into tubers. Adults are click beetles. Damage shows as narrow tunnels into stored or harvested tubers.",
+      "organicManagement": [
+        "Trap with chunks of carrot or potato buried 2-4 inches deep; check every 2-3 days and destroy gathered larvae."
+      ],
+      "prevention": "Avoid planting potatoes immediately after sod or pasture; wireworms are worst in beds that were grass in the prior 2-3 years. Beneficial nematodes (Steinernema carpocapsae) reduce populations.",
+      "regions": ["all"],
+      "source": "WSU Extension; UC IPM"
+    },
+    {
+      "crop": "potato",
+      "pest": "scab",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Rough corky raised or sunken patches on tuber skin. Tubers are still edible (peel deeper) but unmarketable. Caused by Streptomyces scabies in alkaline soil.",
+      "organicManagement": [
+        "Sulfur applied at planting acidifies soil locally."
+      ],
+      "prevention": "Keep soil pH below 5.5 for potato beds. Avoid manure (raises pH and feeds Streptomyces). Resistant varieties (Russet Burbank is susceptible; King Harry and Norland are resistant). Even soil moisture during tuber initiation.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension; UC IPM"
+    },
+    {
+      "crop": "eggplant",
+      "pest": "flea-beetle",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Tiny (1/16 inch) black or bronze beetles that jump like fleas. Numerous small round holes ('shotgun') in leaves. Seedlings can be killed outright; established plants tolerate moderate damage.",
+      "organicManagement": [
+        "Floating row cover from transplant until plants are 1 foot tall.",
+        "Kaolin clay (Surround) coats leaves and deters feeding.",
+        "Spinosad or pyrethrin on heavy populations."
+      ],
+      "prevention": "Trap crops of mustard or arugula draw flea beetles away. Two-year rotation. Delay planting until weather warms; cold transplants are the most vulnerable.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension; UC IPM"
+    },
+    {
+      "crop": "cucumber",
+      "pest": "cucumber-beetle-striped",
+      "type": "pest",
+      "severity": "severe",
+      "symptoms": "Yellow beetle with three black stripes (1/4 inch). Feeds on cotyledons, flowers, and fruit. Vector of bacterial wilt (Erwinia tracheiphila) which kills the plant. Striped cucumber beetles transmit cucumber mosaic virus too.",
+      "organicManagement": [
+        "Floating row cover from emergence until flowering (remove for pollination).",
+        "Kaolin clay coats foliage and deters feeding.",
+        "Yellow sticky traps to monitor.",
+        "Pyrethrin or spinosad on heavy populations."
+      ],
+      "prevention": "Two-year rotation. Trap crops of Hubbard or buttercup squash draw beetles away from main planting. Bacterial-wilt-resistant varieties (County Fair, Saladin). Mulch to deter overwintering adults emerging from soil.",
+      "regions": ["all"],
+      "source": "UC IPM; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "cucumber",
+      "pest": "cucumber-beetle-spotted",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Yellow beetle with 12 black spots (1/4 inch). Same damage as striped cucumber beetle plus more frequent attacks on flowers and fruit. Larvae feed on roots.",
+      "organicManagement": [
+        "Same as striped cucumber beetle."
+      ],
+      "prevention": "Same as striped cucumber beetle.",
+      "regions": ["all"],
+      "source": "UC IPM; UF/IFAS Extension"
+    },
+    {
+      "crop": "cucumber",
+      "pest": "bacterial-wilt",
+      "type": "disease",
+      "severity": "severe",
+      "symptoms": "Sudden wilting of one vine, then whole plant, with leaves still green initially. White milky strands form between cut stem ends when squeezed. Plant dies within 1-2 weeks. Vectored by cucumber beetles, no cure once infection is established.",
+      "organicManagement": [
+        "Remove and destroy wilting plants immediately to remove beetle bait."
+      ],
+      "prevention": "Control cucumber beetles aggressively from emergence. Plant resistant varieties (County Fair). Row cover until flowering.",
+      "regions": ["northeast-us", "midwest-us", "northern-us"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "cucumber",
+      "pest": "powdery-mildew",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "White powdery patches on leaf upper surfaces, spreading to cover whole leaves. Leaves yellow and dry. Premature harvest cutoff is the typical impact; severe defoliation kills the plant.",
+      "organicManagement": [
+        "Potassium bicarbonate or Bacillus subtilis spray at first signs.",
+        "Whole milk diluted 1:9 in water, sprayed weekly on small infections.",
+        "Remove infected leaves."
+      ],
+      "prevention": "Resistant varieties (Marketmore 76, Diva). Trellis for airflow. Avoid evening overhead watering. Wide spacing.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension; UC IPM"
+    },
+    {
+      "crop": "cucumber",
+      "pest": "downy-mildew",
+      "type": "disease",
+      "severity": "severe",
+      "symptoms": "Yellow angular spots on leaf upper surfaces, bounded by leaf veins. Purple-gray fuzz on undersides in humid weather. Leaves brown and shrivel; vines lose photosynthetic area and stop producing.",
+      "organicManagement": [
+        "Copper-based fungicide as preventive when forecast issues a regional alert.",
+        "Remove infected leaves; do not compost."
+      ],
+      "prevention": "Plant resistant varieties (DMR-NY 401, Bristol). Trellis for airflow. Time plantings to mature before mid-August in regions where the disease arrives on wind currents.",
+      "regions": ["northeast-us", "southeast-us", "midwest-us"],
+      "source": "Cornell Cooperative Extension; UF/IFAS Extension"
+    },
+    {
+      "crop": "zucchini",
+      "pest": "squash-vine-borer",
+      "type": "pest",
+      "severity": "severe",
+      "symptoms": "Sudden wilting of one or all vines. Sawdust-like frass (excrement) at the base of the stem. Splitting the stem reveals a fat white grub (1 inch) tunneling inside. Adult is a clear-winged moth that looks like a wasp.",
+      "organicManagement": [
+        "Slit infested stems lengthwise, remove the borer, bury the stem to encourage adventitious roots.",
+        "Inject Bt into the stem at the entry hole with a syringe.",
+        "Wrap stems in foil from soil line to first leaf, blocking egg-laying."
+      ],
+      "prevention": "Second planting 4-6 weeks after the first carries through after the first is lost. Buttercup, butternut, and tromboncino squash resist borers (Cucurbita moschata species). Pheromone traps to monitor adult flights. Floating row cover from emergence until flowering.",
+      "regions": ["northeast-us", "midwest-us", "southeast-us", "central-us"],
+      "source": "Penn State Extension; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "zucchini",
+      "pest": "squash-bug",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Brown-gray shield-shaped bugs (5/8 inch) clustered at the base of stems and on leaf undersides. Bronze-colored eggs in tight clusters between leaf veins. Wilting and yellowing leaves due to sap loss, then plant death.",
+      "organicManagement": [
+        "Handpick adults and crush egg clusters daily; bugs hide under boards laid on the soil overnight (lift and crush in the morning).",
+        "Vacuum heavy populations with a hand vacuum.",
+        "Insecticidal soap on young nymphs only (adults shrug it off)."
+      ],
+      "prevention": "Two-year rotation. Cleanup of debris and mulch in fall denies overwintering shelter. Trap crops of blue Hubbard squash.",
+      "regions": ["all"],
+      "source": "UC IPM; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "zucchini",
+      "pest": "powdery-mildew",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "White powdery patches on leaves and stems. Common late-summer cause of vine collapse on summer squash.",
+      "organicManagement": [
+        "Same as on cucumber: potassium bicarbonate, Bacillus subtilis, diluted milk spray, leaf removal."
+      ],
+      "prevention": "Resistant varieties (Dunja, Costata Romanesco). Wide spacing for airflow. Second planting timed to take over after the first declines.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "winter-squash",
+      "pest": "squash-vine-borer",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Same as on zucchini. C. pepo varieties (acorn, delicata, spaghetti) are highly susceptible; C. moschata varieties (butternut, tromboncino) are resistant.",
+      "organicManagement": [
+        "Same as on zucchini."
+      ],
+      "prevention": "Plant C. moschata varieties (butternut, tromboncino) instead of C. pepo where vine borer is endemic.",
+      "regions": ["northeast-us", "midwest-us", "southeast-us"],
+      "source": "Penn State Extension"
+    },
+    {
+      "crop": "watermelon",
+      "pest": "anthracnose",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Brown sunken lesions on fruit with pinkish ooze in humid weather. Small dark spots on leaves expanding into brown patches. Vines girdle and collapse.",
+      "organicManagement": [
+        "Copper-based fungicide every 7-10 days during fruit development.",
+        "Remove infected fruit and crop debris."
+      ],
+      "prevention": "Three-year rotation. Resistant varieties (Crimson Sweet, Charleston Gray). Drip irrigation. Mulch.",
+      "regions": ["southeast-us", "southern-us", "midwest-us"],
+      "source": "UF/IFAS Extension"
+    },
+    {
+      "crop": "cabbage",
+      "pest": "cabbage-worm",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Velvety green caterpillars (1.25 inches at maturity) with faint yellow stripes. Large ragged holes in leaves. Dark green pellets of frass accumulate in leaf bases. Adult is the white cabbage butterfly (Pieris rapae) you see fluttering through the garden in spring.",
+      "organicManagement": [
+        "Bt var. kurstaki on small larvae; reapply after rain.",
+        "Spinosad on larger larvae.",
+        "Handpick daily on small plantings.",
+        "Floating row cover prevents adult egg-laying."
+      ],
+      "prevention": "Companion plant with dill, fennel, calendula to attract Trichogramma and braconid parasitoids. Two-year rotation away from brassicas. Yellow sticky traps to monitor adult flights.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension; UC IPM"
+    },
+    {
+      "crop": "cabbage",
+      "pest": "cabbage-looper",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Green caterpillar with two narrow white stripes along each side and a looping inchworm gait. Larger and faster-feeding than cabbage worm. Adult is a brown moth with a silver figure-8 marking on each wing.",
+      "organicManagement": [
+        "Same as cabbage worm: Bt-k, spinosad, row cover, handpicking."
+      ],
+      "prevention": "Same as cabbage worm.",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "cabbage",
+      "pest": "diamondback-moth",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Small (1/3 inch) light green caterpillars that drop on silk threads when disturbed. Window-pane feeding (only one leaf surface eaten at first) progressing to large holes. Adult moth has a diamond pattern on folded wings.",
+      "organicManagement": [
+        "Bt-k early; diamondback moth has documented Bt resistance in some regions, so monitor efficacy.",
+        "Spinosad as rotation partner with Bt to slow resistance."
+      ],
+      "prevention": "Row cover. Resistant varieties (Acephate-tolerant in commercial settings, glossy-leaf varieties in the garden). Avoid back-to-back brassica plantings.",
+      "regions": ["all"],
+      "source": "UF/IFAS Extension; Texas A&M AgriLife Extension"
+    },
+    {
+      "crop": "cabbage",
+      "pest": "cabbage-root-maggot",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Stunted yellowing plants. Wilting in midday heat. Pulled plants show white maggots (1/3 inch) and tunnels in the root system. Most severe on transplants and direct-seeded brassicas in cool wet springs.",
+      "organicManagement": [
+        "Beneficial nematodes (Steinernema feltiae) drenched at the root zone.",
+        "No effective rescue once damage is visible."
+      ],
+      "prevention": "Floating row cover from transplanting through harvest, anchored at the soil line. Cardboard or felt collars (4 inches diameter) around each transplant block egg-laying. Two-year rotation.",
+      "regions": ["northern-us", "northeast-us", "midwest-us", "pnw"],
+      "source": "Cornell Cooperative Extension; WSU Extension"
+    },
+    {
+      "crop": "cabbage",
+      "pest": "clubroot",
+      "type": "disease",
+      "severity": "severe",
+      "symptoms": "Stunted, wilting plants. Pulled plants show grossly swollen, distorted, clubbed roots. Soil-borne pathogen (Plasmodiophora brassicae) that persists 7-20 years once established.",
+      "organicManagement": [
+        "No organic cure; remove and destroy infected plants and as much surrounding soil as practical."
+      ],
+      "prevention": "Raise soil pH above 7.2 (alkaline conditions suppress P. brassicae). Liming the bed 3 months before planting. Avoid moving soil from infected beds. Resistant varieties (Kilaton, Tekila). Long rotations (7+ years) away from all brassicas including mustards and arugula.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension; Penn State Extension"
+    },
+    {
+      "crop": "cabbage",
+      "pest": "black-rot",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "V-shaped yellow lesions at leaf margins, with veins blackening from the leaf margin inward. Heads turn brown internally. Caused by Xanthomonas campestris, a seed-borne bacterium.",
+      "organicManagement": [
+        "Copper sprays slow spread but cannot cure.",
+        "Remove infected plants and surrounding leaves; sanitize tools."
+      ],
+      "prevention": "Hot-water seed treatment (122F for 25 minutes). Two-year rotation. Drip irrigation. Resistant varieties (Cheers, Bravo).",
+      "regions": ["all"],
+      "source": "Penn State Extension; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "broccoli",
+      "pest": "cabbage-aphid",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Gray-green waxy aphids in dense colonies inside developing heads and on leaf undersides. Distorted curled leaves. Aphids inside broccoli heads make them unmarketable.",
+      "organicManagement": [
+        "Strong water spray on heads breaks colonies up.",
+        "Insecticidal soap or neem oil; avoid spraying open flowers.",
+        "Encourage hoverflies and lady beetles with sweet alyssum companion."
+      ],
+      "prevention": "Reflective mulch deters winged aphids. Wide spacing for airflow.",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "broccoli",
+      "pest": "downy-mildew",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Pale yellow angular spots on upper leaves, white-gray fuzzy growth on undersides. Black streaks inside head stems on severe infections.",
+      "organicManagement": [
+        "Copper-based fungicide as preventive in cool wet weather.",
+        "Remove infected leaves."
+      ],
+      "prevention": "Wide spacing. Drip irrigation. Resistant varieties.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "kale",
+      "pest": "harlequin-bug",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Black bug with bright red or orange markings (3/8 inch) on leaves. White or yellow blotches where bugs have fed. Severe infestations kill young plants outright.",
+      "organicManagement": [
+        "Handpick adults and crush eggs (black-and-white striped barrels on leaf undersides).",
+        "Pyrethrin or spinosad on nymphs.",
+        "Trap crops of mustard, cleome, or turnip draw adults away from main planting."
+      ],
+      "prevention": "Cleanup of brassica debris in fall. Two-year rotation. Row cover.",
+      "regions": ["southern-us", "southeast-us", "southwest-us"],
+      "source": "UF/IFAS Extension; Texas A&M AgriLife Extension"
+    },
+    {
+      "crop": "radish",
+      "pest": "flea-beetle",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Same shotgun-hole damage as on eggplant; especially severe on small seedlings.",
+      "organicManagement": [
+        "Row cover from sowing until harvest (radishes mature fast, so row cover is practical).",
+        "Trap crops of mustard or arugula."
+      ],
+      "prevention": "Time fall sowings when adult flea beetle activity has declined.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "carrot",
+      "pest": "carrot-rust-fly",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Yellowing, stunted tops. Pulled carrots show rust-colored tunnels and white maggots near the root crown. Damage worsens in stored carrots.",
+      "organicManagement": [
+        "Beneficial nematodes (Steinernema feltiae) drenched at the root zone."
+      ],
+      "prevention": "Floating row cover from sowing through harvest, anchored at soil line. Two-year rotation away from carrots, celery, parsnip. Late-summer sowings often escape the spring fly generation.",
+      "regions": ["pnw", "northern-us", "northeast-us"],
+      "source": "OSU Extension; WSU Extension"
+    },
+    {
+      "crop": "carrot",
+      "pest": "parsleyworm",
+      "type": "pest",
+      "severity": "low",
+      "symptoms": "Green caterpillar with black bands and yellow spots (2 inches at maturity). Defoliates foliage but rarely causes economic damage on home-garden carrots. This is the larva of the black swallowtail butterfly.",
+      "organicManagement": [
+        "Tolerate the damage and enjoy the butterfly; relocate caterpillars to dill or parsley planted as host strips."
+      ],
+      "prevention": "Plant extra dill, fennel, or parsley specifically for swallowtail host duty.",
+      "regions": ["all"],
+      "source": "Xerces Society; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "carrot",
+      "pest": "alternaria-leaf-blight",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Dark brown spots with yellow halos on leaflets, expanding to brown irregular patches. Severe defoliation reduces root size.",
+      "organicManagement": [
+        "Copper-based fungicide on the first symptoms.",
+        "Remove infected leaves; do not compost."
+      ],
+      "prevention": "Three-year rotation. Resistant varieties. Drip irrigation. Wide spacing.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "beet",
+      "pest": "leaf-miner",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Whitish meandering tunnels (mines) between leaf surfaces. Severe infestations turn leaves brown and papery, reducing photosynthesis and root size.",
+      "organicManagement": [
+        "Remove and destroy mined leaves; the larva is inside the leaf, picking removes the next pupation cycle.",
+        "Spinosad on heavy infestations."
+      ],
+      "prevention": "Floating row cover. Companion umbellifer flowers attract parasitoid wasps.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension; UF/IFAS Extension"
+    },
+    {
+      "crop": "beet",
+      "pest": "cercospora-leaf-spot",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Small circular spots (1/8 inch) with tan centers and dark purple borders on leaves. Severe infections defoliate the canopy and reduce root yield.",
+      "organicManagement": [
+        "Copper at first symptoms.",
+        "Remove infected leaves."
+      ],
+      "prevention": "Two-year rotation. Resistant varieties. Drip irrigation.",
+      "regions": ["all"],
+      "source": "WSU Extension; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "swiss-chard",
+      "pest": "leaf-miner",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Same mines as on beet; chard and beet share Pegomya hyoscyami.",
+      "organicManagement": [
+        "Same as beet."
+      ],
+      "prevention": "Same as beet.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "spinach",
+      "pest": "leaf-miner",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Same Pegomya hyoscyami damage as on beet and chard.",
+      "organicManagement": [
+        "Remove and destroy mined leaves at the first sight."
+      ],
+      "prevention": "Floating row cover from sowing.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "spinach",
+      "pest": "downy-mildew",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Pale yellow blotches on leaf upper surface, purple-gray fuzz on undersides. Spinach downy mildew is host-specific (Peronospora effusa) and races emerge regularly.",
+      "organicManagement": [
+        "Copper as preventive in cool wet weather.",
+        "Remove infected leaves."
+      ],
+      "prevention": "Resistant varieties (look for the highest 'DM' number available, e.g. Reflect with DM 1-17). Wide spacing. Drip irrigation.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension; UC IPM"
+    },
+    {
+      "crop": "lettuce-leaf",
+      "pest": "aphid-lettuce",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Pinkish-green aphids inside head and on undersides. Sticky honeydew on outer leaves. Distorted curled new growth.",
+      "organicManagement": [
+        "Strong water spray.",
+        "Insecticidal soap or neem (rinse before eating)."
+      ],
+      "prevention": "Companion sweet alyssum attracts syrphid flies. Reflective mulch deters winged aphids.",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "lettuce-leaf",
+      "pest": "lettuce-drop",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Sudden wilting of mature plants. Water-soaked rotted crown at the soil line. White cottony mycelium with black sclerotia (BB-sized) on infected tissue. Caused by Sclerotinia.",
+      "organicManagement": [
+        "Remove and destroy infected plants completely; do not compost.",
+        "Bacillus subtilis or Trichoderma soil drench as preventive in next planting."
+      ],
+      "prevention": "Three-year rotation away from lettuce, beans, and cabbage (shared host range). Wide spacing for airflow. Drip irrigation. Solarize beds with persistent infections.",
+      "regions": ["all"],
+      "source": "UC IPM; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "lettuce-leaf",
+      "pest": "lettuce-downy-mildew",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Light green to yellow angular patches on upper leaf surfaces, with white downy growth on the underside (Bremia lactucae). Lower outer leaves first.",
+      "organicManagement": [
+        "Copper-based fungicide as preventive.",
+        "Remove infected leaves."
+      ],
+      "prevention": "Resistant varieties (Bremia-race numbered DM 1-37 etc.). Drip irrigation. Wide spacing.",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "onion",
+      "pest": "onion-maggot",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Yellow wilting tops. Pulled bulbs show tunnels and white maggots (1/3 inch) inside. Damage typically appears in early summer on direct-seeded onions.",
+      "organicManagement": [
+        "Beneficial nematodes drenched at planting.",
+        "Remove infested plants immediately to remove next-generation hosts."
+      ],
+      "prevention": "Two-year rotation. Row cover from emergence. Cull piles destroyed promptly.",
+      "regions": ["northern-us", "northeast-us", "pnw"],
+      "source": "Cornell Cooperative Extension; WSU Extension"
+    },
+    {
+      "crop": "onion",
+      "pest": "thrips-onion",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Silver streaks and small whitish patches on leaves, with tiny dark thrips visible in leaf folds under a hand lens. Severe infestations stunt bulb growth.",
+      "organicManagement": [
+        "Strong water spray, repeated.",
+        "Insecticidal soap or spinosad.",
+        "Blue sticky traps to monitor."
+      ],
+      "prevention": "Companion plant with sweet alyssum and yarrow to attract minute pirate bugs (Orius). Irrigate regularly; thrips are worst in dry conditions.",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "onion",
+      "pest": "white-rot",
+      "type": "disease",
+      "severity": "severe",
+      "symptoms": "Yellowing wilting tops. White cottony growth at the base of the bulb, with small black sclerotia (poppy-seed-sized) embedded. Caused by Sclerotium cepivorum, which persists 20+ years in soil.",
+      "organicManagement": [
+        "No organic cure; remove and destroy infected plants and surrounding soil.",
+        "Garlic powder soil treatments stimulate dormant sclerotia to germinate without a host (used in commercial settings, not yet a backyard tool)."
+      ],
+      "prevention": "Avoid introducing soil from known-infected beds. Do not plant alliums in beds with a history of white rot. Long rotations (10+ years).",
+      "regions": ["all"],
+      "source": "UC IPM; WSU Extension"
+    },
+    {
+      "crop": "garlic",
+      "pest": "white-rot",
+      "type": "disease",
+      "severity": "severe",
+      "symptoms": "Same as onion white rot.",
+      "organicManagement": [
+        "Same as onion white rot."
+      ],
+      "prevention": "Same as onion white rot.",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "garlic",
+      "pest": "stem-and-bulb-nematode",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Stunted yellowed plants. Bulbs are soft, swollen, or cracked, with brown tissue inside. Spreads via planting stock.",
+      "organicManagement": [
+        "No organic cure; remove and destroy infested plants and bulbs."
+      ],
+      "prevention": "Buy certified disease-free seed garlic. Three-year rotation away from alliums. Do not save infested bulbs as seed.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "bush-bean",
+      "pest": "mexican-bean-beetle",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Yellow ladybug-like beetles (1/4 inch) with 8 black spots per wing cover. Yellow spiny larvae. Skeletonized leaves (eaten between veins).",
+      "organicManagement": [
+        "Handpick adults, larvae, and crush yellow egg clusters daily.",
+        "Spinosad or pyrethrin on heavy populations.",
+        "Release Pediobius wasps (commercial parasitoid)."
+      ],
+      "prevention": "Cleanup of bean debris in fall. Two-year rotation. Trap crops of soybean draw beetles away.",
+      "regions": ["eastern-us", "midwest-us", "southern-us"],
+      "source": "Cornell Cooperative Extension; UC IPM"
+    },
+    {
+      "crop": "bush-bean",
+      "pest": "bean-leaf-beetle",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Yellow-to-red beetle (1/4 inch) with 4 black spots and a black triangle behind the head. Round holes in leaves. Pod scarring on green beans.",
+      "organicManagement": [
+        "Handpick or vacuum.",
+        "Pyrethrin on heavy infestations."
+      ],
+      "prevention": "Late planting allows beans to outgrow the first beetle generation. Floating row cover until flowering.",
+      "regions": ["midwest-us", "southern-us"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "bush-bean",
+      "pest": "bean-rust",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Small rusty-orange pustules on leaf undersides, expanding to brown spots and defoliation. Common on late-summer bush beans.",
+      "organicManagement": [
+        "Sulfur or copper-based fungicide.",
+        "Remove infected leaves."
+      ],
+      "prevention": "Resistant varieties. Two-year rotation. Drip irrigation, not overhead.",
+      "regions": ["all"],
+      "source": "Penn State Extension"
+    },
+    {
+      "crop": "pole-bean",
+      "pest": "mexican-bean-beetle",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Same as on bush bean.",
+      "organicManagement": [
+        "Same as on bush bean."
+      ],
+      "prevention": "Same as on bush bean.",
+      "regions": ["eastern-us", "midwest-us", "southern-us"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "snap-pea",
+      "pest": "pea-aphid",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Large green aphids (1/8 inch) on growing tips and pods. Honeydew and sooty mold. Heavy infestations stunt plants.",
+      "organicManagement": [
+        "Water spray. Insecticidal soap.",
+        "Lady beetles, lacewings, parasitic wasps."
+      ],
+      "prevention": "Avoid high-nitrogen feeding (peas fix their own anyway).",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "snap-pea",
+      "pest": "powdery-mildew",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "White powdery patches on leaves, stems, and pods in late spring as days warm. Hastens end of harvest season.",
+      "organicManagement": [
+        "Potassium bicarbonate or Bacillus subtilis at first signs."
+      ],
+      "prevention": "Resistant varieties (Sugar Sprint, Cascadia). Plant early to escape the worst of the late-spring window.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "sweet-corn",
+      "pest": "corn-earworm",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Same Helicoverpa zea as tomato fruitworm. Striped caterpillars (1.5 inches) feeding inside ear tips at silking. Frass and webbing in damaged kernels.",
+      "organicManagement": [
+        "Apply 5 drops of mineral oil mixed with Bt to silk tips when 50 percent of silks have wilted; effective and the canonical small-scale organic control.",
+        "Spinosad on early-stage silks.",
+        "Tight-husked varieties (Country Gentleman, Silver Queen) resist entry."
+      ],
+      "prevention": "Pheromone traps to time the mineral-oil application. Plant earliest-maturing varieties that finish before peak earworm flights.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension; UC IPM"
+    },
+    {
+      "crop": "sweet-corn",
+      "pest": "european-corn-borer",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Small holes in whorl leaves with sawdust-like frass; later, holes in stalks and ears. Pale brown larvae (3/4 inch) tunneling inside.",
+      "organicManagement": [
+        "Bt or spinosad sprayed into the whorl at first feeding signs.",
+        "Trichogramma wasp releases when moths are first trapped."
+      ],
+      "prevention": "Pheromone traps to monitor adult flights. Cleanup and destruction of corn stalks after harvest denies overwintering shelter. Resistant Bt-corn varieties exist in commercial seed but not in open-pollinated heirloom lines.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "sweet-corn",
+      "pest": "corn-smut",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Swollen galls (1-5 inches) on ears, tassels, or stalks. Galls start whitish, blacken with spores at maturity. Sometimes harvested as huitlacoche, an edible delicacy.",
+      "organicManagement": [
+        "Remove galls before they blacken; bag and discard (do not compost)."
+      ],
+      "prevention": "Three-year rotation. Avoid mechanical injury to plants (smut enters through wounds). Resistant varieties.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "sweet-corn",
+      "pest": "raccoon",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Stalks torn down overnight, ears partially eaten, husks shredded. The single largest loss factor for backyard sweet corn in suburban gardens.",
+      "organicManagement": [
+        "Electric fence (2 strands, 4 and 8 inches off the ground) the single most reliable deterrent.",
+        "Bag individual ears in pantyhose or paper bags."
+      ],
+      "prevention": "Plant pole beans interplanted (raccoons dislike pushing through bean vines). Time harvest tightly; once silks brown, raccoons typically beat the gardener by one night.",
+      "regions": ["all"],
+      "source": "UC IPM; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "strawberry",
+      "pest": "slug",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Holes chewed in ripe berries, slime trails on fruit and foliage at dawn.",
+      "organicManagement": [
+        "Iron phosphate baits (Sluggo); pet- and wildlife-safe.",
+        "Beer traps sunk into soil.",
+        "Handpick at dawn or after rain."
+      ],
+      "prevention": "Straw mulch (drier than wood mulch). Wide spacing. Drip irrigation. Remove debris where slugs hide.",
+      "regions": ["all"],
+      "source": "OSU Extension"
+    },
+    {
+      "crop": "strawberry",
+      "pest": "spotted-wing-drosophila",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Soft mushy berries collapsing days after picking. Tiny white maggots inside ripe fruit. Adult is a fruit fly (the male has a single dark spot on each wing tip) that lays eggs in ripening (not just rotting) fruit.",
+      "organicManagement": [
+        "Pick clean and pick often (every 1-2 days) during ripening.",
+        "Apple cider vinegar traps under canopy to monitor populations.",
+        "Spinosad in late ripening; observe pre-harvest interval."
+      ],
+      "prevention": "Tight harvest discipline is the only durable answer in regions where SWD is established. Exclusion netting on small plantings.",
+      "regions": ["all"],
+      "source": "WSU Extension; OSU Extension"
+    },
+    {
+      "crop": "strawberry",
+      "pest": "gray-mold-botrytis",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Soft brown rot on ripe berries, often starting where berries touch wet straw or soil. Gray fuzzy mold develops on rotted tissue within 24 hours of warm humid weather.",
+      "organicManagement": [
+        "Remove infected berries promptly.",
+        "Bacillus subtilis spray during bloom and ripening."
+      ],
+      "prevention": "Straw mulch to keep berries off soil. Wide spacing. Drip irrigation. Harvest in dry conditions.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "blueberry",
+      "pest": "spotted-wing-drosophila",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Same as on strawberry. Blueberries are a major SWD host in commercial production.",
+      "organicManagement": [
+        "Same as on strawberry."
+      ],
+      "prevention": "Same as on strawberry.",
+      "regions": ["all"],
+      "source": "OSU Extension"
+    },
+    {
+      "crop": "raspberry",
+      "pest": "spotted-wing-drosophila",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Same as on strawberry. Raspberry is SWD's preferred host in many regions.",
+      "organicManagement": [
+        "Same as on strawberry plus tight pruning for airflow."
+      ],
+      "prevention": "Same as on strawberry.",
+      "regions": ["all"],
+      "source": "OSU Extension; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "raspberry",
+      "pest": "japanese-beetle",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Iridescent green-and-copper beetles (1/2 inch) feeding in groups, skeletonizing leaves. Damage worst in midsummer.",
+      "organicManagement": [
+        "Handpick into soapy water at dawn when beetles are sluggish.",
+        "Milky spore (Paenibacillus popilliae) granular treatment for grubs in lawns; long-term reduction strategy.",
+        "Pyrethrin or neem on heavy infestations (treat at dusk to spare bees)."
+      ],
+      "prevention": "Avoid pheromone traps; they draw more beetles in than they catch. Tilling lawns in fall exposes grubs to predators.",
+      "regions": ["eastern-us", "midwest-us"],
+      "source": "Cornell Cooperative Extension; Penn State Extension"
+    },
+    {
+      "crop": "apple-standard",
+      "pest": "codling-moth",
+      "type": "pest",
+      "severity": "severe",
+      "symptoms": "Larvae tunneling to the core of fruit. Brown frass extruded from entry hole. Wormy apples.",
+      "organicManagement": [
+        "Pheromone traps to monitor adult flights and time controls.",
+        "Granulovirus (CYD-X) sprays at egg hatch.",
+        "Codling moth pheromone disruption in larger plantings.",
+        "Bag individual fruits at thinning."
+      ],
+      "prevention": "Mass-trapping in small orchards. Cardboard bands around trunks trap pupating larvae for destruction. Plant later-blooming, less-susceptible varieties.",
+      "regions": ["all"],
+      "source": "WSU Extension; UC IPM"
+    },
+    {
+      "crop": "apple-standard",
+      "pest": "apple-scab",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Olive-green velvety spots on leaves and fruit, expanding to brown corky lesions. Severe infections defoliate the tree and crack fruit.",
+      "organicManagement": [
+        "Sulfur or copper sprays at green-tip, pink, and petal-fall.",
+        "Rake and remove fallen leaves in autumn to reduce overwintering inoculum."
+      ],
+      "prevention": "Plant resistant varieties (Liberty, Enterprise, Pristine). Prune for airflow. Time sprays to scab infection periods (Mills table)).",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension; Penn State Extension"
+    },
+    {
+      "crop": "apple-standard",
+      "pest": "fire-blight",
+      "type": "disease",
+      "severity": "severe",
+      "symptoms": "Blackened blossoms and new shoots that curl into a shepherd's crook. Looks like the tree has been scorched by fire. Ooze visible on cankers in warm humid weather.",
+      "organicManagement": [
+        "Streptomycin during bloom (allowed in some organic certifications, restricted in others; check local rules).",
+        "Bacillus subtilis or Aureobasidium pullulans as bloom-time biocontrol.",
+        "Prune out infected wood 12 inches below the visible canker; sanitize pruners between cuts."
+      ],
+      "prevention": "Plant resistant rootstocks (Geneva series) and varieties (Liberty, Enterprise). Avoid high-nitrogen fertilization that pushes susceptible new growth.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension; WSU Extension"
+    },
+    {
+      "crop": "apple-standard",
+      "pest": "plum-curculio",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Crescent-shaped scars on young fruit from egg-laying. Premature fruit drop. Larvae tunnel into pit/seed area.",
+      "organicManagement": [
+        "Surround (kaolin clay) coats fruit and deters egg-laying.",
+        "Tarp-and-shake at dawn: lay tarps under tree, jar branches, collect and destroy stunned adults."
+      ],
+      "prevention": "Cleanup of fallen fruit (June drop) interrupts the larva-to-adult cycle.",
+      "regions": ["eastern-us", "midwest-us"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "peach",
+      "pest": "peach-leaf-curl",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Distorted, thickened, reddish curled new leaves in spring. Severe infections defoliate the tree and reduce fruit set.",
+      "organicManagement": [
+        "Copper-based fungicide applied at leaf-fall in autumn AND at swollen-bud in spring. Both timings are necessary; a single spray rarely controls."
+      ],
+      "prevention": "Resistant varieties (Frost, Indian Free, Q-1-8).",
+      "regions": ["all"],
+      "source": "OSU Extension; UC IPM"
+    },
+    {
+      "crop": "peach",
+      "pest": "brown-rot",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Tan to brown rotted patches on ripening fruit, expanding to whole-fruit rot with powdery tan spore tufts. Mummified fruit hang on the tree through winter.",
+      "organicManagement": [
+        "Sulfur sprays during bloom and pre-harvest.",
+        "Remove and destroy mummified fruit at pruning time."
+      ],
+      "prevention": "Thin fruit so they do not touch. Prune for airflow. Harvest before over-ripeness.",
+      "regions": ["all"],
+      "source": "Penn State Extension"
+    },
+    {
+      "crop": "cherry-sweet",
+      "pest": "spotted-wing-drosophila",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Same as on strawberry. Sweet cherries are highly susceptible.",
+      "organicManagement": [
+        "Same as on strawberry."
+      ],
+      "prevention": "Same as on strawberry.",
+      "regions": ["all"],
+      "source": "OSU Extension; WSU Extension"
+    },
+    {
+      "crop": "cherry-sweet",
+      "pest": "brown-rot",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Same as on peach.",
+      "organicManagement": [
+        "Same as on peach."
+      ],
+      "prevention": "Same as on peach.",
+      "regions": ["all"],
+      "source": "WSU Extension"
+    },
+    {
+      "crop": "grape",
+      "pest": "japanese-beetle",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Adult beetles skeletonize leaves; severe defoliation reduces grape sugar accumulation.",
+      "organicManagement": [
+        "Same as on raspberry."
+      ],
+      "prevention": "Same as on raspberry.",
+      "regions": ["eastern-us", "midwest-us"],
+      "source": "Penn State Extension"
+    },
+    {
+      "crop": "grape",
+      "pest": "black-rot",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Small reddish-brown spots on leaves, expanding to tan circular lesions with dark borders. Berries turn black and shrivel to hard mummies.",
+      "organicManagement": [
+        "Sulfur or copper-based fungicide at 7-10 day intervals from bud-break through bunch closure.",
+        "Remove and destroy mummified fruit."
+      ],
+      "prevention": "Resistant varieties (Marquette, Frontenac, Concord is moderately resistant). Prune for airflow. Cleanup of mummies and prunings.",
+      "regions": ["eastern-us", "midwest-us", "southern-us"],
+      "source": "Cornell Cooperative Extension; Penn State Extension"
+    },
+    {
+      "crop": "basil",
+      "pest": "downy-mildew-basil",
+      "type": "disease",
+      "severity": "severe",
+      "symptoms": "Yellow blotches on leaf upper surface, with gray-purple fuzzy growth on undersides (Peronospora belbahrii). First appeared in the US in 2007; now widespread. Plants are often lost within 2 weeks.",
+      "organicManagement": [
+        "Copper at first symptoms.",
+        "Remove infected leaves and bag for disposal."
+      ],
+      "prevention": "Resistant varieties (Devotion, Obsession, Prospera). Wide spacing and trellising for airflow. Greenhouse production at low humidity. Avoid overhead watering.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension; UF/IFAS Extension"
+    },
+    {
+      "crop": "basil",
+      "pest": "fusarium-wilt-basil",
+      "type": "disease",
+      "severity": "severe",
+      "symptoms": "Sudden wilting of one branch then the whole plant. Brown vascular discoloration. Soil-borne Fusarium oxysporum f.sp. basilici persists 8+ years.",
+      "organicManagement": [
+        "No organic cure; remove infected plants."
+      ],
+      "prevention": "Buy certified disease-free seed. Long rotation. Resistant varieties (Nufar, Aroma 2). Solarize beds with history of basil wilt.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "cilantro",
+      "pest": "aphid-green-peach",
+      "type": "pest",
+      "severity": "low",
+      "symptoms": "Aphids cluster on flower stalks once cilantro bolts. Often tolerated since flowering cilantro is mostly used as a beneficial-insect attractant.",
+      "organicManagement": [
+        "Leave the aphids; they feed the syrphid flies and lady beetles that cilantro flowers attract."
+      ],
+      "prevention": "Succession sow for steady leaf harvest; old plants serve as deliberate beneficial-attractor strips.",
+      "regions": ["all"],
+      "source": "Xerces Society; UC IPM"
+    },
+    {
+      "crop": "dill",
+      "pest": "parsleyworm",
+      "type": "pest",
+      "severity": "low",
+      "symptoms": "Same swallowtail larva as on carrot.",
+      "organicManagement": [
+        "Tolerate; dill is a planted host strip for swallowtails."
+      ],
+      "prevention": "Plant excess dill specifically for swallowtail host duty.",
+      "regions": ["all"],
+      "source": "Xerces Society"
+    },
+    {
+      "crop": "parsley-flat",
+      "pest": "parsleyworm",
+      "type": "pest",
+      "severity": "low",
+      "symptoms": "Same swallowtail larva as on carrot and dill.",
+      "organicManagement": [
+        "Tolerate."
+      ],
+      "prevention": "Same.",
+      "regions": ["all"],
+      "source": "Xerces Society"
+    },
+    {
+      "crop": "okra",
+      "pest": "aphid-green-peach",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Heavy aphid colonies on growing tips and undersides. Honeydew and sooty mold.",
+      "organicManagement": [
+        "Water spray. Insecticidal soap. Lady beetles."
+      ],
+      "prevention": "Reflective mulch.",
+      "regions": ["southern-us", "southeast-us"],
+      "source": "UF/IFAS Extension"
+    },
+    {
+      "crop": "okra",
+      "pest": "root-knot-nematode",
+      "type": "pest",
+      "severity": "severe",
+      "symptoms": "Stunted yellowing plants. Pulled roots show knotted galls. Common in warm southern soils.",
+      "organicManagement": [
+        "Soil amendments with French marigold green-manure crop (allelopathic to root-knot nematode).",
+        "Beneficial nematodes (Steinernema) on heavy infestations."
+      ],
+      "prevention": "French marigold (Tagetes patula) cover crop before okra. Resistant varieties. Long rotation away from nightshades, cucurbits, and okra (which share nematode species).",
+      "regions": ["southern-us", "southeast-us", "southwest-us"],
+      "source": "UF/IFAS Extension; UC IPM"
+    },
+    {
+      "crop": "sweet-potato",
+      "pest": "sweet-potato-weevil",
+      "type": "pest",
+      "severity": "severe",
+      "symptoms": "Adult is an ant-like beetle with a long snout. Larvae tunnel through tubers and vines. Tunneled tubers have a bitter taste even where damage is minor; the whole tuber is unmarketable.",
+      "organicManagement": [
+        "Pheromone traps for adult monitoring.",
+        "Remove and destroy infested vines and tubers."
+      ],
+      "prevention": "Certified disease-free slips. Long rotation. Deep planting and prompt harvest before fall feeding peaks. Cleanup of all vines after harvest.",
+      "regions": ["southern-us", "southeast-us"],
+      "source": "UF/IFAS Extension"
+    },
+    {
+      "crop": "asparagus",
+      "pest": "asparagus-beetle",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Blue-black beetle with cream-colored spots (1/4 inch). Lays dark eggs in rows on spears, marring market quality. Larvae feed on ferns, reducing photosynthesis and crown vigor.",
+      "organicManagement": [
+        "Handpick adults and crush eggs at first spear emergence.",
+        "Spinosad on ferns."
+      ],
+      "prevention": "Cleanup of asparagus ferns in late fall denies overwintering shelter. Tachinid fly parasitoids attracted by umbellifer companion flowers.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "rhubarb",
+      "pest": "rhubarb-curculio",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Yellowish weevil (1/2 inch) that drills holes in stalks. Sap oozes from oviposition sites. Mostly cosmetic on petioles but reduces market quality.",
+      "organicManagement": [
+        "Handpick adults; weevils drop when disturbed, so collect them on a tarp."
+      ],
+      "prevention": "Remove nearby wild dock and curly dock plants (alternate hosts).",
+      "regions": ["northern-us", "northeast-us"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "pest": "spider-mite",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Yellow stippling on leaves, fine webbing on undersides. Tiny moving dots (red or two-spotted) under a hand lens. Worst in hot dry weather.",
+      "organicManagement": [
+        "Strong water spray (mites cannot fly; spray dislodges them).",
+        "Insecticidal soap or sulfur (avoid in hot weather).",
+        "Release predatory mites (Phytoseiulus persimilis)."
+      ],
+      "prevention": "Avoid overhead watering during heat, but irrigate consistently; drought-stressed plants are mite magnets. Reflective mulch.",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "cucumber",
+      "pest": "spider-mite",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Same as on tomato; especially severe in hot dry summers and on greenhouse-grown plants.",
+      "organicManagement": [
+        "Same as on tomato."
+      ],
+      "prevention": "Same as on tomato.",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "eggplant",
+      "pest": "spider-mite",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Eggplant is unusually susceptible. Yellow stippling progresses to bronzing then leaf drop in 2-3 weeks of untreated infestation.",
+      "organicManagement": [
+        "Same as on tomato."
+      ],
+      "prevention": "Same as on tomato.",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "cabbage",
+      "pest": "thrips-cabbage",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Bronze-colored stippling on outer wrapper leaves and inside heads. Worst in hot dry late summer.",
+      "organicManagement": [
+        "Spinosad or insecticidal soap.",
+        "Blue sticky traps to monitor."
+      ],
+      "prevention": "Irrigate consistently. Companion plant with sweet alyssum to attract minute pirate bugs.",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "tomato",
+      "pest": "anthracnose",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Sunken circular spots with concentric rings on ripening tomato fruit. Brown spore-bearing structures in lesion centers. Worst on overripe fruit and during humid weather.",
+      "organicManagement": [
+        "Pick fruit at first blush of color, not full-ripe.",
+        "Copper-based fungicide on ripening fruit during humid spells."
+      ],
+      "prevention": "Mulch to block soil splash. Drip irrigation. Three-year rotation. Stake plants.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "lettuce-leaf",
+      "pest": "tipburn",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Brown necrotic margins on inner leaves. Not a pathogen, a calcium uptake disorder under fast growth and heat.",
+      "organicManagement": [
+        "Affected leaves can be trimmed off; later growth typically clean if conditions improve."
+      ],
+      "prevention": "Even irrigation. Avoid heavy nitrogen feeding. Heat-tolerant varieties (Sierra, Nevada).",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "carrot",
+      "pest": "carrot-weevil",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Larvae tunnel through the root crown. Brown chewed channels at the top of the carrot, usually radiating from the stem.",
+      "organicManagement": [
+        "Beneficial nematodes drenched at the root zone."
+      ],
+      "prevention": "Two-year rotation. Floating row cover. Cleanup of celery, parsnip, dill, and parsley debris (shared host range).",
+      "regions": ["northeast-us", "midwest-us"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "onion",
+      "pest": "downy-mildew-onion",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Pale yellow-green oval lesions on leaves, with purplish fuzzy growth in humid weather. Bulbs are small and soft.",
+      "organicManagement": [
+        "Copper-based fungicide as preventive.",
+        "Remove infected leaves."
+      ],
+      "prevention": "Three-year rotation. Resistant varieties. Wide spacing. Drip irrigation.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "pepper-sweet",
+      "pest": "pepper-anthracnose",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Soft sunken circular lesions on ripe fruit with pink ooze (spore masses) in the center. Worst on red ripening peppers in humid summers.",
+      "organicManagement": [
+        "Pick at first color change.",
+        "Copper-based fungicide every 7-10 days during ripening."
+      ],
+      "prevention": "Three-year rotation. Resistant varieties. Drip irrigation. Mulch.",
+      "regions": ["southeast-us", "southern-us", "midwest-us"],
+      "source": "UF/IFAS Extension"
+    },
+    {
+      "crop": "broccoli",
+      "pest": "cabbage-worm",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Same as on cabbage; especially destructive on developing heads.",
+      "organicManagement": [
+        "Same as on cabbage."
+      ],
+      "prevention": "Same as on cabbage.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "broccoli",
+      "pest": "cabbage-looper",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Same as on cabbage.",
+      "organicManagement": [
+        "Same as on cabbage."
+      ],
+      "prevention": "Same as on cabbage.",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "kale",
+      "pest": "cabbage-worm",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Same as on cabbage.",
+      "organicManagement": [
+        "Same as on cabbage."
+      ],
+      "prevention": "Same as on cabbage.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "kale",
+      "pest": "aphid-cabbage",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Gray-green waxy aphid colonies on undersides; same Brevicoryne brassicae as on cabbage and broccoli.",
+      "organicManagement": [
+        "Same as on broccoli."
+      ],
+      "prevention": "Same as on broccoli.",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "kale",
+      "pest": "flea-beetle",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Same shotgun-hole feeding as on eggplant and radish.",
+      "organicManagement": [
+        "Row cover. Kaolin clay."
+      ],
+      "prevention": "Late-summer sowings often escape worst flea beetle pressure.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "collards",
+      "pest": "cabbage-worm",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Same as on cabbage.",
+      "organicManagement": [
+        "Same."
+      ],
+      "prevention": "Same.",
+      "regions": ["all"],
+      "source": "UF/IFAS Extension"
+    },
+    {
+      "crop": "collards",
+      "pest": "harlequin-bug",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Same as on kale.",
+      "organicManagement": [
+        "Same."
+      ],
+      "prevention": "Same.",
+      "regions": ["southern-us", "southeast-us"],
+      "source": "Texas A&M AgriLife Extension"
+    },
+    {
+      "crop": "brussels-sprouts",
+      "pest": "cabbage-aphid",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Aphid colonies infest individual sprouts as they form; aphids inside sprouts make them unmarketable.",
+      "organicManagement": [
+        "Same as on broccoli."
+      ],
+      "prevention": "Same.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "turnip",
+      "pest": "flea-beetle",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Same shotgun-hole damage as on radish.",
+      "organicManagement": [
+        "Same as on radish."
+      ],
+      "prevention": "Same.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "arugula",
+      "pest": "flea-beetle",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Same shotgun-hole damage; arugula is highly susceptible.",
+      "organicManagement": [
+        "Row cover from sowing.",
+        "Trap crops of mustard."
+      ],
+      "prevention": "Fall sowings often escape worst flea beetle pressure.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "mustard-greens",
+      "pest": "flea-beetle",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Same shotgun-hole damage as on radish and arugula; mustard greens are often planted intentionally as the bed's flea-beetle trap crop.",
+      "organicManagement": [
+        "Row cover. Mustard greens themselves are often used as the flea beetle trap crop."
+      ],
+      "prevention": "Plant mustard at field edges to draw flea beetles away from main brassicas.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "potato",
+      "pest": "potato-leafhopper",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Small green wedge-shaped insects (1/8 inch) that walk sideways when disturbed. Leaf tips and margins turn yellow then brown ('hopperburn'). Vines die back prematurely.",
+      "organicManagement": [
+        "Insecticidal soap or pyrethrin.",
+        "Floating row cover until plants are large."
+      ],
+      "prevention": "Resistant varieties (some Russet types). Beneficial-insect strips of clover or alfalfa attract leafhopper predators.",
+      "regions": ["eastern-us", "midwest-us"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "pepper-jalapeno",
+      "pest": "pepper-weevil",
+      "type": "pest",
+      "severity": "severe",
+      "symptoms": "Small black weevil (1/8 inch). Larvae develop inside pods. Premature yellowing and fruit drop. Damaged fruit blacken at the stem end.",
+      "organicManagement": [
+        "Remove and destroy fallen fruit weekly.",
+        "Pyrethrin in heavy infestations."
+      ],
+      "prevention": "Cleanup of all pepper debris in fall. Long rotation away from pepper-family crops. Wild pepper hosts (chiltepin) controlled at field edges.",
+      "regions": ["southern-us", "southwest-us"],
+      "source": "UF/IFAS Extension; Texas A&M AgriLife Extension"
+    },
+    {
+      "crop": "winter-squash",
+      "pest": "squash-bug",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Same as on zucchini.",
+      "organicManagement": [
+        "Same as on zucchini."
+      ],
+      "prevention": "Same.",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "pumpkin",
+      "pest": "squash-bug",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Same as on zucchini.",
+      "organicManagement": [
+        "Same."
+      ],
+      "prevention": "Same.",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "pumpkin",
+      "pest": "squash-vine-borer",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Same as on zucchini.",
+      "organicManagement": [
+        "Same."
+      ],
+      "prevention": "Plant C. moschata varieties (such as Long Pie Pumpkin) where borer is endemic.",
+      "regions": ["northeast-us", "midwest-us", "southeast-us"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "pest": "stink-bug",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Cloudy yellow blotches under fruit skin where stink bugs have fed. Brown marmorated stink bug (BMSB) also causes corky raised cat-facing scars.",
+      "organicManagement": [
+        "Handpick adults into soapy water.",
+        "Pyrethrin on heavy infestations."
+      ],
+      "prevention": "Cleanup of weeds and brush at garden edges denies overwintering shelter to BMSB. Sticky traps with aggregation pheromone (Trissolcus japonicus releases are underway in some areas).",
+      "regions": ["all"],
+      "source": "Penn State Extension"
+    },
+    {
+      "crop": "soybean",
+      "pest": "japanese-beetle",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Skeletonized leaves; soybean tolerates moderate defoliation (up to 30 percent) without yield loss.",
+      "organicManagement": [
+        "Handpick at dawn.",
+        "Tolerate moderate damage."
+      ],
+      "prevention": "Same as on raspberry.",
+      "regions": ["eastern-us", "midwest-us"],
+      "source": "Penn State Extension"
+    },
+    {
+      "crop": "edamame",
+      "pest": "japanese-beetle",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Same as on soybean.",
+      "organicManagement": [
+        "Same as on soybean."
+      ],
+      "prevention": "Same.",
+      "regions": ["eastern-us", "midwest-us"],
+      "source": "Penn State Extension"
+    },
+    {
+      "crop": "fava-bean",
+      "pest": "pea-aphid",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Same as on snap pea; fava beans tolerate aphid colonies well, but heavy infestations stunt pod set.",
+      "organicManagement": [
+        "Water spray. Insecticidal soap."
+      ],
+      "prevention": "Plant early to mature before peak aphid season.",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "fava-bean",
+      "pest": "chocolate-spot",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Round chocolate-brown spots on leaves, expanding to grayish irregular lesions. Botrytis fabae fungus, worst in cool wet springs.",
+      "organicManagement": [
+        "Bacillus subtilis or copper-based fungicide at first symptoms.",
+        "Remove infected leaves."
+      ],
+      "prevention": "Wide spacing. Resistant varieties. Avoid overhead watering.",
+      "regions": ["pnw", "northern-us"],
+      "source": "WSU Extension"
+    },
+    {
+      "crop": "lima-bean",
+      "pest": "lima-bean-pod-borer",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Larvae bore into pods, eating developing seeds. Frass extruded from entry holes.",
+      "organicManagement": [
+        "Spinosad applied during pod development.",
+        "Remove infested pods."
+      ],
+      "prevention": "Two-year rotation.",
+      "regions": ["southern-us", "southeast-us"],
+      "source": "UF/IFAS Extension"
+    },
+    {
+      "crop": "peanut",
+      "pest": "leaf-spot",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Small reddish-brown to black spots on leaves (early or late leaf spot, Cercosporidium and Mycosphaerella). Defoliation reduces pod fill.",
+      "organicManagement": [
+        "Sulfur or copper-based fungicide every 14 days from 30 days after emergence."
+      ],
+      "prevention": "Three-year rotation. Resistant varieties.",
+      "regions": ["southeast-us", "southern-us"],
+      "source": "UF/IFAS Extension; Texas A&M AgriLife Extension"
+    },
+    {
+      "crop": "asparagus",
+      "pest": "asparagus-rust",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Yellowish blisters on ferns turning to brown then black powdery pustules. Weakens crowns over multiple seasons.",
+      "organicManagement": [
+        "Cleanup of ferns in fall."
+      ],
+      "prevention": "Plant resistant varieties (Jersey Knight, Jersey Supreme). Wide spacing. Avoid wetting foliage.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "pest": "tobacco-mosaic-virus",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Mottled light and dark green leaves. Distorted, narrow, fern-like new growth. Stunted plant, reduced yield.",
+      "organicManagement": [
+        "No cure; remove and destroy infected plants.",
+        "Sanitize tools and hands with non-fat milk between plants (milk denatures the virus)."
+      ],
+      "prevention": "Tobacco users wash hands and tools before handling tomatoes. Resistant varieties (most modern hybrids carry Tm-2). Three-year rotation. Aphid control reduces vector pressure.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "cucumber",
+      "pest": "cucumber-mosaic-virus",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Mottled yellow-and-green leaves, stunted growth, distorted fruit with raised warty patches. Vectored by aphids and striped cucumber beetles.",
+      "organicManagement": [
+        "No cure; remove infected plants."
+      ],
+      "prevention": "Resistant varieties (Marketmore 76 is moderately resistant). Aphid and cucumber-beetle control. Reflective mulch deters winged aphids.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "pest": "tomato-spotted-wilt-virus",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Bronze-cast ring spots on leaves and fruit, stunting, one-sided ripening. Vectored by thrips. Hosts include many vegetables and flowers, so it spreads through gardens once established.",
+      "organicManagement": [
+        "Remove infected plants."
+      ],
+      "prevention": "Resistant varieties (SWV-tolerant). Thrips control. Weed management at garden edges.",
+      "regions": ["southern-us", "southeast-us", "southwest-us"],
+      "source": "UF/IFAS Extension"
+    },
+    {
+      "crop": "lettuce-leaf",
+      "pest": "lettuce-mosaic-virus",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Mottled yellow-green leaves, stunted heads, distorted growth. Seed-borne and aphid-transmitted.",
+      "organicManagement": [
+        "Remove infected plants."
+      ],
+      "prevention": "Buy MTO (mosaic-tested zero) seed. Aphid control. Resistant varieties.",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "beet",
+      "pest": "curly-top-virus",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Curled, stunted, distorted leaves with prominent vein clearing. Vectored by beet leafhopper. Common in arid and semi-arid west.",
+      "organicManagement": [
+        "Remove infected plants."
+      ],
+      "prevention": "Resistant varieties. Reflective mulch deters leafhoppers. Avoid late-summer plantings in endemic regions.",
+      "regions": ["southwest-us", "arid", "western-us"],
+      "source": "WSU Extension; UC IPM"
+    },
+    {
+      "crop": "snap-pea",
+      "pest": "pea-leaf-weevil",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Adult weevils notch the margins of pea and bean leaves into characteristic semicircles. Larvae feed on root nodules, reducing nitrogen fixation.",
+      "organicManagement": [
+        "Beneficial nematodes drenched at the root zone for larval control.",
+        "Pyrethrin on adults in heavy infestations."
+      ],
+      "prevention": "Two-year rotation. Plant after the first weevil flight.",
+      "regions": ["pnw", "northern-us"],
+      "source": "WSU Extension"
+    },
+    {
+      "crop": "tomato",
+      "pest": "cutworm",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Young transplants severed at the soil line overnight; fat gray-brown caterpillars (curled into a C) found in soil at the base.",
+      "organicManagement": [
+        "Cardboard or aluminum-foil collars (3 inches tall, 1 inch into the soil) around each transplant.",
+        "Bt-k drench at planting in heavy-pressure beds.",
+        "Handpick at night with a flashlight."
+      ],
+      "prevention": "Tillage in fall exposes overwintering larvae. Beneficial nematodes (Steinernema carpocapsae).",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "pepper-sweet",
+      "pest": "cutworm",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Same as on tomato.",
+      "organicManagement": [
+        "Same as on tomato."
+      ],
+      "prevention": "Same.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "cabbage",
+      "pest": "cutworm",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Same severed-at-soil-line damage as on tomato; brassica transplants are highly susceptible in their first week.",
+      "organicManagement": [
+        "Cardboard or aluminum-foil collars around each transplant.",
+        "Bt-k drench at planting in heavy-pressure beds."
+      ],
+      "prevention": "Fall tillage. Beneficial nematodes. Delay transplant 2-3 days after disturbing the bed so cutworms move on.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "lettuce-leaf",
+      "pest": "slug",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Large irregular holes in leaves with slime trails; whole plants can be lost in wet seasons.",
+      "organicManagement": [
+        "Iron phosphate baits.",
+        "Beer traps.",
+        "Copper tape around raised beds."
+      ],
+      "prevention": "Wide spacing. Drip irrigation. Wood ash or diatomaceous earth rings around plants (renew after rain).",
+      "regions": ["all"],
+      "source": "OSU Extension"
+    },
+    {
+      "crop": "bush-bean",
+      "pest": "slug",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Cotyledons and young leaves eaten on emerging seedlings.",
+      "organicManagement": [
+        "Iron phosphate baits at planting."
+      ],
+      "prevention": "Avoid heavy mulch over emerging beans.",
+      "regions": ["all"],
+      "source": "OSU Extension"
+    },
+    {
+      "crop": "cabbage",
+      "pest": "slug",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Slime trails and irregular holes on outer wrapper leaves; sometimes slugs hide inside heads.",
+      "organicManagement": [
+        "Same as on lettuce."
+      ],
+      "prevention": "Same.",
+      "regions": ["all"],
+      "source": "OSU Extension"
+    },
+    {
+      "crop": "tomato",
+      "pest": "russet-mite",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Lower stems and leaves turn bronze and brittle, working up the plant. Mites are too small to see without a 20x hand lens. Often diagnosed late.",
+      "organicManagement": [
+        "Sulfur (wettable powder) sprays at first signs.",
+        "Predatory mites (Amblyseius cucumeris)."
+      ],
+      "prevention": "Avoid letting overgrown solanaceous weeds (nightshade, datura) near beds. Scout lower stems weekly.",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "winter-squash",
+      "pest": "powdery-mildew",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Same as on zucchini.",
+      "organicManagement": [
+        "Same."
+      ],
+      "prevention": "Same.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "spinach",
+      "pest": "damping-off",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Seedlings collapse at the soil line, with constricted dark stems. Caused by Pythium, Rhizoctonia, or Fusarium species in cold wet soil.",
+      "organicManagement": [
+        "No rescue for collapsed seedlings; reseed."
+      ],
+      "prevention": "Sow into well-drained soil at the right temperature for the crop. Sterile potting mix for transplants. Bottom-heat for greenhouse starts. Avoid overwatering young seedlings.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "lettuce-leaf",
+      "pest": "damping-off",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Same as on spinach.",
+      "organicManagement": [
+        "Same."
+      ],
+      "prevention": "Same.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "bush-bean",
+      "pest": "damping-off",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Failed seedlings, collapsed seedlings, soft seed. Common when beans are planted into cold (below 60F) wet soil.",
+      "organicManagement": [
+        "None for affected seedlings."
+      ],
+      "prevention": "Wait for soil at 60F before sowing.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "cucumber",
+      "pest": "damping-off",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Same collapsed-seedling damage as on spinach; cucumber emergence is especially poor in cold soil below 65F.",
+      "organicManagement": [
+        "None for affected seedlings; reseed once soil warms."
+      ],
+      "prevention": "Wait for warm soil (65F+). Black plastic mulch pre-warms the bed by 5-10F.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "rhubarb",
+      "pest": "rhubarb-crown-rot",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Wilting stalks, brown rotted crowns when cut open. Phytophthora rot in poorly drained beds.",
+      "organicManagement": [
+        "Remove and destroy infected crowns."
+      ],
+      "prevention": "Plant in well-drained raised beds. Avoid waterlogged sites. Replant disease-free divisions every 8-10 years.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "sweet-corn",
+      "pest": "northern-corn-leaf-blight",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Long (4-6 inch) gray-green to tan elongated lesions on leaves, parallel to the leaf veins. Severe in humid wet summers.",
+      "organicManagement": [
+        "Resistant hybrids and varieties; sprays rarely justified in home gardens."
+      ],
+      "prevention": "Resistant varieties. Three-year rotation. Cleanup of corn stalks.",
+      "regions": ["midwest-us", "eastern-us"],
+      "source": "Penn State Extension"
+    },
+    {
+      "crop": "tomato",
+      "pest": "leaf-mold",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Yellow blotches on upper leaf surfaces with olive-green to gray-brown velvety mold on undersides. Common in high-tunnel and greenhouse production.",
+      "organicManagement": [
+        "Copper or Bacillus subtilis.",
+        "Remove infected leaves."
+      ],
+      "prevention": "Reduce humidity (vents, fans). Wide spacing. Resistant varieties (Geronimo, Trust).",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "pest": "bacterial-speck",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Small dark brown to black spots (1/8 inch) with yellow halos on leaves and fruit. Worst in cool wet conditions.",
+      "organicManagement": [
+        "Copper sprays.",
+        "Remove infected leaves."
+      ],
+      "prevention": "Hot-water seed treatment. Resistant varieties. Avoid overhead watering. Three-year rotation.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "blueberry",
+      "pest": "mummy-berry",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Wilted browned shoot tips in spring (shoot strikes). Later, infected berries shrivel to gray pumpkin-shaped mummies that fall to the ground.",
+      "organicManagement": [
+        "Rake and remove mummified berries in late winter to interrupt the disease cycle.",
+        "Mulch heavily over fallen mummies to bury them."
+      ],
+      "prevention": "Resistant varieties (Bluetta, Bluecrop are moderately resistant). Cleanup is the single most important control.",
+      "regions": ["all"],
+      "source": "OSU Extension; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "apple-standard",
+      "pest": "cedar-apple-rust",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Bright orange-yellow spots on leaves, sometimes on fruit. Requires juniper/cedar alternate host within 1 mile. Most striking when orange spore horns extrude from cedar galls in spring rains.",
+      "organicManagement": [
+        "Sulfur sprays from pink-bud through 2-3 weeks after petal-fall.",
+        "Remove cedar galls within 1/4 mile if practical."
+      ],
+      "prevention": "Plant resistant varieties (Liberty, Freedom). Plant trees away from junipers/cedars when siting an orchard.",
+      "regions": ["eastern-us", "midwest-us"],
+      "source": "Penn State Extension"
+    },
+    {
+      "crop": "asparagus",
+      "pest": "asparagus-aphid",
+      "type": "pest",
+      "severity": "moderate",
+      "symptoms": "Bluish-gray waxy aphids on ferns. Cause bushy, distorted growth (witch's-broom).",
+      "organicManagement": [
+        "Strong water spray.",
+        "Insecticidal soap on heavy infestations."
+      ],
+      "prevention": "Encourage lady beetles and lacewings with nearby flower strips.",
+      "regions": ["all"],
+      "source": "UC IPM"
+    },
+    {
+      "crop": "tomato",
+      "pest": "buckeye-rot",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Concentric brown rings on fruit touching wet soil (Phytophthora capsici and related). Worst on bottom fruit during heavy rains.",
+      "organicManagement": [
+        "Mulch to keep fruit off soil.",
+        "Remove infected fruit."
+      ],
+      "prevention": "Stake plants. Mulch. Drip irrigation. Drain low spots.",
+      "regions": ["southeast-us", "south-central-us"],
+      "source": "UF/IFAS Extension"
+    },
+    {
+      "crop": "pepper-sweet",
+      "pest": "phytophthora-blight",
+      "type": "disease",
+      "severity": "severe",
+      "symptoms": "Sudden wilting of whole plant. Dark water-soaked stem lesions at soil line. Fruit develop dark sunken rotting patches. Phytophthora capsici, which persists in soil 6+ years.",
+      "organicManagement": [
+        "No organic cure; remove infected plants and surrounding soil."
+      ],
+      "prevention": "Plant on raised beds. Drip irrigation, not overhead. Long rotation (5+ years) away from peppers, tomatoes, and cucurbits (shared host range). Resistant varieties (Paladin).",
+      "regions": ["all"],
+      "source": "Penn State Extension; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "cucumber",
+      "pest": "phytophthora-blight",
+      "type": "disease",
+      "severity": "severe",
+      "symptoms": "Same Phytophthora capsici as on pepper. Sudden vine collapse, water-soaked fruit rot.",
+      "organicManagement": [
+        "Same."
+      ],
+      "prevention": "Same.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "kale",
+      "pest": "black-rot",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Same as on cabbage.",
+      "organicManagement": [
+        "Same."
+      ],
+      "prevention": "Same.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "broccoli",
+      "pest": "black-rot",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Same V-shaped yellow leaf lesions with blackened veins as on cabbage; heads turn brown internally and become unmarketable.",
+      "organicManagement": [
+        "Copper sprays. Remove infected plants and surrounding leaves; sanitize tools."
+      ],
+      "prevention": "Hot-water seed treatment. Two-year rotation. Drip irrigation.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "garlic",
+      "pest": "fusarium-basal-rot",
+      "type": "disease",
+      "severity": "high",
+      "symptoms": "Yellow wilting tops mid-season. Pulled bulbs show pink-brown rotted basal plate, with white mycelium between cloves.",
+      "organicManagement": [
+        "Remove and destroy infected bulbs and cull piles."
+      ],
+      "prevention": "Plant disease-free seed garlic. Three-year rotation. Avoid mechanical injury at planting. Cure bulbs thoroughly before storage.",
+      "regions": ["all"],
+      "source": "WSU Extension; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "onion",
+      "pest": "neck-rot",
+      "type": "disease",
+      "severity": "moderate",
+      "symptoms": "Soft brown rot starting at the neck of cured bulbs in storage. Gray mold (Botrytis allii) on rotted tissue.",
+      "organicManagement": [
+        "Discard infected bulbs at storage check."
+      ],
+      "prevention": "Cure bulbs thoroughly (2-3 weeks at warm dry conditions) before storage. Avoid late-season nitrogen. Store at 32-40F and 65-70 percent RH.",
+      "regions": ["all"],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "watermelon",
+      "pest": "cucumber-beetle-striped",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Same as on cucumber.",
+      "organicManagement": [
+        "Same."
+      ],
+      "prevention": "Same.",
+      "regions": ["all"],
+      "source": "UF/IFAS Extension"
+    },
+    {
+      "crop": "cantaloupe",
+      "pest": "cucumber-beetle-striped",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Same yellow-with-three-stripes beetle as on cucumber; cantaloupe is highly susceptible to the bacterial wilt that the beetle vectors.",
+      "organicManagement": [
+        "Row cover until flowering. Kaolin clay. Yellow sticky traps for monitoring."
+      ],
+      "prevention": "Two-year rotation. Trap crops of Hubbard squash at field edges.",
+      "regions": ["all"],
+      "source": "UF/IFAS Extension"
+    },
+    {
+      "crop": "tomato",
+      "pest": "deer",
+      "type": "pest",
+      "severity": "high",
+      "symptoms": "Whole branches torn off, fruit eaten. Deer often selectively eat the ripest fruit and the most tender new growth.",
+      "organicManagement": [
+        "8-foot fence is the single reliable answer; lower fences can work if angled.",
+        "Repellent sprays (rotten egg solids, hot pepper) need re-application every 2-3 weeks and after rain."
+      ],
+      "prevention": "Plant ornamental allium and lavender at garden perimeter; deer dislike their smell.",
+      "regions": ["all"],
+      "source": "Penn State Extension"
+    }
+  ]
+}

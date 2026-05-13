@@ -102,12 +102,29 @@ export const cropNameField = z
     "Crop identifier: calendar slug ('tomato', 'pepper-sweet', 'fennel-herb'), common name ('Tomato', 'Sweet Pepper'), scientific name ('Solanum lycopersicum'), or alias. Case-insensitive. The tool resolves any of these to the canonical slug before lookup.",
   );
 
+export const pestSlugField = z
+  .string()
+  .min(1)
+  .max(80)
+  .describe(
+    "Kebab-case pest or disease slug from the CropGraph pest-disease fixture. Examples: `tomato-hornworm`, `late-blight`, `cabbage-worm`, `squash-vine-borer`, `powdery-mildew`. The pest namespace is separate from crop slugs; use `get_crop_pests` to discover slugs for a given crop.",
+  );
+
 export const cropListField = z
   .array(cropNameField)
   .min(2)
   .max(20)
   .describe(
     "List of 2-20 crops to evaluate together (slugs or common names). Used by `plan_bed_compatibility` to discover all pairwise relationships within the bed.",
+  );
+
+export const yearField = z
+  .number()
+  .int()
+  .min(1900)
+  .max(2200)
+  .describe(
+    "Four-digit year used to anchor a succession plan to specific calendar dates. Defaults to the current UTC year when omitted. Useful for previewing a year ahead.",
   );
 
 export const climateTypeField = z

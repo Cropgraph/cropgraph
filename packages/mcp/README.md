@@ -1,9 +1,10 @@
 # @cropgraph/mcp
 
-Model Context Protocol server for garden planning. Ten tools backed by the
-curated CropGraph datasets (1,000 crops, 333 companion relationships,
-12 rotation families, USDA hardiness zones, climate types). Runs over
-stdio. No API key, no network.
+Model Context Protocol server for garden planning. Fourteen tools backed by
+the curated CropGraph datasets (1,000 crops, 333 companion relationships,
+12 rotation families, 33 succession planting chains, 158 pest/disease
+associations, USDA hardiness zones, climate types). Runs over stdio. No API
+key, no network.
 
 ## Install / run
 
@@ -29,7 +30,7 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json`
 }
 ```
 
-Restart Claude Desktop. The ten tools will appear in the connector list.
+Restart Claude Desktop. The fourteen tools will appear in the connector list.
 
 ## Cursor
 
@@ -60,6 +61,10 @@ Add to `~/.cursor/mcp.json`:
 | `plan_bed_compatibility` | Evaluate 2-20 crops together: pairwise relationships + hub-antagonist warnings. |
 | `get_rotation_advice` | Rotation family + year-gap rule for a crop, with recommended follow-with and never-follow crops. |
 | `check_rotation_sequence` | Validate a multi-year sequence: flags rotation-gap violations and never-follow warnings. |
+| `get_succession_chain` | Succession planting chain for a crop: phases with sow method, cadence, and frost-relative window. |
+| `get_succession_plan` | Same chain resolved to concrete ISO dates for a zone (climate-aware, with per-phase sowing date lists). |
+| `get_crop_pests` | Pests and diseases for a crop, sorted by severity, with diagnostic symptoms, organic management, prevention, regions, and citations. |
+| `get_pest_detail` | Full record for one pest or disease across every crop it touches. |
 
 All tools are read-only and offline. Schemas describe each input field
 in detail so an LLM can call them without external docs.
