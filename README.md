@@ -59,7 +59,7 @@ getSuccessionPlan({ slug: "lettuce-leaf", zone, climateType: "maritime" });
 
 | Asset | Count | Notes |
 |-------|-------|-------|
-| Crop calendar | 2,000 entries | Frost-anchored windows, climate modifiers for 6 climate types |
+| Crop calendar | 2,000 entries | Frost-anchored windows; 120 entries carry climate modifiers across 6 climate types |
 | Companion relationships | 605 | 510 beneficial, 95 antagonist, 12 mechanism categories |
 | Growing degree days | 120 models | Cultivar-specific GDD ranges, base temperatures, NOAA Climate Normals harvest prediction |
 | Rotation families | 12 | Nightshades, brassicas, cucurbits, alliums, legumes, umbellifers, grasses, amaranthaceae, composites, mints, malvaceae, miscellaneous. Every calendar slug mapped. |

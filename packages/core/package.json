@@ -1,7 +1,7 @@
 {
   "name": "@cropgraph/core",
-  "version": "2.0.0",
-  "description": "CropGraph core library: curated crop calendar (2,000 entries), 605 companion planting relationships, 12 rotation families, 33 succession planting chains, 158 pest/disease associations, 120 growing degree day models with NOAA Climate Normals harvest prediction, USDA hardiness zone lookup, and climate classification. Offline, zero network calls.",
+  "version": "2.1.0",
+  "description": "CropGraph core library: curated crop calendar (2,000 entries with 120 climate-modified crops across 6 climate types), 605 companion planting relationships, 12 rotation families, 33 succession planting chains, 158 pest/disease associations, 120 growing degree day models with NOAA Climate Normals harvest prediction, USDA hardiness zone lookup, and climate classification. Offline, zero network calls.",
   "keywords": [
     "cropgraph",
     "agriculture",

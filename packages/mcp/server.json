@@ -1,18 +1,18 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
   "name": "io.github.Cropgraph/cropgraph",
-  "description": "Garden planning MCP. 2000 crops, climate-aware planting, companion graph, growing degree days.",
+  "description": "Garden planning MCP. 2000 crops, 120 climate-modified across 6 climate types, companion graph, growing degree days.",
   "status": "active",
   "repository": {
     "url": "https://github.com/Cropgraph/cropgraph",
     "source": "github"
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@cropgraph/mcp",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "transport": {
         "type": "stdio"
       }

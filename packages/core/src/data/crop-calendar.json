@@ -806,7 +806,27 @@
           "toFrostDays": -56
         }
       ],
-      "notes": "Most cold-hardy of the cabbage family. Sweetens after frost."
+      "notes": "Most cold-hardy of the cabbage family. Sweetens after frost.",
+      "climateModifiers": {
+        "maritime": {
+          "notes": "Overwinters reliably in mild maritime zones; pick lower leaves through Feb. Slugs are the primary pest; iron phosphate baits and copper tape."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "direct_sow": 2
+          },
+          "notes": "The defining Southern green; sow fall through winter for sweetest leaves after first frost. Cabbage looper and harlequin bug pressure peaks in late summer."
+        },
+        "arid": {
+          "windowShifts": {
+            "direct_sow": -2
+          },
+          "notes": "Sow earlier in spring and again in fall; summer crop unworkable. Drip-irrigate to keep leaves tender; bolts past 85F."
+        },
+        "continental": {
+          "notes": "Survives single-digit frost once mature; mulch heavily and harvest standing through early winter. Spring crop bolts in July heat; rely on fall."
+        }
+      }
     },
     {
       "slug": "kohlrabi",
@@ -953,7 +973,30 @@
           "notes": "Best as a fall crop — bolts if started too early in spring"
         }
       ],
-      "notes": "Use for kimchi. Harvest before hard freeze."
+      "notes": "Use for kimchi. Harvest before hard freeze.",
+      "climateModifiers": {
+        "maritime": {
+          "windowShifts": {
+            "direct_sow": 1
+          },
+          "notes": "Cool maritime falls give wide napa window; sow after Aug 1 once nights cool. Slug pressure is the dominant risk; iron phosphate baits at transplant."
+        },
+        "mediterranean": {
+          "notes": "Skip the spring crop; sow in October for a winter harvest into Feb. Sunscald on outer wrapper leaves below 28F, mulch heavily."
+        },
+        "continental": {
+          "notes": "Fall is the only reliable window; sow 8 to 10 weeks before first frost. Spring direct sow bolts before heading in the rapid May warmup."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "direct_sow": -2
+          },
+          "notes": "Both spring and fall windows are short. Sow first crop as soon as soil works in Feb; sow fall crop in early September. Aphid and flea beetle pressure heavy in spring."
+        },
+        "arid": {
+          "notes": "Direct sow in early fall (Sep through Oct) only. Hot dry summers melt napa cabbage; spring window is unworkable in most arid sites."
+        }
+      }
     },
     {
       "slug": "mustard-greens",
@@ -985,7 +1028,27 @@
           "toFrostDays": -28
         }
       ],
-      "notes": "Harvest young leaves for salads, mature for cooking. Bolts in heat."
+      "notes": "Harvest young leaves for salads, mature for cooking. Bolts in heat.",
+      "climateModifiers": {
+        "maritime": {
+          "notes": "Cool wet maritime favors mild milder mustards (mizuna, Komatsuna) over bracingly hot Southern types. Flea beetle pressure heavy in May."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "direct_sow": -2
+          },
+          "notes": "Sow in early spring and fall; summer growth turns the leaves bitter and bolts fast. Vates, Florida Broadleaf, and Southern Giant Curled tolerate Gulf heat best."
+        },
+        "continental": {
+          "notes": "Spring + fall windows both work; mustard greens are one of the few brassicas that handles the rapid May warmup without bolting under 80F."
+        },
+        "arid": {
+          "windowShifts": {
+            "direct_sow": -3
+          },
+          "notes": "Sow in late winter (Feb in zone 8) and again in October. Bolts past 80F; the bitter mustard heat compounds in dry hot air."
+        }
+      }
     },
     {
       "slug": "turnip",
@@ -2571,7 +2634,27 @@
           "toFrostDays": -28
         }
       ],
-      "notes": "Mild mustard flavor, frost-tolerant. Excellent salad green."
+      "notes": "Mild mustard flavor, frost-tolerant. Excellent salad green.",
+      "climateModifiers": {
+        "maritime": {
+          "notes": "Year-round cut-and-come-again in maritime climates; sow every 3 weeks. Slug pressure heavy in wet falls; iron phosphate baits."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "direct_sow": -1
+          },
+          "notes": "Spring + fall windows only; sow Feb through Mar and Sep through Oct. Heat above 80F triggers bolt within 2 weeks."
+        },
+        "continental": {
+          "notes": "Faster than most lettuces in spring; sow as soon as soil works. Resume in late August for fall crop through first hard freeze."
+        },
+        "arid": {
+          "windowShifts": {
+            "direct_sow": -2
+          },
+          "notes": "Sow in winter (Feb) and late fall (Oct through Nov); skip summer. 30% shade cloth extends spring harvest by 2 weeks past direct sun bolt."
+        }
+      }
     },
     {
       "slug": "mache",
@@ -2654,7 +2737,27 @@
           "toFrostDays": -70
         }
       ],
-      "notes": "Broad-leaved relative of endive. Less bitter; great in soups."
+      "notes": "Broad-leaved relative of endive. Less bitter; great in soups.",
+      "climateModifiers": {
+        "maritime": {
+          "notes": "Cool wet maritime favors broad-leaved escarole; sow May through Aug for late summer and fall harvest. Slug pressure heavy on tender hearts."
+        },
+        "mediterranean": {
+          "windowShifts": {
+            "direct_sow": 2
+          },
+          "notes": "Sow Oct through Dec for cool-season harvest; the traditional Italian winter salad green. Blanche hearts by tying outer leaves over center for 7 to 10 days."
+        },
+        "continental": {
+          "notes": "Sow as soon as soil works in spring and again in August for fall crop. Survives 25F once mature; harvest standing through Nov in most zones."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "direct_sow": 1
+          },
+          "notes": "Cool-season only; sow Sep through Nov for winter harvest. Summer bolt is rapid; skip spring sowing in zone 8 plus."
+        }
+      }
     },
     {
       "slug": "radicchio",
@@ -2680,7 +2783,27 @@
           "toFrostDays": -56
         }
       ],
-      "notes": "Cool weather sweetens the bitterness. Heads tighten with cold nights."
+      "notes": "Cool weather sweetens the bitterness. Heads tighten with cold nights.",
+      "climateModifiers": {
+        "maritime": {
+          "windowShifts": {
+            "transplant": 1
+          },
+          "notes": "Cool maritime falls produce the firmest heads with deepest color; transplant Jul to early Aug for Oct harvest. Slug pressure heavy on rosettes."
+        },
+        "mediterranean": {
+          "notes": "Plant in late summer for fall and winter harvest; Italian Treviso and Chioggia types color best after first frost. Skip the heat-bolt summer window."
+        },
+        "continental": {
+          "notes": "Fall is the only reliable window; transplant in mid-July for October harvest. Spring crops bolt before heading in the rapid May warmup."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "transplant": -2
+          },
+          "notes": "Sow in late summer for fall transplant; harvest Nov through Feb. Spring is unworkable in zone 8 plus; heat above 75F bolts before color develops."
+        }
+      }
     },
     {
       "slug": "watercress",
@@ -3005,7 +3128,27 @@
           "notes": "Use fresh seed — viability drops fast. Slow germination (3-4 weeks)"
         }
       ],
-      "notes": "Frost converts starch to sugar — best harvested after first hard frost. Sap is photosensitizing; wear gloves."
+      "notes": "Frost converts starch to sugar — best harvested after first hard frost. Sap is photosensitizing; wear gloves.",
+      "climateModifiers": {
+        "maritime": {
+          "windowShifts": {
+            "direct_sow": 1
+          },
+          "notes": "Long cool maritime falls develop maximum sweetness; harvest standing in soil through Feb. Carrot rust fly pressure heavy; cover with insect mesh."
+        },
+        "continental": {
+          "notes": "Mulch heavily after first frost; harvest standing through deep winter where snow cover holds. Sweetens dramatically after several hard freezes."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "direct_sow": 1
+          },
+          "notes": "Spring sow only; summer heat past 85F triggers core rot. Harvest by mid-October before soil disease pressure peaks."
+        },
+        "arid": {
+          "notes": "Parsnips struggle in arid heat; sow in fall under deep mulch for spring harvest. Drip-irrigate consistently; flowering second-year plants bolt fast in dry heat."
+        }
+      }
     },
     {
       "slug": "salsify",
@@ -5698,7 +5841,27 @@
           "toFrostDays": -35
         }
       ],
-      "notes": "Hardy to 15°F under row cover. Picks like a flat rosette of spoon-shaped leaves."
+      "notes": "Hardy to 15°F under row cover. Picks like a flat rosette of spoon-shaped leaves.",
+      "climateModifiers": {
+        "maritime": {
+          "notes": "The most cold-hardy Asian green; sow Aug through Oct for overwinter harvest with light tunnel cover. Slug pressure heavy in wet falls."
+        },
+        "continental": {
+          "notes": "Survives 15F without protection once established; harvest standing through Dec in most zones. Snow cover preserves color into Jan."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "direct_sow": -1
+          },
+          "notes": "Cool-season only; sow Oct through Dec for winter harvest. Bolts past 75F; skip spring sowing in zones 8 plus."
+        },
+        "arid": {
+          "windowShifts": {
+            "direct_sow": -2
+          },
+          "notes": "Sow in late fall and overwinter under row cover; harvest through Feb. Spring window closes by mid-March in hot arid sites."
+        }
+      }
     },
     {
       "slug": "quinoa",
@@ -5905,7 +6068,31 @@
         "grape tomato",
         "pixie tomato"
       ],
-      "source": "Cornell Cooperative Extension - Tomato Production"
+      "source": "Cornell Cooperative Extension - Tomato Production",
+      "climateModifiers": {
+        "maritime": {
+          "windowShifts": {
+            "start_indoors": -2
+          },
+          "notes": "Cherry types set fruit at cool maritime night temperatures where beefsteaks fail. Late blight pressure heavy; stake or trellis for airflow."
+        },
+        "continental": {
+          "notes": "First-ripe indeterminate types are the home garden cherry tomato choice for Zones 4 to 6. Sweet Million, Sweet 100, Sungold all finish in 65 days."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "start_indoors": 1,
+            "transplant": -1
+          },
+          "notes": "Heat-tolerant types maintain fruit set through Florida summers; pick before storms to prevent cracking. Second fall crop starts in midsummer."
+        },
+        "arid": {
+          "windowShifts": {
+            "transplant": -1
+          },
+          "notes": "Plant in early spring; cherries tolerate desert heat better than slicers but still want 30% shade cloth above 95F to keep flowering."
+        }
+      }
     },
     {
       "slug": "paste-tomato",
@@ -6050,7 +6237,28 @@
       "aliases": [
         "chipotle pepper"
       ],
-      "source": "Texas A&M AgriLife Extension - Hot Pepper Production"
+      "source": "Texas A&M AgriLife Extension - Hot Pepper Production",
+      "climateModifiers": {
+        "maritime": {
+          "windowShifts": {
+            "start_indoors": -2,
+            "transplant": 2
+          },
+          "notes": "Cool maritime soils slow pepper transplant; black plastic mulch and row cover speed early growth. Productive once soil hits 65F."
+        },
+        "humid_subtropical": {
+          "notes": "Premier hot pepper for Southern gardens; productive through summer heat. Second fall crop starts in midsummer."
+        },
+        "continental": {
+          "windowShifts": {
+            "transplant": 1
+          },
+          "notes": "Direct sun and 8 weeks indoor start produce ripe jalapenos by August. Choose Early Jalapeno for Zones 4 to 5."
+        },
+        "arid": {
+          "notes": "The defining Sonoran chile; heat-tolerant and productive through 100F days. Drip-irrigate consistently; flower drop above 105F."
+        }
+      }
     },
     {
       "slug": "pepper-poblano",
@@ -6154,7 +6362,31 @@
         }
       ],
       "notes": "Long season; in cool zones use a south wall or container that warms quickly. Ripens orange to red.",
-      "source": "UF/IFAS Extension - Habanero Production"
+      "source": "UF/IFAS Extension - Habanero Production",
+      "climateModifiers": {
+        "humid_subtropical": {
+          "notes": "Ideal Florida pepper; long warm season produces full Capsicum chinense fruit set. Heat-tolerant and disease-resistant."
+        },
+        "arid": {
+          "notes": "Productive in desert SW heat; drip-irrigate twice weekly. 30% shade cloth above 110F preserves fruit set."
+        },
+        "maritime": {
+          "windowShifts": {
+            "start_indoors": -4,
+            "transplant": 3
+          },
+          "notes": "Marginal in cool maritime; choose only with greenhouse start and a south wall. Slow to ripen below 70F night temps."
+        },
+        "continental": {
+          "windowShifts": {
+            "start_indoors": -2
+          },
+          "notes": "10 to 12 weeks indoor start; harvest by mid-September before first frost. Treat as an annual; the chinense species needs long warm days."
+        },
+        "mediterranean": {
+          "notes": "Productive in long Mediterranean summers; second fall crop in zones 9 plus. Drip-irrigate consistently."
+        }
+      }
     },
     {
       "slug": "pepper-ghost",
@@ -6890,7 +7122,27 @@
         "chinese broccoli",
         "kai-lan"
       ],
-      "source": "UC ANR - Asian Vegetable Production"
+      "source": "UC ANR - Asian Vegetable Production",
+      "climateModifiers": {
+        "maritime": {
+          "notes": "Cool wet maritime favors steady tender stems; sow Feb through Sep in succession. Slug pressure heavy; iron phosphate baits."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "direct_sow": -2
+          },
+          "notes": "Sow Feb through Mar and Sep through Oct only. Cabbage looper pressure peaks in late summer; Bt sprays at the first sign of holes."
+        },
+        "continental": {
+          "notes": "Sow as soon as soil works in spring and again in August for fall harvest. Pick stems at pencil thickness; let plant reflower for repeated cuttings."
+        },
+        "arid": {
+          "windowShifts": {
+            "direct_sow": -3
+          },
+          "notes": "Sow in late winter (Feb) and again in October; skip summer. 30% shade cloth extends spring harvest by 2 to 3 weeks."
+        }
+      }
     },
     {
       "slug": "choy-sum",
@@ -7000,7 +7252,21 @@
       "aliases": [
         "japanese mustard spinach"
       ],
-      "source": "Cornell Cooperative Extension - Asian Greens"
+      "source": "Cornell Cooperative Extension - Asian Greens",
+      "climateModifiers": {
+        "maritime": {
+          "notes": "Year-round cut-and-come-again; the most reliable Asian brassica in cool maritime climates. Sow every 3 weeks."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "direct_sow": -1
+          },
+          "notes": "Sow Feb through April and Sep through Nov. Faster bolt than mizuna in summer heat; switch to long-season cultivars for late spring."
+        },
+        "continental": {
+          "notes": "30 to 45 days to harvest; among the first salad-bowl greens in spring. Resume in August for fall picks through first hard freeze."
+        }
+      }
     },
     {
       "slug": "shanghai-bok-choy",
@@ -12638,7 +12904,30 @@
         }
       ],
       "notes": "Cold-hardy Texas heirloom; survives zone 6 with good drainage and protected siting. Hardy rosemary for marginal climates.",
-      "source": "Texas A&M AgriLife Extension - Hardy Rosemary"
+      "source": "Texas A&M AgriLife Extension - Hardy Rosemary",
+      "climateModifiers": {
+        "mediterranean": {
+          "notes": "Ideal Mediterranean herb; thrives in long warm summers with low water. Drought-tolerant once established."
+        },
+        "humid_subtropical": {
+          "notes": "Premier cold-hardy rosemary for upper South Zone 7 plus; tolerates Texas / Georgia winters where Tuscan Blue dies back. Well-drained soil mandatory."
+        },
+        "continental": {
+          "windowShifts": {
+            "plant_now": 1
+          },
+          "notes": "Hardy to Zone 6 with mulch; the defining cold-hardy rosemary. Plant in raised bed or south-facing wall microclimate for Zone 5 culture."
+        },
+        "arid": {
+          "notes": "Drought-tolerant rosemary thrives in desert SW; minimal irrigation after establishment. The defining xeriscape culinary herb."
+        },
+        "maritime": {
+          "windowShifts": {
+            "plant_now": 1
+          },
+          "notes": "Productive in Pacific NW with well-drained soil; raised bed culture preferred. Wet winter soils cause root rot; plant on slope or in container."
+        }
+      }
     },
     {
       "slug": "thyme-creeping",
@@ -16898,7 +17187,31 @@
       "aliases": [
         "san marzano dop"
       ],
-      "source": "UC ANR - Paste Tomato Production"
+      "source": "UC ANR - Paste Tomato Production",
+      "climateModifiers": {
+        "mediterranean": {
+          "notes": "Sets fruit reliably in long Mediterranean summers; the defining paste tomato. Train indeterminate vines on stakes; pinch suckers for cleaner harvest."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "transplant": -1
+          },
+          "notes": "Susceptible to blossom-end rot in wet Florida summers; mulch heavily and maintain steady moisture. Choose the disease-resistant San Marzano 2 strain."
+        },
+        "maritime": {
+          "windowShifts": {
+            "start_indoors": -1,
+            "transplant": 2
+          },
+          "notes": "Marginal in cool maritime; chooses long warm summers. Late blight pressure heavy; stake vines and prune lower foliage for airflow."
+        },
+        "continental": {
+          "notes": "Direct sun and 8 weeks indoor start produce ripe paste tomatoes by mid-August. Single stem with stake gives the cleanest fruit set."
+        },
+        "arid": {
+          "notes": "Productive in arid heat with consistent drip irrigation; 30% shade cloth above 95F prevents blossom-end rot. Sun-dried tomato cultivar of choice."
+        }
+      }
     },
     {
       "slug": "roma-tomato",
@@ -17171,7 +17484,32 @@
         }
       ],
       "notes": "F1 cherry hybrid; intense tropical-fruit sweetness, the gold standard of cherry tomato flavor. Skin cracks when over-ripe - pick daily.",
-      "source": "Cornell Cooperative Extension - Cherry Tomato Cultivars"
+      "source": "Cornell Cooperative Extension - Cherry Tomato Cultivars",
+      "climateModifiers": {
+        "maritime": {
+          "windowShifts": {
+            "start_indoors": -2,
+            "transplant": 1
+          },
+          "notes": "Ideal maritime cherry tomato; sets fruit at 55F nights. Late blight pressure heavy in wet falls; stake or trellis for airflow."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "start_indoors": 1,
+            "transplant": -1
+          },
+          "notes": "Heat-tolerant; productive through Florida summers when slicer tomatoes shut down. Crack-prone after summer thunderstorms; pick at first orange blush."
+        },
+        "continental": {
+          "notes": "First-ripe indeterminate cherry tomato; perfect for short-season Zones 4 to 6. Single stem with stake gives the cleanest fruit set."
+        },
+        "arid": {
+          "windowShifts": {
+            "transplant": -1
+          },
+          "notes": "Plant in early spring; harvest into late October when nights cool. 30% shade cloth above 95F preserves fruit set."
+        }
+      }
     },
     {
       "slug": "juliet-tomato",
@@ -28319,7 +28657,21 @@
         }
       ],
       "notes": "1991 University of Minnesota release; explosive crisp texture, balanced sweet-tart. Cold-hardy. Bitter pit prone - calcium foliar sprays help. Plant pollinator partner.",
-      "source": "UMN Extension - Apple Cultivars"
+      "source": "UMN Extension - Apple Cultivars",
+      "climateModifiers": {
+        "maritime": {
+          "notes": "Excellent maritime apple; cool wet falls develop deep crisp texture. Scab pressure heavy in Pacific NW; choose Liberty or Cosmic Crisp for resistance."
+        },
+        "continental": {
+          "notes": "1991 UMN release ideal for cold continental Zones 3 to 5; chill hours 800 plus. Stores 4 to 6 months at 32F."
+        },
+        "humid_subtropical": {
+          "notes": "Marginal in Southern zones; chill hours requirement (800) limits to mountain South. Bitter pit pressure on calcium-deficient soils."
+        },
+        "mediterranean": {
+          "notes": "Marginal in coastal CA; needs cooler nights than zone 9 typically provides. Try in inland valleys with mountain microclimate."
+        }
+      }
     },
     {
       "slug": "apple-fuji",
@@ -28346,7 +28698,24 @@
         }
       ],
       "notes": "1962 Japanese cross of Red Delicious x Ralls Janet; crisp, very sweet, top US-market apple. Long season - October pick. Excellent storage (6+ months refrigerated).",
-      "source": "Cornell Cooperative Extension - Apple Cultivars"
+      "source": "Cornell Cooperative Extension - Apple Cultivars",
+      "climateModifiers": {
+        "mediterranean": {
+          "notes": "Premier CA apple; long warm Mediterranean falls develop full Fuji sweetness. Chill hours 500."
+        },
+        "humid_subtropical": {
+          "notes": "Lower chill (500) makes Fuji viable in upper South zones 7 to 8. Scab and fire blight pressure heavy; spray schedule mandatory."
+        },
+        "maritime": {
+          "windowShifts": {
+            "plant_now": 1
+          },
+          "notes": "Marginal in Pacific NW; needs warmer fall than maritime typically provides. Try in inland valleys; scab pressure heavy."
+        },
+        "continental": {
+          "notes": "Productive in mid-Atlantic and Northeast continental orchards; harvest Oct through Nov before first hard freeze."
+        }
+      }
     },
     {
       "slug": "apple-gala",
@@ -28400,7 +28769,24 @@
         }
       ],
       "notes": "1868 Australian seedling; bright green, very tart, the canonical pie apple. Long season - late October pick. Excellent storage (8+ months).",
-      "source": "Cornell Cooperative Extension - Apple Cultivars"
+      "source": "Cornell Cooperative Extension - Apple Cultivars",
+      "climateModifiers": {
+        "mediterranean": {
+          "notes": "Late-ripening (Oct through Nov) tart green apple; thrives in long warm Mediterranean falls. Chill hours 400; minimal winter requirement."
+        },
+        "humid_subtropical": {
+          "notes": "Lower chill requirement (400) makes Granny Smith viable in upper South zones 7 to 8. Scab and fire-blight pressure heavy; spray schedule mandatory."
+        },
+        "maritime": {
+          "windowShifts": {
+            "plant_now": 1
+          },
+          "notes": "Late-ripening; harvest Oct through Nov before fall storms. Scab pressure heavy in Pacific NW; integrated pest management."
+        },
+        "arid": {
+          "notes": "Productive in Sonoran high-desert orchards; the defining inland CA / NM apple. Drip-irrigate consistently to prevent watercore."
+        }
+      }
     },
     {
       "slug": "apple-liberty",
@@ -28811,7 +29197,24 @@
         }
       ],
       "notes": "1906 Luther Burbank Japanese-plum hybrid; red-purple skin, amber-red flesh. Partially self-fertile but heavier crops with pollinator partner. Late June - early July pick.",
-      "source": "UC ANR - Japanese Plum Cultivars"
+      "source": "UC ANR - Japanese Plum Cultivars",
+      "climateModifiers": {
+        "mediterranean": {
+          "notes": "Premier CA stone fruit; chill hours 300 met in coastal zones. Late June ripening Japanese plum; the defining California plum."
+        },
+        "humid_subtropical": {
+          "notes": "Lower chill (300) makes Santa Rosa viable across the Southeast. Brown rot pressure heavy; spray schedule mandatory."
+        },
+        "arid": {
+          "notes": "Productive in inland CA / AZ; drip-irrigate consistently during fruit fill. Self-fertile, no pollinator needed."
+        },
+        "maritime": {
+          "windowShifts": {
+            "plant_now": 1
+          },
+          "notes": "Productive in Pacific NW; cool wet springs reduce brown rot vs Eastern climates. Bacterial canker pressure on older trees."
+        }
+      }
     },
     {
       "slug": "plum-damson",
@@ -28895,7 +29298,24 @@
         }
       ],
       "notes": "1940 Michigan State release; the standard freestone peach. Self-fertile. Early-mid season; requires 800-1000 chill hours.",
-      "source": "MSU Extension - Peach Cultivars"
+      "source": "MSU Extension - Peach Cultivars",
+      "climateModifiers": {
+        "continental": {
+          "notes": "Late-July to early-August ripening freestone; cold-hardy to Zone 4. The defining mid-Atlantic and Northeast home orchard peach."
+        },
+        "humid_subtropical": {
+          "notes": "Productive in upper South Zones 7 to 8; chill hours 950. Brown rot pressure heavy in humid summers; spray schedule mandatory."
+        },
+        "maritime": {
+          "windowShifts": {
+            "plant_now": 1
+          },
+          "notes": "Marginal in Pacific NW; peach leaf curl pressure heavy. Spray copper at bud break; choose Frost or Q-1-8 for PNW resistance."
+        },
+        "mediterranean": {
+          "notes": "Productive in inland CA; chill hours 950 met in most zones. Drip-irrigate consistently during fruit fill."
+        }
+      }
     },
     {
       "slug": "peach-elberta",
@@ -29003,7 +29423,24 @@
         }
       ],
       "notes": "1849 Massachusetts heirloom; deep blue slip-skin grape, the Welch's juice/jelly cultivar. Self-fertile. Cold-hardy native American grape.",
-      "source": "Cornell Cooperative Extension - American Grape Cultivars"
+      "source": "Cornell Cooperative Extension - American Grape Cultivars",
+      "climateModifiers": {
+        "continental": {
+          "notes": "Cold-hardy American slipskin grape; the defining Northeast and Midwest juice and jelly grape. Tolerates Zone 4 winters."
+        },
+        "humid_subtropical": {
+          "notes": "Disease-resistant Vitis labrusca; productive across the upper South. Black rot pressure heavy in humid summers; spray schedule helpful."
+        },
+        "maritime": {
+          "windowShifts": {
+            "plant_now": 1
+          },
+          "notes": "Productive in Pacific NW with full sun; the defining home-garden juice grape. Powdery mildew pressure on tight clusters; train on a high cordon."
+        },
+        "mediterranean": {
+          "notes": "Productive in coastal CA; the home juice grape of choice. Drip-irrigate during fruit fill."
+        }
+      }
     },
     {
       "slug": "grape-niagara",
@@ -29057,7 +29494,21 @@
         }
       ],
       "notes": "2006 University of Minnesota cold-hardy red wine grape; bud-hardy to -35F. The canonical northern red-wine grape (Pinot-Noir-style).",
-      "source": "UMN Extension - Cold-Hardy Grape Cultivars"
+      "source": "UMN Extension - Cold-Hardy Grape Cultivars",
+      "climateModifiers": {
+        "continental": {
+          "notes": "University of Minnesota 2006 release; cold-hardy red winegrape to Zone 3. The defining cold-climate red for Midwest and Plains orchards."
+        },
+        "maritime": {
+          "windowShifts": {
+            "plant_now": 1
+          },
+          "notes": "Productive in Pacific NW; cool maritime summers do not stress the vine. Lower brix than warmer-zone Marquette; harvest late September."
+        },
+        "humid_subtropical": {
+          "notes": "Marginal in deep South; cold-climate hybrid prefers crisp continental falls. Try in upper South mountain zones."
+        }
+      }
     },
     {
       "slug": "grape-frontenac",
@@ -32159,7 +32610,24 @@
         "cripps pink",
         "pink lady"
       ],
-      "source": "WSU Tree Fruit Research; University of California Cooperative Extension Pomology"
+      "source": "WSU Tree Fruit Research; University of California Cooperative Extension Pomology",
+      "climateModifiers": {
+        "mediterranean": {
+          "notes": "Premier Mediterranean apple; very late ripening (Nov) develops deep pink color in long warm CA falls. Chill hours 400 to 500."
+        },
+        "humid_subtropical": {
+          "notes": "Lower chill (400 to 500) makes Pink Lady viable in upper South zones 7 to 8. Excellent fire blight resistance."
+        },
+        "arid": {
+          "notes": "Outstanding inland CA / Phoenix / Tucson apple; drip-irrigate consistently. Late ripening matches dry warm desert SW falls."
+        },
+        "maritime": {
+          "windowShifts": {
+            "plant_now": 1
+          },
+          "notes": "Marginal in maritime; needs longer warm fall than Pacific NW typically provides. Try in inland valleys with mountain rain shadow."
+        }
+      }
     },
     {
       "slug": "apple-jonagold",
@@ -32617,7 +33085,18 @@
         "norton",
         "cynthiana"
       ],
-      "source": "University of Missouri Grape and Wine Institute; Virginia Tech Viticulture"
+      "source": "University of Missouri Grape and Wine Institute; Virginia Tech Viticulture",
+      "climateModifiers": {
+        "humid_subtropical": {
+          "notes": "Premier Southern red wine grape; Vitis aestivalis ancestry confers disease resistance through Florida humidity. The defining Virginia / Missouri winegrape."
+        },
+        "continental": {
+          "notes": "Cold-hardy to Zone 5; harvest in mid-September before first frost. The home red winegrape for Eastern continental orchards."
+        },
+        "mediterranean": {
+          "notes": "Marginal in coastal CA; Vitis aestivalis ancestry prefers humid summers over dry. Try inland zones where summer rain occurs."
+        }
+      }
     },
     {
       "slug": "grape-traminette",
@@ -33819,7 +34298,30 @@
         "marketmore 76",
         "marketmore 97"
       ],
-      "source": "Cornell University vegetable breeding program; NYSAES variety release records"
+      "source": "Cornell University vegetable breeding program; NYSAES variety release records",
+      "climateModifiers": {
+        "maritime": {
+          "windowShifts": {
+            "transplant": 1
+          },
+          "notes": "Cool maritime soils slow germination; transplant only after night temps hold above 55F. Powdery mildew pressure heavy in August; choose Marketmore 97 for resistance."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "direct_sow": -1
+          },
+          "notes": "Direct sow in early spring; trellis vertical for airflow against downy mildew. Cucumber beetle and bacterial wilt pressure peaks in May."
+        },
+        "continental": {
+          "notes": "Direct-sow after last frost; harvest standing through August. Mid-summer succession sow for September picking before powdery mildew shuts plants down."
+        },
+        "arid": {
+          "windowShifts": {
+            "transplant": -1
+          },
+          "notes": "Plant in early spring; harvest by mid-July before triple-digit heat triggers bitterness. 30% shade cloth above 95F preserves fruit quality."
+        }
+      }
     },
     {
       "slug": "cucumber-suyo-long",
@@ -34143,7 +34645,27 @@
         "honeyboat",
         "bohemian squash"
       ],
-      "source": "Cornell University vegetable breeding; Cornell Cooperative Extension"
+      "source": "Cornell University vegetable breeding; Cornell Cooperative Extension",
+      "climateModifiers": {
+        "maritime": {
+          "notes": "Excellent producer in cool maritime; bush habit with quick 90-day finish. Black plastic mulch and row cover speed germination and early growth."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "direct_sow": -1
+          },
+          "notes": "Plant early to beat July vine borer pressure. Diatomaceous earth around base of stems; row cover until female flowers open."
+        },
+        "continental": {
+          "notes": "Direct-sow after soil hits 65F; finishes reliably before first frost. Excellent storage squash for short-season zones where Hubbard would not mature."
+        },
+        "arid": {
+          "windowShifts": {
+            "transplant": -1
+          },
+          "notes": "Plant in early spring; harvest by August before triple-digit heat stalls fruit set. Drip-irrigate consistently to prevent blossom-end rot."
+        }
+      }
     },
     {
       "slug": "squash-kabocha",
@@ -36033,7 +36555,27 @@
       "aliases": [
         "bluecrop"
       ],
-      "source": "USDA-ARS blueberry breeding program records; OSU blueberry variety trials"
+      "source": "USDA-ARS blueberry breeding program records; OSU blueberry variety trials",
+      "climateModifiers": {
+        "maritime": {
+          "notes": "Ideal northern highbush for cool wet maritime; acidic soils favor blueberry naturally. Slug pressure heavy; iron phosphate baits around base."
+        },
+        "continental": {
+          "notes": "Cold-hardy to Zone 4; the defining Northeast and Midwest commercial blueberry. Mulch heavily with pine needles or oak leaves to maintain pH 4.5 to 5.2."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "plant_now": 1
+          },
+          "notes": "Marginal in deep South; choose rabbiteye (Vaccinium ashei) or southern highbush instead. Cold requirement 800 hours met in upper South only."
+        },
+        "arid": {
+          "windowShifts": {
+            "plant_now": 2
+          },
+          "notes": "Challenging in alkaline arid soils; amend with sulfur and pine bark mulch to drop pH. Drip-irrigate with collected rainwater where municipal water is alkaline."
+        }
+      }
     },
     {
       "slug": "blueberry-duke",
@@ -36183,7 +36725,21 @@
       "aliases": [
         "sunshine blue"
       ],
-      "source": "USDA-ARS southern highbush breeding records; UF/IFAS Extension blueberry variety guide"
+      "source": "USDA-ARS southern highbush breeding records; UF/IFAS Extension blueberry variety guide",
+      "climateModifiers": {
+        "humid_subtropical": {
+          "notes": "Premier low-chill (150 hour) Southern highbush; container-friendly for patio gardens. Productive zone 5 to 10."
+        },
+        "mediterranean": {
+          "notes": "Self-fertile semi-evergreen for CA gardens; 150 chill hours met in coastal zones. The defining low-chill home blueberry."
+        },
+        "arid": {
+          "notes": "Container culture in arid soils; use peat / pine bark mix for pH 4.5 to 5.2. Drip-irrigate with non-alkaline water."
+        },
+        "maritime": {
+          "notes": "Compact bush ideal for Pacific NW patio gardens; productive but lower yield than northern highbush. Choose Bluecrop or Duke for in-ground."
+        }
+      }
     },
     {
       "slug": "blueberry-pink-lemonade",
@@ -36273,7 +36829,21 @@
       "aliases": [
         "tifblue"
       ],
-      "source": "University of Georgia Cooperative Extension; USDA-ARS rabbiteye blueberry breeding records"
+      "source": "University of Georgia Cooperative Extension; USDA-ARS rabbiteye blueberry breeding records",
+      "climateModifiers": {
+        "humid_subtropical": {
+          "notes": "Premier Southern rabbiteye; chill hours 350 met across the Southeast. Vigorous 8 to 10 ft bush, drought-tolerant once established."
+        },
+        "mediterranean": {
+          "notes": "Productive in coastal CA with acidic soil amendment; chill hours met in most zones. Vigorous habit needs annual pruning."
+        },
+        "arid": {
+          "windowShifts": {
+            "plant_now": 2
+          },
+          "notes": "Challenging in alkaline arid soils; amend with sulfur and pine bark to drop pH to 5.0. Container culture often more reliable."
+        }
+      }
     },
     {
       "slug": "blueberry-misty",
@@ -36333,7 +36903,27 @@
       "aliases": [
         "anne"
       ],
-      "source": "Cornell University NYSAES raspberry breeding records"
+      "source": "Cornell University NYSAES raspberry breeding records",
+      "climateModifiers": {
+        "maritime": {
+          "notes": "Primocane-bearing yellow raspberry; ideal Pacific NW cool maritime climate. Fall crop on first-year canes ripens July through October."
+        },
+        "continental": {
+          "notes": "Cold-hardy primocane raspberry; mow canes flat in winter for next year's fall crop. The premier short-season raspberry strategy."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "plant_now": -1
+          },
+          "notes": "Marginal in deep South; choose Caroline or Heritage for higher heat tolerance. Anthracnose pressure heavy in humid summers."
+        },
+        "arid": {
+          "windowShifts": {
+            "plant_now": 1
+          },
+          "notes": "Drip-irrigate consistently in arid heat; spider mite pressure heavy without overhead misting. Choose a partial shade location."
+        }
+      }
     },
     {
       "slug": "raspberry-caroline",
@@ -36633,7 +37223,21 @@
       "aliases": [
         "honeoye"
       ],
-      "source": "Cornell University NYSAES strawberry breeding records"
+      "source": "Cornell University NYSAES strawberry breeding records",
+      "climateModifiers": {
+        "maritime": {
+          "notes": "Productive Pacific NW June-bearer; gray mold pressure heavy in wet springs. Black plastic mulch and straw between rows."
+        },
+        "continental": {
+          "notes": "Cold-hardy to Zone 3; the defining Northeast / Midwest home garden June-bearer. Plant in matted-row system for highest yields."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "plant_now": -1
+          },
+          "notes": "Marginal in deep South; plant in fall for spring harvest. Anthracnose pressure heavy; choose Chandler or Camarosa instead for annual plasticulture."
+        }
+      }
     },
     {
       "slug": "strawberry-jewel-strawberry",
@@ -36790,7 +37394,33 @@
       "aliases": [
         "chandler"
       ],
-      "source": "UC Davis strawberry breeding program records; NC State Extension plasticulture guide"
+      "source": "UC Davis strawberry breeding program records; NC State Extension plasticulture guide",
+      "climateModifiers": {
+        "humid_subtropical": {
+          "windowShifts": {
+            "plant_now": -1
+          },
+          "notes": "Premier short-day cultivar for SE / mid-Atlantic plasticulture; plant in October for May harvest. Anthracnose-resistant; the defining North Carolina commercial strawberry."
+        },
+        "mediterranean": {
+          "windowShifts": {
+            "plant_now": -1
+          },
+          "notes": "Premier CA short-day cultivar; plant in November for April through June harvest. The defining California plasticulture cultivar."
+        },
+        "continental": {
+          "windowShifts": {
+            "plant_now": 1
+          },
+          "notes": "Marginal in cold continental; works in zones 7 plus or in protected winter culture. Choose Honeoye for zone 5 and colder."
+        },
+        "arid": {
+          "windowShifts": {
+            "plant_now": -1
+          },
+          "notes": "Plant in October for spring harvest; drip-irrigate consistently. Pine straw or wood-chip mulch keeps fruit clean."
+        }
+      }
     },
     {
       "slug": "strawberry-camarosa",
@@ -36971,7 +37601,21 @@
       "aliases": [
         "belle of georgia"
       ],
-      "source": "USDA-ARS GRIN Prunus collection; University of Georgia Extension stone fruit cultivars"
+      "source": "USDA-ARS GRIN Prunus collection; University of Georgia Extension stone fruit cultivars",
+      "climateModifiers": {
+        "humid_subtropical": {
+          "notes": "Classic Southern peach; chill hours 850 met across the Southeast. Late-August ripening freestone; brown rot pressure heavy."
+        },
+        "mediterranean": {
+          "notes": "Productive in inland CA orchards; chill hours met in most zones. White-fleshed sweet peach; one of the canonical Southern dessert peaches."
+        },
+        "continental": {
+          "notes": "Cold-hardy to Zone 5; late-August ripening matches mid-Atlantic harvest window. Choose for orchards needing a freestone after Redhaven."
+        },
+        "arid": {
+          "notes": "Productive in inland AZ / NM at elevation; chill hours met in mountain zones. Drip-irrigate consistently."
+        }
+      }
     },
     {
       "slug": "peach-frost",
@@ -38110,7 +38754,24 @@
         "black mission",
         "franciscana"
       ],
-      "source": "UC ANR fig production guide; USDA-ARS GRIN records"
+      "source": "UC ANR fig production guide; USDA-ARS GRIN records",
+      "climateModifiers": {
+        "mediterranean": {
+          "notes": "Premier CA Mission fig; long warm seasons produce dark sweet purple-black main crop in late August. The defining California commercial fig."
+        },
+        "arid": {
+          "notes": "Productive in desert SW with drip irrigation; the Spanish mission fig of inland CA / AZ orchards. Heat-tolerant once established."
+        },
+        "humid_subtropical": {
+          "notes": "Productive across the Southeast; chill hours not a limitation. Fig rust pressure heavy in late summer; copper spray at fruit set."
+        },
+        "maritime": {
+          "windowShifts": {
+            "plant_now": 2
+          },
+          "notes": "Marginal in Pacific NW; cool wet falls do not develop full sweetness. Choose Desert King or Brown Turkey for maritime."
+        }
+      }
     },
     {
       "slug": "fig-kadota",
@@ -38173,7 +38834,21 @@
         "bensonhurst purple",
         "hardy chicago"
       ],
-      "source": "Penn State Extension fig guide; Edible Landscaping Virginia cultivar notes"
+      "source": "Penn State Extension fig guide; Edible Landscaping Virginia cultivar notes",
+      "climateModifiers": {
+        "continental": {
+          "notes": "Cold-hardy fig (mulch heavily, can survive to Zone 5); the home-garden fig of choice for Northeast and Midwest. Roots survive 10F if crown is buried."
+        },
+        "maritime": {
+          "notes": "Reliable producer in Pacific NW; wet winters not a problem for the dormant rootstock. Choose Desert King for the Pacific NW alternative."
+        },
+        "humid_subtropical": {
+          "notes": "Productive across the Southeast; chill hours not a limitation. Fig rust pressure heavy in late summer; copper spray at fruit set."
+        },
+        "mediterranean": {
+          "notes": "Ideal Mediterranean fig; long warm seasons produce two crops (breba in early summer, main in late summer). Drip-irrigate during fruit fill."
+        }
+      }
     },
     {
       "slug": "fig-violette-de-bordeaux",
@@ -38512,7 +39187,30 @@
       "aliases": [
         "wonderful"
       ],
-      "source": "UC ANR pomegranate production guide; USDA-ARS Davis Punica collection records"
+      "source": "UC ANR pomegranate production guide; USDA-ARS Davis Punica collection records",
+      "climateModifiers": {
+        "mediterranean": {
+          "notes": "Premier CA / Mediterranean climate pomegranate; long warm dry summers develop maximum arils. The defining commercial cultivar of the San Joaquin Valley."
+        },
+        "arid": {
+          "notes": "Productive in inland AZ / NM / TX; drip-irrigate consistently during fruit fill. The defining xeriscape edible fruit tree."
+        },
+        "humid_subtropical": {
+          "notes": "Productive in upper South Zone 7 plus; fruit cracking pressure in wet summers. Drip-irrigate consistently to maintain even moisture."
+        },
+        "maritime": {
+          "windowShifts": {
+            "plant_now": 2
+          },
+          "notes": "Marginal in cool maritime; fruit does not ripen reliably in Pacific NW summers. Container culture overwintered in cool greenhouse for fruit."
+        },
+        "continental": {
+          "windowShifts": {
+            "plant_now": 2
+          },
+          "notes": "Hardy to Zone 7 with mulch; choose Salavatski for Zone 6 cold-hardiness. Container culture overwintered indoors for colder zones."
+        }
+      }
     },
     {
       "slug": "pomegranate-eversweet",
@@ -39285,7 +39983,27 @@
       "aliases": [
         "shenandoah"
       ],
-      "source": "Peterson Pawpaws cultivar records; Kentucky State University pawpaw research"
+      "source": "Peterson Pawpaws cultivar records; Kentucky State University pawpaw research",
+      "climateModifiers": {
+        "humid_subtropical": {
+          "notes": "Premier Eastern native fruit; ideal for upper South Zones 6 to 8. Long warm summers develop full mango-banana-custard flavor."
+        },
+        "continental": {
+          "notes": "Cold-hardy to Zone 5; the defining Eastern continental native fruit tree. Plant two unrelated seedlings for cross-pollination."
+        },
+        "maritime": {
+          "windowShifts": {
+            "plant_now": 2
+          },
+          "notes": "Marginal in Pacific NW; cool summers do not develop full flavor. Choose Sunflower or Susquehanna for cooler summers if attempting."
+        },
+        "mediterranean": {
+          "windowShifts": {
+            "plant_now": 2
+          },
+          "notes": "Challenging in CA; pawpaw is an Eastern bottomland species needing summer humidity. Try mountain microclimates with consistent moisture."
+        }
+      }
     },
     {
       "slug": "pawpaw-sunflower",
@@ -39532,7 +40250,24 @@
         "adams",
         "adams no 1"
       ],
-      "source": "Cornell NY Agricultural Experiment Station elderberry records; University of Missouri elderberry research"
+      "source": "Cornell NY Agricultural Experiment Station elderberry records; University of Missouri elderberry research",
+      "climateModifiers": {
+        "continental": {
+          "notes": "Cold-hardy to Zone 3; productive native shrub through Northeast and Midwest. Plant two cultivars 6 to 10 ft apart for cross-pollination."
+        },
+        "maritime": {
+          "notes": "Productive in Pacific NW with full sun; cool wet springs favor pollination. Choose Bob Gordon or Wyldewood for higher yield."
+        },
+        "humid_subtropical": {
+          "notes": "Productive across the South; tolerant of heat and humidity. Choose Adams 1 + Adams 2 pollinator pair for best yield."
+        },
+        "arid": {
+          "windowShifts": {
+            "plant_now": 2
+          },
+          "notes": "Marginal in dry desert SW without consistent drip irrigation. Plant in moister microclimate (north side of building)."
+        }
+      }
     },
     {
       "slug": "elderberry-york",
@@ -40650,7 +41385,30 @@
         "genovese",
         "italian basil"
       ],
-      "source": "Cornell Cooperative Extension; UF/IFAS basil variety trial"
+      "source": "Cornell Cooperative Extension; UF/IFAS basil variety trial",
+      "climateModifiers": {
+        "maritime": {
+          "windowShifts": {
+            "transplant": 2
+          },
+          "notes": "Cool maritime summers slow basil; downy mildew pressure heavy. Choose Eleonora or Prospera DM-resistant cultivars for outdoor growing."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "transplant": -1
+          },
+          "notes": "Premier basil climate; productive through summer heat with consistent moisture. Pinch flower spikes weekly to extend leaf production."
+        },
+        "continental": {
+          "notes": "Direct sun and warm summer nights produce maximum basil; succession-sow every 3 weeks for continuous harvest. Harvest before first cool fall night."
+        },
+        "arid": {
+          "notes": "Productive in arid heat with drip irrigation; mulch heavily to retain moisture. 30% shade cloth above 100F preserves leaf quality."
+        },
+        "mediterranean": {
+          "notes": "The defining basil climate; long warm summers and limited foliar disease. Drip-irrigate consistently; pinch flowers to extend harvest."
+        }
+      }
     },
     {
       "slug": "basil-thai",
@@ -40687,7 +41445,30 @@
         "thai basil",
         "horapha"
       ],
-      "source": "UF/IFAS basil variety trial; Cornell vegetable variety database"
+      "source": "UF/IFAS basil variety trial; Cornell vegetable variety database",
+      "climateModifiers": {
+        "humid_subtropical": {
+          "windowShifts": {
+            "transplant": -1
+          },
+          "notes": "Heat-tolerant Thai basil thrives in Florida summers; the defining Southeast herb-garden basil. More bolt-resistant than Genovese in humid heat."
+        },
+        "mediterranean": {
+          "notes": "Productive in long warm Mediterranean summers; bolt-resistant once established. Drip-irrigate consistently."
+        },
+        "maritime": {
+          "windowShifts": {
+            "transplant": 2
+          },
+          "notes": "Marginal in cool maritime; greenhouse-only for reliable production. Choose Genovese basil instead for outdoor culture."
+        },
+        "continental": {
+          "notes": "Direct sun and warm nights produce maximum Thai basil; harvest before first cool fall night. Stronger anise-licorice aroma in warm climates."
+        },
+        "arid": {
+          "notes": "Productive in arid heat with consistent drip irrigation; tolerates desert heat better than Genovese. 30% shade cloth above 100F preserves leaf quality."
+        }
+      }
     },
     {
       "slug": "basil-lemon-mrs-burns",
@@ -41027,7 +41808,27 @@
         "corsican mint",
         "spanish mint"
       ],
-      "source": "Royal Horticultural Society ground-cover plant database; Cornell Cooperative Extension"
+      "source": "Royal Horticultural Society ground-cover plant database; Cornell Cooperative Extension",
+      "climateModifiers": {
+        "mediterranean": {
+          "notes": "Premier Mediterranean climate ground cover; thrives in dappled shade and consistent moisture. The defining peppermint-aroma path mint."
+        },
+        "maritime": {
+          "notes": "Productive in cool wet Pacific NW; choose part shade and moist soil. Spreads aggressively; contain to designated path or wall edges."
+        },
+        "continental": {
+          "windowShifts": {
+            "plant_now": 2
+          },
+          "notes": "Cold-tender in Zone 5 and colder; container culture overwintered indoors. Reliable perennial in Zone 6 plus with mulch."
+        },
+        "arid": {
+          "windowShifts": {
+            "plant_now": 2
+          },
+          "notes": "Marginal in dry desert SW; drip-irrigate consistently and provide afternoon shade. Choose a moister microclimate (north side of building)."
+        }
+      }
     },
     {
       "slug": "mint-pineapple-variegated",
@@ -41303,7 +42104,24 @@
       "aliases": [
         "berggarten"
       ],
-      "source": "Royal Horticultural Society plant database; Mountain Valley Growers catalog"
+      "source": "Royal Horticultural Society plant database; Mountain Valley Growers catalog",
+      "climateModifiers": {
+        "mediterranean": {
+          "notes": "Premier Mediterranean climate sage; the defining culinary cultivar. Thrives in long warm dry summers with minimal irrigation."
+        },
+        "arid": {
+          "notes": "Drought-tolerant; productive in desert SW xeriscape gardens. Minimal irrigation after establishment."
+        },
+        "continental": {
+          "notes": "Cold-hardy to Zone 4; the defining hardy culinary sage. Mulch lightly in winter; well-drained soil mandatory."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "plant_now": 1
+          },
+          "notes": "Marginal in deep South humidity; root rot pressure on heavy clay soils. Choose raised bed or container culture for reliable longevity."
+        }
+      }
     },
     {
       "slug": "sage-purple-icterina",
@@ -41700,7 +42518,33 @@
       "aliases": [
         "santo cilantro"
       ],
-      "source": "Johnny's Selected Seeds variety notes; Cornell vegetable variety database"
+      "source": "Johnny's Selected Seeds variety notes; Cornell vegetable variety database",
+      "climateModifiers": {
+        "maritime": {
+          "notes": "Premier cool maritime herb; productive April through October. Bolt-slow long-cool springs extend harvest 8 to 10 weeks."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "direct_sow": -2
+          },
+          "notes": "Cool-season only; sow Sep through Mar for fall through spring harvest. Bolts within 3 weeks past 75F."
+        },
+        "continental": {
+          "notes": "Succession-sow every 2 weeks until heat hits 75F. Resume in August for fall harvest through first hard freeze."
+        },
+        "arid": {
+          "windowShifts": {
+            "direct_sow": -2
+          },
+          "notes": "Sow in late winter and again in fall; skip summer. 30% shade cloth above 85F extends harvest by 2 weeks."
+        },
+        "mediterranean": {
+          "windowShifts": {
+            "direct_sow": 1
+          },
+          "notes": "Sow Sep through Mar for cool-season harvest; the traditional Mediterranean herb-garden window. Skip the heat-bolt summer."
+        }
+      }
     },
     {
       "slug": "cilantro-calypso",
@@ -41768,7 +42612,30 @@
         "papaloquelite",
         "yerba porosa"
       ],
-      "source": "Native Seeds/SEARCH; UF/IFAS tropical herbs notes"
+      "source": "Native Seeds/SEARCH; UF/IFAS tropical herbs notes",
+      "climateModifiers": {
+        "humid_subtropical": {
+          "notes": "Heat-tolerant Mexican cilantro substitute; productive through Florida summers where Santo bolts. The defining summer cilantro for the deep South."
+        },
+        "arid": {
+          "notes": "Drought-tolerant Sonoran herb; productive in desert SW heat. The traditional Sonoran summer cilantro."
+        },
+        "continental": {
+          "windowShifts": {
+            "direct_sow": 1
+          },
+          "notes": "Direct sow after last frost; harvest leaves June through frost. Stronger cilantro flavor than Santo; one leaf flavors a pot of beans."
+        },
+        "maritime": {
+          "windowShifts": {
+            "transplant": 2
+          },
+          "notes": "Marginal in cool maritime; needs warm summer to produce full leaf flavor. Choose Santo for outdoor cilantro in cool zones."
+        },
+        "mediterranean": {
+          "notes": "Productive in long warm Mediterranean summers; bolt-resistant. Drip-irrigate consistently."
+        }
+      }
     },
     {
       "slug": "cilantro-culantro",
@@ -41963,7 +42830,30 @@
       "aliases": [
         "grosso"
       ],
-      "source": "OSU Extension lavender variety trial; USDA lavender cultivar notes"
+      "source": "OSU Extension lavender variety trial; USDA lavender cultivar notes",
+      "climateModifiers": {
+        "mediterranean": {
+          "notes": "Premier commercial lavandin worldwide; the defining French Provence cultivar. Thrives in long warm dry summers."
+        },
+        "arid": {
+          "notes": "Drought-tolerant; productive in desert SW with minimal irrigation. Excellent xeriscape herb for sunny inland gardens."
+        },
+        "continental": {
+          "windowShifts": {
+            "plant_now": 1
+          },
+          "notes": "Cold-hardy to Zone 5; mulch lightly in winter. Choose well-drained soil; wet feet kill lavandin faster than cold."
+        },
+        "maritime": {
+          "windowShifts": {
+            "plant_now": 1
+          },
+          "notes": "Productive in Pacific NW with well-drained raised beds; wet winter soils cause root rot. Excellent on slope or with gravel mulch."
+        },
+        "humid_subtropical": {
+          "notes": "Marginal in deep South humidity; Phytophthora root rot pressure heavy. Choose Provence or Grosso in raised bed; expect 3 to 5 year lifespan."
+        }
+      }
     },
     {
       "slug": "fennel-florence-zefa-fino",
@@ -42000,7 +42890,33 @@
         "zefa fino",
         "florence fennel"
       ],
-      "source": "Cornell vegetable variety database; Johnny's Selected Seeds notes"
+      "source": "Cornell vegetable variety database; Johnny's Selected Seeds notes",
+      "climateModifiers": {
+        "maritime": {
+          "notes": "Cool maritime summers reliably produce tight Florence bulbs; transplant May through Aug. Slug pressure heavy on young rosettes; iron phosphate baits."
+        },
+        "mediterranean": {
+          "notes": "Sow Sep through Nov for winter and spring harvest; the traditional Italian fennel window. Skip the heat-bolt summer crop."
+        },
+        "continental": {
+          "windowShifts": {
+            "transplant": 1
+          },
+          "notes": "Transplant after last frost; harvest before Aug heat triggers premature bolting. Day-neutral cultivars (Zefa Fino, Orion) bolt-resist into July."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "direct_sow": -2
+          },
+          "notes": "Cool-season only; sow Sep through Nov for winter and spring harvest. Spring summer crop fails reliably to heat-bolt past 80F."
+        },
+        "arid": {
+          "windowShifts": {
+            "direct_sow": -2
+          },
+          "notes": "Sow in fall and overwinter under row cover; harvest Feb through April. Bolts past 80F; skip late spring and summer."
+        }
+      }
     },
     {
       "slug": "fennel-bronze-leaf",
@@ -44934,7 +45850,32 @@
         }
       ],
       "notes": "French heirloom true cantaloupe (no netting). 2 pound smooth gray-green fruit with deep orange aromatic flesh; harvest at full slip when stem detaches cleanly.",
-      "source": "Cornell Cooperative Extension Vegetable Varieties for Gardeners; Vilmorin and Andrieux historical seed catalog."
+      "source": "Cornell Cooperative Extension Vegetable Varieties for Gardeners; Vilmorin and Andrieux historical seed catalog.",
+      "climateModifiers": {
+        "maritime": {
+          "windowShifts": {
+            "start_indoors": -2,
+            "transplant": 2
+          },
+          "notes": "Marginal in cool maritime; choose only in long warm summers and use black plastic, row cover, and a south wall. Petit Gris de Rennes is a more reliable alternative."
+        },
+        "mediterranean": {
+          "notes": "The defining French cultivar for Mediterranean climates; sets fruit reliably through long dry summers. Train on a low trellis for cleaner fruit."
+        },
+        "continental": {
+          "notes": "Direct-sow only after soil hits 70F; full Charentais melon needs 85 days of consistent heat. Black plastic mulch and row cover speed early growth."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "start_indoors": 1,
+            "transplant": -2
+          },
+          "notes": "Plant early to beat July bacterial wilt; train on trellis for airflow. Powdery mildew pressure heavy in late season; switch to PM-resistant cultivar where available."
+        },
+        "arid": {
+          "notes": "Excellent producer in arid heat; harvest by morning to retain sugar levels. Mulch heavily and drip-irrigate twice weekly."
+        }
+      }
     },
     {
       "slug": "melon-galia",
@@ -45356,7 +46297,28 @@
         }
       ],
       "notes": "1956 icebox watermelon, 8 to 12 pound round fruit, dark green rind, sweet red flesh. Compact 6 foot vines suit small gardens; reliable producer across most US regions.",
-      "source": "USDA-ARS GRIN cultivar records; Cornell Cooperative Extension Vegetable Varieties for Gardeners."
+      "source": "USDA-ARS GRIN cultivar records; Cornell Cooperative Extension Vegetable Varieties for Gardeners.",
+      "climateModifiers": {
+        "maritime": {
+          "windowShifts": {
+            "start_indoors": -2,
+            "transplant": 1
+          },
+          "notes": "Short-season icebox cultivar suited to cool maritime; one of the few watermelons that ripens before September. Black plastic mulch and row cover for 4 weeks post-transplant."
+        },
+        "continental": {
+          "notes": "First-ripe in 75 to 80 days; perfect for Zones 4 to 6 where full-season Crimson Sweet would not finish. Direct sow after soil hits 70F."
+        },
+        "humid_subtropical": {
+          "notes": "Plant earlier than full-season types to dodge July bacterial wilt pressure. Single-stem trellis with sling support also reduces ground rot."
+        },
+        "arid": {
+          "windowShifts": {
+            "transplant": -1
+          },
+          "notes": "Plant in early spring; harvest by July before mid-summer fruit-set fails in heat above 100F. Drip-irrigate twice weekly."
+        }
+      }
     },
     {
       "slug": "watermelon-charleston-gray",
@@ -47668,7 +48630,27 @@
         }
       ],
       "notes": "Understory tree, blueberry-like sweet fruit. Earliest-ripening saskatoon cultivar, large 5/8 inch berries. Hardy to -50F. Edible Plant Manitoba selection.",
-      "source": "Manitoba Agriculture saskatoon cultivar trials"
+      "source": "Manitoba Agriculture saskatoon cultivar trials",
+      "climateModifiers": {
+        "continental": {
+          "notes": "Cold-hardy to Zone 2; the defining Northern Plains and Canadian Prairie native fruit shrub. Drought-tolerant once established."
+        },
+        "maritime": {
+          "windowShifts": {
+            "plant_now": 1
+          },
+          "notes": "Productive in Pacific NW with full sun; fewer pollinators visit in cool wet springs. Less productive than zone-2 native habitat."
+        },
+        "semi_arid": {
+          "notes": "Excellent semi-arid native fruit shrub; the saskatoon berry of choice for the Great Plains. Drought-tolerant with low irrigation."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "plant_now": 2
+          },
+          "notes": "Marginal in deep South; entomosporium leaf spot pressure heavy in humid summers. Choose serviceberry-regent for upper South alternative."
+        }
+      }
     },
     {
       "slug": "saskatoon-berry-smoky",
@@ -54832,7 +55814,27 @@
         "malunggay",
         "drumstick tree"
       ],
-      "source": "ECHO Community Notes Moringa oleifera"
+      "source": "ECHO Community Notes Moringa oleifera",
+      "climateModifiers": {
+        "humid_subtropical": {
+          "notes": "Year-round leaf harvest in zones 9 plus; cut back to 4 ft in late winter for tender flush. The defining Florida edible-tree leaf vegetable."
+        },
+        "arid": {
+          "notes": "Drought-tolerant African / Indian native; thrives in desert SW heat. Drip-irrigate during establishment year; minimal irrigation thereafter."
+        },
+        "continental": {
+          "windowShifts": {
+            "transplant": 2
+          },
+          "notes": "Annual in continental zones; start indoors 8 weeks before last frost. Harvest leaves at 4 to 6 ft height by September."
+        },
+        "maritime": {
+          "windowShifts": {
+            "transplant": 4
+          },
+          "notes": "Cool maritime summers do not produce reliable yields; choose for greenhouse only. Annual in unheated culture; struggles below 70F."
+        }
+      }
     },
     {
       "slug": "chaya-tree-spinach",
@@ -54864,7 +55866,18 @@
         "chaya mansa",
         "Maya spinach"
       ],
-      "source": "ECHO Community Notes Chaya"
+      "source": "ECHO Community Notes Chaya",
+      "climateModifiers": {
+        "humid_subtropical": {
+          "notes": "Tender perennial shrub spinach substitute; cut back to 3 ft annually for tender flush. WARNING: Eat only cooked, never raw, due to hydrocyanic glycosides."
+        },
+        "arid": {
+          "notes": "Drought-tolerant Yucatan native; drip-irrigate during establishment. Pruning forces tender leaves for the kitchen."
+        },
+        "maritime": {
+          "notes": "Greenhouse-only in cool maritime; tender to frost. Grow as a container shrub overwintered indoors."
+        }
+      }
     },
     {
       "slug": "katuk-sauropus",
@@ -55899,7 +56912,27 @@
         "lambs lettuce",
         "feldsalat"
       ],
-      "source": "Cornell Vegetable Varieties Mache"
+      "source": "Cornell Vegetable Varieties Mache",
+      "climateModifiers": {
+        "maritime": {
+          "notes": "Premier winter green in mild maritime climates; sow Sep through Nov for a Jan to Mar harvest. Slug pressure is the main risk; copper tape around beds."
+        },
+        "mediterranean": {
+          "windowShifts": {
+            "direct_sow": 2
+          },
+          "notes": "Sow Oct through Dec for cool-season winter and early-spring greens. Surface-sow into firmly prepared bed; germination needs cool soil under 60F."
+        },
+        "continental": {
+          "notes": "Sow in fall under low tunnel for overwinter harvest; protected by snow cover, mache survives 0F. Direct sow in early spring under tunnel for Mar harvest."
+        },
+        "humid_subtropical": {
+          "windowShifts": {
+            "direct_sow": 1
+          },
+          "notes": "Cool-season only; sow Oct through Dec for a Dec through Feb salad green. Summer impossible; heat above 75F bolts the plant immediately."
+        }
+      }
     },
     {
       "slug": "minutina-erbastella",
@@ -61286,7 +62319,27 @@
         "red malabar spinach",
         "ceylon spinach"
       ],
-      "source": "UF/IFAS tropical greens notes; Kitazawa Seed Company"
+      "source": "UF/IFAS tropical greens notes; Kitazawa Seed Company",
+      "climateModifiers": {
+        "humid_subtropical": {
+          "notes": "Premier heat-tolerant Southern spinach substitute; vines spread to 8 ft in Florida summers. Trellis vertically for clean leaves."
+        },
+        "continental": {
+          "windowShifts": {
+            "transplant": 1
+          },
+          "notes": "Tender perennial vine; treat as annual after last frost. Harvest leaves at 2 to 3 inches for tenderness."
+        },
+        "arid": {
+          "notes": "Drought-tolerant once established; the defining summer green for desert SW kitchens. Drip-irrigate twice weekly."
+        },
+        "maritime": {
+          "windowShifts": {
+            "transplant": 2
+          },
+          "notes": "Marginal in cool maritime; choose only in long warm summers and use black plastic with greenhouse start. Growth slows below 70F."
+        }
+      }
     },
     {
       "slug": "luffa-edible-young",
@@ -61691,7 +62744,27 @@
         "jamaican callaloo",
         "bhaji"
       ],
-      "source": "UF/IFAS tropical greens notes; UPR Mayaguez specialty crops"
+      "source": "UF/IFAS tropical greens notes; UPR Mayaguez specialty crops",
+      "climateModifiers": {
+        "humid_subtropical": {
+          "notes": "Ideal climate; sow May through Sep for continuous cut-and-come-again leaf harvest. Tolerates Florida summer heat where Western spinach fails."
+        },
+        "continental": {
+          "windowShifts": {
+            "direct_sow": 1
+          },
+          "notes": "Direct sow after soil hits 60F; harvest leaves through frost. The summer spinach substitute for zones 5 to 7."
+        },
+        "arid": {
+          "notes": "Drought-tolerant once established; drip-irrigate twice weekly through summer heat. The defining heat-tolerant green for desert SW kitchens."
+        },
+        "maritime": {
+          "windowShifts": {
+            "direct_sow": 2
+          },
+          "notes": "Marginal in cool maritime; choose for ornamental and as a slow-growing kitchen green. Cool summers limit production compared to true heat zones."
+        }
+      }
     },
     {
       "slug": "caribbean-ackee-tree",

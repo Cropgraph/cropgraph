@@ -1,7 +1,7 @@
 {
   "name": "@cropgraph/mcp",
-  "version": "2.0.0",
-  "description": "Garden planning MCP server. 2000 curated crops with frost-anchored planting windows, 605 companion relationships, 12 rotation families, 33 succession planting chains, 158 pest/disease associations, 120 growing degree day models, USDA hardiness zones, and a six-type climate classifier. Fourteen tools, all offline.",
+  "version": "2.1.0",
+  "description": "Garden planning MCP server. 2000 curated crops with frost-anchored planting windows, 120 crops carrying climate-specific modifiers across 6 climate types, 605 companion relationships, 12 rotation families, 33 succession planting chains, 158 pest/disease associations, 120 growing degree day models, USDA hardiness zones, and a six-type climate classifier. Fourteen tools, all offline.",
   "keywords": [
     "cropgraph",
     "mcp",
