@@ -8,7 +8,7 @@ calls, no API keys, no runtime dependencies beyond Zod.
 | Asset | Detail |
 |-------|--------|
 | Crop calendar | 1,000 entries: 319 vegetables, 186 herbs, 173 fruits, 163 flowers, 59 legumes, 55 cover crops, 45 roots. Frost-anchored planting windows with optional climate modifiers for six climate types. |
-| Companion planting | 121 directed relationships: 88 beneficial, 33 antagonist, 12 mechanism categories (nitrogen_fixing, pest_repellent, trap_crop, ...). |
+| Companion planting | 333 directed relationships: 281 beneficial, 52 antagonist, 11 mechanism categories (nitrogen_fixing, pest_repellent, trap_crop, ...). |
 | USDA hardiness zones | 40,283 ZIP-code centroids from PRISM 2023 + waldoj/frostline, with offline lookup by coordinates or ZIP. Frost-date table by zone. |
 | Climate types | Six-type classifier (maritime, mediterranean, continental, humid_subtropical, arid, semi_arid) from a coordinate-based heuristic. |
 

@@ -1,7 +1,7 @@
 {
   "name": "cropgraph",
-  "version": "1.0.0",
-  "description": "CropGraph CLI: USDA hardiness zones, frost dates, climate-aware planting plans, a 1000-crop calendar, and 121 companion relationships. All offline.",
+  "version": "1.0.1",
+  "description": "CropGraph CLI: USDA hardiness zones, frost dates, climate-aware planting plans, a 1000-crop calendar, and 333 companion relationships. All offline.",
   "keywords": [
     "cropgraph",
     "cli",
