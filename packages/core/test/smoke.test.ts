@@ -132,10 +132,10 @@ describe("@cropgraph/core smoke", () => {
     expect(hits.length).toBeGreaterThan(0);
   });
 
-  test("getGddMeta reports 60+ models", () => {
+  test("getGddMeta reports 100+ models", () => {
     const meta = getGddMeta();
-    expect(meta.totalModels).toBeGreaterThanOrEqual(60);
-    expect(meta.totalModels).toBeLessThanOrEqual(80);
+    expect(meta.totalModels).toBeGreaterThanOrEqual(100);
+    expect(meta.totalModels).toBeLessThanOrEqual(200);
   });
 
   test("listGddModels returns entries with sane shape", () => {

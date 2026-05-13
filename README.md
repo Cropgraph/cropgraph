@@ -11,7 +11,7 @@ and disease management, USDA hardiness zones, and climate classification.
 
 | Package | What |
 |---------|------|
-| [`@cropgraph/core`](./packages/core) | Crop calendar (1,000 entries), companion relationships, rotation families, succession chains, pest/disease associations, USDA zones, climate types. Pure TypeScript, offline. |
+| [`@cropgraph/core`](./packages/core) | Crop calendar (2,000 entries), 605 companion relationships, rotation families, succession chains, pest/disease associations, 120 growing degree day models, USDA zones, climate types. Pure TypeScript, offline. |
 | [`@cropgraph/mcp`](./packages/mcp) | Model Context Protocol server (stdio). Fourteen garden-planning tools for AI agents. |
 | [`cropgraph`](./packages/cli) | Command-line interface. Subcommands for zones, planting, crop lookup, companions, rotation, succession, pests, and pest-detail. |
 
@@ -59,8 +59,9 @@ getSuccessionPlan({ slug: "lettuce-leaf", zone, climateType: "maritime" });
 
 | Asset | Count | Notes |
 |-------|-------|-------|
-| Crop calendar | 1,000 entries | Frost-anchored windows, climate modifiers for 6 climate types |
-| Companion relationships | 333 | 281 beneficial, 52 antagonist, 11 mechanism categories |
+| Crop calendar | 2,000 entries | Frost-anchored windows, climate modifiers for 6 climate types |
+| Companion relationships | 605 | 510 beneficial, 95 antagonist, 12 mechanism categories |
+| Growing degree days | 120 models | Cultivar-specific GDD ranges, base temperatures, NOAA Climate Normals harvest prediction |
 | Rotation families | 12 | Nightshades, brassicas, cucurbits, alliums, legumes, umbellifers, grasses, amaranthaceae, composites, mints, malvaceae, miscellaneous. Every calendar slug mapped. |
 | Succession chains | 33 | Greens, roots, legumes, brassicas, cucurbits, herbs, flowers, cover crops. Frost-anchored phases with per-climate notes. |
 | Pest/disease associations | 158 | Crop-to-pest edges with diagnostic symptoms, organic management, prevention, and regions. OMRI-listed management only. |

@@ -1,10 +1,10 @@
 # @cropgraph/mcp
 
 Model Context Protocol server for garden planning. Fourteen tools backed by
-the curated CropGraph datasets (1,000 crops, 333 companion relationships,
+the curated CropGraph datasets (2,000 crops, 605 companion relationships,
 12 rotation families, 33 succession planting chains, 158 pest/disease
-associations, USDA hardiness zones, climate types). Runs over stdio. No API
-key, no network.
+associations, 120 growing degree day models, USDA hardiness zones, climate
+types). Runs over stdio. No API key, no network.
 
 ## Install / run
 
@@ -54,7 +54,7 @@ Add to `~/.cursor/mcp.json`:
 | `get_hardiness_zone` | USDA hardiness zone + frost dates from lat/lng or ZIP. |
 | `get_planting_plan` | What to plant in a date window for a given zone (climate-aware). |
 | `get_crop_details` | Full crop calendar entry by slug, common name, or scientific name. |
-| `search_plants` | Search the 1,000-crop calendar with optional zone/category filters. |
+| `search_plants` | Search the 2,000-crop calendar with optional zone/category filters. |
 | `get_crops_for_zone` | All crops whose zone range includes the supplied USDA zone. |
 | `get_companions` | Companion and antagonist plants for a crop with mechanisms, evidence strength, citations. |
 | `check_companion_pair` | Look up a single beneficial/antagonist relationship between two crops. |

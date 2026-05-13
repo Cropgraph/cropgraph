@@ -4,70 +4,1085 @@
   "license": "CC-BY-4.0",
   "lastUpdated": "2026-05-13",
   "entries": [
-    { "slug": "tomato", "baseTemp": 50, "gddToMaturity": { "min": 1200, "max": 1800 }, "notes": "Determinates cluster near 1200 to 1400 GDD. Indeterminates need 1500 to 1800. Heirloom beefsteaks sit at the top of the range." },
-    { "slug": "pepper-sweet", "baseTemp": 60, "gddToMaturity": { "min": 1100, "max": 1600 }, "notes": "Bell peppers ripen green at 1100 GDD, red ripe at 1500 to 1600. Heat units accumulate slowly in cool maritime summers." },
-    { "slug": "pepper-hot", "baseTemp": 60, "gddToMaturity": { "min": 1400, "max": 2000 }, "notes": "Jalapeno 1400 to 1600, habanero and ghost types push 1800 to 2000. Heat-loving crop, base 60 is well established." },
-    { "slug": "eggplant", "baseTemp": 60, "gddToMaturity": { "min": 1500, "max": 2200 }, "notes": "Long Italian types around 1500, large globe types up to 2200. Eggplant is the most heat-demanding common nightshade." },
-    { "slug": "potato", "baseTemp": 45, "gddToMaturity": { "min": 1200, "max": 1700 }, "notes": "New potatoes at 1200 to 1400, full storage maturity 1500 to 1700. Tuber initiation begins around 600 GDD." },
-    { "slug": "tomatillo", "baseTemp": 50, "gddToMaturity": { "min": 1300, "max": 1700 }, "notes": "Husks fill at 1300 GDD, full ripe color shift at 1500 to 1700." },
-    { "slug": "cucumber", "baseTemp": 60, "gddToMaturity": { "min": 800, "max": 1100 }, "notes": "Slicing types 800 to 950, pickling 850 to 1100. Fruit set is rapid once vines flower." },
-    { "slug": "zucchini", "baseTemp": 60, "gddToMaturity": { "min": 700, "max": 1000 }, "notes": "First fruit at 700 GDD, peak production 850 to 1000. Plants out-pace harvest in warm weeks." },
-    { "slug": "summer-squash", "baseTemp": 60, "gddToMaturity": { "min": 800, "max": 1100 }, "notes": "Pattypan, yellow crookneck, and straightneck all cluster at 800 to 1000 GDD to first harvest." },
-    { "slug": "winter-squash", "baseTemp": 60, "gddToMaturity": { "min": 1500, "max": 2200 }, "notes": "Delicata and acorn finish near 1500, full Hubbard and Cushaw types push 2000 to 2200." },
-    { "slug": "butternut-squash", "baseTemp": 60, "gddToMaturity": { "min": 1700, "max": 2300 }, "notes": "Waltham butternut needs 1700 to 1900 for storage maturity; full hard shell at 2100 to 2300." },
-    { "slug": "acorn-squash", "baseTemp": 60, "gddToMaturity": { "min": 1500, "max": 2000 }, "notes": "Table Queen and Honey Bear types finish at 1500 to 1700; mature winter storage at 1800 to 2000." },
-    { "slug": "pumpkin", "baseTemp": 60, "gddToMaturity": { "min": 1700, "max": 2400 }, "notes": "Pie pumpkins 1700 to 1900. Jack-o-lantern and giant types need 2000 to 2400." },
-    { "slug": "watermelon", "baseTemp": 60, "gddToMaturity": { "min": 1700, "max": 2300 }, "notes": "Sugar Baby and other short-season types 1700 to 1900. Charleston Gray and full Crimson Sweet need 2200 to 2300." },
-    { "slug": "cantaloupe", "baseTemp": 60, "gddToMaturity": { "min": 1400, "max": 1900 }, "notes": "Western shippers 1400 to 1600. Full eastern muskmelon types 1700 to 1900." },
-    { "slug": "honeydew", "baseTemp": 60, "gddToMaturity": { "min": 1700, "max": 2200 }, "notes": "Honeydew is later than cantaloupe; expect 1700 to 2000 in most regions, 2200 in cool summers." },
-    { "slug": "broccoli", "baseTemp": 40, "gddToMaturity": { "min": 1200, "max": 1800 }, "notes": "Early types head at 1200 to 1400 GDD from transplant. Calabrese and full season types 1500 to 1800." },
-    { "slug": "cauliflower", "baseTemp": 40, "gddToMaturity": { "min": 1400, "max": 1900 }, "notes": "Snowball and similar types around 1400 to 1600. Romanesco and storage types need 1700 to 1900." },
-    { "slug": "cabbage", "baseTemp": 40, "gddToMaturity": { "min": 1300, "max": 1900 }, "notes": "Early flat types 1300 to 1500. Late storage cabbage and savoy types 1700 to 1900." },
-    { "slug": "brussels-sprouts", "baseTemp": 40, "gddToMaturity": { "min": 2000, "max": 2500 }, "notes": "Brussels sprouts are the longest-season brassica. Plan for first frost to sweeten sprouts at the top of the range." },
-    { "slug": "kale", "baseTemp": 40, "gddToMaturity": { "min": 800, "max": 1200 }, "notes": "First leaf harvest at 800 GDD. Full mature plants and seasonal continuous picking through 1200." },
-    { "slug": "collards", "baseTemp": 40, "gddToMaturity": { "min": 1000, "max": 1400 }, "notes": "Georgia and Vates collards reach full harvest size at 1000 to 1400 GDD." },
-    { "slug": "kohlrabi", "baseTemp": 40, "gddToMaturity": { "min": 700, "max": 1100 }, "notes": "Early types ready at 700 to 900. Storage kohlrabi (Gigante, Superschmelz) needs 1000 to 1100." },
-    { "slug": "bok-choy", "baseTemp": 40, "gddToMaturity": { "min": 600, "max": 900 }, "notes": "Baby bok choy at 600, full heads at 800 to 900. Quick spring or fall crop." },
-    { "slug": "napa-cabbage", "baseTemp": 40, "gddToMaturity": { "min": 900, "max": 1400 }, "notes": "Mini types head at 900 to 1100. Full barrel-shaped napa needs 1200 to 1400." },
-    { "slug": "mustard-greens", "baseTemp": 40, "gddToMaturity": { "min": 600, "max": 900 }, "notes": "Salad mustard at 600 to 700 GDD. Larger braising mustards 800 to 900." },
-    { "slug": "turnip", "baseTemp": 40, "gddToMaturity": { "min": 800, "max": 1200 }, "notes": "Salad turnips (Hakurei, Tokyo Cross) at 800. Full purple-top storage roots 1000 to 1200." },
-    { "slug": "rutabaga", "baseTemp": 40, "gddToMaturity": { "min": 1300, "max": 1700 }, "notes": "American Purple Top rutabagas need 1300 to 1500. Fall storage size at 1500 to 1700." },
-    { "slug": "onion", "baseTemp": 40, "gddToMaturity": { "min": 1700, "max": 2300 }, "notes": "Long-day storage onions 1700 to 2300 from set or transplant. Short-day southern types finish earlier in their narrow window." },
-    { "slug": "leek", "baseTemp": 40, "gddToMaturity": { "min": 1700, "max": 2300 }, "notes": "Summer leeks (King Richard) at 1700. Winter-hardy leeks (Bandit, Lancia) need 2100 to 2300." },
-    { "slug": "garlic", "baseTemp": 40, "gddToMaturity": { "min": 1700, "max": 2400 }, "notes": "Spring growth GDD only; garlic is fall-planted, vernalized over winter, and harvested when 4 to 6 lower leaves brown. Treat range as spring season GDD from regrowth." },
-    { "slug": "shallot", "baseTemp": 40, "gddToMaturity": { "min": 1500, "max": 2000 }, "notes": "Shallots from sets, similar to onions but faster. French gray shallots toward the top of the range." },
-    { "slug": "scallion", "baseTemp": 40, "gddToMaturity": { "min": 700, "max": 1000 }, "notes": "Bunching scallions ready at 700 to 1000 GDD; treat as cut-and-come-again." },
-    { "slug": "bush-bean", "baseTemp": 50, "gddToMaturity": { "min": 700, "max": 1000 }, "notes": "Provider, Contender, and similar bush snap beans 700 to 900. Filet types 800 to 1000." },
-    { "slug": "pole-bean", "baseTemp": 50, "gddToMaturity": { "min": 1000, "max": 1400 }, "notes": "Kentucky Wonder, Blue Lake pole 1000 to 1200. Asparagus yardlong types push 1300 to 1400." },
-    { "slug": "lima-bean", "baseTemp": 50, "gddToMaturity": { "min": 1300, "max": 1900 }, "notes": "Bush limas (Henderson, Fordhook) 1300 to 1600. Pole limas (King of the Garden) 1700 to 1900." },
-    { "slug": "runner-bean", "baseTemp": 50, "gddToMaturity": { "min": 1000, "max": 1400 }, "notes": "Scarlet Runner and similar 1000 to 1400. Pollinator-favorite vine bean." },
-    { "slug": "edamame", "baseTemp": 50, "gddToMaturity": { "min": 1500, "max": 2000 }, "notes": "Vegetable soybeans 1500 to 1700 for fresh pod. Dry-down for storage at 1900 to 2000." },
-    { "slug": "snap-pea", "baseTemp": 40, "gddToMaturity": { "min": 800, "max": 1100 }, "notes": "Sugar Ann (dwarf) at 800. Sugar Snap (tall) at 1000 to 1100." },
-    { "slug": "snow-pea", "baseTemp": 40, "gddToMaturity": { "min": 800, "max": 1100 }, "notes": "Oregon Sugar Pod and Mammoth Melting Sugar 800 to 1100 GDD." },
-    { "slug": "shelling-pea", "baseTemp": 40, "gddToMaturity": { "min": 900, "max": 1200 }, "notes": "Lincoln, Wando, Maxigolt shelling peas 900 to 1200 from spring sow." },
-    { "slug": "fava-bean", "baseTemp": 40, "gddToMaturity": { "min": 1400, "max": 1900 }, "notes": "Windsor and Broad Windsor types 1400 to 1700. Cool-season legume; bolts in summer heat." },
-    { "slug": "chickpea", "baseTemp": 40, "gddToMaturity": { "min": 1700, "max": 2300 }, "notes": "Kabuli (large white) chickpeas 1700 to 2000. Desi (small dark) 2000 to 2300." },
-    { "slug": "lettuce-leaf", "baseTemp": 40, "gddToMaturity": { "min": 600, "max": 900 }, "notes": "Baby cut at 600. Full leaf rosette 800 to 900. Bolts above 1000 GDD when temps exceed 75°F." },
-    { "slug": "lettuce-head", "baseTemp": 40, "gddToMaturity": { "min": 900, "max": 1300 }, "notes": "Butterhead types 900 to 1100. Romaine and crisphead need 1100 to 1300." },
-    { "slug": "spinach", "baseTemp": 40, "gddToMaturity": { "min": 500, "max": 800 }, "notes": "Baby spinach at 500. Full bunching size 700 to 800. Bolts past 1000 GDD in long days." },
-    { "slug": "swiss-chard", "baseTemp": 40, "gddToMaturity": { "min": 800, "max": 1100 }, "notes": "Baby chard at 800. Full rainbow chard 900 to 1100. Continuous cut-and-come-again after first harvest." },
-    { "slug": "arugula", "baseTemp": 40, "gddToMaturity": { "min": 400, "max": 700 }, "notes": "Quickest of the leafy greens. Salad mix at 400 GDD, mature spicy leaves at 600 to 700." },
-    { "slug": "carrot", "baseTemp": 40, "gddToMaturity": { "min": 1000, "max": 1400 }, "notes": "Nantes and round types 1000 to 1200. Imperator and large storage 1300 to 1400." },
-    { "slug": "beet", "baseTemp": 40, "gddToMaturity": { "min": 900, "max": 1300 }, "notes": "Baby beets at 900. Mature storage roots (Detroit Dark Red, Chioggia) 1100 to 1300." },
-    { "slug": "radish", "baseTemp": 40, "gddToMaturity": { "min": 350, "max": 550 }, "notes": "Round salad radishes at 350 to 450 GDD. Daikon and watermelon radish 500 to 550." },
-    { "slug": "parsnip", "baseTemp": 40, "gddToMaturity": { "min": 1500, "max": 2000 }, "notes": "Long-season root. Hollow Crown and Harris Model 1500 to 1700. Sweetens after first frost; mature size by 2000 GDD." },
-    { "slug": "sweet-corn", "baseTemp": 50, "gddToMaturity": { "min": 1400, "max": 2400 }, "notes": "Early-season sugary types (Trinity, Bodacious) 1400 to 1600. Mid-season SE types 1700 to 2000. Full-season Silver Queen, Country Gentleman 2200 to 2400." },
-    { "slug": "popcorn", "baseTemp": 50, "gddToMaturity": { "min": 1900, "max": 2400 }, "notes": "Strawberry popcorn 1900 to 2100. Full Robust Yellow 2300 to 2400 to dry-down." },
-    { "slug": "corn-dent", "baseTemp": 50, "gddToMaturity": { "min": 2300, "max": 2800 }, "notes": "Field dent corn for grain. Reid Yellow Dent and Hickory King 2400 to 2600. Full southern dent types 2700 to 2800." },
-    { "slug": "sorghum-grain", "baseTemp": 50, "gddToMaturity": { "min": 1900, "max": 2500 }, "notes": "Short-season grain sorghum 1900 to 2200. Full-season tall varieties (Tarahumara, Black Amber) 2300 to 2500." },
-    { "slug": "millet-proso", "baseTemp": 50, "gddToMaturity": { "min": 1100, "max": 1500 }, "notes": "Proso millet (Panicum miliaceum) is the fastest grain. White Wonder and similar 1100 to 1300. Full grain harvest 1400 to 1500." },
-    { "slug": "amaranth", "baseTemp": 50, "gddToMaturity": { "min": 1300, "max": 1700 }, "notes": "Grain amaranth (Burgundy, Golden Giant) 1300 to 1700. Leaf amaranth ready much earlier (300 to 500)." },
-    { "slug": "strawberry", "baseTemp": 40, "gddToMaturity": { "min": 600, "max": 1000 }, "notes": "Spring-season GDD from regrowth to first ripe fruit. June-bearing types fruit at 600 to 800. Day-neutral and everbearing continuous from 800 to 1000." },
-    { "slug": "okra", "baseTemp": 60, "gddToMaturity": { "min": 1500, "max": 2200 }, "notes": "First pods at 1500 GDD. Heavy production 1700 to 2200. The most heat-loving common annual; struggles below base 60°F." },
-    { "slug": "ground-cherry", "baseTemp": 50, "gddToMaturity": { "min": 1400, "max": 1800 }, "notes": "Aunt Molly's and Cossack Pineapple types ripen at 1400 to 1600. Heavy drop and self-seed by 1800 GDD." },
-    { "slug": "basil", "baseTemp": 50, "gddToMaturity": { "min": 600, "max": 900 }, "notes": "First cut at 600 GDD. Mature plants 800 to 900. Bolts past 1100 in heat; pinch flowers to extend." },
-    { "slug": "cilantro", "baseTemp": 40, "gddToMaturity": { "min": 450, "max": 650 }, "notes": "Leaf cilantro at 450. Bolts quickly above 600 to 650 GDD; succession-sow for continuous supply." },
-    { "slug": "dill", "baseTemp": 40, "gddToMaturity": { "min": 600, "max": 900 }, "notes": "Leaf dill at 600. Seed heads (for pickling) at 800 to 900. Bouquet and Mammoth Long Island are the standard types." },
-    { "slug": "parsley-flat", "baseTemp": 40, "gddToMaturity": { "min": 900, "max": 1300 }, "notes": "Italian flat-leaf parsley. First cutting at 900 GDD; biennial so spring-planted plants harvested through fall and overwintered in mild climates." }
+    {
+      "slug": "tomato",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1200,
+        "max": 1800
+      },
+      "notes": "Determinates cluster near 1200 to 1400 GDD. Indeterminates need 1500 to 1800. Heirloom beefsteaks sit at the top of the range."
+    },
+    {
+      "slug": "pepper-sweet",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1100,
+        "max": 1600
+      },
+      "notes": "Bell peppers ripen green at 1100 GDD, red ripe at 1500 to 1600. Heat units accumulate slowly in cool maritime summers."
+    },
+    {
+      "slug": "pepper-hot",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1400,
+        "max": 2000
+      },
+      "notes": "Jalapeno 1400 to 1600, habanero and ghost types push 1800 to 2000. Heat-loving crop, base 60 is well established."
+    },
+    {
+      "slug": "eggplant",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 2200
+      },
+      "notes": "Long Italian types around 1500, large globe types up to 2200. Eggplant is the most heat-demanding common nightshade."
+    },
+    {
+      "slug": "potato",
+      "baseTemp": 45,
+      "gddToMaturity": {
+        "min": 1200,
+        "max": 1700
+      },
+      "notes": "New potatoes at 1200 to 1400, full storage maturity 1500 to 1700. Tuber initiation begins around 600 GDD."
+    },
+    {
+      "slug": "tomatillo",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1300,
+        "max": 1700
+      },
+      "notes": "Husks fill at 1300 GDD, full ripe color shift at 1500 to 1700."
+    },
+    {
+      "slug": "cucumber",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 800,
+        "max": 1100
+      },
+      "notes": "Slicing types 800 to 950, pickling 850 to 1100. Fruit set is rapid once vines flower."
+    },
+    {
+      "slug": "zucchini",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 700,
+        "max": 1000
+      },
+      "notes": "First fruit at 700 GDD, peak production 850 to 1000. Plants out-pace harvest in warm weeks."
+    },
+    {
+      "slug": "summer-squash",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 800,
+        "max": 1100
+      },
+      "notes": "Pattypan, yellow crookneck, and straightneck all cluster at 800 to 1000 GDD to first harvest."
+    },
+    {
+      "slug": "winter-squash",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 2200
+      },
+      "notes": "Delicata and acorn finish near 1500, full Hubbard and Cushaw types push 2000 to 2200."
+    },
+    {
+      "slug": "butternut-squash",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1700,
+        "max": 2300
+      },
+      "notes": "Waltham butternut needs 1700 to 1900 for storage maturity; full hard shell at 2100 to 2300."
+    },
+    {
+      "slug": "acorn-squash",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 2000
+      },
+      "notes": "Table Queen and Honey Bear types finish at 1500 to 1700; mature winter storage at 1800 to 2000."
+    },
+    {
+      "slug": "pumpkin",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1700,
+        "max": 2400
+      },
+      "notes": "Pie pumpkins 1700 to 1900. Jack-o-lantern and giant types need 2000 to 2400."
+    },
+    {
+      "slug": "watermelon",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1700,
+        "max": 2300
+      },
+      "notes": "Sugar Baby and other short-season types 1700 to 1900. Charleston Gray and full Crimson Sweet need 2200 to 2300."
+    },
+    {
+      "slug": "cantaloupe",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1400,
+        "max": 1900
+      },
+      "notes": "Western shippers 1400 to 1600. Full eastern muskmelon types 1700 to 1900."
+    },
+    {
+      "slug": "honeydew",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1700,
+        "max": 2200
+      },
+      "notes": "Honeydew is later than cantaloupe; expect 1700 to 2000 in most regions, 2200 in cool summers."
+    },
+    {
+      "slug": "broccoli",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 1200,
+        "max": 1800
+      },
+      "notes": "Early types head at 1200 to 1400 GDD from transplant. Calabrese and full season types 1500 to 1800."
+    },
+    {
+      "slug": "cauliflower",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 1400,
+        "max": 1900
+      },
+      "notes": "Snowball and similar types around 1400 to 1600. Romanesco and storage types need 1700 to 1900."
+    },
+    {
+      "slug": "cabbage",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 1300,
+        "max": 1900
+      },
+      "notes": "Early flat types 1300 to 1500. Late storage cabbage and savoy types 1700 to 1900."
+    },
+    {
+      "slug": "brussels-sprouts",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 2000,
+        "max": 2500
+      },
+      "notes": "Brussels sprouts are the longest-season brassica. Plan for first frost to sweeten sprouts at the top of the range."
+    },
+    {
+      "slug": "kale",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 800,
+        "max": 1200
+      },
+      "notes": "First leaf harvest at 800 GDD. Full mature plants and seasonal continuous picking through 1200."
+    },
+    {
+      "slug": "collards",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 1000,
+        "max": 1400
+      },
+      "notes": "Georgia and Vates collards reach full harvest size at 1000 to 1400 GDD."
+    },
+    {
+      "slug": "kohlrabi",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 700,
+        "max": 1100
+      },
+      "notes": "Early types ready at 700 to 900. Storage kohlrabi (Gigante, Superschmelz) needs 1000 to 1100."
+    },
+    {
+      "slug": "bok-choy",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 600,
+        "max": 900
+      },
+      "notes": "Baby bok choy at 600, full heads at 800 to 900. Quick spring or fall crop."
+    },
+    {
+      "slug": "napa-cabbage",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 900,
+        "max": 1400
+      },
+      "notes": "Mini types head at 900 to 1100. Full barrel-shaped napa needs 1200 to 1400."
+    },
+    {
+      "slug": "mustard-greens",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 600,
+        "max": 900
+      },
+      "notes": "Salad mustard at 600 to 700 GDD. Larger braising mustards 800 to 900."
+    },
+    {
+      "slug": "turnip",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 800,
+        "max": 1200
+      },
+      "notes": "Salad turnips (Hakurei, Tokyo Cross) at 800. Full purple-top storage roots 1000 to 1200."
+    },
+    {
+      "slug": "rutabaga",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 1300,
+        "max": 1700
+      },
+      "notes": "American Purple Top rutabagas need 1300 to 1500. Fall storage size at 1500 to 1700."
+    },
+    {
+      "slug": "onion",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 1700,
+        "max": 2300
+      },
+      "notes": "Long-day storage onions 1700 to 2300 from set or transplant. Short-day southern types finish earlier in their narrow window."
+    },
+    {
+      "slug": "leek",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 1700,
+        "max": 2300
+      },
+      "notes": "Summer leeks (King Richard) at 1700. Winter-hardy leeks (Bandit, Lancia) need 2100 to 2300."
+    },
+    {
+      "slug": "garlic",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 1700,
+        "max": 2400
+      },
+      "notes": "Spring growth GDD only; garlic is fall-planted, vernalized over winter, and harvested when 4 to 6 lower leaves brown. Treat range as spring season GDD from regrowth."
+    },
+    {
+      "slug": "shallot",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 2000
+      },
+      "notes": "Shallots from sets, similar to onions but faster. French gray shallots toward the top of the range."
+    },
+    {
+      "slug": "scallion",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 700,
+        "max": 1000
+      },
+      "notes": "Bunching scallions ready at 700 to 1000 GDD; treat as cut-and-come-again."
+    },
+    {
+      "slug": "bush-bean",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 700,
+        "max": 1000
+      },
+      "notes": "Provider, Contender, and similar bush snap beans 700 to 900. Filet types 800 to 1000."
+    },
+    {
+      "slug": "pole-bean",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1000,
+        "max": 1400
+      },
+      "notes": "Kentucky Wonder, Blue Lake pole 1000 to 1200. Asparagus yardlong types push 1300 to 1400."
+    },
+    {
+      "slug": "lima-bean",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1300,
+        "max": 1900
+      },
+      "notes": "Bush limas (Henderson, Fordhook) 1300 to 1600. Pole limas (King of the Garden) 1700 to 1900."
+    },
+    {
+      "slug": "runner-bean",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1000,
+        "max": 1400
+      },
+      "notes": "Scarlet Runner and similar 1000 to 1400. Pollinator-favorite vine bean."
+    },
+    {
+      "slug": "edamame",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 2000
+      },
+      "notes": "Vegetable soybeans 1500 to 1700 for fresh pod. Dry-down for storage at 1900 to 2000."
+    },
+    {
+      "slug": "snap-pea",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 800,
+        "max": 1100
+      },
+      "notes": "Sugar Ann (dwarf) at 800. Sugar Snap (tall) at 1000 to 1100."
+    },
+    {
+      "slug": "snow-pea",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 800,
+        "max": 1100
+      },
+      "notes": "Oregon Sugar Pod and Mammoth Melting Sugar 800 to 1100 GDD."
+    },
+    {
+      "slug": "shelling-pea",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 900,
+        "max": 1200
+      },
+      "notes": "Lincoln, Wando, Maxigolt shelling peas 900 to 1200 from spring sow."
+    },
+    {
+      "slug": "fava-bean",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 1400,
+        "max": 1900
+      },
+      "notes": "Windsor and Broad Windsor types 1400 to 1700. Cool-season legume; bolts in summer heat."
+    },
+    {
+      "slug": "chickpea",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 1700,
+        "max": 2300
+      },
+      "notes": "Kabuli (large white) chickpeas 1700 to 2000. Desi (small dark) 2000 to 2300."
+    },
+    {
+      "slug": "lettuce-leaf",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 600,
+        "max": 900
+      },
+      "notes": "Baby cut at 600. Full leaf rosette 800 to 900. Bolts above 1000 GDD when temps exceed 75°F."
+    },
+    {
+      "slug": "lettuce-head",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 900,
+        "max": 1300
+      },
+      "notes": "Butterhead types 900 to 1100. Romaine and crisphead need 1100 to 1300."
+    },
+    {
+      "slug": "spinach",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 500,
+        "max": 800
+      },
+      "notes": "Baby spinach at 500. Full bunching size 700 to 800. Bolts past 1000 GDD in long days."
+    },
+    {
+      "slug": "swiss-chard",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 800,
+        "max": 1100
+      },
+      "notes": "Baby chard at 800. Full rainbow chard 900 to 1100. Continuous cut-and-come-again after first harvest."
+    },
+    {
+      "slug": "arugula",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 400,
+        "max": 700
+      },
+      "notes": "Quickest of the leafy greens. Salad mix at 400 GDD, mature spicy leaves at 600 to 700."
+    },
+    {
+      "slug": "carrot",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 1000,
+        "max": 1400
+      },
+      "notes": "Nantes and round types 1000 to 1200. Imperator and large storage 1300 to 1400."
+    },
+    {
+      "slug": "beet",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 900,
+        "max": 1300
+      },
+      "notes": "Baby beets at 900. Mature storage roots (Detroit Dark Red, Chioggia) 1100 to 1300."
+    },
+    {
+      "slug": "radish",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 350,
+        "max": 550
+      },
+      "notes": "Round salad radishes at 350 to 450 GDD. Daikon and watermelon radish 500 to 550."
+    },
+    {
+      "slug": "parsnip",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 2000
+      },
+      "notes": "Long-season root. Hollow Crown and Harris Model 1500 to 1700. Sweetens after first frost; mature size by 2000 GDD."
+    },
+    {
+      "slug": "sweet-corn",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1400,
+        "max": 2400
+      },
+      "notes": "Early-season sugary types (Trinity, Bodacious) 1400 to 1600. Mid-season SE types 1700 to 2000. Full-season Silver Queen, Country Gentleman 2200 to 2400."
+    },
+    {
+      "slug": "popcorn",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1900,
+        "max": 2400
+      },
+      "notes": "Strawberry popcorn 1900 to 2100. Full Robust Yellow 2300 to 2400 to dry-down."
+    },
+    {
+      "slug": "corn-dent",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 2300,
+        "max": 2800
+      },
+      "notes": "Field dent corn for grain. Reid Yellow Dent and Hickory King 2400 to 2600. Full southern dent types 2700 to 2800."
+    },
+    {
+      "slug": "sorghum-grain",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1900,
+        "max": 2500
+      },
+      "notes": "Short-season grain sorghum 1900 to 2200. Full-season tall varieties (Tarahumara, Black Amber) 2300 to 2500."
+    },
+    {
+      "slug": "millet-proso",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1100,
+        "max": 1500
+      },
+      "notes": "Proso millet (Panicum miliaceum) is the fastest grain. White Wonder and similar 1100 to 1300. Full grain harvest 1400 to 1500."
+    },
+    {
+      "slug": "amaranth",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1300,
+        "max": 1700
+      },
+      "notes": "Grain amaranth (Burgundy, Golden Giant) 1300 to 1700. Leaf amaranth ready much earlier (300 to 500)."
+    },
+    {
+      "slug": "strawberry",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 600,
+        "max": 1000
+      },
+      "notes": "Spring-season GDD from regrowth to first ripe fruit. June-bearing types fruit at 600 to 800. Day-neutral and everbearing continuous from 800 to 1000."
+    },
+    {
+      "slug": "okra",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 2200
+      },
+      "notes": "First pods at 1500 GDD. Heavy production 1700 to 2200. The most heat-loving common annual; struggles below base 60°F."
+    },
+    {
+      "slug": "ground-cherry",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1400,
+        "max": 1800
+      },
+      "notes": "Aunt Molly's and Cossack Pineapple types ripen at 1400 to 1600. Heavy drop and self-seed by 1800 GDD."
+    },
+    {
+      "slug": "basil",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 600,
+        "max": 900
+      },
+      "notes": "First cut at 600 GDD. Mature plants 800 to 900. Bolts past 1100 in heat; pinch flowers to extend."
+    },
+    {
+      "slug": "cilantro",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 450,
+        "max": 650
+      },
+      "notes": "Leaf cilantro at 450. Bolts quickly above 600 to 650 GDD; succession-sow for continuous supply."
+    },
+    {
+      "slug": "dill",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 600,
+        "max": 900
+      },
+      "notes": "Leaf dill at 600. Seed heads (for pickling) at 800 to 900. Bouquet and Mammoth Long Island are the standard types."
+    },
+    {
+      "slug": "parsley-flat",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 900,
+        "max": 1300
+      },
+      "notes": "Italian flat-leaf parsley. First cutting at 900 GDD; biennial so spring-planted plants harvested through fall and overwintered in mild climates."
+    },
+    {
+      "slug": "early-girl-tomato",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1100,
+        "max": 1300
+      },
+      "notes": "Indeterminate hybrid bred for early ripening; first ripe fruit at 1100 GDD, peak production 1300. Notably faster than beefsteaks."
+    },
+    {
+      "slug": "beefsteak-tomato",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 1800
+      },
+      "notes": "Large fruited indeterminate types (Beefsteak, Better Boy, Big Beef) need 1500 to 1800 GDD. Heat units accumulate slowly in cool maritime summers."
+    },
+    {
+      "slug": "brandywine-tomato",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 1700
+      },
+      "notes": "Pink potato-leaf heirloom; 80 to 90 days from transplant. Indeterminate; full beefsteak fruit weight at 1700 GDD."
+    },
+    {
+      "slug": "san-marzano-tomato",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1300,
+        "max": 1500
+      },
+      "notes": "Italian paste indeterminate; first ripe at 1300, full canning maturity 1500. Heat tolerant; performs well in Mediterranean summers."
+    },
+    {
+      "slug": "stupice-tomato",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1000,
+        "max": 1200
+      },
+      "notes": "Cold-tolerant Czech indeterminate; sets fruit in cool soil. First ripe by 1000 GDD, the second-fastest tomato after Sub Arctic Plenty."
+    },
+    {
+      "slug": "siberian-tomato",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1000,
+        "max": 1200
+      },
+      "notes": "Russian heirloom that sets fruit at 38 to 40 F nights; first ripe 1000 GDD. Determinate; productive in zone 2 to 4 short seasons."
+    },
+    {
+      "slug": "sub-arctic-plenty-tomato",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 900,
+        "max": 1100
+      },
+      "notes": "Beaverlodge AB Research Station release; the earliest open-pollinated tomato. First ripe at 900 GDD, the lowest in the species."
+    },
+    {
+      "slug": "cherokee-purple-tomato",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 1750
+      },
+      "notes": "Tennessee dusky-purple heirloom indeterminate; first ripe at 1500 GDD, full flavor 1700 to 1750. Cracks if watering is uneven."
+    },
+    {
+      "slug": "roma-tomato",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1300,
+        "max": 1500
+      },
+      "notes": "Determinate paste tomato; entire crop ripens in concentrated window between 1300 and 1500 GDD."
+    },
+    {
+      "slug": "sungold-tomato",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1100,
+        "max": 1300
+      },
+      "notes": "Tokita Seed indeterminate cherry hybrid; first ripe by 1100 GDD, continuous through frost. The early cherry standard."
+    },
+    {
+      "slug": "pepper-jalapeno",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1300,
+        "max": 1600
+      },
+      "notes": "Green jalapeno at 1300 GDD, red ripe at 1500 to 1600. Heat units accumulate slowly until soil hits 65 F."
+    },
+    {
+      "slug": "pepper-habanero",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1800,
+        "max": 2100
+      },
+      "notes": "Capsicum chinense; first ripe orange fruit at 1800 GDD, full red 2000 to 2100. Slow start, heavy late summer harvest."
+    },
+    {
+      "slug": "pepper-anaheim",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1400,
+        "max": 1700
+      },
+      "notes": "New Mexico green chile; green fruit at 1400, red ripe 1600 to 1700. The NM market standard."
+    },
+    {
+      "slug": "pepper-thai",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 1800
+      },
+      "notes": "Bird's-eye chili; first green fruit at 1500, red ripe at 1700 to 1800. Highly productive once it starts."
+    },
+    {
+      "slug": "pepper-rocoto",
+      "baseTemp": 55,
+      "gddToMaturity": {
+        "min": 1700,
+        "max": 2200
+      },
+      "notes": "Capsicum pubescens; tolerates cooler nights so base temp 55 (not 60). Long-season Andean species; full ripe 2000 to 2200."
+    },
+    {
+      "slug": "pepper-cayenne",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 1900
+      },
+      "notes": "Standard cayenne types; first red fruit at 1500, dry-ready (full red, dehydrated on plant) at 1800 to 1900 GDD."
+    },
+    {
+      "slug": "pepper-aji-amarillo",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1800,
+        "max": 2300
+      },
+      "notes": "Peruvian baccatum; long-season species. First orange-yellow fruit at 1800, full ripe and flavored at 2100 to 2300."
+    },
+    {
+      "slug": "pepper-hungarian-wax",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1200,
+        "max": 1500
+      },
+      "notes": "Yellow wax-type ripening to red. Yellow harvest at 1200, full red at 1500. Productive in short seasons."
+    },
+    {
+      "slug": "pepper-cubanelle",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1100,
+        "max": 1400
+      },
+      "notes": "Thin-walled frying pepper; first yellow fruit at 1100, full red 1300 to 1400. Fastest of the sweet types."
+    },
+    {
+      "slug": "squash-delicata",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1400,
+        "max": 1700
+      },
+      "notes": "Cucurbita pepo; small thin-skinned squash, harvest at 1400 GDD for fresh eating, 1700 for storage maturity."
+    },
+    {
+      "slug": "squash-kabocha",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1700,
+        "max": 2000
+      },
+      "notes": "Japanese Cucurbita maxima; dense flesh requires 1700 GDD minimum, 2000 for full storage maturity."
+    },
+    {
+      "slug": "squash-hubbard",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 2000,
+        "max": 2400
+      },
+      "notes": "Cucurbita maxima large keeper; 2000 GDD for harvest, 2400 for cured storage shell. Long-season crop."
+    },
+    {
+      "slug": "squash-spaghetti",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 1800
+      },
+      "notes": "Cucurbita pepo with stringy flesh; harvest when shell yellows at 1500, peak flavor 1700 to 1800."
+    },
+    {
+      "slug": "watermelon-sugar-baby",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1700,
+        "max": 1900
+      },
+      "notes": "Short-season icebox watermelon; 8 to 10 lb round fruits, ready at 1700 GDD."
+    },
+    {
+      "slug": "watermelon-charleston-gray",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 2100,
+        "max": 2300
+      },
+      "notes": "Long oblong Charleston-type; full-season cultivar needing 2100 to 2300 GDD."
+    },
+    {
+      "slug": "watermelon-crimson-sweet",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1900,
+        "max": 2200
+      },
+      "notes": "Round mid-season watermelon; 20 to 25 lb fruits, mid-range GDD at 1900 to 2200."
+    },
+    {
+      "slug": "melon-charentais",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1400,
+        "max": 1600
+      },
+      "notes": "French petit melon; 2 lb fruits, intense aroma. Slip-ripe at 1400, sugars peak 1500 to 1600."
+    },
+    {
+      "slug": "melon-hales-best",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 1800
+      },
+      "notes": "Mid-season eastern muskmelon; 4 to 5 lb fruits, ripe at 1500 to 1800 GDD."
+    },
+    {
+      "slug": "melon-collective-farm-woman",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1600,
+        "max": 1800
+      },
+      "notes": "Russian heirloom honeydew-type; pale yellow rind, ripe at 1600 to 1800 GDD."
+    },
+    {
+      "slug": "bean-bush-provider",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 700,
+        "max": 900
+      },
+      "notes": "Bush snap bean; first pick at 700 GDD, full production through 900."
+    },
+    {
+      "slug": "bean-pole-kentucky-wonder",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1100,
+        "max": 1300
+      },
+      "notes": "Classic pole bean; first pick at 1100 GDD; continuous through 1300 GDD."
+    },
+    {
+      "slug": "bean-dry-tepary",
+      "baseTemp": 55,
+      "gddToMaturity": {
+        "min": 1100,
+        "max": 1500
+      },
+      "notes": "Phaseolus acutifolius; Sonoran-desert heat-adapted dry bean. Drier-tolerant base temp 55. Full dry-down 1100 to 1500."
+    },
+    {
+      "slug": "bean-dry-pinto",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 1800
+      },
+      "notes": "Standard dry bean; full pod fill at 1500, dry-down for storage 1700 to 1800."
+    },
+    {
+      "slug": "bean-dry-black-turtle",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1600,
+        "max": 1900
+      },
+      "notes": "Caribbean dry-bean type; full dry-down at 1600 to 1900 GDD."
+    },
+    {
+      "slug": "bean-lima-fordhook",
+      "baseTemp": 55,
+      "gddToMaturity": {
+        "min": 1400,
+        "max": 1700
+      },
+      "notes": "Large-seeded bush lima; first pod fill at 1400, full mature dry seed 1600 to 1700. Higher base temp than other beans."
+    },
+    {
+      "slug": "bean-runner-scarlet",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1000,
+        "max": 1300
+      },
+      "notes": "Cool-tolerant Phaseolus coccineus pollinator vine; pods at 1000 GDD, dry beans 1200 to 1300."
+    },
+    {
+      "slug": "lettuce-buttercrunch",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 750,
+        "max": 950
+      },
+      "notes": "Butterhead; small head at 750 GDD, full head 900 to 950. Bolts above 1100 in long days."
+    },
+    {
+      "slug": "lettuce-romaine",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 1000,
+        "max": 1300
+      },
+      "notes": "Standard cos types (Parris Island, Jericho, Coastal Star); first cutting at 1000, full head 1200 to 1300."
+    },
+    {
+      "slug": "lettuce-little-gem",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 800,
+        "max": 1000
+      },
+      "notes": "Mini-romaine; single-serving head at 800 GDD; full 1000. Slow-bolt for spring carryover."
+    },
+    {
+      "slug": "spinach-bloomsdale",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 500,
+        "max": 750
+      },
+      "notes": "Savoyed long-standing spinach; baby cut at 500, full bunch 700 to 750. Bolts above 1000 in long days."
+    },
+    {
+      "slug": "kale-redbor",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 900,
+        "max": 1200
+      },
+      "notes": "Cut-and-come-again kale; baby leaves at 800 GDD, full plant size 1000 to 1100 GDD; continues through season."
+    },
+    {
+      "slug": "carrot-nantes",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 1000,
+        "max": 1200
+      },
+      "notes": "French cylindrical Nantes type; harvest-size roots at 1000 GDD; full sweetness after first cool spell 1100 to 1200."
+    },
+    {
+      "slug": "carrot-imperator",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 1200,
+        "max": 1400
+      },
+      "notes": "Long thin supermarket-style; needs longer to size up than Nantes. Full harvest at 1200 to 1400."
+    },
+    {
+      "slug": "beet-chioggia",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 1000,
+        "max": 1300
+      },
+      "notes": "Common deep red beets (Detroit Dark Red, Chioggia, Bulls Blood); baby beets at 1000, full storage size 1200 to 1300."
+    },
+    {
+      "slug": "radish-easter-egg",
+      "baseTemp": 40,
+      "gddToMaturity": {
+        "min": 350,
+        "max": 500
+      },
+      "notes": "Standard round salad radishes (Cherry Belle, French Breakfast, Easter Egg); full size at 350 to 500 GDD. Pithy past 600."
+    },
+    {
+      "slug": "amaranth-burgundy",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 1800
+      },
+      "notes": "Grain amaranth (Amaranthus hypochondriacus); seed-fill at 1500, full dry-down 1700 to 1800."
+    },
+    {
+      "slug": "quinoa-cherry-vanilla",
+      "baseTemp": 45,
+      "gddToMaturity": {
+        "min": 1700,
+        "max": 2000
+      },
+      "notes": "Andean Chenopodium quinoa; full seed-fill 1700, harvest-ready dry seed 1900 to 2000. Heat above 95 F sets seedhead temperatures sterile."
+    },
+    {
+      "slug": "buckwheat-mancan",
+      "baseTemp": 45,
+      "gddToMaturity": {
+        "min": 700,
+        "max": 900
+      },
+      "notes": "Fagopyrum esculentum; first flowers at 400, mature seed 700 to 900. The fastest grain crop."
+    },
+    {
+      "slug": "millet-foxtail",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1300,
+        "max": 1500
+      },
+      "notes": "Setaria italica; seed-fill at 1300, full grain dry 1400 to 1500."
+    },
+    {
+      "slug": "teff-brown",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 1800
+      },
+      "notes": "Eragrostis tef; Ethiopian grain. Seed-fill at 1500, full dry-down 1700 to 1800."
+    },
+    {
+      "slug": "corn-sweet-silver-queen",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 2200,
+        "max": 2400
+      },
+      "notes": "Late-season SU sugary corn; harvest at 2200 to 2400 GDD. Notably slower than modern SE types."
+    },
+    {
+      "slug": "corn-sweet-bodacious",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 1700
+      },
+      "notes": "SE sugary-enhanced mid-season hybrid; harvest at 1500 to 1700 GDD."
+    },
+    {
+      "slug": "sweet-potato",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 1900
+      },
+      "notes": "Ipomoea batatas tubers; small new potatoes at 1500, full storage 1700 to 1900. Cure 2 weeks at 80 F after harvest."
+    },
+    {
+      "slug": "sweet-potato-beauregard",
+      "baseTemp": 60,
+      "gddToMaturity": {
+        "min": 1700,
+        "max": 1900
+      },
+      "notes": "LSU 1987 release; the dominant US commercial sweet potato. Storage roots fill at 1700, cure-ready at 1900 GDD."
+    },
+    {
+      "slug": "corn-sweet-mirai",
+      "baseTemp": 50,
+      "gddToMaturity": {
+        "min": 1500,
+        "max": 1700
+      },
+      "notes": "Japanese supersweet (sh2) hybrid series; harvest at 1500 to 1700 GDD. Holds field-ready window longer than older SU types."
+    }
   ]
 }
