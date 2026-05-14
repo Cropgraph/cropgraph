@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
   "name": "io.github.Cropgraph/cropgraph",
-  "description": "Garden planning MCP. 5,006 crops across 14 categories, 1,004 companions, rotation, GDD, pest data, 200 beneficial insects with composite pest intelligence.",
+  "description": "CropGraph MCP. Crops, companions, pests, rotation, soil, GDD, pest intelligence.",
   "status": "active",
   "repository": {
     "url": "https://github.com/Cropgraph/cropgraph",
