@@ -1,5 +1,106 @@
 # CropGraph Changelog
 
+## 3.1.0 (2026-05-14)
+
+Triple data depth release. Net dataset expansions on the three relationship
+layers backed by the 5,006-crop calendar shipped in 3.0.0.
+
+### Companions: 605 to 1,004 (+399)
+
+New coverage: fruit-tree guilds (apple, pear, peach, cherry, plum, apricot,
+nectarine, walnut, pecan) with daffodil, chive, comfrey, tansy, dill,
+buckwheat, crimson-clover, yarrow, borage, onion, sweet-alyssum, calendula
+guild members; cultivar-specific pairings (San Marzano + basil-genovese,
+cherry-tomato + basil-thai, scab-resistant Liberty/Enterprise + white-clover,
+Honeycrisp + mullein, Cosmic Crisp + sweet-alyssum, heritage cider apples
++ clover floor); medicinal herbs (tulsi, ashwagandha, echinacea, calendula,
+valerian, feverfew, mullein, milk-thistle, nettle, chamomile, anise-hyssop);
+mushroom cultivation (wine-cap stropharia in vegetable mulch, shiitake-log
+near hazelnut/alder/sugar-maple, oyster blocks under shade-tolerant greens);
+grain companions (wheat/oats/rye nurse cropping, rye allelopathy on small-
+seeded crops, Three Sisters with flint and dent corn, pearl millet +
+cowpea, sorghum + sunn hemp); native pollinator hubs (milkweed, aster,
+liatris, salvia, bee-balm, monarda, anise-hyssop, agastache, scabiosa,
+rudbeckia, coreopsis); permaculture dynamic accumulators (hairy-vetch
+mulch, comfrey Bocking 14, nettle); forage rotations (alfalfa-wheat,
+alfalfa-corn, sainfoin-sorghum, birdsfoot-trefoil + timothy); antagonist
+depth (juglone separation distances for English walnut, black walnut,
+pecan; fennel-herb expansion to all legumes; sunflower sesquiterpene
+effects on potato/carrot/lettuce/wheat).
+
+### Pest/disease: 158 to 506 (+348)
+
+New coverage: fruit-tree (apple-scab, codling-moth, fire-blight,
+cedar-apple-rust across multiple cultivars; apple-maggot, woolly aphid,
+European sawfly, leafroller, sooty-blotch, flyspeck, bitter-rot; pear
+fire-blight, psylla, scab, pear-slug; peach OFM, tree-borer, scale; cherry
+fruit-fly, leaf-spot, brown-rot; plum-curculio across European/Japanese/
+Italian/Santa Rosa; plum-pox-virus; apricot brown-rot, bacterial-spot);
+berry (SWD across thin-skin berries; blueberry-maggot, mummy-berry,
+stem-blight; raspberry cane-borer, crown-borer, anthracnose; blackberry
+orange-rust; currant white-pine-blister-rust; elder-borer; gooseberry
+powdery-mildew); grain (stem/leaf/stripe rust, fusarium head blight,
+hessian-fly, wheat-aphid, oat crown-rust, barley covered-smut, rye ergot,
+sorghum-midge, sugarcane-aphid, pearl-millet downy-mildew, quinoa
+downy-mildew, amaranth tarnished-plant-bug); corn (rootworm, ECB, smut,
+fall-armyworm); herb (basil downy-mildew, mint-rust, lavender root-rot
+and AMV, oregano/sage/rosemary/thyme spider-mite, cilantro bolt, parsley
+Septoria, dill parsleyworm); mushroom (trichoderma, cobweb-mold,
+bacterial-blotch, ganoderma, fungus-gnat, slug on shiitake/oyster/
+lions-mane/wine-cap/almond-agaricus/morel/reishi/maitake/turkey-tail/
+chicken-of-the-woods); cover/forage (alfalfa-weevil, leafhopper,
+verticillium; clover root-borer; vetch-bruchid; tall-fescue toxicosis;
+sorghum-sudan prussic-acid); Asian veg + crucifer expansion (bok-choy,
+napa, mizuna, tatsoi, kohlrabi, brussels-sprouts, kale-loop, collards,
+mustard-greens, daikon/turnip/rutabaga cabbage-root-maggot, clubroot);
+tropical/subtropical (papaya-ringspot-virus, papaya-fruit-fly,
+guava-fruit-fly, pineapple mealybug, citrus-greening, citrus-canker,
+Asian-citrus-psyllid, olive fruit-fly and knot, kiwi PSA);
+cultivar-specific tomato/pepper (San Marzano + roma + italian-heirloom
++ cherry-tomato early/late blight, fusarium, BER, pepper-weevil,
+broad-mite, western-flower-thrips, TSWV); flower and pollinator pests
+(zinnia powdery-mildew, sunflower-moth and rust, calendula/borage/
+bee-balm/echinacea/phacelia/yarrow/comfrey rust complex, medicinal-herb
+aster-yellows).
+
+### Succession: 32 to 102 (+70)
+
+New coverage: vegetables (broccoli side-shoot succession, cabbage early/
+mid/storage, onion sets/transplant/seed, potato early/mid/late, sweet-corn
+2-week stagger, pea-bush-bean-pea relay, kohlrabi, bok-choy, napa, kale,
+mustard-greens, swiss-chard, fennel-bulb, tatsoi, mizuna, watermelon,
+cantaloupe, okra, eggplant, pepper, tomato, garlic+shallot, celery, leek,
+fall daikon, rutabaga, brussels-sprouts, cauliflower-fall); herbs (cilantro
+bolt cycle, parsley spring+fall, basil-genovese 3-week, thai-basil, dill,
+summer-savory, mint, oregano-thyme, chive, lemon-balm, sage, lemon-verbena,
+tulsi-rama); cut flowers (dahlia, sweet-pea spring+fall, sunflower 2-week
+stagger, snapdragon, larkspur fall-sow, scabiosa, rudbeckia, phacelia,
+ornamental amaranth, tithonia); cover-crop relays (oats-buckwheat-rye,
+clover-tomato-vetch, pea-oats-summer-rye, vetch-corn-rye, rye-soybean-rye,
+sorghum-sudan+cowpea-rye, buckwheat-brassica, daikon-mustard, sunn-hemp,
+phacelia, sub-clover, lacy-phacelia, berseem-clover); fruit + perennial
+(strawberry renovation, raspberry summer-fall overlap, blueberry cultivar
+spread Duke-Bluecrop-Elliott, everbearing strawberry, rhubarb, asparagus).
+
+### Quality
+
+- 26 existing em dashes in companions.json replaced with appropriate
+  punctuation. Zero em dashes across all three datasets.
+- All slugs validated against crop-calendar.json at load time via the
+  existing Zod parse guard.
+- Duplicate detection across (crop, companion, mechanism) and (crop, pest)
+  tuples; zero duplicates within and against existing entries.
+- Strength grading honest: companions ship strong + moderate only;
+  pest/disease severity calibrated for the home gardener.
+- Sources cited per entry: Cornell, Penn State, OSU, WSU, UC IPM, UC ANR,
+  UF/IFAS, Texas A&M, Michigan State, University of Minnesota, Iowa State,
+  Kansas State Extensions; USDA-ARS, USDA-NRCS, USDA-APHIS; Xerces Society;
+  SARE Cover Crops field guide; Stamets Mycelium Running; Cornell Small
+  Farms Program; Jacke and Toensmeier Edible Forest Gardens v2; Floret
+  Farm cut flower guide; Coleman The New Organic Grower; Cunningham Great
+  Garden Companions; Riotte Carrots Love Tomatoes; ICAR-Indian Institute
+  of Spices Research; ICRISAT; FAO.
+
 ## 3.0.0 (2026-05-13)
 
 Major version. Breaking schema change: crop calendar category enum extended

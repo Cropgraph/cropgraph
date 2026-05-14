@@ -1,9 +1,9 @@
 # @cropgraph/mcp
 
 Model Context Protocol server for garden planning. Fourteen tools backed by
-the curated CropGraph datasets (5,006 crops across 14 categories, 605
-companion relationships, 12 rotation families, 33 succession planting
-chains, 158 pest/disease associations, 120 growing degree day models, USDA
+the curated CropGraph datasets (5,006 crops across 14 categories, 1,004
+companion relationships, 12 rotation families, 102 succession planting
+chains, 506 pest/disease associations, 120 growing degree day models, USDA
 hardiness zones, climate types). Runs over stdio. No API key, no network.
 
 ## Install / run

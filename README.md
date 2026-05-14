@@ -11,7 +11,7 @@ and disease management, USDA hardiness zones, and climate classification.
 
 | Package | What |
 |---------|------|
-| [`@cropgraph/core`](./packages/core) | Crop calendar (5,006 entries across 14 categories), 605 companion relationships, rotation families, succession chains, pest/disease associations, 120 growing degree day models, USDA zones, climate types. Pure TypeScript, offline. |
+| [`@cropgraph/core`](./packages/core) | Crop calendar (5,006 entries across 14 categories), 1,004 companion relationships, rotation families, succession chains, pest/disease associations, 120 growing degree day models, USDA zones, climate types. Pure TypeScript, offline. |
 | [`@cropgraph/mcp`](./packages/mcp) | Model Context Protocol server (stdio). Fourteen garden-planning tools for AI agents. |
 | [`cropgraph`](./packages/cli) | Command-line interface. Subcommands for zones, planting, crop lookup, companions, rotation, succession, pests, and pest-detail. |
 
@@ -60,11 +60,11 @@ getSuccessionPlan({ slug: "lettuce-leaf", zone, climateType: "maritime" });
 | Asset | Count | Notes |
 |-------|-------|-------|
 | Crop calendar | 5,006 entries | 14 categories (vegetable, herb, fruit, flower, cover-crop, root, legume, grain, mushroom, native, medicinal, fiber, forage, sprout). Frost-anchored windows; 120 entries carry climate modifiers across 6 climate types |
-| Companion relationships | 605 | 510 beneficial, 95 antagonist, 12 mechanism categories |
+| Companion relationships | 1,004 | 510 beneficial, 95 antagonist, 12 mechanism categories |
 | Growing degree days | 120 models | Cultivar-specific GDD ranges, base temperatures, NOAA Climate Normals harvest prediction |
 | Rotation families | 12 | Nightshades, brassicas, cucurbits, alliums, legumes, umbellifers, grasses, amaranthaceae, composites, mints, malvaceae, miscellaneous. Every calendar slug mapped. |
 | Succession chains | 33 | Greens, roots, legumes, brassicas, cucurbits, herbs, flowers, cover crops. Frost-anchored phases with per-climate notes. |
-| Pest/disease associations | 158 | Crop-to-pest edges with diagnostic symptoms, organic management, prevention, and regions. OMRI-listed management only. |
+| Pest/disease associations | 506 | Crop-to-pest edges with diagnostic symptoms, organic management, prevention, and regions. OMRI-listed management only. |
 | USDA hardiness zones | 40,283 ZIPs | PRISM 2023 + waldoj/frostline centroids, offline lookup |
 | Climate classifier | 6 types | Maritime, mediterranean, continental, humid subtropical, arid, semi-arid |
 

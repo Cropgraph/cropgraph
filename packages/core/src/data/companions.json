@@ -2,7 +2,7 @@
   "version": "1",
   "source": "USDA Cooperative Extension (Cornell, WSU, UC ANR, UF/IFAS); USDA-ARS Three Sisters and allelopathy research; Xerces Society pollinator publications; Riotte, Carrots Love Tomatoes; Cunningham, Great Garden Companions; SARE Cover Crops field guide. Strength grades curated honestly: strong = empirical research support, moderate = widely corroborated traditional + some research. Folk-only (weak) entries excluded; community PRs welcome.",
   "license": "CC-BY-4.0",
-  "lastUpdated": "2026-05-13",
+  "lastUpdated": "2026-05-14",
   "entries": [
     {
       "crop": "pole-bean",
@@ -171,7 +171,7 @@
       "companion": "broccoli",
       "type": "beneficial",
       "mechanism": "pollinator_attractor",
-      "description": "Same mechanism as with cabbage — dill's umbel flowers draw beneficial parasitoid wasps and hoverflies, controlling cabbage moth larvae on broccoli.",
+      "description": "Same mechanism as with cabbage: dill's umbel flowers draw beneficial parasitoid wasps and hoverflies, controlling cabbage moth larvae on broccoli.",
       "strength": "moderate",
       "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
     },
@@ -252,7 +252,7 @@
       "companion": "broccoli",
       "type": "beneficial",
       "mechanism": "trap_crop",
-      "description": "Same mechanism as cabbage — nasturtium decoys cabbage white butterflies away from broccoli heads.",
+      "description": "Same mechanism as cabbage: nasturtium decoys cabbage white butterflies away from broccoli heads.",
       "strength": "moderate",
       "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
     },
@@ -369,7 +369,7 @@
       "companion": "lettuce-leaf",
       "type": "beneficial",
       "mechanism": "space_efficiency",
-      "description": "Radishes mature in 25-30 days and are harvested before lettuce reaches full size — often interplanted in the same row to maximize bed productivity.",
+      "description": "Radishes mature in 25-30 days and are harvested before lettuce reaches full size, often interplanted in the same row to maximize bed productivity.",
       "strength": "moderate",
       "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
     },
@@ -378,7 +378,7 @@
       "companion": "lettuce-head",
       "type": "beneficial",
       "mechanism": "space_efficiency",
-      "description": "Same mechanism as leaf lettuce — radishes mature quickly and clear the row before head lettuce needs the full space.",
+      "description": "Same mechanism as leaf lettuce: radishes mature quickly and clear the row before head lettuce needs the full space.",
       "strength": "moderate",
       "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
     },
@@ -396,7 +396,7 @@
       "companion": "sweet-corn",
       "type": "beneficial",
       "mechanism": "ground_cover",
-      "description": "Cucumber vines crawl through corn rows, shading soil and suppressing weeds at the bed level. Don't combine with squash in the same row — only one ground-layer crop per bed.",
+      "description": "Cucumber vines crawl through corn rows, shading soil and suppressing weeds at the bed level. Don't combine with squash in the same row, only one ground-layer crop per bed.",
       "strength": "moderate",
       "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
     },
@@ -405,7 +405,7 @@
       "companion": "tomato",
       "type": "beneficial",
       "mechanism": "pollinator_attractor",
-      "description": "Yarrow's flat umbel flowers attract hoverflies (Syrphidae) and parasitic wasps that prey on tomato hornworm and aphids. Drought-tolerant perennial — plant in bed corners.",
+      "description": "Yarrow's flat umbel flowers attract hoverflies (Syrphidae) and parasitic wasps that prey on tomato hornworm and aphids. Drought-tolerant perennial; plant in bed corners.",
       "strength": "moderate",
       "source": "Xerces Society pollinator habitat publications"
     },
@@ -459,7 +459,7 @@
       "companion": "summer-squash",
       "type": "beneficial",
       "mechanism": "trap_crop",
-      "description": "Same mechanism as winter squash — nasturtium decoys squash bugs and cucumber beetles.",
+      "description": "Same mechanism as winter squash: nasturtium decoys squash bugs and cucumber beetles.",
       "strength": "moderate",
       "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
     },
@@ -477,7 +477,7 @@
       "companion": "tomato",
       "type": "beneficial",
       "mechanism": "pest_repellent",
-      "description": "Mint deters whitefly and aphids near tomatoes. Always grow in containers around the tomato bed — never plant runners directly.",
+      "description": "Mint deters whitefly and aphids near tomatoes. Always grow in containers around the tomato bed; never plant runners directly.",
       "strength": "moderate",
       "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
     },
@@ -504,7 +504,7 @@
       "companion": "tomato",
       "type": "antagonist",
       "mechanism": "allelopathic",
-      "description": "Florence fennel exhibits the same allelopathic effects as herb fennel — anethole and related volatiles inhibit tomato growth.",
+      "description": "Florence fennel exhibits the same allelopathic effects as herb fennel: anethole and related volatiles inhibit tomato growth.",
       "strength": "strong",
       "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
     },
@@ -522,7 +522,7 @@
       "companion": "pole-bean",
       "type": "antagonist",
       "mechanism": "allelopathic",
-      "description": "Same mechanism as bush bean — pole bean is also severely affected by fennel's allelopathic chemistry.",
+      "description": "Same mechanism as bush bean: pole bean is also severely affected by fennel's allelopathic chemistry.",
       "strength": "strong",
       "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
     },
@@ -567,7 +567,7 @@
       "companion": "broccoli",
       "type": "antagonist",
       "mechanism": "allelopathic",
-      "description": "Same mechanism as cabbage — fennel stunts broccoli head development at close range.",
+      "description": "Same mechanism as cabbage: fennel stunts broccoli head development at close range.",
       "strength": "moderate",
       "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
     },
@@ -585,7 +585,7 @@
       "companion": "pole-bean",
       "type": "antagonist",
       "mechanism": "allelopathic",
-      "description": "Same mechanism as bush bean — garlic disrupts Rhizobium symbiosis in pole bean nodules.",
+      "description": "Same mechanism as bush bean: garlic disrupts Rhizobium symbiosis in pole bean nodules.",
       "strength": "strong",
       "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
     },
@@ -603,7 +603,7 @@
       "companion": "snow-pea",
       "type": "antagonist",
       "mechanism": "allelopathic",
-      "description": "Same mechanism as snap pea — garlic disrupts nodule formation in all leguminous pea species.",
+      "description": "Same mechanism as snap pea: garlic disrupts nodule formation in all leguminous pea species.",
       "strength": "strong",
       "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
     },
@@ -630,7 +630,7 @@
       "companion": "pole-bean",
       "type": "antagonist",
       "mechanism": "allelopathic",
-      "description": "Same mechanism as bush bean — onion disrupts pole bean Rhizobium activity.",
+      "description": "Same mechanism as bush bean: onion disrupts pole bean Rhizobium activity.",
       "strength": "strong",
       "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
     },
@@ -675,7 +675,7 @@
       "companion": "strawberry",
       "type": "antagonist",
       "mechanism": "disease_vector",
-      "description": "Same mechanism as cabbage — broccoli and strawberry share Verticillium wilt pathogen.",
+      "description": "Same mechanism as cabbage: broccoli and strawberry share Verticillium wilt pathogen.",
       "strength": "moderate",
       "source": "UC ANR strawberry production guide"
     },
@@ -747,7 +747,7 @@
       "companion": "tomato",
       "type": "antagonist",
       "mechanism": "allelopathic",
-      "description": "Wormwood (Artemisia absinthium) produces absinthin and santonin — powerful allelopathic compounds. Keep wormwood well away from vegetable beds; minimum 6 ft separation.",
+      "description": "Wormwood (Artemisia absinthium) produces absinthin and santonin, powerful allelopathic compounds. Keep wormwood well away from vegetable beds; minimum 6 ft separation.",
       "strength": "moderate",
       "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
     },
@@ -756,7 +756,7 @@
       "companion": "bush-bean",
       "type": "antagonist",
       "mechanism": "allelopathic",
-      "description": "Same mechanism as tomato — wormwood absinthin severely inhibits bean germination and growth.",
+      "description": "Same mechanism as tomato: wormwood absinthin severely inhibits bean germination and growth.",
       "strength": "moderate",
       "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
     },
@@ -774,7 +774,7 @@
       "companion": "asparagus",
       "type": "antagonist",
       "mechanism": "allelopathic",
-      "description": "Garlic inhibits asparagus growth via shared sulfur compounds and root competition. The opposite pattern from tomato — never plant alliums in or near asparagus beds.",
+      "description": "Garlic inhibits asparagus growth via shared sulfur compounds and root competition. The opposite pattern from tomato; never plant alliums in or near asparagus beds.",
       "strength": "moderate",
       "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
     },
@@ -783,7 +783,7 @@
       "companion": "asparagus",
       "type": "antagonist",
       "mechanism": "allelopathic",
-      "description": "Same mechanism as garlic — onion sulfur compounds inhibit asparagus development.",
+      "description": "Same mechanism as garlic: onion sulfur compounds inhibit asparagus development.",
       "strength": "moderate",
       "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
     },
@@ -819,7 +819,7 @@
       "companion": "broccoli",
       "type": "beneficial",
       "mechanism": "nitrogen_fixing",
-      "description": "Same mechanism as cabbage — fava bean nitrogen fixation is a strong fit for spring broccoli's heavy nitrogen demand.",
+      "description": "Same mechanism as cabbage: fava bean nitrogen fixation is a strong fit for spring broccoli's heavy nitrogen demand.",
       "strength": "strong",
       "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
     },
@@ -855,7 +855,7 @@
       "companion": "european-pear",
       "type": "beneficial",
       "mechanism": "nitrogen_fixing",
-      "description": "Same mechanism as apple — white clover living-mulch ring around pear trees fixes nitrogen and supports beneficials.",
+      "description": "Same mechanism as apple: white clover living-mulch ring around pear trees fixes nitrogen and supports beneficials.",
       "strength": "moderate",
       "source": "Permaculture Research Institute; orchard guild literature"
     },
@@ -945,7 +945,7 @@
       "companion": "winter-squash",
       "type": "beneficial",
       "mechanism": "pollinator_attractor",
-      "description": "Same mechanism as cucumber — phacelia draws bees to squash flowers, increasing female-flower fruit set rates.",
+      "description": "Same mechanism as cucumber: phacelia draws bees to squash flowers, increasing female-flower fruit set rates.",
       "strength": "strong",
       "source": "Xerces Society pollinator habitat publications"
     },
@@ -1026,7 +1026,7 @@
       "companion": "eggplant",
       "type": "beneficial",
       "mechanism": "pollinator_attractor",
-      "description": "Same mechanism as pepper — eggplant flowers benefit from bumblebee buzz pollination, which bee balm enhances.",
+      "description": "Same mechanism as pepper: eggplant flowers benefit from bumblebee buzz pollination, which bee balm enhances.",
       "strength": "moderate",
       "source": "Xerces Society pollinator habitat publications"
     },
@@ -1044,7 +1044,7 @@
       "companion": "winter-squash",
       "type": "beneficial",
       "mechanism": "pollinator_attractor",
-      "description": "Same mechanism as cucumber — echinacea supports pollinators near squash beds through a long blooming window.",
+      "description": "Same mechanism as cucumber: echinacea supports pollinators near squash beds through a long blooming window.",
       "strength": "moderate",
       "source": "Xerces Society pollinator habitat publications"
     },
@@ -1062,7 +1062,7 @@
       "companion": "apple-standard",
       "type": "beneficial",
       "mechanism": "ground_cover",
-      "description": "Classic fruit-tree guild plant — comfrey's deep taproot mines subsoil potassium and phosphorus; foliage chopped and dropped serves as a nutrient-rich mulch. Suppresses weeds under tree canopy.",
+      "description": "Classic fruit-tree guild plant: comfrey's deep taproot mines subsoil potassium and phosphorus; foliage chopped and dropped serves as a nutrient-rich mulch. Suppresses weeds under tree canopy.",
       "strength": "strong",
       "source": "Permaculture Research Institute; UK orchard guild literature"
     },
@@ -1071,7 +1071,7 @@
       "companion": "european-pear",
       "type": "beneficial",
       "mechanism": "ground_cover",
-      "description": "Same mechanism as apple — comfrey ring under pear tree provides chop-and-drop fertility and weed suppression.",
+      "description": "Same mechanism as apple: comfrey ring under pear tree provides chop-and-drop fertility and weed suppression.",
       "strength": "strong",
       "source": "Permaculture Research Institute; UK orchard guild literature"
     },
@@ -5448,6 +5448,3597 @@
       "description": "Rye Aroostook releases benzoxazinoids and ties up surface N during decomposition. Wait 3 weeks after termination before direct-seeding sweet corn or supplement N.",
       "strength": "moderate",
       "source": "USDA-SARE Managing Cover Crops Profitably"
+    },
+    {
+      "crop": "apple-standard",
+      "companion": "daffodil",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "A ring of daffodil bulbs at the dripline deters voles from girdling apple trunks over winter. Daffodils contain lycorine alkaloids unpalatable to rodents; the ring forms a season-long barrier under permanent mulch.",
+      "strength": "moderate",
+      "source": "Penn State Extension Tree Fruit Production Guide; Cornell Cooperative Extension vole management bulletin"
+    },
+    {
+      "crop": "apple-standard",
+      "companion": "nasturtium",
+      "type": "beneficial",
+      "mechanism": "trap_crop",
+      "description": "Nasturtium serves as a preferred host for woolly apple aphid (Eriosoma lanigerum) and several aphid generalists; the colonies on nasturtium support resident populations of syrphid larvae and lacewings that move onto the tree as primary prey dwindles. Replant nasturtium each spring at the tree base.",
+      "strength": "moderate",
+      "source": "Oregon State University Extension orchard IPM; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "apple-standard",
+      "companion": "lupine",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Perennial lupine in the alleyway between tree rows fixes 100-150 lb N/acre and supplies a season-long bloom for native bees during the apple petal-fall to fruit-set window when honeybees are scarce. Mow before seed set to maintain density.",
+      "strength": "moderate",
+      "source": "USDA-NRCS pollinator hedgerow plant list; Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "apple-standard",
+      "companion": "dill",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Dill umbels in the alley draw braconid and ichneumon wasps that parasitize codling moth larvae and tortrix leafrollers. Allow flowering dill to seed itself in non-traffic alley strips for self-renewing parasitoid habitat.",
+      "strength": "moderate",
+      "source": "WSU Tree Fruit Research and Extension Center; Xerces Society conservation biological control guide"
+    },
+    {
+      "crop": "apple-standard",
+      "companion": "buckwheat",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Buckwheat blooms in 4-6 weeks and provides a high-nectar pollen source for hoverflies (Syrphidae) whose larvae prey on rosy apple aphid. Sow in alley strips after petal fall; the bloom coincides with the first aphid generation.",
+      "strength": "moderate",
+      "source": "SARE Cover Crops field guide; Penn State Extension Fruit Production"
+    },
+    {
+      "crop": "apple-standard",
+      "companion": "crimson-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Crimson clover overwintered in tree alleys fixes 70-130 lb N/acre and blooms during apple petal fall, supporting wild bee populations that boost cross-pollination. Mow in early summer when bloom fades and N transfer peaks.",
+      "strength": "strong",
+      "source": "USDA-NRCS Cover Crop Chart; SARE Cover Crops field guide"
+    },
+    {
+      "crop": "apple-standard",
+      "companion": "yarrow",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Yarrow's flat umbels are a preferred nectar source for parasitic wasps, hoverflies, and minute pirate bugs that prey on aphids, leafhoppers, and small caterpillars. Plant in permanent patches at row ends where mowing is reduced.",
+      "strength": "moderate",
+      "source": "Xerces Society conservation biological control guide; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "apple-standard",
+      "companion": "borage",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Borage's prolific blue flowers attract bumblebees and honeybees during the apple bloom window, supplementing native pollinator activity. Refills nectar every two minutes, making it a high-density forage station.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension pollinator garden guide; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "apple-standard",
+      "companion": "onion",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "A circle of onions or shallots at the apple dripline releases sulfur volatiles that suppress apple maggot (Rhagoletis pomonella) oviposition on low-hanging fruit. Best paired with sticky-sphere traps for severe pressure.",
+      "strength": "moderate",
+      "source": "Michigan State Extension Tree Fruit IPM; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "apple-standard",
+      "companion": "sweet-alyssum",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Sweet alyssum supports very high densities of hoverflies and parasitic wasps; under-tree plantings have measurably increased syrphid populations in WSU orchard trials. Plant as a continuous low border at the row edge.",
+      "strength": "strong",
+      "source": "WSU Tree Fruit Research and Extension Center hoverfly studies; Xerces Society"
+    },
+    {
+      "crop": "apple-standard",
+      "companion": "calendula",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Calendula's open ray flowers attract hoverflies, ladybugs, and lacewings; the long bloom from spring through frost provides season-long beneficial habitat in tree-row plantings. Easy self-seeding annual.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "apple-standard",
+      "companion": "horseradish",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "A few horseradish plants at the tree base release allyl isothiocyanate that suppresses some root pathogens (Phytophthora collar rot) and deters voles. Contain spread with a buried barrier; horseradish is invasive in mulched orchard floor.",
+      "strength": "moderate",
+      "source": "Penn State Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "apple-liberty",
+      "companion": "white-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Liberty's strong scab and cedar-apple-rust resistance allows a true low-spray system where a permanent white-clover living mulch can be maintained without sulfur burn. Mow 3-4 times per season to maintain N transfer.",
+      "strength": "moderate",
+      "source": "Cornell University apple-breeding releases; SARE Cover Crops field guide"
+    },
+    {
+      "crop": "apple-enterprise",
+      "companion": "white-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Enterprise carries Vf scab immunity plus moderate fire blight resistance, supporting a permanent white-clover orchard floor without summer fungicide schedules that would suppress soil microbes. Establish clover the year before tree planting.",
+      "strength": "moderate",
+      "source": "Purdue University apple-breeding program releases; SARE Cover Crops field guide"
+    },
+    {
+      "crop": "pear-bartlett",
+      "companion": "daffodil",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Daffodil bulbs ringed at the pear dripline deter voles from winter trunk damage. Pears are particularly vole-vulnerable on dwarfing rootstock; the daffodil collar is a permanent passive deterrent.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension tree fruit; Penn State Extension vole management"
+    },
+    {
+      "crop": "pear-bartlett",
+      "companion": "white-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "White-clover living mulch under pear trees fixes 80-150 lb N/acre and supports a resident parasitoid population that helps suppress pear psylla. Mow strips alternately to keep half in bloom at all times.",
+      "strength": "moderate",
+      "source": "USDA-NRCS Cover Crop Chart; OSU Extension orchard management"
+    },
+    {
+      "crop": "pear-bartlett",
+      "companion": "comfrey",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Comfrey at the pear dripline mines potassium and phosphorus from subsoil; chop-and-drop foliage three times per season returns 2-3 lb K2O per tree. Suppresses weeds without competing for moisture in the surface root zone.",
+      "strength": "moderate",
+      "source": "Jacke and Toensmeier, Edible Forest Gardens v2; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "pear-bartlett",
+      "companion": "yarrow",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Yarrow draws parasitic wasps that attack pear psylla nymphs; pair with low-mow ground cover for resident predator habitat. Plant in permanent row-end patches.",
+      "strength": "moderate",
+      "source": "WSU Tree Fruit Research and Extension Center; Xerces Society"
+    },
+    {
+      "crop": "pear-bartlett",
+      "companion": "tansy",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Tansy volatiles repel pear psylla and codling moth in proximity plantings; place one or two clumps at the tree base. Cut back hard before seed set; tansy seeds prolifically in disturbed orchard floor.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension orchard IPM; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "pear-bartlett",
+      "companion": "garlic",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Garlic planted in a ring under pear trees deters some root-feeding nematodes and discourages rodent burrowing. Harvest each summer and replant in fall.",
+      "strength": "moderate",
+      "source": "Penn State Extension; UC ANR Master Gardener orchard guides"
+    },
+    {
+      "crop": "pear-bartlett",
+      "companion": "apple-standard",
+      "type": "antagonist",
+      "mechanism": "disease_vector",
+      "description": "Fire blight (Erwinia amylovora) infects both apple and pear; mixed apple-pear plantings increase pathogen reservoirs and complicate sanitation pruning. Maintain a 50 ft buffer where blight has appeared, or plant only fire-blight-resistant cultivars on both sides.",
+      "strength": "strong",
+      "source": "USDA-ARS fire blight research; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "pear-anjou",
+      "companion": "comfrey",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Comfrey under d'Anjou pears performs the same nutrient-cycling and mulch role described for Bartlett; d'Anjou's vigorous growth particularly benefits from the slow potassium release.",
+      "strength": "moderate",
+      "source": "Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "pear-bosc",
+      "companion": "comfrey",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Comfrey ring under Bosc pears provides chop-and-drop fertility and weed suppression. Bosc's slower growth pairs well with comfrey's heavy mulch load; supports steady production without alley-floor synthetic fertilizer.",
+      "strength": "moderate",
+      "source": "Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "peach",
+      "companion": "daffodil",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Daffodil ring at the peach dripline deters voles, pocket gophers, and ground squirrels from winter crown damage. Stone fruit on dwarfing rootstock is exceptionally vulnerable; the daffodil collar is a permanent low-maintenance barrier.",
+      "strength": "moderate",
+      "source": "Penn State Extension Tree Fruit Production Guide; UC ANR"
+    },
+    {
+      "crop": "peach",
+      "companion": "chive",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Chive plantings under peach trees release sulfur volatiles that confuse peach tree borer (Synanthedon exitiosa) moths during oviposition. Pair with white interior latex on trunk for additive borer prevention.",
+      "strength": "moderate",
+      "source": "UF/IFAS Extension peach production; Penn State Tree Fruit"
+    },
+    {
+      "crop": "peach",
+      "companion": "tansy",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Tansy clumps at the peach base release pyrethrin-related volatiles that reduce Japanese beetle feeding pressure during fruit set. Cut hard before seed maturity to prevent escape into surrounding beds.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "peach",
+      "companion": "dill",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Dill umbels in the alley draw braconid wasps that parasitize oriental fruit moth and lesser peachtree borer larvae. Allow dill to flower fully and self-seed in non-traffic strips.",
+      "strength": "moderate",
+      "source": "Penn State Extension Tree Fruit; Xerces Society"
+    },
+    {
+      "crop": "peach",
+      "companion": "buckwheat",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Buckwheat sown in peach alleys after petal fall blooms in 4-6 weeks and supports hoverflies whose larvae prey on green peach aphid. Reseed once mid-summer for continuous bloom.",
+      "strength": "moderate",
+      "source": "SARE Cover Crops field guide; Penn State Extension"
+    },
+    {
+      "crop": "peach",
+      "companion": "crimson-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Crimson clover alley cover supplies 70-130 lb N/acre to peach trees and pollinator forage during petal fall. Mow at bloom-end to release N when fruit-set demand peaks.",
+      "strength": "moderate",
+      "source": "USDA-NRCS Cover Crop Chart; UF/IFAS Extension"
+    },
+    {
+      "crop": "peach",
+      "companion": "nasturtium",
+      "type": "beneficial",
+      "mechanism": "trap_crop",
+      "description": "Nasturtium hosts green peach aphid colonies that support resident syrphid and lacewing larvae populations near the trees. Replant each spring under low-hanging branches.",
+      "strength": "moderate",
+      "source": "OSU Extension Tree Fruit Pests; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "peach",
+      "companion": "horseradish",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Horseradish at the peach tree base suppresses some soil-borne fungal pathogens (Phytophthora) and discourages vole burrowing. Use a buried barrier to contain spread.",
+      "strength": "moderate",
+      "source": "Penn State Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "peach",
+      "companion": "walnut-black",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Peach is among the most juglone-sensitive tree fruits. Plant peaches a minimum of 60 feet from any mature black walnut; symptoms include yellowing, dieback, and tree death within 2-4 years inside the toxic root zone.",
+      "strength": "strong",
+      "source": "USDA-ARS juglone research; Funt, Penn State Tree Fruit Production"
+    },
+    {
+      "crop": "nectarine",
+      "companion": "walnut-black",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Nectarine shares peach's high juglone sensitivity; same 60 ft minimum buffer applies. Plant nectarines in pre-tested soil free of measurable juglone before establishing the orchard block.",
+      "strength": "strong",
+      "source": "USDA-ARS juglone research; UC ANR Master Gardener tree fruit"
+    },
+    {
+      "crop": "nectarine",
+      "companion": "chive",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as peach: chive sulfur volatiles deter peach tree borer and confuse oriental fruit moth oviposition. Plant in a ring or row at the trunk base.",
+      "strength": "moderate",
+      "source": "UF/IFAS Extension stone fruit guide"
+    },
+    {
+      "crop": "nectarine",
+      "companion": "daffodil",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Daffodil collar at the nectarine dripline deters voles and ground squirrels through winter. Persistent bulb cluster requires no replanting and tolerates orchard mulch.",
+      "strength": "moderate",
+      "source": "Penn State Extension Tree Fruit Production Guide"
+    },
+    {
+      "crop": "cherry-sweet",
+      "companion": "chive",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Chive under sweet cherry deters slug and snail damage on low fruit and discourages cherry tree borer activity at the crown. The early-spring chive bloom is a useful pollinator beacon during cherry flowering.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "cherry-sweet",
+      "companion": "garlic",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Garlic at the cherry tree base discourages voles and reduces some soil nematode populations. Pair with sticky bands on the trunk for cherry slug and aphid management.",
+      "strength": "moderate",
+      "source": "Penn State Extension; UC ANR Master Gardener stone fruit"
+    },
+    {
+      "crop": "cherry-sweet",
+      "companion": "comfrey",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Comfrey ring under cherry trees suppresses competing grass and recycles K and P from subsoil. Chop-and-drop three times per season; cherry's shallow feeder roots benefit from the moisture-retaining mulch.",
+      "strength": "moderate",
+      "source": "Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "cherry-sweet",
+      "companion": "tansy",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Tansy clumps under cherry trees release volatiles that deter Japanese beetle and reduce cherry slug feeding. Cut back hard before seed; tansy self-seeds aggressively if allowed.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; OSU Extension"
+    },
+    {
+      "crop": "cherry-sweet",
+      "companion": "crimson-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Crimson clover alley cover overwinters in mild zones and supplies N during the cherry petal fall to fruit set window. Mow at bloom-end and leave residue in place as living mulch.",
+      "strength": "moderate",
+      "source": "USDA-NRCS Cover Crop Chart"
+    },
+    {
+      "crop": "cherry-sweet",
+      "companion": "white-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Permanent white-clover orchard floor under sweet cherry fixes nitrogen and supports continuous pollinator habitat. Mow alternate strips to keep half in bloom during cherry fruit development.",
+      "strength": "moderate",
+      "source": "OSU Extension orchard management; SARE Cover Crops field guide"
+    },
+    {
+      "crop": "cherry-sweet",
+      "companion": "yarrow",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Yarrow at row ends and corners provides parasitic wasp and hoverfly habitat for aphid and cherry slug management. Drought-tolerant; thrives at orchard edges with no supplemental water.",
+      "strength": "moderate",
+      "source": "Xerces Society conservation biological control guide"
+    },
+    {
+      "crop": "cherry-sour",
+      "companion": "chive",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as sweet cherry: chive sulfur volatiles deter borer and slug pressure. Sour cherry's smaller stature makes a tight chive ring at the dripline easier to maintain.",
+      "strength": "moderate",
+      "source": "Penn State Extension; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "cherry-sour",
+      "companion": "comfrey",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Comfrey ring under Montmorency-type sour cherry mines subsoil K and P for fruit fill. The lower-stature tree benefits from comfrey's weed suppression more than larger sweet cherry varieties.",
+      "strength": "moderate",
+      "source": "Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "cherry-sweet",
+      "companion": "walnut-black",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Sweet cherry shows moderate juglone sensitivity; maintain a 50 ft buffer from any mature black walnut, with active monitoring inside 70 ft. Symptoms are gradual canopy decline rather than sudden death.",
+      "strength": "strong",
+      "source": "USDA-ARS juglone research; Penn State Tree Fruit"
+    },
+    {
+      "crop": "plum-european",
+      "companion": "comfrey",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Comfrey under European plums recycles potassium for stone fruit production and suppresses competing turf. Chop-and-drop three times per season delivers a steady mulch layer.",
+      "strength": "moderate",
+      "source": "Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "plum-european",
+      "companion": "chive",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Chive at the plum base discourages plum curculio adults from finding the trunk during spring egg-laying scouts. Pair with kaolin clay sprays at petal fall for effective curculio reduction.",
+      "strength": "moderate",
+      "source": "Penn State Extension Tree Fruit; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "plum-european",
+      "companion": "tansy",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Tansy clumps near plum trees deter Japanese beetle and reduce some moth oviposition. Hard prune before seed maturity to keep tansy from naturalizing through the orchard.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension orchard IPM"
+    },
+    {
+      "crop": "plum-european",
+      "companion": "garlic",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Garlic at the plum tree base discourages voles and reduces some root-feeding nematode populations. Plant in autumn and harvest each summer; replant from saved bulbs.",
+      "strength": "moderate",
+      "source": "Penn State Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "plum-european",
+      "companion": "yarrow",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Yarrow patches at row ends boost parasitic-wasp populations that target plum curculio and aphid pressure. Drought-tolerant perennial; pairs well with permanent orchard-edge plantings.",
+      "strength": "moderate",
+      "source": "Xerces Society; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "plum-european",
+      "companion": "crimson-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Crimson clover alley cover delivers N to plums during fruit set and supports early-season pollinator habitat. Mow at bloom-end for peak N release into fruiting zone.",
+      "strength": "moderate",
+      "source": "USDA-NRCS Cover Crop Chart"
+    },
+    {
+      "crop": "plum-japanese",
+      "companion": "chive",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as European plum: chive sulfur volatiles deter plum curculio scouting near the trunk. Japanese plums are particularly curculio-attractive and benefit from layered controls.",
+      "strength": "moderate",
+      "source": "Penn State Extension Tree Fruit"
+    },
+    {
+      "crop": "apricot",
+      "companion": "chive",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Chive at the apricot tree base deters borer and reduces aphid pressure during the brief apricot bloom. Early bloom of chive supplements scarce spring pollinator activity.",
+      "strength": "moderate",
+      "source": "UC ANR Master Gardener stone fruit; Penn State Extension"
+    },
+    {
+      "crop": "apricot",
+      "companion": "comfrey",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Comfrey ring under apricot trees suppresses turf competition and supplies a slow K release for fruit production. Apricot's tendency toward late spring frost damage is unaffected; comfrey adds soil resilience.",
+      "strength": "moderate",
+      "source": "Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "apricot",
+      "companion": "walnut-black",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Apricot is in the high-sensitivity group for juglone toxicity. Maintain a minimum 60 ft buffer from any mature black walnut; test soil for residual juglone before planting on former walnut sites.",
+      "strength": "strong",
+      "source": "USDA-ARS juglone research; Funt, Penn State Tree Fruit"
+    },
+    {
+      "crop": "walnut-english",
+      "companion": "pepper-sweet",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "English walnut produces juglone at lower concentrations than black walnut but enough to suppress nightshades within 30-40 ft of mature trees. Pepper symptoms include leaf wilting and root rot. Maintain a 50 ft buffer.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research; UC ANR walnut production"
+    },
+    {
+      "crop": "walnut-english",
+      "companion": "pepper-hot",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Same mechanism as sweet pepper: English walnut juglone suppresses hot pepper growth within the root zone. Plant peppers a minimum of 50 ft from mature English walnut.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research; UC ANR"
+    },
+    {
+      "crop": "walnut-english",
+      "companion": "eggplant",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Eggplant is nightshade-family and sensitive to English walnut juglone. Symptoms include foliar wilt and stunted growth within the root drip zone; maintain a 50 ft buffer minimum.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "walnut-english",
+      "companion": "potato",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Potato is highly sensitive to juglone; English walnut juglone concentration suffices to cause sudden vine wilt and tuber damage within 40 ft of mature trees. Locate potato beds well outside the walnut root zone.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research; OSU Extension"
+    },
+    {
+      "crop": "walnut-english",
+      "companion": "apple-standard",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Apples within 50 ft of mature English walnut show measurable canopy decline and yield loss attributed to juglone. Plant orchard blocks upslope or upstream of any walnut row.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research; Penn State Tree Fruit"
+    },
+    {
+      "crop": "walnut-english",
+      "companion": "asparagus",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Asparagus shows moderate juglone sensitivity. Locate the asparagus bed at least 50 ft from English walnut; closer plantings show stalk wilt and reduced crown vigor over several years.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "walnut-english",
+      "companion": "raspberry",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Brambles are highly juglone-sensitive. Plant raspberries a minimum of 50 ft from mature English walnut to avoid cane decline. Susceptibility is symptomatic of soil juglone accumulation rather than visible mature canes.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research; OSU Extension berry crops"
+    },
+    {
+      "crop": "walnut-english",
+      "companion": "cabbage",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Brassicas grown within the English walnut root zone exhibit slow growth and yellowing, attributed to juglone interference with respiration. Maintain a 40 ft buffer to keep cabbages productive.",
+      "strength": "moderate",
+      "source": "Penn State Extension; USDA-ARS juglone research"
+    },
+    {
+      "crop": "walnut-black",
+      "companion": "raspberry",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Brambles are exceptionally juglone-sensitive; black walnut juglone suppresses raspberry cane growth at distances greater than for English walnut. Maintain at least a 70 ft buffer; longer if mature trees are present.",
+      "strength": "strong",
+      "source": "USDA-ARS juglone research; OSU Extension berry crops"
+    },
+    {
+      "crop": "walnut-black",
+      "companion": "asparagus",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Asparagus crown decline near black walnut is well documented; juglone disrupts crown vigor within the root drip zone. Maintain a minimum 60 ft buffer; replanting in former-walnut soil requires multi-year remediation.",
+      "strength": "strong",
+      "source": "USDA-ARS juglone research; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "pecan",
+      "companion": "tomato",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Pecan produces juglone at lower concentrations than walnut but enough to suppress sensitive nightshades within 30-40 ft of mature trees. Plant tomato beds a minimum of 50 ft from mature pecans.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research; UF/IFAS Extension pecan"
+    },
+    {
+      "crop": "pecan",
+      "companion": "apple-standard",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Apples within 40 ft of mature pecan trees show modest canopy decline attributed to low-level juglone exposure. Effects are less severe than walnut but worth a 50 ft buffer in mixed-tree orchards.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research"
+    },
+    {
+      "crop": "blueberry",
+      "companion": "white-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "White-clover living mulch between blueberry rows fixes nitrogen and tolerates the acidic soil (pH 4.5-5.5) that blueberries require, where most legumes fail. Mow in alternate strips for continuous bloom.",
+      "strength": "moderate",
+      "source": "OSU Extension blueberry production; USDA-NRCS Cover Crop Chart"
+    },
+    {
+      "crop": "blueberry",
+      "companion": "sage",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Sage blooms during the blueberry petal-fall window and draws bumblebees, which are far more effective at blueberry pollination than honeybees because of buzz pollination. Plant a few sage clumps at row ends.",
+      "strength": "moderate",
+      "source": "OSU Extension berry crops; Xerces Society pollinator guide"
+    },
+    {
+      "crop": "blueberry",
+      "companion": "thyme",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Creeping thyme between blueberry rows tolerates acidic soil, suppresses weeds, and provides a long-bloom nectar source for native bees. The dense mat reduces splash dispersal of soil-borne pathogens onto low fruit.",
+      "strength": "moderate",
+      "source": "OSU Extension berry crops; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "strawberry",
+      "companion": "borage",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Borage blooms during the strawberry runner-set window and draws bumblebees and honeybees, improving fruit-set rates measurably. Refilling nectar every two minutes keeps borage as a continuous forage station.",
+      "strength": "strong",
+      "source": "USDA-ARS pollinator research; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "strawberry",
+      "companion": "sage",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Sage flowers near strawberry beds support native bees and bumblebees during fruit set. The strong sage aroma also discourages strawberry root weevil oviposition.",
+      "strength": "moderate",
+      "source": "OSU Extension berry crops; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "strawberry",
+      "companion": "thyme",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Creeping thyme between strawberry rows suppresses slug populations and reduces splash dispersal of gray mold (Botrytis) onto low fruit. Tolerant of strawberry's slightly acidic soil.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension small fruit guide; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "raspberry",
+      "companion": "tansy",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Tansy at raspberry row ends deters Japanese beetle and raspberry cane borer adults. Cut hard before seed maturity; tansy escapes readily through orchard floors.",
+      "strength": "moderate",
+      "source": "OSU Extension berry crops; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "raspberry",
+      "companion": "garlic",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Garlic interplanted with raspberries reduces aphid colonization and discourages some nematode species. Harvest each summer; replant from saved bulbs in autumn.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension small fruit guide"
+    },
+    {
+      "crop": "blackberry",
+      "companion": "tansy",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Tansy clumps adjacent to blackberry rows deter Japanese beetle, which heavily damages tender canes and ripening fruit. Cut tansy before seed maturity; spreads aggressively through brambles.",
+      "strength": "moderate",
+      "source": "OSU Extension berry crops; Penn State Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "tulsi",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Holy basil (tulsi) releases methyl eugenol and linalool volatiles that repel thrips and whitefly from tomatoes, the same mechanism as culinary basil but with a stronger aromatic profile and reliable perennial-like growth in zones 9 and warmer. Plant in a continuous row alongside tomato beds.",
+      "strength": "moderate",
+      "source": "ICAR-Indian Institute of Spices Research; UF/IFAS Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "tulsi-rama",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as standard tulsi: Rama tulsi (Ocimum sanctum, green-leafed cultivar) carries the strongest eugenol concentration and best repels thrips and whitefly in tomato beds. Treat as a tender annual outside zone 9.",
+      "strength": "moderate",
+      "source": "ICAR-Indian Institute of Spices Research; UF/IFAS Extension"
+    },
+    {
+      "crop": "pepper-sweet",
+      "companion": "tulsi",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Tulsi volatiles repel aphids and thrips from pepper plants. Interplant within rows for full season coverage; the strong aroma also confuses pepper weevil oviposition during fruit set.",
+      "strength": "moderate",
+      "source": "ICAR-Indian Institute of Spices Research"
+    },
+    {
+      "crop": "eggplant",
+      "companion": "tulsi",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Tulsi planted at the eggplant row edges deters flea beetle by masking the host-finding volatiles eggplant releases. Pair with floating row cover during early flea beetle pressure for layered protection.",
+      "strength": "moderate",
+      "source": "ICAR-Indian Institute of Spices Research; UF/IFAS Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "ashwagandha",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Ashwagandha (Withania somnifera) is a nightshade-family medicinal that shares some pest pressures with tomato but also contains withanolides that deter aphids and spider mites. Plant at row ends, not interplanted, to avoid late blight cross-host concerns.",
+      "strength": "moderate",
+      "source": "ICAR-National Bureau of Plant Genetic Resources; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "ashwagandha",
+      "companion": "calendula",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Calendula's long bloom supports pollinators throughout ashwagandha's late-summer flowering window, supporting seed set on this annual-cycled medicinal. Pair as a low-growing edge plant.",
+      "strength": "moderate",
+      "source": "USDA-NRCS pollinator hedgerow plant list"
+    },
+    {
+      "crop": "echinacea-purpurea-medicinal",
+      "companion": "yarrow",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Echinacea and yarrow form a long-bloom perennial pair for predator and parasitoid habitat. Combined plantings support resident populations of hoverflies, parasitic wasps, and lacewings across the full growing season.",
+      "strength": "strong",
+      "source": "Xerces Society conservation biological control guide; USDA-NRCS"
+    },
+    {
+      "crop": "echinacea-purpurea-medicinal",
+      "companion": "bee-balm",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Echinacea and bee balm bloom in overlapping mid-to-late-summer windows, with bee balm's tubular flowers favoring hummingbirds and bumblebees while echinacea draws native solitary bees and butterflies. A standard pollinator-garden pairing.",
+      "strength": "strong",
+      "source": "Xerces Society pollinator guide; USDA-NRCS pollinator hedgerow plant list"
+    },
+    {
+      "crop": "tomato",
+      "companion": "echinacea-purpurea-medicinal",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Echinacea bordering tomato beds supplies long-bloom pollinator habitat that builds resident parasitic-wasp populations. Wasps move into tomato rows to attack tomato hornworm and tomato fruitworm larvae.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Xerces Society"
+    },
+    {
+      "crop": "broccoli",
+      "companion": "echinacea-purpurea-medicinal",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Echinacea draws braconid and ichneumon wasps that parasitize cabbage worm and diamondback moth larvae on broccoli. Plant as a perennial border to brassica beds for season-long parasitoid support.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Xerces Society"
+    },
+    {
+      "crop": "cabbage",
+      "companion": "echinacea-purpurea-medicinal",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as broccoli: echinacea borders support parasitic wasp populations that attack cabbage worm and diamondback moth larvae. A perennial-edge alternative to annual companion flowers.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "valerian",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Valerian's umbel-like clusters draw earthworms toward the root zone and attract parasitic flies and wasps that target tomato fruitworm. Plant in a corner of the tomato bed; one plant covers a 12 ft row.",
+      "strength": "moderate",
+      "source": "Riotte, Carrots Love Tomatoes; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "broccoli",
+      "companion": "valerian",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as tomato: valerian supports beneficial insect habitat. Particularly useful at brassica bed corners where its phosphorus-cycling roots improve nutrient availability.",
+      "strength": "moderate",
+      "source": "Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "carrot",
+      "companion": "feverfew",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Feverfew's pyrethrin content repels carrot rust fly and aphids. Plant a continuous border at carrot bed edges; cut hard before seed set to keep feverfew from naturalizing.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "cabbage",
+      "companion": "feverfew",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Feverfew's natural pyrethrin compounds repel aphids and discourage cabbage moth oviposition. Plant in continuous edge rows along brassica beds.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "lettuce-leaf",
+      "companion": "feverfew",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Feverfew at lettuce row edges reduces aphid colonization and discourages leafhopper feeding. Pair with sweet alyssum for combined hoverfly and pyrethrin coverage.",
+      "strength": "moderate",
+      "source": "Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "rose-rugosa",
+      "companion": "milk-thistle",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Milk thistle's deep taproot mines subsoil minerals and aerates compacted soil under rose hips. Chop-and-drop before seed set; let some seed each year for self-renewing soil-builder cover.",
+      "strength": "moderate",
+      "source": "Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "apple-standard",
+      "companion": "mullein",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Mullein's tall flowering spike attracts pollinators across a long bloom window and provides a vertical perch for predatory wasps and assassin bugs. Biennial; replace plants every two years for continuous coverage.",
+      "strength": "moderate",
+      "source": "Xerces Society; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "nettle-stinging",
+      "type": "beneficial",
+      "mechanism": "nutrient_competition",
+      "description": "Nettle accumulates nitrogen, iron, and silica in its foliage; chop-and-drop or steep as tea for foliar spray boosts tomato growth and disease resistance. Plant in a contained corner; nettle spreads aggressively via rhizome.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Toensmeier, Perennial Vegetables"
+    },
+    {
+      "crop": "broccoli",
+      "companion": "nettle-stinging",
+      "type": "beneficial",
+      "mechanism": "nutrient_competition",
+      "description": "Same mechanism as tomato: nettle foliage applied as mulch or tea around broccoli supplies bioavailable nitrogen and silica. Contain growth with deep edging.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "strawberry",
+      "companion": "nettle-stinging",
+      "type": "beneficial",
+      "mechanism": "nutrient_competition",
+      "description": "Nettle tea applied as a soil drench to strawberry beds increases vigor and fruit set; the silica content also reduces gray mold susceptibility. Use sparingly; strawberry has shallow roots and is sensitive to over-fertilization.",
+      "strength": "moderate",
+      "source": "OSU Extension berry crops; Toensmeier, Perennial Vegetables"
+    },
+    {
+      "crop": "cabbage",
+      "companion": "calendula-medicinal",
+      "type": "beneficial",
+      "mechanism": "trap_crop",
+      "description": "Calendula hosts aphid populations that draw resident ladybugs and lacewings into brassica beds. The bright bloom also confuses cabbage white butterflies during oviposition scouting.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "tomato",
+      "companion": "calendula-medicinal",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Calendula's long bloom from spring through frost attracts hoverflies, ladybugs, and parasitic wasps. The medicinal cultivars carry higher resin content than ornamental forms, with no impact on tomato pollinator function.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "pepper-sweet",
+      "companion": "calendula-medicinal",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Calendula borders around pepper beds support hoverfly populations that prey on pepper aphid. The long bloom outlasts most annual companion flowers and reseeds without effort.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "chamomile-german-matricaria-recutita",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "German chamomile draws hoverflies and beneficial wasps that target tomato hornworm and aphids. Chamomile tea applied as a foliar spray is also a traditional damping-off preventive for seedlings.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "cabbage",
+      "companion": "chamomile-german-matricaria-recutita",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Chamomile's umbel-like flower clusters support parasitic wasps that target cabbage worm larvae. Tradition holds that chamomile improves brassica flavor, though the mechanism is unverified.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "cucumber",
+      "companion": "chamomile-german-matricaria-recutita",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Chamomile bloom timing overlaps cucumber flower production and draws pollinators needed for female-flower fruit set. Easy reseeding annual.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "bee-balm",
+      "companion": "echinacea-angustifolia",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Narrow-leaf echinacea and bee balm bloom in overlapping windows for hummingbirds, bumblebees, and native bees. A standard prairie-medicinal pollinator hub planting.",
+      "strength": "strong",
+      "source": "Xerces Society pollinator guide; USDA-NRCS"
+    },
+    {
+      "crop": "skullcap",
+      "companion": "yarrow",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Skullcap (Scutellaria lateriflora) flowers attract small native bees and parasitic wasps; pairing with yarrow extends the predator-supporting bloom window across the season.",
+      "strength": "moderate",
+      "source": "USDA-NRCS pollinator hedgerow plant list"
+    },
+    {
+      "crop": "st-johns-wort",
+      "companion": "yarrow",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "St. John's wort flowers in June and supports native bee diversity; paired with yarrow it forms a low-maintenance medicinal-pollinator hedge edge. Plant on the south-facing edge of a garden for best bloom.",
+      "strength": "moderate",
+      "source": "USDA-NRCS pollinator hedgerow plant list"
+    },
+    {
+      "crop": "passionflower",
+      "companion": "yarrow",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Passionflower's complex flower structure favors large bees (carpenter, bumblebee) for pollination; nearby yarrow patches sustain pollinator populations between passionflower bloom flushes.",
+      "strength": "moderate",
+      "source": "UF/IFAS Extension; USDA-NRCS pollinator hedgerow plant list"
+    },
+    {
+      "crop": "astragalus",
+      "companion": "echinacea-purpurea-medicinal",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Astragalus is a nitrogen-fixing legume genus; the medicinal Astragalus membranaceus contributes N to surrounding perennial medicinal beds while echinacea handles the pollinator function. A standard medicinal-bed pairing.",
+      "strength": "moderate",
+      "source": "USDA-NRCS Cover Crop Chart; ICAR medicinal plants research"
+    },
+    {
+      "crop": "lettuce-leaf",
+      "companion": "wine-cap-stropharia",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Wine cap (Stropharia rugosoannulata) cultivated in wood-chip mulched lettuce paths breaks down lignin and releases plant-available nutrients to lettuce root zones. The mycelium also retains moisture in the top inch of soil; lettuce yields improve in concert.",
+      "strength": "moderate",
+      "source": "Stamets, Mycelium Running; Cornell Small Farms Program mushroom cultivation"
+    },
+    {
+      "crop": "broccoli",
+      "companion": "wine-cap-stropharia",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Wine cap mycelium in wood-chip paths between brassica beds supplies a slow nitrogen release during decomposition and increases mycorrhizal colonization of nearby crops. Refresh wood-chip layer each spring.",
+      "strength": "moderate",
+      "source": "Stamets, Mycelium Running; Cornell Small Farms Program"
+    },
+    {
+      "crop": "cabbage",
+      "companion": "wine-cap-stropharia",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Same mechanism as broccoli: wine cap colonizes wood-chip mulch around cabbage beds and improves soil biology while suppressing pathogen-supporting fungi via competitive exclusion.",
+      "strength": "moderate",
+      "source": "Stamets, Mycelium Running"
+    },
+    {
+      "crop": "kale",
+      "companion": "wine-cap-stropharia",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Wine cap mycelium in pathway wood chips near kale beds provides continuous mulch breakdown and moisture retention through the long kale season. Pairs well with permanent-bed designs.",
+      "strength": "moderate",
+      "source": "Stamets, Mycelium Running"
+    },
+    {
+      "crop": "tomato",
+      "companion": "wine-cap-stropharia",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Wine cap in wood-chip mulched tomato pathways supports moisture retention and slow nutrient release. The mycelial network has been shown to scavenge bacterial wilt and Phytophthora propagules in laboratory studies.",
+      "strength": "moderate",
+      "source": "Stamets, Mycelium Running; USDA-ARS mycoremediation research"
+    },
+    {
+      "crop": "winter-squash",
+      "companion": "wine-cap-stropharia",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Wine cap fruits prolifically in straw-mulched winter squash beds, particularly under wide-spaced vine canopies that retain humidity. The mycelium improves nutrient release as the squash bed transitions through summer.",
+      "strength": "moderate",
+      "source": "Stamets, Mycelium Running; Cornell Small Farms Program"
+    },
+    {
+      "crop": "hazelnut",
+      "companion": "shiitake-log",
+      "type": "beneficial",
+      "mechanism": "space_efficiency",
+      "description": "Hazelnut wood and live tree shade make ideal placement for shiitake logs in dappled-shade understory. Logs benefit from 60-80 percent shade and high humidity beneath the hazelnut canopy without competing for vertical space.",
+      "strength": "strong",
+      "source": "Cornell Small Farms Program mushroom cultivation; Stamets, Mycelium Running"
+    },
+    {
+      "crop": "alder-red",
+      "companion": "shiitake-log",
+      "type": "beneficial",
+      "mechanism": "space_efficiency",
+      "description": "Red alder coppice produces ideal shiitake substrate (hardwood, 4-6 inch diameter) and provides understory shade for log inoculation operations. A coppiced alder grove can supply continuous mushroom substrate and timber.",
+      "strength": "moderate",
+      "source": "Cornell Small Farms Program; OSU Extension forest products"
+    },
+    {
+      "crop": "sugar-maple-bonfire",
+      "companion": "shiitake-log",
+      "type": "beneficial",
+      "mechanism": "space_efficiency",
+      "description": "Sugar maple makes excellent shiitake substrate with a 2-4 year fruiting window per log. Inoculate logs cut during winter dormancy; arrange in dappled shade beneath canopy maples for natural humidity.",
+      "strength": "moderate",
+      "source": "Cornell Small Farms Program; University of Vermont Extension"
+    },
+    {
+      "crop": "lettuce-leaf",
+      "companion": "oyster-pearl",
+      "type": "beneficial",
+      "mechanism": "shade_provider",
+      "description": "Pearl oyster mushroom blocks fruiting in shaded lettuce beds add a secondary harvest layer without competing for soil resources. The mycelium does not enter lettuce root zones; cultivation is contained to inoculated substrate.",
+      "strength": "moderate",
+      "source": "Stamets, Mycelium Running; Cornell Small Farms Program"
+    },
+    {
+      "crop": "spinach",
+      "companion": "oyster-pearl",
+      "type": "beneficial",
+      "mechanism": "shade_provider",
+      "description": "Same mechanism as lettuce: shade-tolerant pearl oyster blocks pair well with cool-season spinach beds. The two crops occupy non-competing layers and benefit from shared shade and moisture.",
+      "strength": "moderate",
+      "source": "Stamets, Mycelium Running"
+    },
+    {
+      "crop": "kale",
+      "companion": "lions-mane",
+      "type": "beneficial",
+      "mechanism": "space_efficiency",
+      "description": "Lion's mane fruiting blocks placed in deep-shade corners near kale beds add a high-value mushroom layer to a vegetable garden. The mushroom does not interact with kale roots; placement is for shade and humidity coverage.",
+      "strength": "moderate",
+      "source": "Stamets, Mycelium Running"
+    },
+    {
+      "crop": "blueberry",
+      "companion": "wine-cap-stropharia",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Wine cap in pine-needle and wood-chip mulched blueberry beds tolerates the acidic soil and contributes to mulch breakdown. Pair with leaf-mold mulch refreshes each year.",
+      "strength": "moderate",
+      "source": "Stamets, Mycelium Running"
+    },
+    {
+      "crop": "raspberry",
+      "companion": "wine-cap-stropharia",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Wine cap mycelium in wood-chip mulched raspberry rows supports moisture retention and slow nutrient release. The mushrooms fruit in the year-two refreshed mulch layer.",
+      "strength": "moderate",
+      "source": "Stamets, Mycelium Running; OSU Extension berry crops"
+    },
+    {
+      "crop": "apple-standard",
+      "companion": "wine-cap-stropharia",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Wine cap in wood-chip mulched orchard alleys breaks down lignin and contributes to slow soil-building. The mycelium has been shown to support apple-tree fine-root function in mycorrhizal studies.",
+      "strength": "moderate",
+      "source": "Stamets, Mycelium Running; Penn State Extension"
+    },
+    {
+      "crop": "winter-rye",
+      "companion": "wine-cap-stropharia",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Cover-crop residue from winter rye, mowed and left as mulch on permanent beds, supports excellent wine cap fruiting the following year. The mycelium breaks down rye allelopathic compounds during decomposition, freeing the bed for sensitive crops.",
+      "strength": "moderate",
+      "source": "Stamets, Mycelium Running"
+    },
+    {
+      "crop": "tomato",
+      "companion": "buckwheat",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Buckwheat planted at tomato row ends blooms in 4-6 weeks and supplies a high-nectar pollen source for hoverflies and parasitic wasps that target tomato hornworm and aphids. Mow before seed set; reseed for a second flush.",
+      "strength": "strong",
+      "source": "SARE Cover Crops field guide; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "broccoli",
+      "companion": "buckwheat",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Buckwheat between brassica plantings serves as a fast pollinator and beneficial-insect insectary while breaking the disease cycle. Six-week window from sowing to mow-down clears the bed for fall brassica seeding.",
+      "strength": "strong",
+      "source": "SARE Cover Crops field guide"
+    },
+    {
+      "crop": "cabbage",
+      "companion": "buckwheat",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as broccoli: buckwheat in alternating brassica beds builds parasitoid populations. Particularly useful between spring and fall cabbage plantings for a fast rotation crop.",
+      "strength": "strong",
+      "source": "SARE Cover Crops field guide"
+    },
+    {
+      "crop": "carrot",
+      "companion": "buckwheat",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Buckwheat in adjacent rows draws hoverflies whose larvae prey on carrot aphid. The dense flower head also supplies nectar to parasitic wasps targeting carrot rust fly.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; SARE Cover Crops field guide"
+    },
+    {
+      "crop": "tomato",
+      "companion": "hairy-vetch",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Hairy vetch overwintered and rolled before tomato transplant supplies 90-200 lb N/acre. Roll-killed vetch mulch in place also suppresses early blight splash dispersal and conserves soil moisture through July heat.",
+      "strength": "strong",
+      "source": "USDA-ARS hairy vetch research; SARE Cover Crops field guide"
+    },
+    {
+      "crop": "pepper-sweet",
+      "companion": "hairy-vetch",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Hairy vetch roll-killed in place provides peppers with steady N release and reduces transplant shock through cooler soil temperatures. The mulch layer suppresses bacterial spot splash dispersal.",
+      "strength": "moderate",
+      "source": "USDA-ARS hairy vetch research"
+    },
+    {
+      "crop": "winter-squash",
+      "companion": "hairy-vetch",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Hairy vetch overwintered and rolled before squash transplant supplies N and forms a no-till mulch that vines crawl across. Squash benefits from cooler soil and reduced weed competition during establishment.",
+      "strength": "strong",
+      "source": "USDA-ARS hairy vetch research; SARE Cover Crops field guide"
+    },
+    {
+      "crop": "sweet-corn",
+      "companion": "crimson-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Crimson clover overwintered before sweet corn supplies 70-130 lb N/acre and supports pollinator habitat during the early-season corn window. Mow at bloom-end and incorporate or leave as residue.",
+      "strength": "strong",
+      "source": "USDA-NRCS Cover Crop Chart"
+    },
+    {
+      "crop": "sweet-corn",
+      "companion": "winter-rye",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Winter rye sown in fall and mowed in spring before corn supplies a no-till mulch that suppresses weeds, conserves moisture, and reduces corn rootworm pressure. Best paired with vetch for combined N and biomass.",
+      "strength": "strong",
+      "source": "USDA-NRCS Cover Crop Chart; Iowa State Extension"
+    },
+    {
+      "crop": "lettuce-leaf",
+      "companion": "winter-rye",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Winter rye residue releases hydroxamic acids (BX compounds) that inhibit germination of small-seeded crops including lettuce. Wait at least 3 weeks after rye incorporation before direct-seeding lettuce.",
+      "strength": "strong",
+      "source": "USDA-ARS allelopathy research; SARE Cover Crops field guide"
+    },
+    {
+      "crop": "carrot",
+      "companion": "winter-rye",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Rye allelochemicals suppress carrot germination and early seedling growth. Wait 3-4 weeks after rye incorporation, or follow rye with a fast-growing buffer crop (buckwheat) before sowing carrots.",
+      "strength": "strong",
+      "source": "USDA-ARS allelopathy research"
+    },
+    {
+      "crop": "onion",
+      "companion": "winter-rye",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Onion seedlings are highly sensitive to rye BX-compound residue. Allow 4+ weeks after rye mow-down before direct seeding, or transplant onion sets rather than seed in former rye beds.",
+      "strength": "moderate",
+      "source": "USDA-ARS allelopathy research; SARE Cover Crops field guide"
+    },
+    {
+      "crop": "spinach",
+      "companion": "winter-rye",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Spinach is among the most rye-sensitive small-seeded vegetables. Plant a rye-free buffer crop (buckwheat or oats) between winter rye and direct-seeded spinach to clear allelochemicals.",
+      "strength": "strong",
+      "source": "USDA-ARS allelopathy research"
+    },
+    {
+      "crop": "wheat-winter",
+      "companion": "hairy-vetch",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Hairy vetch interseeded with winter wheat at heading provides 60-100 lb N/acre after wheat harvest, reducing fertilizer needs for the following crop. Wheat canopy suppresses vetch enough to keep harvest clean.",
+      "strength": "moderate",
+      "source": "USDA-NRCS Cover Crop Chart; Penn State Extension small grains"
+    },
+    {
+      "crop": "wheat-winter",
+      "companion": "red-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Frost-seeded red clover into winter wheat in early spring establishes a nitrogen-fixing understory that emerges after wheat harvest. Provides 80-150 lb N/acre for the next crop and supports pollinator habitat.",
+      "strength": "strong",
+      "source": "USDA-NRCS Cover Crop Chart; Iowa State Extension"
+    },
+    {
+      "crop": "oats",
+      "companion": "field-pea",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Spring oats and field pea co-seeded form a classic biomass-plus-nitrogen pair. Oats serves as a nurse crop for the pea; the combination produces 4-6 tons biomass per acre and 40-80 lb N/acre.",
+      "strength": "strong",
+      "source": "USDA-NRCS Cover Crop Chart; SARE Cover Crops field guide"
+    },
+    {
+      "crop": "oats",
+      "companion": "austrian-winter-pea",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Oats serves as a nurse crop for Austrian winter pea, suppressing weeds while pea establishes. Winterkilled in cold zones; supplies 60-120 lb N/acre for the following crop in mild climates where pea overwinters.",
+      "strength": "strong",
+      "source": "USDA-NRCS Cover Crop Chart"
+    },
+    {
+      "crop": "oats",
+      "companion": "berseem-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Berseem clover co-seeded with oats in spring produces a high-biomass, high-N pairing for incorporation 6-8 weeks later. Berseem outperforms red clover in dry summer climates.",
+      "strength": "moderate",
+      "source": "USDA-NRCS Cover Crop Chart; Penn State Extension"
+    },
+    {
+      "crop": "sorghum-sudan",
+      "companion": "cowpea-cover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Sorghum-sudangrass and cowpea co-seeded in summer fix N while building 6-8 tons biomass per acre. The combination is the most productive warm-season cover-crop pair for soil-building rotations.",
+      "strength": "strong",
+      "source": "USDA-NRCS Cover Crop Chart; SARE Cover Crops field guide"
+    },
+    {
+      "crop": "sorghum-sudan",
+      "companion": "sunn-hemp",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Sunn hemp and sorghum-sudangrass co-seeded for a heavy summer biomass and nitrogen pulse. Sunn hemp also suppresses root-knot nematode, complementing sorghum-sudan's biofumigant residue.",
+      "strength": "strong",
+      "source": "USDA-NRCS Cover Crop Chart; UF/IFAS Extension"
+    },
+    {
+      "crop": "sweet-corn",
+      "companion": "buckwheat",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Buckwheat at sweet corn row ends supplies hoverfly and parasitic wasp habitat that targets corn earworm and aphids. Sow 4 weeks before corn silking for peak bloom coincidence.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; SARE Cover Crops field guide"
+    },
+    {
+      "crop": "corn-flint",
+      "companion": "pole-bean",
+      "type": "beneficial",
+      "mechanism": "structural_support",
+      "description": "Three Sisters classic: flint corn provides the tall, sturdy structure pole beans climb. Flint corn's denser stem outperforms sweet corn varieties for bean support; harvest beans through corn maturation.",
+      "strength": "strong",
+      "source": "USDA-ARS Three Sisters research; Iroquois agricultural tradition"
+    },
+    {
+      "crop": "corn-flint",
+      "companion": "winter-squash",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Three Sisters classic: winter squash vines through the corn-bean mound suppress weeds and conserve soil moisture. Flint corn varieties tolerate the squash canopy better than shorter sweet corn.",
+      "strength": "strong",
+      "source": "USDA-ARS Three Sisters research; Iroquois agricultural tradition"
+    },
+    {
+      "crop": "pole-bean",
+      "companion": "corn-flint",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Three Sisters classic: pole beans fix atmospheric nitrogen via Rhizobium and release some to companion flint corn during the season. The Iroquois-developed cultivars are bred for this synergy.",
+      "strength": "strong",
+      "source": "USDA-ARS Three Sisters research"
+    },
+    {
+      "crop": "corn-dent",
+      "companion": "pole-bean",
+      "type": "beneficial",
+      "mechanism": "structural_support",
+      "description": "Dent corn (Zea mays var. indentata) provides equally strong support to pole beans as flint corn, with greater grain yield for the gardener. Bean nodulation supplies N at the cost of slight competition for moisture.",
+      "strength": "strong",
+      "source": "USDA-ARS Three Sisters research"
+    },
+    {
+      "crop": "corn-dent",
+      "companion": "winter-squash",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Three Sisters variant: dent corn rows over-canopy winter squash vines, suppressing weeds and conserving moisture. The mound design supports drainage during heavy summer rain.",
+      "strength": "strong",
+      "source": "USDA-ARS Three Sisters research"
+    },
+    {
+      "crop": "wheat-spring",
+      "companion": "red-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Spring wheat undersown with red clover at the 4-leaf stage provides a nurse-crop relationship where wheat suppresses weeds while clover establishes. After wheat harvest, clover supplies N for the following crop.",
+      "strength": "strong",
+      "source": "USDA-NRCS Cover Crop Chart; Iowa State Extension"
+    },
+    {
+      "crop": "barley-grain",
+      "companion": "red-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Same nurse-crop pattern as wheat: barley undersown with red clover at the 4-leaf stage. Particularly common in cool-climate dairy rotations where the clover supplies forage and N after barley harvest.",
+      "strength": "strong",
+      "source": "USDA-NRCS Cover Crop Chart"
+    },
+    {
+      "crop": "rye-grain",
+      "companion": "hairy-vetch",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Rye and hairy vetch overwintered together combine deep biomass with high nitrogen yield. Rye scavenges residual N to prevent leaching; vetch fixes new N. The pair builds soil organic matter and supplies the next crop.",
+      "strength": "strong",
+      "source": "USDA-NRCS Cover Crop Chart; SARE Cover Crops field guide"
+    },
+    {
+      "crop": "winter-rye",
+      "companion": "hairy-vetch",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Same pairing as rye-grain: winter rye cover with hairy vetch combines biomass and N. Roll-killed mulch in spring supplies a heavy no-till residue for warm-season transplants.",
+      "strength": "strong",
+      "source": "USDA-NRCS Cover Crop Chart"
+    },
+    {
+      "crop": "amaranth-grain",
+      "companion": "tepary-bean",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Tepary bean and amaranth grain co-cropped in arid systems are a Southwest US heritage pairing. Tepary fixes nitrogen for amaranth while sharing drought tolerance; both crops mature in the same window for harvest.",
+      "strength": "moderate",
+      "source": "Native Seeds/SEARCH; University of Arizona Cooperative Extension"
+    },
+    {
+      "crop": "quinoa",
+      "companion": "lupini-bean",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Quinoa and lupini (Andean lupine) co-cropped in highland traditional systems supply both staple grain and pulse from the same plot. Lupini fixes N for quinoa over a single season; cultivars co-evolved in the central Andes.",
+      "strength": "moderate",
+      "source": "CIP-International Potato Center; FAO crop diversification publications"
+    },
+    {
+      "crop": "millet-pearl",
+      "companion": "cowpea-cover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Pearl millet and cowpea intercropped is a West African dryland staple. Cowpea fixes 40-80 lb N/acre during the millet season; the legume mulch suppresses weeds beneath the millet canopy.",
+      "strength": "strong",
+      "source": "ICRISAT dryland systems research; FAO"
+    },
+    {
+      "crop": "sorghum-grain",
+      "companion": "cowpea-cover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Same mechanism as pearl millet: cowpea intercropped with sorghum supplies N and weed suppression. The deep-rooted cowpea taps subsoil moisture that supports both crops in dryland conditions.",
+      "strength": "strong",
+      "source": "ICRISAT dryland systems research"
+    },
+    {
+      "crop": "rice-upland",
+      "companion": "azolla",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Azolla (a floating fern with cyanobacterial symbiont) fixes 30-100 kg N/ha in paddy systems; in upland rice it forms a moisture-retaining living mulch when soil stays consistently damp. Not a substitute for traditional companions but supplemental.",
+      "strength": "moderate",
+      "source": "IRRI rice production; FAO Azolla research"
+    },
+    {
+      "crop": "teff",
+      "companion": "red-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Teff undersown with red clover supplies N and biomass while the fine-stemmed teff grain develops. Common in Ethiopian highland rotations; pair tolerates a wide range of soils.",
+      "strength": "moderate",
+      "source": "FAO Africa Soil Health Consortium; Ethiopian Institute of Agricultural Research"
+    },
+    {
+      "crop": "potato",
+      "companion": "sunflower",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Sunflower allelopathy via sesquiterpene lactones inhibits potato sprouting and early growth. Maintain at least 15 ft separation between sunflower rows and the potato bed; do not follow sunflower with potato in rotation without a full season buffer.",
+      "strength": "moderate",
+      "source": "USDA-ARS allelopathy research; OSU Extension"
+    },
+    {
+      "crop": "carrot",
+      "companion": "sunflower",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Sunflower residue suppresses carrot germination and early growth. Wait 4-6 weeks after sunflower removal before direct seeding carrots; or rotate through a buckwheat buffer.",
+      "strength": "moderate",
+      "source": "USDA-ARS allelopathy research"
+    },
+    {
+      "crop": "lettuce-leaf",
+      "companion": "sunflower",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Sunflower sesquiterpenes inhibit lettuce germination. Allow 6+ weeks between sunflower mow-down and direct lettuce seeding; or transplant lettuce starts to avoid germination phase entirely.",
+      "strength": "moderate",
+      "source": "USDA-ARS allelopathy research"
+    },
+    {
+      "crop": "wheat-winter",
+      "companion": "sunflower",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Sunflower residue contains allelochemicals that suppress wheat seedling vigor for one full season. Avoid rotating sunflower directly to winter wheat; allow a fall buckwheat or oats buffer.",
+      "strength": "moderate",
+      "source": "USDA-ARS allelopathy research; Kansas State Extension"
+    },
+    {
+      "crop": "cucumber",
+      "companion": "phacelia",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Phacelia tanacetifolia draws honeybees and bumblebees during the cucumber flowering window, increasing female-flower fruit set rates. The 6-week bloom can be staggered with second seeding.",
+      "strength": "strong",
+      "source": "USDA-ARS pollinator research; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "winter-squash",
+      "companion": "phacelia",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as cucumber: phacelia near squash beds draws bumblebees during morning pollination windows. Squash is pollinator-limited; phacelia improves observable fruit set.",
+      "strength": "strong",
+      "source": "USDA-ARS pollinator research"
+    },
+    {
+      "crop": "summer-squash",
+      "companion": "phacelia",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as winter squash and cucumber: phacelia supplies a high-density pollinator-forage station that improves zucchini and summer squash fruit set rates.",
+      "strength": "strong",
+      "source": "USDA-ARS pollinator research"
+    },
+    {
+      "crop": "tomato",
+      "companion": "phacelia",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Phacelia in adjacent rows supplies a high-nectar pollen source for hoverflies whose larvae prey on tomato aphids. The fast 6-week bloom can be reseeded for season-long predator habitat.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Xerces Society"
+    },
+    {
+      "crop": "tomato",
+      "companion": "lacy-phacelia",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as phacelia: the lacy-phacelia cultivar form has the same hoverfly draw with somewhat extended bloom duration. Plant in narrow border strips along tomato rows.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Xerces Society"
+    },
+    {
+      "crop": "carrot",
+      "companion": "lacy-phacelia",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Phacelia bloom timing supports parasitic wasps targeting carrot rust fly during the spring emergence window. Plant in continuous border strips at carrot bed edges.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "rose-rugosa",
+      "companion": "garlic",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Garlic planted in a ring at rose root zones reduces blackspot disease pressure and discourages aphid colonization. Traditional rose-garden practice; modern research confirms garlic sulfur volatiles reduce fungal spore germination on adjacent leaves.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "rose-rugosa",
+      "companion": "chive",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Chive at the rose base reduces aphid colonization and supplies a long-bloom early-spring pollinator attractor for native bees. The classic rose-and-chive border.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "wheat-winter",
+      "companion": "buckwheat",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Buckwheat sown after winter wheat harvest in summer fills the rotation gap, suppresses weeds, and supplies fast biomass for incorporation before fall planting. Standard small-grain rotation tool.",
+      "strength": "strong",
+      "source": "USDA-NRCS Cover Crop Chart; Penn State Extension small grains"
+    },
+    {
+      "crop": "oats",
+      "companion": "buckwheat",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Same mechanism as wheat: buckwheat fills the summer gap after oat harvest. The fast bloom also supports pollinator habitat between cereal cycles.",
+      "strength": "strong",
+      "source": "USDA-NRCS Cover Crop Chart"
+    },
+    {
+      "crop": "rye-grain",
+      "companion": "buckwheat",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Buckwheat following rye harvest scavenges allelochemicals and prepares the bed for sensitive small-seeded crops. Six-week buckwheat cycle clears rye residue effects without herbicide.",
+      "strength": "strong",
+      "source": "USDA-NRCS Cover Crop Chart; SARE Cover Crops field guide"
+    },
+    {
+      "crop": "san-marzano-tomato",
+      "companion": "basil-genovese-pesto",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Genovese basil's methyl eugenol and linalool repel whitefly and thrips from San Marzano paste tomato vines. The traditional pairing of Campanian sauce-making, with documented flavor synergy in shared root-zone volatiles.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; ISHS basil-tomato volatile research"
+    },
+    {
+      "crop": "roma-tomato",
+      "companion": "basil-genovese-pesto",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as San Marzano: basil volatiles repel whitefly and thrips from Roma paste tomatoes. The determinate growth of Roma means basil at 18 inch spacing maintains coverage through full vine height.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "italian-heirloom-tomato",
+      "companion": "basil-genovese-pesto",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Indeterminate Italian heirloom tomatoes (Costoluto, Cuore di Bue, etc.) benefit from continuous basil borders. Vine canopy reaches 6 ft; plant basil between vines at 12 inch spacing for season-long volatile coverage.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "cherry-tomato",
+      "companion": "basil-thai",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Thai basil's stronger eugenol profile suits cherry tomato's small-fruit dense canopy. The compact basil habit fits between cherry tomato cages without crowding; trellising both maintains airflow.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "cherry-tomato",
+      "companion": "basil",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Standard sweet basil interplanted with cherry tomatoes repels whitefly and supplies pollinator habitat. Cherry tomato's smaller leaf canopy lets more sunlight reach basil, supporting heavier basil leaf production than paste-tomato beds.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "black-cherry-tomato",
+      "companion": "basil",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as cherry tomato: basil volatiles deter whitefly and thrips. Black Cherry's indeterminate vine reaches 6 ft; plant basil at 12 inch spacing along the row for canopy coverage.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato-arkansas-traveler",
+      "companion": "basil-thai",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Arkansas Traveler is heat-tolerant and pairs well with the heat-loving Thai basil. The combination thrives in southern US summers where Genovese basil bolts prematurely.",
+      "strength": "moderate",
+      "source": "University of Arkansas Cooperative Extension"
+    },
+    {
+      "crop": "tomato-creole-louisiana",
+      "companion": "basil-thai",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as Arkansas Traveler: heat-tolerant Creole pairs with Thai basil through humid southern summers. Both crops tolerate high humidity better than the standard Mediterranean tomato-basil pairing.",
+      "strength": "moderate",
+      "source": "LSU AgCenter; UF/IFAS Extension"
+    },
+    {
+      "crop": "tomato-creole-louisiana",
+      "companion": "tulsi-rama",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as standard tulsi: Rama tulsi tolerates heat and humidity that breaks down Genovese basil. Ideal companion for gulf-coast tomato beds where Mediterranean herbs struggle.",
+      "strength": "moderate",
+      "source": "LSU AgCenter; ICAR-Indian Institute of Spices Research"
+    },
+    {
+      "crop": "san-marzano-tomato",
+      "companion": "marigold-signet",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Signet marigold (Tagetes tenuifolia) interplanted with San Marzano vines suppresses root-knot nematode while bordering the bed with citrus-edible flowers. Smaller habit than French marigold; fits in row gaps.",
+      "strength": "moderate",
+      "source": "USDA-ARS nematode research; UF/IFAS Extension"
+    },
+    {
+      "crop": "italian-heirloom-tomato",
+      "companion": "marigold-signet",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as San Marzano: signet marigold deters root-knot nematode and supplies edible flowers for the kitchen. Suits indeterminate heirloom beds where French marigold takes too much space.",
+      "strength": "moderate",
+      "source": "USDA-ARS nematode research"
+    },
+    {
+      "crop": "tomato",
+      "companion": "marigold-tagetes",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "French and African marigolds in the Tagetes genus produce alpha-terthienyl in roots, which suppresses root-knot nematode populations. Effect strongest with continuous marigold cover for one full season prior to tomato planting.",
+      "strength": "strong",
+      "source": "USDA-ARS root-knot nematode research; UF/IFAS Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "milkweed-common",
+      "type": "beneficial",
+      "mechanism": "trap_crop",
+      "description": "Common milkweed near tomato beds hosts oleander aphid (Aphis nerii) colonies that draw resident ladybug and lacewing populations. The predator buildup spills over onto tomato aphid pressure. Plant in a contained corner; milkweed spreads aggressively by rhizome.",
+      "strength": "moderate",
+      "source": "Xerces Society monarch and pollinator guide"
+    },
+    {
+      "crop": "tomato",
+      "companion": "milkweed-butterfly",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Butterfly weed (Asclepias tuberosa) is a clumping non-rhizomatous milkweed that draws monarchs and supports a wide native pollinator base. Plant at row ends as a non-aggressive perennial companion to tomato beds.",
+      "strength": "moderate",
+      "source": "Xerces Society monarch and pollinator guide; USDA-NRCS"
+    },
+    {
+      "crop": "winter-squash",
+      "companion": "milkweed-swamp",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Swamp milkweed (Asclepias incarnata) is a moisture-tolerant clumping milkweed; planting at the edge of squash beds with overhead irrigation supplies pollinator habitat and monarch host without dryland milkweed's aggressive spread.",
+      "strength": "moderate",
+      "source": "Xerces Society; USDA-NRCS pollinator hedgerow plant list"
+    },
+    {
+      "crop": "blueberry",
+      "companion": "aronia",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Black chokeberry (aronia) blooms in May overlapping the blueberry bloom window, supporting native bee and bumblebee populations across both crops. Both tolerate acidic soil (pH 4.5-6.0); a natural berry-row hedge.",
+      "strength": "moderate",
+      "source": "OSU Extension berry crops; Xerces Society"
+    },
+    {
+      "crop": "apple-standard",
+      "companion": "serviceberry",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Serviceberry (Amelanchier) blooms in early spring overlapping apple bloom, supporting native pollinators when honeybee activity is still light. Multi-functional: pollinator hub, edible fruit, and orchard windbreak.",
+      "strength": "moderate",
+      "source": "USDA-NRCS pollinator hedgerow plant list; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "apple-standard",
+      "companion": "elderberry",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Elderberry (Sambucus) blooms June-July when apple pest pressure builds; the flat umbel flowers draw predatory wasps that target codling moth larvae. Plant as orchard hedgerow for combined pollinator and predator habitat.",
+      "strength": "moderate",
+      "source": "USDA-NRCS pollinator hedgerow plant list; Xerces Society"
+    },
+    {
+      "crop": "pawpaw",
+      "companion": "elderberry",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Pawpaw flowers are carrion-pollinated (flies, beetles) rather than bee-pollinated; elderberry adjacent supports the broader-spectrum pollinator and predator community without competing for pawpaw's specific pollinators.",
+      "strength": "moderate",
+      "source": "Kentucky State University pawpaw research; USDA-NRCS"
+    },
+    {
+      "crop": "pawpaw",
+      "companion": "comfrey",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Comfrey under pawpaw trees suppresses competing turf and supplies a slow K and P release. Pawpaw shallow feeder roots benefit from the moisture-retaining mulch in mid-summer dry spells.",
+      "strength": "moderate",
+      "source": "Kentucky State University pawpaw research; Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "tomato",
+      "companion": "aster-new-england",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "New England aster bloom in September-October extends pollinator habitat past tomato harvest into late-season fruit ripening. Supports late-flying native bees that overwinter in nearby leaf litter; valuable for permanent garden edges.",
+      "strength": "moderate",
+      "source": "Xerces Society; USDA-NRCS pollinator hedgerow plant list"
+    },
+    {
+      "crop": "broccoli",
+      "companion": "aster-new-england",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as tomato: New England aster supports fall-flying pollinators and parasitic wasps that target late-season cabbage worm. Plant at edge of brassica beds for permanent late-bloom habitat.",
+      "strength": "moderate",
+      "source": "Xerces Society"
+    },
+    {
+      "crop": "apple-standard",
+      "companion": "aster-new-england",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "New England aster blooms during apple harvest, supporting overwintering native bee populations for the following year's pollination. Plant in orchard alley ends as permanent fall habitat.",
+      "strength": "moderate",
+      "source": "USDA-NRCS pollinator hedgerow plant list"
+    },
+    {
+      "crop": "broccoli",
+      "companion": "liatris-spicata",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Blazing star (Liatris) supplies a continuous late-summer bloom that supports parasitic wasps and butterflies. The clumping perennial habit fits at brassica bed corners without spreading.",
+      "strength": "moderate",
+      "source": "Xerces Society; USDA-NRCS pollinator hedgerow plant list"
+    },
+    {
+      "crop": "tomato",
+      "companion": "liatris-spicata",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as broccoli: Liatris supports parasitic wasps that target tomato hornworm and aphids. The 3-4 ft flower spike also provides a habitat perch for predatory wasps and assassin bugs.",
+      "strength": "moderate",
+      "source": "Xerces Society"
+    },
+    {
+      "crop": "pepper-sweet",
+      "companion": "salvia-coccinea",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Tropical sage (Salvia coccinea) supplies hummingbird and bumblebee habitat through the pepper bloom and fruiting window. Bumblebees boost pepper fruit set rates through buzz pollination on the small pepper flowers.",
+      "strength": "moderate",
+      "source": "UF/IFAS Extension; Xerces Society"
+    },
+    {
+      "crop": "eggplant",
+      "companion": "salvia-coccinea",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as pepper: tropical sage draws bumblebees that improve eggplant fruit set through buzz pollination. Border eggplant beds with salvia clumps for continuous habitat.",
+      "strength": "moderate",
+      "source": "UF/IFAS Extension; Xerces Society"
+    },
+    {
+      "crop": "cucumber",
+      "companion": "monarda-citriodora",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Lemon bee balm (Monarda citriodora) draws bumblebees and honeybees during the cucumber flowering window. The strong citrus aroma also deters cucumber beetle in proximity plantings.",
+      "strength": "moderate",
+      "source": "Xerces Society; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "winter-squash",
+      "companion": "monarda-citriodora",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as cucumber: lemon bee balm supplies pollinator habitat for cucurbit beds. The lemon aroma reduces squash bug oviposition pressure when planted at row ends.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Xerces Society"
+    },
+    {
+      "crop": "tomato",
+      "companion": "rudbeckia",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Black-eyed Susan (Rudbeckia hirta) blooms continuously from July through frost, supporting hoverflies and parasitic wasps that target tomato hornworm. Native and drought-tolerant; an easy permanent border.",
+      "strength": "moderate",
+      "source": "Xerces Society; USDA-NRCS pollinator hedgerow plant list"
+    },
+    {
+      "crop": "broccoli",
+      "companion": "rudbeckia",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as tomato: Rudbeckia supports the parasitic wasp and hoverfly community attacking cabbage worm and aphids. Self-seeding native perennial fits brassica bed borders.",
+      "strength": "moderate",
+      "source": "Xerces Society"
+    },
+    {
+      "crop": "tomato",
+      "companion": "coreopsis",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Tickseed (Coreopsis) blooms from June through frost, supplying continuous hoverfly and parasitic wasp habitat. Drought-tolerant native; pairs well with permanent garden-edge plantings near tomato beds.",
+      "strength": "moderate",
+      "source": "Xerces Society; USDA-NRCS pollinator hedgerow plant list"
+    },
+    {
+      "crop": "apple-standard",
+      "companion": "comfrey-russian-bocking-14",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Russian comfrey Bocking 14 cultivar is sterile (no self-seeding) and the most popular orchard guild companion. Deep taproot mines subsoil K and P; foliage chopped 3-4 times per season supplies high-K mulch.",
+      "strength": "strong",
+      "source": "Jacke and Toensmeier, Edible Forest Gardens v2; Yeomans, Water for Every Farm"
+    },
+    {
+      "crop": "pear-bartlett",
+      "companion": "comfrey-russian-bocking-14",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Same mechanism as apple: sterile Russian comfrey at pear root zone supplies K and P mulch without escaping into the orchard floor. The preferred comfrey cultivar for commercial orchard guild plantings.",
+      "strength": "strong",
+      "source": "Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "peach",
+      "companion": "comfrey-russian-bocking-14",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Same mechanism: sterile Bocking 14 comfrey under peach trees recycles potassium for stone fruit production. Stone fruit's high K demand benefits from the slow continuous release.",
+      "strength": "strong",
+      "source": "Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "cherry-sweet",
+      "companion": "comfrey-russian-bocking-14",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Same mechanism: sterile Bocking 14 cultivar suits cherry guild plantings without spreading. Most reliable comfrey variant for permanent orchard floor design.",
+      "strength": "strong",
+      "source": "Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "asparagus",
+      "companion": "comfrey",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Comfrey at asparagus bed corners mines subsoil minerals that asparagus's deep crown system also accesses. Chop-and-drop foliage provides a slow K release timed to spear emergence.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "rhubarb",
+      "companion": "comfrey",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Comfrey adjacent to rhubarb mines K and P for rhubarb's heavy nutrient demand. Both are long-lived perennials; pair them in a permanent perennial bed for low-maintenance soil-building.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; OSU Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "comfrey",
+      "type": "beneficial",
+      "mechanism": "nutrient_competition",
+      "description": "Comfrey leaves applied as tea or chopped mulch around tomato plants supply potassium for fruit development. The slow-release nutrient profile reduces blossom-end rot in calcium-stressed beds.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Toensmeier, Perennial Vegetables"
+    },
+    {
+      "crop": "broccoli",
+      "companion": "yarrow",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Yarrow at brassica bed corners draws parasitic wasps and hoverflies that target cabbage worm and aphids. Drought-tolerant perennial fits well at row ends with reduced mowing.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Xerces Society"
+    },
+    {
+      "crop": "pepper-sweet",
+      "companion": "yarrow",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Yarrow patches near pepper rows support parasitic wasps that attack pepper aphid and pepper maggot. Drought-tolerant perennial that thrives in low-input garden edges.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "bush-bean",
+      "companion": "yarrow",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Yarrow near bean rows draws beneficial insect populations that prey on bean leaf beetle and Mexican bean beetle. Plant in permanent row-end clumps for continuous predator support.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "alfalfa-pasture",
+      "companion": "wheat-winter",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Winter wheat following an alfalfa stand of 3+ years receives 100-150 lb residual N/acre. The standard wheat-alfalfa rotation in the central US; alfalfa builds soil structure and N reserves before grain.",
+      "strength": "strong",
+      "source": "USDA-NRCS; Iowa State Extension"
+    },
+    {
+      "crop": "alfalfa-pasture",
+      "companion": "corn-dent",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Corn following a 3-4 year alfalfa stand receives 150-250 lb residual N/acre plus organic matter from heavy root mass. The classic alfalfa-corn rotation eliminates synthetic N for the first year after alfalfa termination.",
+      "strength": "strong",
+      "source": "Iowa State Extension; USDA-ARS rotation research"
+    },
+    {
+      "crop": "sainfoin",
+      "companion": "sorghum-grain",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Sainfoin (Onobrychis viciifolia) is a dryland perennial legume that builds soil N and tilth before grain sorghum. Drought tolerance suits arid and semi-arid regions where alfalfa establishment is unreliable.",
+      "strength": "moderate",
+      "source": "USDA-NRCS Cover Crop Chart; Montana State Extension"
+    },
+    {
+      "crop": "birdsfoot-trefoil",
+      "companion": "timothy-grass",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Birdsfoot trefoil mixed with timothy in hay or pasture stands fixes 50-150 lb N/acre and provides bloat-resistant forage (condensed tannins prevent ruminant bloat). Standard cool-season pasture pair.",
+      "strength": "strong",
+      "source": "USDA-NRCS Conservation Practice Standards; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "chicory-forage",
+      "companion": "alfalfa-pasture",
+      "type": "beneficial",
+      "mechanism": "nutrient_competition",
+      "description": "Forage chicory's deep taproot opens compacted soil for alfalfa roots and brings up minerals from subsoil. The combination supplies high-protein forage with anti-parasitic properties (condensed tannins).",
+      "strength": "moderate",
+      "source": "USDA-NRCS Conservation Practice Standards; OSU Extension"
+    },
+    {
+      "crop": "red-clover",
+      "companion": "timothy-grass",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Red clover and timothy hay mixtures combine N fixation with grass biomass. Clover supplies 80-150 lb N/acre to the grass stand; the pair is the standard cool-climate hay mix in the northeastern US.",
+      "strength": "strong",
+      "source": "USDA-NRCS Conservation Practice Standards; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "white-clover",
+      "companion": "perennial-ryegrass",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "White clover in perennial ryegrass pastures fixes 100-200 lb N/acre and improves protein content. Standard temperate-pasture pair in the British Isles, Pacific Northwest, and northern Atlantic US.",
+      "strength": "strong",
+      "source": "USDA-NRCS Conservation Practice Standards"
+    },
+    {
+      "crop": "subterranean-clover",
+      "companion": "tall-fescue",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Subterranean clover is a self-seeding annual legume that fits tall fescue pastures in Mediterranean and humid subtropical zones. Buried seed pods germinate after summer dormancy; pair fixes 50-120 lb N/acre annually.",
+      "strength": "moderate",
+      "source": "USDA-NRCS; UC ANR pasture management"
+    },
+    {
+      "crop": "alfalfa-pasture",
+      "companion": "orchardgrass-amba",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Orchardgrass mixed with alfalfa supplies persistent cool-season grass biomass; alfalfa fixes 100-300 lb N/acre per year that supports grass productivity. Standard dairy-quality forage mix in the upper Midwest.",
+      "strength": "strong",
+      "source": "USDA-NRCS; Penn State Extension forage"
+    },
+    {
+      "crop": "tomato",
+      "companion": "italian-romano-bean",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Italian Romano flat-podded bush bean planted between tomato rows fixes N during early tomato season. Harvest beans before tomato canopy fully shades the bed; the bean residue supplies post-harvest N to fall tomato fruiting.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "winter-squash",
+      "companion": "italian-romano-bean",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Romano-type pole beans co-cropped with winter squash in a three-sisters variant supply nitrogen while bean foliage threads through squash vines. Italian heirloom variant of the classic indigenous pattern.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; USDA-ARS Three Sisters research"
+    },
+    {
+      "crop": "tomato",
+      "companion": "bean-pole-italian-romano",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Pole Romano bean trellised at tomato row ends fixes N without shading the tomato canopy. Vertical bean structure separates root zones for shared bed efficiency, complementing bush Romano variants in the same bed.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "cabbage",
+      "companion": "bean-bush-roma-ii",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Roma II bush bean rows adjacent to spring cabbage supply N during cabbage head formation. Bean harvest is complete before cabbage matures, releasing bed space and residue N for the cabbage finish.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "sweet-corn",
+      "companion": "bean-pole-italian-romano",
+      "type": "beneficial",
+      "mechanism": "structural_support",
+      "description": "Italian Romano pole bean climbs sweet corn stalks in a three-sisters variant. Romano's flat-pod habit and tender harvest make it a preferred kitchen-garden choice over standard pole beans.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; USDA-ARS Three Sisters research"
+    },
+    {
+      "crop": "tomato",
+      "companion": "agastache-rugosa",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Korean mint (Agastache rugosa) bloom extends from June through October, supporting bumblebees and parasitic wasps targeting tomato hornworm. Aromatic foliage also deters some flea beetle activity.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; USDA-NRCS pollinator hedgerow plant list"
+    },
+    {
+      "crop": "tomato",
+      "companion": "anise-hyssop",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Anise hyssop's continuous July-October bloom supports an exceptionally diverse native bee community plus parasitic wasps. Drought-tolerant perennial; pairs well with permanent garden-edge borders.",
+      "strength": "strong",
+      "source": "USDA-NRCS pollinator hedgerow plant list; Xerces Society"
+    },
+    {
+      "crop": "broccoli",
+      "companion": "anise-hyssop",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as tomato: anise hyssop supports the parasitic wasp and hoverfly community attacking cabbage worm. Permanent perennial fits brassica bed border designs.",
+      "strength": "strong",
+      "source": "USDA-NRCS pollinator hedgerow plant list"
+    },
+    {
+      "crop": "apple-standard",
+      "companion": "anise-hyssop",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Anise hyssop in orchard alley supports a continuous pollinator habitat from June through frost. Particularly valuable for late-season native-bee buildup that overwinters in adjacent hedgerow.",
+      "strength": "strong",
+      "source": "USDA-NRCS pollinator hedgerow plant list"
+    },
+    {
+      "crop": "fennel-herb",
+      "companion": "lettuce-leaf",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Fennel anethole and related volatiles inhibit lettuce seedling growth in proximity plantings. Maintain at least 4 ft separation from lettuce beds; fennel root exudates persist after the plant is removed.",
+      "strength": "moderate",
+      "source": "USDA-ARS allelopathy research; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "fennel-herb",
+      "companion": "spinach",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Fennel allelopathy suppresses spinach germination and early growth. Same 4 ft separation rule applies; do not rotate fennel directly to spinach beds.",
+      "strength": "moderate",
+      "source": "USDA-ARS allelopathy research"
+    },
+    {
+      "crop": "fennel-herb",
+      "companion": "lima-bean",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Same mechanism as bush bean: fennel anethole inhibits lima bean germination and Rhizobium nodulation. Maintain at least 6 ft separation between fennel and any leguminous bean.",
+      "strength": "moderate",
+      "source": "USDA-ARS allelopathy research"
+    },
+    {
+      "crop": "fennel-herb",
+      "companion": "fava-bean",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Fennel anethole inhibits fava bean germination and root development. Plant fava beans well away from fennel beds; rotation order matters for the following season as well.",
+      "strength": "moderate",
+      "source": "USDA-ARS allelopathy research"
+    },
+    {
+      "crop": "fennel-herb",
+      "companion": "edamame",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Edamame soybean shares the same Rhizobium-disruption sensitivity as other legumes. Fennel allelopathy reduces edamame yield in close plantings; maintain a minimum 6 ft separation.",
+      "strength": "moderate",
+      "source": "USDA-ARS allelopathy research"
+    },
+    {
+      "crop": "fennel-herb",
+      "companion": "chickpea",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Same mechanism: fennel anethole suppresses chickpea germination and nodulation. Maintain bed separation; rotate chickpea to a fennel-free bed for the year following fennel.",
+      "strength": "moderate",
+      "source": "USDA-ARS allelopathy research"
+    },
+    {
+      "crop": "fennel-herb",
+      "companion": "peanut",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Peanut nodulation is suppressed by fennel root exudates in adjacent plantings. Plant peanuts in separate beds from fennel; allelopathy persists for one season after fennel is removed.",
+      "strength": "moderate",
+      "source": "USDA-ARS allelopathy research; UF/IFAS Extension"
+    },
+    {
+      "crop": "walnut-black",
+      "companion": "cucumber",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Cucumber within the black walnut root zone shows juglone wilt and stunted growth. Maintain at least 50 ft separation; cucumber tolerates juglone less well than most cucurbits.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research; OSU Extension"
+    },
+    {
+      "crop": "walnut-black",
+      "companion": "lettuce-leaf",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Lettuce within the black walnut root zone wilts under juglone exposure. Locate lettuce beds upslope of mature walnut trees or maintain at least 50 ft buffer.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research"
+    },
+    {
+      "crop": "walnut-black",
+      "companion": "rhubarb",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Rhubarb under black walnut shows crown decline and reduced stalk production over multiple seasons. Plant rhubarb crowns at least 50 ft from any mature black walnut.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research; Penn State Extension"
+    },
+    {
+      "crop": "walnut-black",
+      "companion": "strawberry",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Strawberry runners and crowns are juglone-sensitive; plantings within 50 ft of mature black walnut show reduced fruit set and crown dieback. Avoid both above-ground and below-ground proximity.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research; OSU Extension"
+    },
+    {
+      "crop": "walnut-black",
+      "companion": "raspberry-heritage",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Same mechanism as standard raspberry: Heritage primocane-fruiting raspberry is juglone-sensitive. Maintain a 70 ft buffer from any mature black walnut tree.",
+      "strength": "strong",
+      "source": "USDA-ARS juglone research"
+    },
+    {
+      "crop": "walnut-black",
+      "companion": "blueberry-jersey",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Jersey highbush blueberry shares the family-wide juglone sensitivity. Maintain at least 70 ft buffer from any mature black walnut; symptoms include slow growth and reduced berry production.",
+      "strength": "strong",
+      "source": "USDA-ARS juglone research; OSU Extension"
+    },
+    {
+      "crop": "walnut-english",
+      "companion": "cabbage-savoy",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Savoy cabbage within the English walnut root zone shows yellowing and slow growth. Maintain a 40 ft buffer to keep brassica beds productive near established walnut trees.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research"
+    },
+    {
+      "crop": "walnut-english",
+      "companion": "cabbage-red",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Red cabbage shares the brassica-family juglone sensitivity. Plant at least 40 ft from English walnut; symptoms include yellowing leaves and reduced head formation.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research"
+    },
+    {
+      "crop": "walnut-english",
+      "companion": "strawberry",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Strawberry crowns within 40 ft of English walnut show reduced fruit set. The toxic root zone of English walnut is smaller than black walnut's but still encompasses several decades of soil juglone accumulation.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research"
+    },
+    {
+      "crop": "pecan",
+      "companion": "pepper-sweet",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Pepper within the pecan root zone (30-40 ft from mature trunks) shows mild juglone exposure symptoms: leaf wilt, reduced fruit set. Plant pepper beds at least 50 ft from mature pecan.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research; UF/IFAS Extension"
+    },
+    {
+      "crop": "pecan",
+      "companion": "eggplant",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Eggplant in the pecan root zone shows mild juglone wilt. Plant eggplant beds a minimum of 40 ft from mature pecan trees; nightshades are the most juglone-sensitive vegetable family.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research"
+    },
+    {
+      "crop": "pecan",
+      "companion": "potato",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Potato in the pecan root zone shows vine wilt and reduced tuber development. Plant potato beds outside the pecan dripline at minimum, ideally 40 ft from mature trees.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research"
+    },
+    {
+      "crop": "pecan",
+      "companion": "blueberry",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Blueberry roots in pecan-influenced soil exhibit weakened crown vigor over multiple seasons. Plant blueberry beds well outside the pecan root zone; soil pH (pecan prefers neutral, blueberry prefers acidic) also separates the species.",
+      "strength": "moderate",
+      "source": "USDA-ARS juglone research"
+    },
+    {
+      "crop": "tomato",
+      "companion": "fennel-herb",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Reverse mechanism: tomato canopy and root competition further limit fennel growth, while fennel's allelopathic effect on tomato is established. Maintain at least 6 ft separation between fennel and tomato beds.",
+      "strength": "strong",
+      "source": "USDA-ARS allelopathy research; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "lettuce-leaf",
+      "companion": "fennel-herb",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Reverse-direction note: lettuce avoids fennel root zones. Plant fennel in a separate bed; fennel residue persists in the soil for one season after harvest.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "potato",
+      "companion": "pepper-hot",
+      "type": "antagonist",
+      "mechanism": "disease_vector",
+      "description": "Hot pepper and potato share Verticillium wilt and aphid-vectored viruses. Mixed nightshade beds amplify disease pressure; rotate apart on a 3-year cycle and maintain at least 20 ft separation between rows.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; UC IPM"
+    },
+    {
+      "crop": "potato",
+      "companion": "eggplant",
+      "type": "antagonist",
+      "mechanism": "disease_vector",
+      "description": "Eggplant and potato share Verticillium wilt and several aphid-vectored viruses. Maintain separation in the same bed; do not rotate one immediately following the other.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; UC IPM"
+    },
+    {
+      "crop": "potato",
+      "companion": "pepper-sweet",
+      "type": "antagonist",
+      "mechanism": "disease_vector",
+      "description": "Pepper and potato share several nightshade-family pathogens including Phytophthora and aphid-vectored viruses. Plant in separate beds; rotate apart on a 3-year cycle.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "cucumber",
+      "companion": "winter-squash",
+      "type": "antagonist",
+      "mechanism": "disease_vector",
+      "description": "Cucumber and squash share several cucurbit pathogens (downy mildew, anthracnose, mosaic viruses) and host the same cucumber beetle vector. Maintain physical separation; rotate apart for disease control.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; UF/IFAS Extension"
+    },
+    {
+      "crop": "cucumber",
+      "companion": "cantaloupe",
+      "type": "antagonist",
+      "mechanism": "disease_vector",
+      "description": "Cucumber and cantaloupe share aphid-vectored viruses including cucurbit yellow stunting disorder. Avoid interplanting in the same bed; both crops are highly susceptible to the same vector pressure.",
+      "strength": "moderate",
+      "source": "UF/IFAS Extension; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "watermelon",
+      "companion": "cucumber",
+      "type": "antagonist",
+      "mechanism": "disease_vector",
+      "description": "Same mechanism as cantaloupe: watermelon and cucumber share virus vectors. Separate cucurbit families across beds; do not rotate one directly into the other's residue.",
+      "strength": "moderate",
+      "source": "UF/IFAS Extension"
+    },
+    {
+      "crop": "lettuce-leaf",
+      "companion": "celery",
+      "type": "beneficial",
+      "mechanism": "space_efficiency",
+      "description": "Celery's slow growth and shallow root system fit between lettuce rows during cool-season cropping. Lettuce shade reduces celery bolting pressure during warm spring days; harvest lettuce before celery hits 12 inches.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "carrot",
+      "companion": "leek",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Leek between carrot rows confuses carrot rust fly with sulfur volatiles, and carrot bed humidity supports leek growth without direct competition. The classic French intensive vegetable pairing.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Coleman, The New Organic Grower"
+    },
+    {
+      "crop": "carrot",
+      "companion": "shallot",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as leek: shallot sulfur volatiles deter carrot rust fly oviposition. Shallot's smaller stature fits more easily between carrot rows than leek.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "carrot",
+      "companion": "garlic-music",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Music garlic's tall scape and strong sulfur volatiles deter carrot rust fly when interplanted at carrot bed edges. Harvest garlic before carrot canopy closes for shared bed efficiency.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; OSU Extension"
+    },
+    {
+      "crop": "carrot",
+      "companion": "garlic-rocambole",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as music garlic: rocambole-type hardneck garlic provides strong sulfur volatile cover near carrot beds. Especially suited to cold-climate carrot rotations.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "garlic-music",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Music garlic interplanted along tomato rows deters whitefly and spider mite through sulfur volatile diffusion. Harvest garlic by July before tomato canopy fully shades the bed.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "rose-rugosa",
+      "companion": "garlic-purple-stripe",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as standard garlic: purple-stripe hardneck garlic in a rose-bed ring reduces blackspot and aphid pressure. The hardneck variety produces scapes that double as cut flowers.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "cabbage",
+      "companion": "garlic-chive",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Garlic chive (Allium tuberosum) sulfur volatiles deter cabbage aphid and reduce cabbage moth oviposition. Perennial habit means continuous coverage; small clumping form fits easily in brassica bed corners.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "snapdragon",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Snapdragon (Antirrhinum majus) flowers are bumblebee-pollinated and supply habitat through the early tomato bloom window. Border tomato beds with snapdragon for color plus pollinator support.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Xerces Society"
+    },
+    {
+      "crop": "tomato",
+      "companion": "larkspur",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Larkspur (Delphinium consolida) draws bumblebees and large native bees during the early tomato fruiting window. Plant at the bed edge; larkspur self-seeds in tilled gardens.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Xerces Society"
+    },
+    {
+      "crop": "cucumber",
+      "companion": "nigella",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Love-in-a-mist (Nigella damascena) supplies a cool-season pollinator habitat that overlaps cucumber's early flowering. Self-seeding annual; pairs well with permanent-bed designs.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "salvia-may-night",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "May Night salvia's deep-purple spikes support bumblebees through the May-June tomato planting and early bloom window. Perennial habit fits permanent garden-edge borders near vegetable beds.",
+      "strength": "moderate",
+      "source": "Xerces Society; USDA-NRCS pollinator hedgerow plant list"
+    },
+    {
+      "crop": "tomato",
+      "companion": "salvia-nemorosa",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Wood sage (Salvia nemorosa) blooms repeatedly through summer with deadheading, supporting bumblebee populations across tomato fruit set and ripening. Drought-tolerant perennial.",
+      "strength": "moderate",
+      "source": "Xerces Society"
+    },
+    {
+      "crop": "tomato",
+      "companion": "marigold-french-bonita",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Bonita French marigold (Tagetes patula) produces high concentrations of alpha-terthienyl, suppressing root-knot nematode in surrounding root zones. Plant continuously between tomato rows for one full season for measurable nematode reduction.",
+      "strength": "strong",
+      "source": "USDA-ARS root-knot nematode research; UF/IFAS Extension"
+    },
+    {
+      "crop": "pepper-sweet",
+      "companion": "marigold-french-bonita",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as tomato: Bonita French marigold suppresses root-knot nematode in pepper beds. Continuous row planting between pepper rows yields season-long nematode reduction.",
+      "strength": "strong",
+      "source": "USDA-ARS root-knot nematode research"
+    },
+    {
+      "crop": "winter-squash",
+      "companion": "marigold-african-crackerjack",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Crackerjack African marigold (Tagetes erecta) at row ends suppresses root-knot nematode and discourages cucumber beetle scouting. The 30 inch height also forms a visible bed-edge marker that supports orderly cultivation.",
+      "strength": "moderate",
+      "source": "USDA-ARS root-knot nematode research; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "summer-squash",
+      "companion": "marigold-african-crackerjack",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism: Crackerjack marigold border on summer squash beds repels cucumber beetle and squash bug while suppressing root-knot nematode through the season.",
+      "strength": "moderate",
+      "source": "USDA-ARS root-knot nematode research"
+    },
+    {
+      "crop": "tomato",
+      "companion": "marigold-sparky",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Sparky French marigold (compact bi-color cultivar) repels whitefly and aphids and supplies a bright continuous edge for tomato rows. Smaller habit than Bonita; fits in cage-row gaps without crowding.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; USDA-ARS"
+    },
+    {
+      "crop": "broccoli",
+      "companion": "marigold-tagetes",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Tagetes-genus marigolds in brassica bed corners suppress root-knot nematode and discourage cabbage moth oviposition through volatile signal interference. Plant continuously for one full season to achieve nematode suppression.",
+      "strength": "moderate",
+      "source": "USDA-ARS nematode research; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "cabbage",
+      "companion": "marigold-tagetes",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as broccoli: marigolds at cabbage bed edges deter cabbage moth and suppress soil nematodes. Combine with sweet alyssum borders for hoverfly populations.",
+      "strength": "moderate",
+      "source": "USDA-ARS nematode research"
+    },
+    {
+      "crop": "carrot",
+      "companion": "marigold-tagetes",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Marigolds in carrot bed corners suppress soil nematodes during the long carrot growing season. Particularly valuable on warm-climate carrot beds where root-knot pressure builds quickly.",
+      "strength": "moderate",
+      "source": "USDA-ARS nematode research; UF/IFAS Extension"
+    },
+    {
+      "crop": "apple-fuji",
+      "companion": "white-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Fuji apple's late-season ripening benefits from white-clover N supply through August fruit fill. Permanent low-mow clover floor supplies steady N without competing for water in the critical August window.",
+      "strength": "moderate",
+      "source": "USDA-NRCS Cover Crop Chart; OSU Extension"
+    },
+    {
+      "crop": "apple-gala",
+      "companion": "tansy",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Gala matures in late August through September overlapping the second-flight codling moth window. Tansy clumps at the tree base release pyrethrin-related volatiles that reduce moth oviposition during fruit ripening.",
+      "strength": "moderate",
+      "source": "WSU Tree Fruit Research and Extension Center"
+    },
+    {
+      "crop": "apple-granny-smith",
+      "companion": "white-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Granny Smith's exceptionally late harvest (October-November) benefits from late-season N supply. White-clover orchard floor releases N steadily through fall fruit fill; mow alternate strips to maintain bloom.",
+      "strength": "moderate",
+      "source": "USDA-NRCS Cover Crop Chart"
+    },
+    {
+      "crop": "apple-honeycrisp",
+      "companion": "mullein",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Mullein's tall flowering spike and basal rosette form a vertical predator perch and pollinator habitat in Honeycrisp orchard rows. Particularly valuable for biennial-flowering predator perch rotation through the dwarfing rootstock blocks.",
+      "strength": "moderate",
+      "source": "University of Minnesota Honeycrisp production notes; Xerces Society"
+    },
+    {
+      "crop": "apple-gravenstein",
+      "companion": "comfrey",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Gravenstein's heritage hardiness and shallow feeder roots benefit from comfrey's moisture-retaining mulch and subsoil mineral mining. Plant a ring at the dripline of mature trees.",
+      "strength": "moderate",
+      "source": "Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "apple-mcintosh",
+      "companion": "comfrey",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Same mechanism as Gravenstein: McIntosh's heritage form benefits from comfrey root-zone mulch. Particularly valuable in colder zones where shallow McIntosh roots need insulation.",
+      "strength": "moderate",
+      "source": "Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "apple-cosmic-crisp",
+      "companion": "tansy",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Cosmic Crisp's late October harvest extends past second-flight codling moth pressure. Tansy clumps at tree bases reduce moth oviposition during the final long ripening window unique to this WSU cultivar.",
+      "strength": "moderate",
+      "source": "WSU Tree Fruit Research and Extension Center"
+    },
+    {
+      "crop": "apple-cosmic-crisp",
+      "companion": "sweet-alyssum",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Sweet alyssum continuous border supports the hoverfly population that WSU trials identified as a key aphid predator for Cosmic Crisp orchards. Plant at row ends for season-long predator support.",
+      "strength": "strong",
+      "source": "WSU Tree Fruit Research and Extension Center"
+    },
+    {
+      "crop": "pear-bartlett-red",
+      "companion": "comfrey",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Same mechanism as Bartlett: Red Bartlett shares root habit and benefits from comfrey ring at dripline. Color sport of Bartlett with identical cultural requirements.",
+      "strength": "moderate",
+      "source": "Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "pear-asian-hosui",
+      "companion": "comfrey",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Hosui Asian pear benefits from comfrey root-zone mulch and slow K release. The Asian pear's relatively shallow feeder roots and high crop load need balanced potassium supply.",
+      "strength": "moderate",
+      "source": "OSU Extension Asian pear production; Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "peach-redhaven",
+      "companion": "daffodil",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as standard peach: Redhaven (the most-planted commercial peach in the US) benefits from a daffodil collar at the dripline for vole and gopher prevention through winter dormancy.",
+      "strength": "moderate",
+      "source": "Penn State Extension Tree Fruit Production Guide"
+    },
+    {
+      "crop": "peach-elberta",
+      "companion": "chive",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as standard peach: Elberta heirloom (the dominant US peach of the 20th century) benefits from chive volatiles deterring peach tree borer and confusing oriental fruit moth oviposition.",
+      "strength": "moderate",
+      "source": "UF/IFAS Extension peach production"
+    },
+    {
+      "crop": "peach-contender",
+      "companion": "daffodil",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Contender peach's exceptional cold hardiness suits cold-climate orchards where vole pressure is heaviest under deep mulch and snowpack. Daffodil collar is a reliable winter barrier.",
+      "strength": "moderate",
+      "source": "Penn State Extension Tree Fruit"
+    },
+    {
+      "crop": "cherry-bing",
+      "companion": "chive",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as standard sweet cherry: chive volatiles deter cherry fruit fly and reduce slug damage on low fruit. Bing's heavy cropping habit makes preventive pest control especially valuable.",
+      "strength": "moderate",
+      "source": "OSU Extension cherry production"
+    },
+    {
+      "crop": "cherry-rainier",
+      "companion": "chive",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Rainier cherry's yellow-blush skin is exceptionally bird-attractive; chive ring at the trunk supplies typical sulfur deterrents while overhead netting handles bird pressure separately.",
+      "strength": "moderate",
+      "source": "WSU Tree Fruit Research and Extension Center"
+    },
+    {
+      "crop": "cherry-montmorency",
+      "companion": "comfrey",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Same mechanism as standard sour cherry: Montmorency's compact tree and heavy crop benefit from comfrey K-cycling mulch. The dominant US tart cherry; this pairing supports backyard and commercial guild plantings.",
+      "strength": "moderate",
+      "source": "Jacke and Toensmeier, Edible Forest Gardens v2; Michigan State Extension"
+    },
+    {
+      "crop": "cherry-stella",
+      "companion": "chive",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Stella self-fertile sweet cherry suits single-tree backyard plantings; a chive ring at the base supplies sulfur volatiles deterring borer and slug. Especially useful for small-space orchard plantings.",
+      "strength": "moderate",
+      "source": "OSU Extension cherry production"
+    },
+    {
+      "crop": "plum-italian",
+      "companion": "chive",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Italian plum (prune-type) chive ring at the trunk deters plum curculio scouting. The European-prune type benefits from layered pest control through fruit ripening.",
+      "strength": "moderate",
+      "source": "Penn State Extension Tree Fruit"
+    },
+    {
+      "crop": "plum-santa-rosa",
+      "companion": "tansy",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Santa Rosa Japanese plum is particularly attractive to Japanese beetle; tansy clumps at the tree base release pyrethrin-related volatiles that reduce beetle feeding pressure during fruit set.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; OSU Extension"
+    },
+    {
+      "crop": "plum-damson",
+      "companion": "comfrey",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Damson plum's smaller stature and heavy cropping habit benefit from comfrey K and P cycling at the dripline. Damson trees are typically grown in tight spacings; comfrey ring fits without competing for light.",
+      "strength": "moderate",
+      "source": "Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "apricot-blenheim",
+      "companion": "chive",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as standard apricot: Blenheim heirloom benefits from chive sulfur volatiles deterring borer. The dominant California apricot; matches mediterranean-climate orchard guild design.",
+      "strength": "moderate",
+      "source": "UC ANR Master Gardener stone fruit"
+    },
+    {
+      "crop": "apricot-tilton",
+      "companion": "daffodil",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Tilton apricot's vigorous growth and prolific cropping benefit from daffodil collar protection through winter dormancy. Heritage California apricot; particularly suited to mediterranean-climate plantings.",
+      "strength": "moderate",
+      "source": "UC ANR; Penn State Extension"
+    },
+    {
+      "crop": "nectarine-fantasia",
+      "companion": "daffodil",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as standard nectarine: Fantasia's vigorous tree and heavy fruit load benefit from a daffodil collar protecting against winter vole damage. Particularly relevant for orchards with mulched soil floors.",
+      "strength": "moderate",
+      "source": "Penn State Extension Tree Fruit; UC ANR"
+    },
+    {
+      "crop": "hazelnut-jefferson",
+      "companion": "shiitake-log",
+      "type": "beneficial",
+      "mechanism": "space_efficiency",
+      "description": "Jefferson hazelnut wood and live tree shade make ideal substrate and placement for shiitake. Eastern Filbert Blight resistance makes Jefferson the leading PNW commercial hazelnut; the coppice produces shiitake-grade wood.",
+      "strength": "strong",
+      "source": "OSU Extension forest products; Cornell Small Farms Program"
+    },
+    {
+      "crop": "hazelnut-yamhill",
+      "companion": "shiitake-log",
+      "type": "beneficial",
+      "mechanism": "space_efficiency",
+      "description": "Same mechanism as Jefferson: Yamhill is another EFB-resistant OSU hazelnut release suitable for shiitake substrate and understory log placement.",
+      "strength": "moderate",
+      "source": "OSU Extension forest products"
+    },
+    {
+      "crop": "hazelnut",
+      "companion": "lions-mane",
+      "type": "beneficial",
+      "mechanism": "space_efficiency",
+      "description": "Hazelnut wood is excellent substrate for lion's mane (Hericium erinaceus); inoculated logs fruit reliably in shaded coppice plantings. Pair with shiitake to fill complementary mushroom production windows.",
+      "strength": "moderate",
+      "source": "Cornell Small Farms Program; Stamets, Mycelium Running"
+    },
+    {
+      "crop": "sugar-maple-bonfire",
+      "companion": "lions-mane",
+      "type": "beneficial",
+      "mechanism": "space_efficiency",
+      "description": "Sugar maple makes excellent lion's mane substrate; logs cut during winter dormancy and inoculated in spring fruit in fall. Pair with shiitake-log production for complementary fruiting windows.",
+      "strength": "moderate",
+      "source": "Cornell Small Farms Program; University of Vermont Extension"
+    },
+    {
+      "crop": "sugar-maple-bonfire",
+      "companion": "reishi",
+      "type": "beneficial",
+      "mechanism": "space_efficiency",
+      "description": "Reishi (Ganoderma lucidum) fruits well on sugar maple stump and log substrate. Slow primary decomposer; produces a multi-year fruiting cycle on a single inoculated log.",
+      "strength": "moderate",
+      "source": "Cornell Small Farms Program; Stamets, Mycelium Running"
+    },
+    {
+      "crop": "alder-red",
+      "companion": "oyster-king",
+      "type": "beneficial",
+      "mechanism": "space_efficiency",
+      "description": "King oyster (Pleurotus eryngii) fruits well on alder substrate. Red alder coppice rotations supply continuous fresh substrate; growers in the PNW use alder for multiple oyster species in rotation.",
+      "strength": "moderate",
+      "source": "Cornell Small Farms Program; OSU Extension forest products"
+    },
+    {
+      "crop": "alder-red",
+      "companion": "nameko",
+      "type": "beneficial",
+      "mechanism": "space_efficiency",
+      "description": "Nameko (Pholiota microspora) fruits on alder logs in cool autumn conditions. Particularly suited to PNW maritime climates where the alder grows naturally and nameko fruiting is reliable.",
+      "strength": "moderate",
+      "source": "Cornell Small Farms Program; Stamets, Mycelium Running"
+    },
+    {
+      "crop": "hazelnut",
+      "companion": "pioppino",
+      "type": "beneficial",
+      "mechanism": "space_efficiency",
+      "description": "Pioppino (Agrocybe aegerita) fruits well on hazelnut wood. Italian traditional cultivation pairs hazelnut coppice with pioppino logs for a high-value mushroom and nut combination.",
+      "strength": "moderate",
+      "source": "Stamets, Mycelium Running"
+    },
+    {
+      "crop": "tomato",
+      "companion": "salvia-amistad",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Amistad salvia's prolific deep-purple spikes draw hummingbirds and bumblebees through summer and into fall. Pair with tomato beds for hummingbird-aided pollinator activity around tomato bloom.",
+      "strength": "moderate",
+      "source": "Xerces Society; USDA-NRCS pollinator hedgerow plant list"
+    },
+    {
+      "crop": "tomato",
+      "companion": "agastache-orange",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Orange-flowered Agastache (A. aurantiaca) draws hummingbirds and bumblebees continuously from June to October. Hummingbird-pollinated salvias and agastaches form a layered pollinator hub near vegetable beds.",
+      "strength": "moderate",
+      "source": "USDA-NRCS pollinator hedgerow plant list"
+    },
+    {
+      "crop": "tomato",
+      "companion": "scabiosa",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Pincushion flower (Scabiosa) is a top pollinator attractor for butterflies, bumblebees, and hoverflies. Border tomato beds with scabiosa for continuous pollinator and predator habitat.",
+      "strength": "moderate",
+      "source": "Xerces Society"
+    },
+    {
+      "crop": "broccoli",
+      "companion": "scabiosa",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as tomato: scabiosa supports hoverfly populations attacking cabbage aphid. Continuous bloom from June through frost pairs well with succession brassica plantings.",
+      "strength": "moderate",
+      "source": "Xerces Society"
+    },
+    {
+      "crop": "cucumber",
+      "companion": "borage-white-alba",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as standard borage: White Alba borage cultivar offers the same prolific bee-attracting flowers in white. Color variety supports gardens designed around a specific palette without losing pollinator function.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "strawberry",
+      "companion": "borage-white-alba",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "White Alba borage near strawberry beds supports bumblebee and honeybee populations during runner-set and fruit-set windows. Same mechanism as standard blue borage with color variation.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; USDA-ARS pollinator research"
+    },
+    {
+      "crop": "tomato",
+      "companion": "cosmos-sulphureus",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Sulfur cosmos draws honeybees, bumblebees, and parasitic wasps through the full tomato season. More heat-tolerant than standard cosmos; pairs well with warm-climate tomato production.",
+      "strength": "moderate",
+      "source": "UF/IFAS Extension; Xerces Society"
+    },
+    {
+      "crop": "broccoli",
+      "companion": "cosmos-sulphureus",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as tomato: sulfur cosmos supports parasitic wasps attacking cabbage worm. Heat-tolerant; particularly useful for summer brassica beds in southern climates.",
+      "strength": "moderate",
+      "source": "UF/IFAS Extension"
+    },
+    {
+      "crop": "cucumber",
+      "companion": "cosmos-sulphureus",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Sulfur cosmos at cucumber row ends supplies pollinator habitat throughout the cucumber bloom window. Reseeds itself easily in warm-climate gardens.",
+      "strength": "moderate",
+      "source": "UF/IFAS Extension; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "winter-squash",
+      "companion": "cosmos-chocolate",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Chocolate cosmos (Cosmos atrosanguineus) draws bumblebees and supports the long winter squash bloom and ripening window. Less heat-tolerant than sulfur cosmos but supplies darker color in mixed pollinator gardens.",
+      "strength": "moderate",
+      "source": "Xerces Society"
+    },
+    {
+      "crop": "tomato",
+      "companion": "zinnia-state-fair",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "State Fair Zinnia is the tallest cultivar (30-40 inches), forming a back-row pollinator hedge for tomato beds. Long-stem cut-flower form supplies pollinator habitat plus indoor bouquet harvests.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "zinnia-benary-giant",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Benary Giant zinnia (the most popular cut-flower zinnia in commercial production) supplies long-bloom butterfly and bumblebee habitat in tomato beds. Tall habit pairs with tomato cages without crowding low-canopy lettuce or basil interplants.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "broccoli",
+      "companion": "zinnia-zahara",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Zahara zinnia's compact 10-12 inch habit fits brassica bed borders without shading low brassicas. Powdery mildew resistant; outperforms standard zinnias in humid climates.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "tithonia",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Mexican sunflower (Tithonia rotundifolia) draws monarchs, swallowtails, and bumblebees at heights up to 6 ft. Plant at back of tomato beds; tithonia's tall habit fits behind tomato cages and trellises.",
+      "strength": "strong",
+      "source": "UF/IFAS Extension; Xerces Society"
+    },
+    {
+      "crop": "cucumber",
+      "companion": "tithonia",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as tomato: tithonia supports a diverse pollinator and predator community across the cucumber season. The tall habit fits at trellis ends without shading cucumber vines.",
+      "strength": "strong",
+      "source": "UF/IFAS Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "ageratum",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Flossflower (Ageratum) supplies a low (6-12 inch) continuous-bloom edge for tomato bed borders. Draws hoverflies and parasitic wasps targeting tomato hornworm and aphids.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "broccoli",
+      "companion": "ageratum",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as tomato: ageratum border supports parasitic wasp habitat near brassica beds. Compact form fits between tall brassicas without shading.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "gomphrena",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Globe amaranth (Gomphrena globosa) supports butterflies and bumblebees through the full tomato season. Heat and drought tolerant; pairs well with warm-climate tomato beds.",
+      "strength": "moderate",
+      "source": "UF/IFAS Extension; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "raspberry",
+      "companion": "yarrow",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Yarrow at raspberry row ends draws parasitic wasps and hoverflies that target raspberry aphid and raspberry cane borer. Drought-tolerant perennial fits between row passes without supplemental watering.",
+      "strength": "moderate",
+      "source": "OSU Extension berry crops; Xerces Society"
+    },
+    {
+      "crop": "blueberry",
+      "companion": "yarrow",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as raspberry: yarrow at blueberry row corners supports parasitic wasp habitat targeting fruit-fly pressure. Tolerates the acidic blueberry soil better than most pollinator perennials.",
+      "strength": "moderate",
+      "source": "OSU Extension berry crops; Xerces Society"
+    },
+    {
+      "crop": "blackberry",
+      "companion": "yarrow",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Yarrow at blackberry row corners supplies parasitoid habitat for raspberry crown borer and bramble cane borer management. Drought-tolerant perennial pairs well with mulched bramble rows.",
+      "strength": "moderate",
+      "source": "OSU Extension berry crops"
+    },
+    {
+      "crop": "blueberry",
+      "companion": "lingonberry",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Blueberry and lingonberry share Ericaceae family soil preferences (acidic pH 4.5-5.5) and benefit from interplanting in a permanent acidic-soil bed. Lingonberry's low evergreen mat suppresses weeds and bears its own fruit crop.",
+      "strength": "moderate",
+      "source": "OSU Extension berry crops; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "strawberry-albion",
+      "companion": "borage",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as standard strawberry: Albion day-neutral cultivar produces fruit through summer and benefits from borage's continuous pollinator support. Particularly valuable for everbearing strawberry production.",
+      "strength": "strong",
+      "source": "OSU Extension berry crops; USDA-ARS"
+    },
+    {
+      "crop": "strawberry-everbearing",
+      "companion": "borage",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Everbearing strawberries fruit twice (spring and fall); borage supports pollinators across both fruiting windows. Self-seeding annual ensures continuous coverage.",
+      "strength": "strong",
+      "source": "OSU Extension berry crops"
+    },
+    {
+      "crop": "strawberry-seascape",
+      "companion": "thyme",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as standard strawberry: Seascape day-neutral benefits from creeping thyme as a slug-suppressing living mulch. Common pairing in PNW commercial production where Seascape is the standard cultivar.",
+      "strength": "moderate",
+      "source": "OSU Extension berry crops"
+    },
+    {
+      "crop": "kale",
+      "companion": "buckwheat",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Buckwheat sown between kale plantings serves as a fast pollinator and beneficial-insect insectary. The 6-week cycle clears the bed for fall kale seeding while building hoverfly populations.",
+      "strength": "moderate",
+      "source": "SARE Cover Crops field guide; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "kale-redbor",
+      "companion": "buckwheat",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as standard kale: Redbor's deep red color and long growing window pair well with buckwheat sown at row ends. Continuous flowering through summer supports the parasitoid community attacking aphids.",
+      "strength": "moderate",
+      "source": "SARE Cover Crops field guide"
+    },
+    {
+      "crop": "collards",
+      "companion": "buckwheat",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Buckwheat between collard plantings serves the same fast-rotation pollinator-supporting role as in kale beds. Particularly suited to southern US collard production where buckwheat thrives in summer.",
+      "strength": "moderate",
+      "source": "UF/IFAS Extension; SARE Cover Crops field guide"
+    },
+    {
+      "crop": "lettuce-leaf",
+      "companion": "sweet-alyssum",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Sweet alyssum borders on lettuce beds support hoverfly populations whose larvae prey on lettuce aphid. Low-growing habit fits between lettuce rows; tolerates cool-season conditions.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; UC ANR"
+    },
+    {
+      "crop": "spinach",
+      "companion": "sweet-alyssum",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as lettuce: sweet alyssum at spinach bed borders supports hoverflies that target spinach aphid. Both crops are cool-season; alyssum tolerates the same conditions.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "carrot",
+      "companion": "sweet-alyssum",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Sweet alyssum borders on carrot beds support hoverfly populations whose larvae prey on carrot aphid. The low habit fits naturally as a cool-season carrot bed edge.",
+      "strength": "moderate",
+      "source": "UC ANR; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "sweet-alyssum",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Sweet alyssum at tomato bed borders supports hoverflies and parasitic wasps targeting tomato hornworm, aphids, and whitefly. The low-growing habit fits in front of taller marigolds and basil for layered pollinator edges.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Xerces Society"
+    },
+    {
+      "crop": "broccoli",
+      "companion": "sweet-alyssum",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Sweet alyssum at brassica bed borders supports hoverflies whose larvae prey on cabbage aphid. UC ANR trials documented measurable aphid reduction in alyssum-bordered brassica beds.",
+      "strength": "strong",
+      "source": "UC ANR Master Gardener; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "cabbage",
+      "companion": "sweet-alyssum",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as broccoli: sweet alyssum supports parasitoid populations attacking cabbage aphid and cabbage worm. Continuous border planting maintains predator habitat all season.",
+      "strength": "strong",
+      "source": "UC ANR Master Gardener"
+    },
+    {
+      "crop": "tomato",
+      "companion": "amaranth-grain",
+      "type": "beneficial",
+      "mechanism": "trap_crop",
+      "description": "Amaranth grain at tomato bed edges traps flea beetles and serves as a host for tarnished plant bug, drawing pressure away from tomato fruits. Grain harvest at season end recovers the crop's primary value.",
+      "strength": "moderate",
+      "source": "USDA-ARS; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "kale",
+      "companion": "amaranth-grain",
+      "type": "beneficial",
+      "mechanism": "trap_crop",
+      "description": "Same mechanism as tomato: amaranth grain traps flea beetles drawn to kale's mustard volatiles. Harvest amaranth at season end for grain; kale benefits from reduced flea beetle pressure during head development.",
+      "strength": "moderate",
+      "source": "USDA-ARS"
+    },
+    {
+      "crop": "tomato",
+      "companion": "amaranth-purple-prince",
+      "type": "beneficial",
+      "mechanism": "trap_crop",
+      "description": "Purple Prince amaranth is a tall (5-7 ft) ornamental-edible variety useful as a flea beetle trap and visual back-of-bed edging for tomato rows. Edible greens and seed head also recover food value.",
+      "strength": "moderate",
+      "source": "USDA-ARS; Native Seeds/SEARCH"
+    },
+    {
+      "crop": "cabbage",
+      "companion": "amaranth-grain",
+      "type": "beneficial",
+      "mechanism": "trap_crop",
+      "description": "Amaranth grain at brassica bed edges traps flea beetles and supplies an end-of-season grain harvest. Pair with sweet alyssum border for combined predator support.",
+      "strength": "moderate",
+      "source": "USDA-ARS"
+    },
+    {
+      "crop": "pepper-sweet",
+      "companion": "amaranth-grain",
+      "type": "beneficial",
+      "mechanism": "trap_crop",
+      "description": "Amaranth grain near pepper rows traps tarnished plant bug, reducing pressure on pepper fruits. The tall habit also supports trellised pepper rows by acting as a windbreak.",
+      "strength": "moderate",
+      "source": "USDA-ARS; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "potato",
+      "companion": "horseradish",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Horseradish at potato bed corners releases allyl isothiocyanate that suppresses Colorado potato beetle scouting and discourages potato scab pathogen activity in adjacent soil. Contain with deep edging.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Penn State Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "horseradish",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Horseradish at tomato bed corners suppresses some soilborne fungal pathogens (Verticillium, Fusarium) via allyl isothiocyanate root exudates. Plant in a buried-sided container to prevent spread into the bed.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; USDA-ARS biofumigation research"
+    },
+    {
+      "crop": "apple-northern-spy",
+      "companion": "comfrey",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Same mechanism as standard apple: Northern Spy heritage cultivar benefits from comfrey K and P cycling at the dripline. Long-lived heritage tree (40+ year crops); the permanent guild supports decades of production.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "apple-ribston-pippin",
+      "companion": "comfrey",
+      "type": "beneficial",
+      "mechanism": "ground_cover",
+      "description": "Same mechanism: Ribston Pippin heritage cider cultivar benefits from comfrey root-zone cycling. Heritage cider apples typically thrive in low-input orchard floor designs with permanent guild plantings.",
+      "strength": "moderate",
+      "source": "Jacke and Toensmeier, Edible Forest Gardens v2"
+    },
+    {
+      "crop": "apple-newtown-pippin",
+      "companion": "white-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Heritage Newtown Pippin's long October-November harvest window benefits from white-clover N supply through fall fruit fill. Particularly valuable for cider production seeking late-season aroma development.",
+      "strength": "moderate",
+      "source": "USDA-NRCS Cover Crop Chart"
+    },
+    {
+      "crop": "apple-roxbury-russet",
+      "companion": "white-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Same mechanism: heritage Roxbury Russet (the oldest American apple cultivar) benefits from white-clover N supply through its long storage-apple finish. Cider and dessert use; permanent guild design is the historic norm.",
+      "strength": "moderate",
+      "source": "USDA-NRCS Cover Crop Chart"
+    },
+    {
+      "crop": "apple-harrison-cider",
+      "companion": "white-clover",
+      "type": "beneficial",
+      "mechanism": "nitrogen_fixing",
+      "description": "Heritage Harrison cider apple thrives in low-input orchard floor designs with white-clover N supply. Bittersweet cider cultivar; the heritage growing system is the canonical pairing.",
+      "strength": "moderate",
+      "source": "USDA-NRCS Cover Crop Chart"
+    },
+    {
+      "crop": "tomato",
+      "companion": "milkweed-fiber",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Fiber-type milkweed (Asclepias syriaca cultivar) supplies the same pollinator and monarch host function as common milkweed with somewhat reduced rhizome spread. Plant in a contained bed corner near tomato.",
+      "strength": "moderate",
+      "source": "USDA-NRCS; Xerces Society"
+    },
+    {
+      "crop": "asparagus",
+      "companion": "parsley-flat",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Flat-leaf parsley between asparagus rows deters asparagus beetle through volatile masking. Parsley's tap root and crown coexist with asparagus's deep root system without competition.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "asparagus",
+      "companion": "parsley-curly",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as flat parsley: curly parsley between asparagus rows masks crop volatiles deterring asparagus beetle. Curly form is more cold-hardy than flat parsley in northern asparagus beds.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "asparagus",
+      "companion": "basil",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Basil between asparagus rows deters asparagus beetle through eugenol and linalool volatiles. Tradition holds basil also enhances asparagus flavor in adjacent harvests, though the flavor mechanism is unconfirmed.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Riotte, Carrots Love Tomatoes"
+    },
+    {
+      "crop": "carrot",
+      "companion": "rosemary",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Rosemary's pinene and cineole volatiles deter carrot rust fly when planted at carrot bed edges. The perennial habit suits permanent garden-edge plantings adjacent to seasonal carrot rotations.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "carrot",
+      "companion": "sage",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Sage at carrot bed edges deters carrot rust fly and supplies pollinator habitat during the spring carrot rust fly emergence window. The perennial habit fits permanent garden borders.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "lemon-balm",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Lemon balm flowers draw honeybees and bumblebees during the long tomato bloom window. Aromatic foliage also deters whitefly when handled (volatile release). Contain spread; lemon balm self-seeds aggressively.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Cunningham, Great Garden Companions"
+    },
+    {
+      "crop": "tomato",
+      "companion": "lemon-verbena",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Lemon verbena's continuous summer bloom supports pollinators and supplies a fragrant herb harvest at tomato bed corners. Tender perennial; grow in containers in cold zones for season extension.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "lemongrass",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Lemongrass citral and geraniol repel whitefly, aphids, and mosquitoes around tomato beds. Tropical perennial; grow in pots in cold zones, in-ground in zones 9+.",
+      "strength": "moderate",
+      "source": "UF/IFAS Extension; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "potato",
+      "companion": "rye-grain",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Potato in fields following winter rye shows reduced sprout vigor due to BX-compound residue. Allow at least 4 weeks between rye incorporation and potato planting; or rotate through a buckwheat buffer.",
+      "strength": "moderate",
+      "source": "USDA-ARS allelopathy research; OSU Extension"
+    },
+    {
+      "crop": "lettuce-buttercrunch",
+      "companion": "winter-rye",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Same mechanism as standard lettuce: Buttercrunch is rye-sensitive; allow 3+ weeks after rye mow-down before direct seeding. Transplanting Buttercrunch starts bypasses the germination-phase sensitivity.",
+      "strength": "moderate",
+      "source": "USDA-ARS allelopathy research"
+    },
+    {
+      "crop": "lettuce-romaine",
+      "companion": "winter-rye",
+      "type": "antagonist",
+      "mechanism": "allelopathic",
+      "description": "Same mechanism as leaf lettuce: Romaine seedlings show suppressed growth in rye-residue soil. Allow 3+ weeks between rye and Romaine direct seeding.",
+      "strength": "moderate",
+      "source": "USDA-ARS allelopathy research"
+    },
+    {
+      "crop": "carrot-nantes",
+      "companion": "leek",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as standard carrot: Nantes carrots interplanted with leek confuse carrot rust fly through sulfur volatile masking. Nantes's mild flavor and sweet character are unaffected by allium proximity.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Coleman, The New Organic Grower"
+    },
+    {
+      "crop": "carrot-danvers",
+      "companion": "leek",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism: Danvers heritage carrot benefits from leek interplanting for rust fly deterrence. Danvers's heavy yield and storage character pair well with succession leek harvests.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "carrot-imperator",
+      "companion": "leek",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism: Imperator long-rooted carrots benefit from leek interplanting. Imperator's deep root requires loose soil that leek tolerates well in shared beds.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "cabbage-savoy",
+      "companion": "sweet-alyssum",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as standard cabbage: Savoy cultivar pairs with sweet alyssum border for hoverfly habitat. The crinkled-leaf Savoy benefits especially from aphid suppression as aphids hide in leaf folds.",
+      "strength": "strong",
+      "source": "UC ANR Master Gardener"
+    },
+    {
+      "crop": "cabbage-red",
+      "companion": "sweet-alyssum",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism: red cabbage pairs with sweet alyssum for hoverfly support. Red cabbage's anthocyanin pigments deter aphid feeding slightly but alyssum's predator support remains valuable.",
+      "strength": "strong",
+      "source": "UC ANR Master Gardener"
+    },
+    {
+      "crop": "broccoli-raab",
+      "companion": "sweet-alyssum",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism: broccoli raab pairs with sweet alyssum for hoverfly habitat during the spring or fall short cycle. Broccoli raab's fast bolt means alyssum's continuous bloom complements early harvest.",
+      "strength": "moderate",
+      "source": "UC ANR Master Gardener"
+    },
+    {
+      "crop": "broccoli-purple-sprouting",
+      "companion": "sweet-alyssum",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism: overwintered Purple Sprouting Broccoli benefits from spring alyssum borders that flower during the broccoli flush. Continuous predator habitat supports the long overwintered crop cycle.",
+      "strength": "moderate",
+      "source": "OSU Extension; UC ANR"
+    },
+    {
+      "crop": "onion-walla-walla",
+      "companion": "carrot-nantes",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as standard onion-carrot pairing: Walla Walla sweet onion and Nantes carrot in shared beds deter rust fly and onion maggot through reciprocal volatile masking. Both varieties tolerate the Pacific Northwest's cool spring.",
+      "strength": "strong",
+      "source": "WSU Tree Fruit and Vegetable Extension; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "onion-yellow-storage",
+      "companion": "carrot-danvers",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism: yellow storage onion interplanted with Danvers carrot supports long-storage harvests of both crops. Mutual pest deterrence supports a tight rotation without synthetic inputs.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "onion-red-tropea",
+      "companion": "carrot-imperator",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism: Red Tropea Italian onion paired with Imperator carrot supports the mediterranean kitchen-garden combination with reciprocal pest deterrence.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "carrot",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "shade_provider",
+      "description": "Tomato vines shade carrot beds during midsummer, slowing carrot bolting and reducing soil moisture loss. Plant carrots in front of tomato cages during midsummer; harvest carrots through fall as tomato vines decline.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension; Coleman, The New Organic Grower"
+    },
+    {
+      "crop": "lettuce-leaf",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "shade_provider",
+      "description": "Tomato vines shade lettuce beds, extending the spring lettuce window into early summer by reducing bolt pressure. Plant lettuce on the east side of tomato cages for morning sun and afternoon shade.",
+      "strength": "strong",
+      "source": "Cornell Cooperative Extension; Coleman, The New Organic Grower"
+    },
+    {
+      "crop": "spinach",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "shade_provider",
+      "description": "Same mechanism as lettuce: tomato vines shade spinach beds, extending the spring spinach window. Spinach tolerates more shade than lettuce; plant under tomato cages through summer for continuous baby leaf harvest.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "arugula",
+      "companion": "tomato",
+      "type": "beneficial",
+      "mechanism": "shade_provider",
+      "description": "Same mechanism: tomato vines shade arugula beds, slowing bolt and extending the arugula harvest window into summer. Arugula tolerates more heat than lettuce or spinach but still benefits from canopy cover.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "potato-yukon-gold",
+      "companion": "marigold",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism as standard potato-marigold pairing: Yukon Gold benefits from marigold border deterring Colorado potato beetle and root nematode. Yukon's storage character and early-mid maturity suits the marigold-protected bed.",
+      "strength": "moderate",
+      "source": "USDA-ARS; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "potato-red-norland",
+      "companion": "marigold",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism: Red Norland early new-potato variety pairs with marigold border for beetle deterrence during the short early-spring window. New potato harvest before peak beetle pressure supports the rotation.",
+      "strength": "moderate",
+      "source": "USDA-ARS; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "potato-onion",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Potato onion (Allium cepa Aggregatum group) at tomato bed edges supplies the same sulfur volatile deterrence as standard onion while clumping into multiplier bulbs for next-year replanting.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "carrot",
+      "companion": "potato-onion",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism: potato onion (multiplier onion) between carrot rows deters rust fly through sulfur volatiles. The clumping habit supplies onions for sequential harvest through the carrot season.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "tomato",
+      "companion": "onion-egyptian-walking",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Egyptian walking onion (top-setting variety) supplies year-round green onion harvest and continuous sulfur volatile cover near tomato beds. Self-propagating; plant once and harvest indefinitely.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "carrot",
+      "companion": "onion-egyptian-walking",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism: Egyptian walking onion in permanent clumps near carrot beds deters carrot rust fly. The perennial habit suits permanent garden-edge designs adjacent to seasonal carrot rotations.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "cucumber",
+      "companion": "borage",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Borage at cucumber bed edges draws bumblebees and honeybees during the cucumber bloom window, improving female-flower fruit set rates. Cucumber is moderately pollinator-limited; borage materially improves harvest.",
+      "strength": "strong",
+      "source": "USDA-ARS pollinator research; Cornell Cooperative Extension"
+    },
+    {
+      "crop": "winter-squash",
+      "companion": "borage",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism as cucumber: borage near squash beds draws bumblebees that improve squash fruit set. Bumblebees are the most effective squash pollinators; borage forms a high-density bumblebee station.",
+      "strength": "strong",
+      "source": "USDA-ARS pollinator research"
+    },
+    {
+      "crop": "summer-squash",
+      "companion": "borage",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Same mechanism: borage near summer squash and zucchini supplies high-density bumblebee habitat that supports the heavy fruit set demand. Plant a borage clump every 8-10 ft along squash rows.",
+      "strength": "strong",
+      "source": "USDA-ARS pollinator research"
+    },
+    {
+      "crop": "kale",
+      "companion": "borage",
+      "type": "beneficial",
+      "mechanism": "pollinator_attractor",
+      "description": "Borage at kale bed corners supports pollinator habitat during kale bolt and seed set. The flower also draws hoverflies whose larvae prey on aphids hiding in kale leaf folds.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "garlic-purple-stripe",
+      "companion": "rose-rugosa",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Hardneck purple-stripe garlic in a ring around rose roots reduces blackspot fungus and aphid colonization. The hardneck scapes also supply early-summer cut-flower harvest before garlic bulbs mature.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "crop": "garlic-music",
+      "companion": "rose-rugosa",
+      "type": "beneficial",
+      "mechanism": "pest_repellent",
+      "description": "Same mechanism: Music porcelain-type hardneck garlic in a rose-bed ring supplies long-storage garlic bulbs and continuous sulfur volatile cover. The scapes form a soft-purple flower head valued in cut arrangements.",
+      "strength": "moderate",
+      "source": "Cornell Cooperative Extension"
     }
   ]
 }

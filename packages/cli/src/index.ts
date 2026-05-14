@@ -22,9 +22,9 @@ const program = new Command();
 program
   .name("cropgraph")
   .description(
-    "CropGraph CLI: USDA hardiness zones, frost dates, climate-aware planting plans, 1000-crop calendar, 333 companion relationships, 12 rotation families, 33 succession chains, and 158 pest/disease associations.",
+    "CropGraph CLI: USDA hardiness zones, frost dates, climate-aware planting plans, 5,006-crop calendar, 1,004 companion relationships, 12 rotation families, 102 succession chains, and 506 pest/disease associations.",
   )
-  .version("1.3.0");
+  .version("3.1.0");
 
 program.addCommand(buildZoneCommand());
 program.addCommand(buildPlantingCommand());

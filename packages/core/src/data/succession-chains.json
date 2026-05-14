@@ -2,7 +2,7 @@
   "version": "1",
   "source": "Johnny's Selected Seeds succession planting guide; Cornell Cooperative Extension small-farm planting calendars; UF/IFAS Extension Florida vegetable production handbook; UC ANR Master Gardener succession planting publications; SARE Cover Crops field guide; Eliot Coleman, The New Organic Grower (succession-planting tables). Frost-anchored windows use last-spring-frost (LSF) as day 0; negative days fall before LSF and positive days after. Climate notes flag the climate types where the base window materially shifts; absence of a climate note means the base window is workable.",
   "license": "CC-BY-4.0",
-  "lastUpdated": "2026-05-13",
+  "lastUpdated": "2026-05-14",
   "entries": [
     {
       "slug": "lettuce-succession",
@@ -948,6 +948,2042 @@
         }
       ],
       "source": "SARE Cover Crops field guide; Penn State Extension"
+    },
+    {
+      "slug": "broccoli-side-shoot-succession",
+      "primaryCrop": "broccoli",
+      "category": "brassica-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "broccoli",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 21,
+          "climateNotes": {
+            "maritime": "Cool spring extends head development; expect main head 60-70 days from transplant.",
+            "humid_subtropical": "Plant transplants by day -14 to escape mid-spring heat that triggers premature bolting."
+          },
+          "notes": "Single main head harvest 60-75 days after transplant; cut at full bud size before flowering."
+        },
+        {
+          "phase": 2,
+          "crop": "broccoli",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 21,
+          "endRelativeToFrost": 100,
+          "climateNotes": {
+            "maritime": "Side shoots continue producing weekly into October; nitrogen side-dress at main head harvest extends production.",
+            "continental": "Side shoots harvested for 4-6 weeks after main head; smaller florets but continuous yield.",
+            "humid_subtropical": "Side shoots fade by July as heat accumulates; pull plants and rotate to summer crop."
+          },
+          "notes": "Same plants from phase 1; harvest side shoots weekly. The classic single-planting continuous harvest."
+        },
+        {
+          "phase": 3,
+          "crop": "broccoli",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 100,
+          "endRelativeToFrost": 180,
+          "climateNotes": {
+            "maritime": "Fall plantings produce best in the maritime climate; main heads form during cool September weather.",
+            "continental": "Set transplants 90 days before first fall frost; mulch heavily as cold sets in.",
+            "humid_subtropical": "Set transplants in August once nights cool; main head fills during the long fall season."
+          },
+          "notes": "Fall succession plantings produce main heads then side shoots into winter under row cover."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; Johnny's Selected Seeds succession guide"
+    },
+    {
+      "slug": "cabbage-storage-succession",
+      "primaryCrop": "cabbage",
+      "category": "brassica-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "cabbage",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -28,
+          "endRelativeToFrost": 0,
+          "climateNotes": {
+            "maritime": "Early cabbage cultivars (Early Jersey Wakefield, Stonehead) mature 60-70 days; spring harvest before heat.",
+            "humid_subtropical": "Set transplants in February or earlier; harvest by late April before heat bolts plants."
+          },
+          "notes": "Early-cabbage phase: small fast-maturing cultivars for fresh use in May-June."
+        },
+        {
+          "phase": 2,
+          "crop": "cabbage",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 0,
+          "endRelativeToFrost": 42,
+          "climateNotes": {
+            "continental": "Mid-cabbage cultivars (Copenhagen Market, Golden Acre) fit between spring and fall plantings.",
+            "maritime": "Mid-cabbage rarely needed in mild maritime; spring plantings carry through summer."
+          },
+          "notes": "Mid-season cabbage for July-August harvest; bridges spring and fall."
+        },
+        {
+          "phase": 3,
+          "crop": "cabbage",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 100,
+          "endRelativeToFrost": 180,
+          "climateNotes": {
+            "continental": "Late storage cultivars (January King, Brunswick) need 90-100 days for proper head formation; transplant by July 1.",
+            "maritime": "Storage cabbage extends through fall; January King hand-picks in December under low tunnel.",
+            "humid_subtropical": "Fall transplants set in August once nights cool; harvest December-January."
+          },
+          "notes": "Storage cabbage phase: dense long-storage cultivars for winter use. Harvest after first hard frost for best storage."
+        }
+      ],
+      "source": "Coleman, The New Organic Grower; Johnny's Selected Seeds succession guide"
+    },
+    {
+      "slug": "onion-sets-transplant-seed",
+      "primaryCrop": "onion",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "onion",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -28,
+          "endRelativeToFrost": -14,
+          "climateNotes": {
+            "maritime": "Plant sets in March on raised beds; harvest green onions through May.",
+            "continental": "Plant sets as soon as soil works; harvest green onions through June.",
+            "humid_subtropical": "Plant sets in November-December for green onion harvest in late winter."
+          },
+          "notes": "Onion sets phase: small bulbs planted for fresh green onion harvest. Quick first phase before main crop sown."
+        },
+        {
+          "phase": 2,
+          "crop": "onion",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 14,
+          "climateNotes": {
+            "continental": "Transplants from late February starts yield mature bulbs in August-September.",
+            "maritime": "Transplants fit the long cool growing window for storage onions; plant in April.",
+            "humid_subtropical": "Transplants set in January-February for May-June bulb harvest."
+          },
+          "notes": "Main storage crop from transplants; ready for fresh kitchen use in summer and cure for storage."
+        },
+        {
+          "phase": 3,
+          "crop": "scallion",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": 0,
+          "endRelativeToFrost": 100,
+          "notes": "Scallion succession phase: dedicated green-onion strips for continuous fresh harvest behind the main crop. Direct seed scallion strips every 3 weeks through the growing season for continuous green-onion harvest."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; Coleman, The New Organic Grower"
+    },
+    {
+      "slug": "potato-early-mid-late",
+      "primaryCrop": "potato",
+      "category": "root-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "potato-red-norland",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 14,
+          "climateNotes": {
+            "maritime": "Plant first earlies in March; harvest June-July as small new potatoes.",
+            "continental": "Wait until soil reaches 50F before planting; first earlies mature in 60-75 days.",
+            "humid_subtropical": "Plant first earlies in January-February; harvest by late April before summer heat."
+          },
+          "notes": "Early-potato phase: 60-75 day red-skinned new potato cultivars (Red Norland, Yukon Gold, Caribe). Fresh use only; no long storage."
+        },
+        {
+          "phase": 2,
+          "crop": "potato-yukon-gold",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 35,
+          "climateNotes": {
+            "continental": "Mid-season cultivars planted in late April; mature in 90-100 days for August harvest.",
+            "maritime": "Mid-season planted in April; harvest August-September."
+          },
+          "notes": "Mid-season potato phase: 90-100 day cultivars. Bridge between fresh new potatoes and storage crops."
+        },
+        {
+          "phase": 3,
+          "crop": "potato-kennebec",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 35,
+          "endRelativeToFrost": 56,
+          "climateNotes": {
+            "continental": "Late storage cultivars (Kennebec, Katahdin, Burbank) planted in May; harvest September-October.",
+            "maritime": "Late cultivars carry through October harvest; cool soil at planting time favors emergence."
+          },
+          "notes": "Storage potato phase: 110-130 day cultivars for winter storage. Cure 2 weeks at 60F before cold storage."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; Penn State Extension potato production"
+    },
+    {
+      "slug": "sweet-corn-stagger",
+      "primaryCrop": "sweet-corn",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "sweet-corn",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": 7,
+          "endRelativeToFrost": 70,
+          "climateNotes": {
+            "maritime": "Sow first block when soil reaches 60F; continue every 2 weeks through June.",
+            "continental": "Sow first block around last frost in deep loam soils; continue every 2 weeks through July 1.",
+            "humid_subtropical": "Sow continuous blocks every 2 weeks from late February through May, then again August-September for fall crop.",
+            "arid": "Heat-tolerant cultivars (Mirai, Trinity) handle summer plantings; shade cloth during tasseling preserves pollination."
+          },
+          "notes": "Two-week stagger gives 8-10 days of fresh corn per planting block. Sow blocks of 4x10 ft for adequate pollination; small rows have poor kernel set."
+        }
+      ],
+      "source": "Johnny's Selected Seeds succession guide; Cornell Cooperative Extension"
+    },
+    {
+      "slug": "pea-bush-bean-fall-pea-relay",
+      "primaryCrop": "snap-pea",
+      "category": "legume-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "snap-pea",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -28,
+          "endRelativeToFrost": 0,
+          "climateNotes": {
+            "maritime": "Plant snap peas in February-March for May-June harvest; cool maritime climate extends harvest into July.",
+            "continental": "Plant snap peas as soon as soil works; harvest June.",
+            "humid_subtropical": "Plant in November-December; harvest February-March."
+          },
+          "notes": "Spring snap pea phase: bush or short-vine types fit succession bed. Harvest until heat triggers powdery mildew and pod toughening."
+        },
+        {
+          "phase": 2,
+          "crop": "bush-bean",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 28,
+          "endRelativeToFrost": 70,
+          "climateNotes": {
+            "continental": "Direct sow bush beans immediately after pea harvest; pods ready in 50-60 days.",
+            "maritime": "Wait for soil to reach 60F (often late May) before direct seeding bush beans."
+          },
+          "notes": "Summer bush-bean phase: fills the heat-of-summer window between cool-season legume crops."
+        },
+        {
+          "phase": 3,
+          "crop": "snap-pea",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 100,
+          "endRelativeToFrost": 150,
+          "climateNotes": {
+            "maritime": "Fall snap peas thrive in the cool maritime climate; harvest October-November.",
+            "humid_subtropical": "Fall peas direct-sown in September for November harvest.",
+            "continental": "Fall peas need 60-70 day window; sow by August 1 in zone 5; harvest before first hard freeze."
+          },
+          "notes": "Fall snap-pea phase: cool-season legume returns after summer heat. Cold-hardy cultivars extend harvest under low tunnel."
+        }
+      ],
+      "source": "Coleman, The New Organic Grower; Cornell Cooperative Extension"
+    },
+    {
+      "slug": "kohlrabi-succession",
+      "primaryCrop": "kohlrabi",
+      "category": "brassica-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "kohlrabi",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": -28,
+          "endRelativeToFrost": 28,
+          "climateNotes": {
+            "maritime": "Continuous spring sowings through April; bulbs ready in 50-60 days.",
+            "continental": "Sow every 2 weeks from soil-workable through May 1; bulbs ready in 55-65 days.",
+            "humid_subtropical": "Spring kohlrabi short window: sow February-March only; bolts in summer heat."
+          },
+          "notes": "Spring kohlrabi phase: harvest bulbs at 2-3 inches before woody texture sets in."
+        },
+        {
+          "phase": 2,
+          "crop": "kohlrabi",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": 100,
+          "endRelativeToFrost": 160,
+          "climateNotes": {
+            "maritime": "Fall kohlrabi extends through November; carries over winter under low tunnel.",
+            "continental": "Fall sowings from August through early September; harvest before hard freeze.",
+            "humid_subtropical": "Fall is the primary kohlrabi season; sow September-November."
+          },
+          "notes": "Fall kohlrabi phase: cool-season return for storage and fresh use."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; Coleman, The New Organic Grower"
+    },
+    {
+      "slug": "bok-choy-succession",
+      "primaryCrop": "bok-choy",
+      "category": "brassica-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "bok-choy",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 35,
+          "climateNotes": {
+            "maritime": "Spring bok choy from March direct sowings; cool maritime spring extends to early June.",
+            "humid_subtropical": "Spring window narrow: sow February-March only; bolts quickly in heat."
+          },
+          "notes": "Spring bok choy phase: baby cultivars (Shanghai) fit short window; bolt-resistant types extend the window."
+        },
+        {
+          "phase": 2,
+          "crop": "bok-choy",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": 105,
+          "endRelativeToFrost": 175,
+          "climateNotes": {
+            "maritime": "Fall bok choy through December under row cover.",
+            "humid_subtropical": "Primary bok choy season; continuous sowings September through November."
+          },
+          "notes": "Fall bok choy phase: bolt-resistant varieties favor the long cool fall window."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; OSU Extension"
+    },
+    {
+      "slug": "napa-cabbage-succession",
+      "primaryCrop": "napa-cabbage",
+      "category": "brassica-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "napa-cabbage",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 7,
+          "climateNotes": {
+            "maritime": "Spring transplants for June harvest; cool spring extends the harvest window.",
+            "continental": "Wait until last frost for transplants; mature in 65-75 days."
+          },
+          "notes": "Spring napa phase: tight short window before heat bolts plants. Fast-bolt-resistant cultivars (Bilko, Minuet) preferred."
+        },
+        {
+          "phase": 2,
+          "crop": "napa-cabbage",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 105,
+          "endRelativeToFrost": 150,
+          "climateNotes": {
+            "maritime": "Fall napa through November; cool autumn favors heading.",
+            "continental": "Set transplants in early August for October harvest; cold-hardy through 25F.",
+            "humid_subtropical": "Primary napa season; set transplants August-September for fall heading."
+          },
+          "notes": "Fall napa phase: dominant napa season; long cool fall favors tight heads."
+        }
+      ],
+      "source": "OSU Extension Asian greens; Cornell Cooperative Extension"
+    },
+    {
+      "slug": "kale-succession",
+      "primaryCrop": "kale",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "kale",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 21,
+          "climateNotes": {
+            "maritime": "Spring kale from March transplants; harvest baby leaves from May, full leaves through summer.",
+            "continental": "Spring transplants harvested through summer.",
+            "humid_subtropical": "Spring window short; harvest by early June before heat slows growth."
+          },
+          "notes": "Spring kale phase: continuous cut-and-come harvest from May through summer; remove flower spikes to extend harvest."
+        },
+        {
+          "phase": 2,
+          "crop": "kale",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 105,
+          "endRelativeToFrost": 175,
+          "climateNotes": {
+            "maritime": "Fall kale extends through January under low tunnel; sweetens after frost.",
+            "continental": "Fall transplants in August produce best leaves in October-November; some overwinter under row cover.",
+            "humid_subtropical": "Fall is the primary kale season; transplants from August through October."
+          },
+          "notes": "Fall kale phase: cold-hardy cultivars (Winterbor, Redbor, Toscano) sweeten with frost and extend the harvest into winter."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; Coleman, The New Organic Grower"
+    },
+    {
+      "slug": "mustard-greens-succession",
+      "primaryCrop": "mustard-greens",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "mustard-greens",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": -28,
+          "endRelativeToFrost": 35,
+          "climateNotes": {
+            "maritime": "Spring mustard direct-sown through May; ready as baby greens in 21 days.",
+            "humid_subtropical": "Spring window short: February-March only."
+          },
+          "notes": "Spring mustard phase: continuous sowings for baby cut greens."
+        },
+        {
+          "phase": 2,
+          "crop": "mustard-greens",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": 105,
+          "endRelativeToFrost": 165,
+          "climateNotes": {
+            "maritime": "Fall mustard extends through December under row cover.",
+            "humid_subtropical": "Primary mustard season; September-November."
+          },
+          "notes": "Fall mustard phase: cool-season return for fresh and storage."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; UF/IFAS Extension"
+    },
+    {
+      "slug": "swiss-chard-cut-and-come",
+      "primaryCrop": "swiss-chard",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "swiss-chard",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 21,
+          "climateNotes": {
+            "maritime": "Single spring planting carries through fall; chard tolerates maritime summer better than most greens.",
+            "humid_subtropical": "Spring transplants in February; harvest through June.",
+            "continental": "Spring transplants in May; continuous cut harvest June through October."
+          },
+          "notes": "Single planting phase: cut-and-come-again harvest from June through October. One transplanting supports a full season of leaf harvest."
+        },
+        {
+          "phase": 2,
+          "crop": "swiss-chard",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 105,
+          "endRelativeToFrost": 165,
+          "climateNotes": {
+            "maritime": "Fall chard through December under row cover.",
+            "humid_subtropical": "Fall chard transplant in August; harvest through January."
+          },
+          "notes": "Fall chard phase (optional): for fall and winter harvest; replaces or extends summer planting."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; Coleman, The New Organic Grower"
+    },
+    {
+      "slug": "fennel-bulb-succession",
+      "primaryCrop": "fennel-herb",
+      "category": "root-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "fennel-herb",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -7,
+          "endRelativeToFrost": 14,
+          "climateNotes": {
+            "maritime": "Spring fennel from transplants for June bulb harvest; cool maritime climate extends bulb fill.",
+            "humid_subtropical": "Spring window very short: February transplants only; bolts in heat."
+          },
+          "notes": "Spring fennel phase: bolt-resistant Florence-type bulbs for fresh use."
+        },
+        {
+          "phase": 2,
+          "crop": "fennel-herb",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 105,
+          "endRelativeToFrost": 145,
+          "climateNotes": {
+            "maritime": "Fall fennel through November; cool autumn favors bulb development.",
+            "continental": "Fall transplants in August for October harvest.",
+            "humid_subtropical": "Primary fennel season; transplants from August through October."
+          },
+          "notes": "Fall fennel phase: cool autumn produces the highest-quality bulbs."
+        }
+      ],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "cilantro-coriander-bolt-cycle",
+      "primaryCrop": "cilantro",
+      "category": "herb-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "cilantro",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": -28,
+          "endRelativeToFrost": 0,
+          "climateNotes": {
+            "maritime": "Cool maritime spring extends cilantro harvest through May; sow every 3 weeks.",
+            "continental": "Spring cilantro from March direct sowings; ready in 30 days as baby herb.",
+            "humid_subtropical": "Sow February-March; finish harvest by April before heat."
+          },
+          "notes": "Spring cilantro phase: continuous sowings every 3 weeks until heat triggers bolt. Slow-bolt cultivars (Calypso, Santo) extend the window."
+        },
+        {
+          "phase": 2,
+          "crop": "cilantro",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 0,
+          "endRelativeToFrost": 70,
+          "notes": "Coriander seed phase: bolted spring plants produce harvestable coriander seed for kitchen use. Allow spring plants to bolt and set seed; harvest coriander seed when seed pods dry on plant."
+        },
+        {
+          "phase": 3,
+          "crop": "cilantro",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": 105,
+          "endRelativeToFrost": 175,
+          "climateNotes": {
+            "maritime": "Fall cilantro through November; cool autumn extends harvest.",
+            "humid_subtropical": "Primary cilantro season; continuous sowings September-November."
+          },
+          "notes": "Fall cilantro phase: cool-season return for fresh herb harvest into winter."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; Coleman, The New Organic Grower"
+    },
+    {
+      "slug": "parsley-spring-fall",
+      "primaryCrop": "parsley-flat",
+      "category": "herb-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "parsley-flat",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 0,
+          "climateNotes": {
+            "maritime": "Spring transplants extend through fall; parsley tolerates maritime summer.",
+            "continental": "Spring transplants harvested June through October.",
+            "humid_subtropical": "Spring transplants in February for harvest through May."
+          },
+          "notes": "Spring parsley phase: single transplanting supports continuous cut-and-come harvest through summer."
+        },
+        {
+          "phase": 2,
+          "crop": "parsley-flat",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 105,
+          "endRelativeToFrost": 175,
+          "climateNotes": {
+            "maritime": "Fall parsley through December under row cover; biennial habit may overwinter.",
+            "humid_subtropical": "Fall transplants extend harvest through January."
+          },
+          "notes": "Fall parsley phase: cool-season return; some plants overwinter for spring resumption of harvest before flowering."
+        }
+      ],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "tatsoi-succession",
+      "primaryCrop": "tatsoi",
+      "category": "brassica-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "tatsoi",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": -28,
+          "endRelativeToFrost": 21,
+          "climateNotes": {
+            "maritime": "Spring tatsoi through May; harvest at rosette stage before heat triggers bolt.",
+            "humid_subtropical": "Spring window short: February-March."
+          },
+          "notes": "Spring tatsoi phase: continuous sowings for spoon-leaf rosette harvest."
+        },
+        {
+          "phase": 2,
+          "crop": "tatsoi",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": 105,
+          "endRelativeToFrost": 175,
+          "climateNotes": {
+            "maritime": "Fall tatsoi through January under low tunnel; cold-hardy.",
+            "humid_subtropical": "Primary tatsoi season; sowings September-November."
+          },
+          "notes": "Fall tatsoi phase: very cold-hardy; carries to 15F under row cover."
+        }
+      ],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "mizuna-succession",
+      "primaryCrop": "mizuna",
+      "category": "brassica-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "mizuna",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": -28,
+          "endRelativeToFrost": 28,
+          "climateNotes": {
+            "maritime": "Spring mizuna through May; harvest as baby greens at 21 days.",
+            "humid_subtropical": "Spring window short."
+          },
+          "notes": "Spring mizuna phase: continuous baby-leaf cut harvest."
+        },
+        {
+          "phase": 2,
+          "crop": "mizuna",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": 105,
+          "endRelativeToFrost": 175,
+          "climateNotes": {
+            "maritime": "Fall mizuna through December under row cover."
+          },
+          "notes": "Fall mizuna phase: continuous baby-leaf harvest from September into winter."
+        }
+      ],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "watermelon-relay",
+      "primaryCrop": "watermelon",
+      "category": "cucurbit-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "watermelon",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 7,
+          "endRelativeToFrost": 35,
+          "climateNotes": {
+            "continental": "Wait until soil temperature reaches 70F before transplanting; black plastic mulch helps warm soil.",
+            "humid_subtropical": "Plant by early May for August harvest of early cultivars; second planting in June for September fruit.",
+            "arid": "Heat-loving crop; drip irrigation supports vines through summer."
+          },
+          "notes": "Single planting phase: watermelon vines are long-season crops that occupy bed space for 75-100 days. Most beds get one watermelon planting per season."
+        }
+      ],
+      "source": "UF/IFAS Extension watermelon; Cornell Cooperative Extension"
+    },
+    {
+      "slug": "cantaloupe-relay",
+      "primaryCrop": "cantaloupe",
+      "category": "cucurbit-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "cantaloupe",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 7,
+          "endRelativeToFrost": 35,
+          "climateNotes": {
+            "continental": "Plant in late May when soil warms; harvest 70-90 days from transplant.",
+            "humid_subtropical": "Plant in April for July harvest; second planting in June for September.",
+            "arid": "Drip irrigation supports cantaloupe through hot dry summers."
+          },
+          "notes": "Single planting phase: cantaloupe vines occupy bed for 80-100 days. Trellising preserves bed space in small gardens."
+        }
+      ],
+      "source": "UF/IFAS Extension melon production"
+    },
+    {
+      "slug": "okra-succession",
+      "primaryCrop": "okra",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "okra",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 7,
+          "endRelativeToFrost": 28,
+          "climateNotes": {
+            "humid_subtropical": "Primary okra season; direct sow in April for July-October harvest.",
+            "continental": "Wait for soil at 65F; northern okra production limited to 90-day window."
+          },
+          "notes": "Single planting phase: okra produces continuously from first pod through frost. Daily harvest required for tender pods."
+        }
+      ],
+      "source": "UF/IFAS Extension"
+    },
+    {
+      "slug": "eggplant-succession",
+      "primaryCrop": "eggplant",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "eggplant",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 35,
+          "climateNotes": {
+            "maritime": "Cool maritime nights slow eggplant production; row cover or low tunnel maintains warmth.",
+            "humid_subtropical": "Transplants in April for July-October harvest.",
+            "arid": "Heat tolerant; produces through extreme summer heat with consistent irrigation."
+          },
+          "notes": "Single planting phase: eggplant produces continuously from July through frost. Pick at 4-6 inches for tender fruit."
+        }
+      ],
+      "source": "UF/IFAS Extension"
+    },
+    {
+      "slug": "pepper-succession",
+      "primaryCrop": "pepper-sweet",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "pepper-sweet",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 35,
+          "climateNotes": {
+            "maritime": "Cool nights slow pepper production; row cover extends warmth.",
+            "humid_subtropical": "Transplants in April for July-October fresh harvest; second cool-season harvest possible in fall.",
+            "arid": "Shade cloth during midsummer heat preserves fruit set; pepper plants tolerant of heat."
+          },
+          "notes": "Single planting phase: pepper plants produce continuously from July through frost. Pick at full size and color stage for highest quality."
+        }
+      ],
+      "source": "UF/IFAS Extension"
+    },
+    {
+      "slug": "tomato-succession",
+      "primaryCrop": "tomato",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "tomato",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 35,
+          "climateNotes": {
+            "maritime": "Choose early-determinate cultivars (Stupice, Glacier) for short maritime summers.",
+            "humid_subtropical": "Spring transplants in March for June-August harvest; fall transplants in August for October harvest.",
+            "continental": "Transplant after last frost; harvest through August-September.",
+            "arid": "Heat-set cultivars (Heatmaster, Solar Set) tolerate extreme summer heat."
+          },
+          "notes": "Single planting phase: indeterminate vines produce continuously through frost. Determinate varieties produce in a single concentrated harvest window."
+        },
+        {
+          "phase": 2,
+          "crop": "tomato",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 105,
+          "endRelativeToFrost": 145,
+          "climateNotes": {
+            "humid_subtropical": "Fall tomato season: set transplants in August for October-November harvest."
+          },
+          "notes": "Fall tomato phase (warm climates only): transplants for fall harvest in regions with mild winters."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; UF/IFAS Extension"
+    },
+    {
+      "slug": "garlic-shallot-overwinter",
+      "primaryCrop": "garlic",
+      "category": "root-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "garlic",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -45,
+          "endRelativeToFrost": -14,
+          "climateNotes": {
+            "maritime": "Plant garlic October-November; harvest July.",
+            "continental": "Plant 3-4 weeks before ground freezes; harvest late July.",
+            "humid_subtropical": "Plant November-December; harvest April-May."
+          },
+          "notes": "Fall garlic plant phase: cloves overwinter in soil; harvest after scapes form and leaves brown the next summer."
+        },
+        {
+          "phase": 2,
+          "crop": "shallot",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -45,
+          "endRelativeToFrost": -14,
+          "notes": "Companion shallot phase: planted simultaneously with garlic for parallel harvest. Plant shallot bulbs at the same time as garlic; harvest concurrently."
+        }
+      ],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "celery-succession",
+      "primaryCrop": "celery",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "celery",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -7,
+          "endRelativeToFrost": 14,
+          "climateNotes": {
+            "maritime": "Cool maritime climate favors celery; harvest July-September.",
+            "continental": "Spring transplants for July-August harvest.",
+            "humid_subtropical": "Spring transplants in February for May harvest; primary fall season."
+          },
+          "notes": "Spring celery phase: requires consistent moisture and rich soil; bolts in summer heat."
+        },
+        {
+          "phase": 2,
+          "crop": "celery",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 105,
+          "endRelativeToFrost": 145,
+          "climateNotes": {
+            "humid_subtropical": "Primary celery season; fall transplants in August for November-December harvest.",
+            "maritime": "Fall celery extends harvest through October."
+          },
+          "notes": "Fall celery phase (warm climates): produces highest-quality celery in cool autumn conditions."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; UF/IFAS Extension"
+    },
+    {
+      "slug": "leek-succession",
+      "primaryCrop": "leek",
+      "category": "root-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "leek",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 0,
+          "climateNotes": {
+            "maritime": "Cool maritime climate ideal for leeks; harvest through January under mulch.",
+            "continental": "Spring transplants for fall-winter harvest; cold-hardy.",
+            "humid_subtropical": "Fall transplant primary season; spring planting bolts in heat."
+          },
+          "notes": "Single planting phase: leeks need 90-150 days from transplant; hill soil around stems for blanched white shanks."
+        }
+      ],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "fall-radish-storage",
+      "primaryCrop": "daikon",
+      "category": "root-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "daikon",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 90,
+          "endRelativeToFrost": 110,
+          "climateNotes": {
+            "maritime": "Fall daikon for storage; harvest after first hard frost.",
+            "continental": "Direct sow 50-60 days before first fall frost.",
+            "humid_subtropical": "Primary daikon season; sow September-October."
+          },
+          "notes": "Single fall planting phase: daikon roots size up best in cool autumn weather; cellar-store after harvest."
+        }
+      ],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "rutabaga-succession",
+      "primaryCrop": "rutabaga",
+      "category": "root-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "rutabaga",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 70,
+          "endRelativeToFrost": 100,
+          "climateNotes": {
+            "maritime": "Fall rutabaga for storage; cool autumn perfect for root development.",
+            "continental": "Sow 90-100 days before first hard freeze.",
+            "humid_subtropical": "Sow August-September for November harvest."
+          },
+          "notes": "Single fall planting phase: rutabaga sweetens with frost; harvest and store in cool conditions."
+        }
+      ],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "brussels-sprouts-succession",
+      "primaryCrop": "brussels-sprouts",
+      "category": "brassica-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "brussels-sprouts",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 30,
+          "endRelativeToFrost": 60,
+          "climateNotes": {
+            "maritime": "Transplants in June for November-December harvest; sweetens with frost.",
+            "continental": "Set transplants by July 1 for October-November harvest.",
+            "humid_subtropical": "Fall transplant from late July for winter harvest."
+          },
+          "notes": "Single planting phase: brussels sprouts need 90-120 days from transplant. Top plants 3-4 weeks before harvest to even sprout size."
+        }
+      ],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "cauliflower-fall",
+      "primaryCrop": "cauliflower",
+      "category": "brassica-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "cauliflower",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 70,
+          "endRelativeToFrost": 105,
+          "climateNotes": {
+            "maritime": "Fall cauliflower for October-November harvest; cool autumn favors tight heads.",
+            "continental": "Set transplants in July for September-October harvest.",
+            "humid_subtropical": "Primary cauliflower season; transplant in August for November-December harvest."
+          },
+          "notes": "Single fall planting phase: cauliflower needs 60-90 days from transplant; cool autumn produces best curds. Self-blanching cultivars simplify management."
+        }
+      ],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "basil-genovese-3wk",
+      "primaryCrop": "basil-genovese-pesto",
+      "category": "herb-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "basil-genovese-pesto",
+          "sowMethod": "transplant",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 70,
+          "climateNotes": {
+            "humid_subtropical": "Continuous transplants every 3 weeks supply fresh basil through summer.",
+            "continental": "Every 3 weeks from late May through July for continuous harvest.",
+            "arid": "Heat-tolerant; consistent irrigation supports plant vigor."
+          },
+          "notes": "Genovese basil 3-week succession phase: continuous fresh-pesto cut harvest. Mature plants get woody after 6-8 weeks; new transplants maintain quality."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; Johnny's Selected Seeds"
+    },
+    {
+      "slug": "thai-basil-succession",
+      "primaryCrop": "basil-thai",
+      "category": "herb-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "basil-thai",
+          "sowMethod": "transplant",
+          "intervalWeeks": 4,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 80,
+          "climateNotes": {
+            "humid_subtropical": "Heat-tolerant Thai basil thrives through southern summers.",
+            "continental": "Every 4 weeks from late May through August."
+          },
+          "notes": "Thai basil succession phase: continuous harvest with heat tolerance. Stronger aroma than Genovese; preferred for Asian cooking."
+        }
+      ],
+      "source": "UF/IFAS Extension"
+    },
+    {
+      "slug": "dill-mammoth-succession",
+      "primaryCrop": "dill",
+      "category": "herb-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "dill",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": -7,
+          "endRelativeToFrost": 70,
+          "climateNotes": {
+            "continental": "Continuous sowings every 3 weeks for fresh leaf and seed harvest.",
+            "maritime": "Cool maritime climate extends harvest through fall; sowings through August."
+          },
+          "notes": "Continuous dill succession phase: sow every 3 weeks for tender leaves; allow some plants to bolt for seed."
+        }
+      ],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "summer-savory-succession",
+      "primaryCrop": "savory-summer",
+      "category": "herb-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "savory-summer",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 4,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 70,
+          "notes": "Summer savory succession phase: continuous fresh leaf harvest through summer. Continuous summer sowings; heat-loving annual herb pairs with bean dishes."
+        }
+      ],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "dahlia-cutting-succession",
+      "primaryCrop": "dahlia-dye",
+      "category": "flower-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "dahlia-dye",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 35,
+          "climateNotes": {
+            "maritime": "Plant tubers after last frost; bloom from late July through October.",
+            "continental": "Plant tubers when soil reaches 60F; bloom August through hard frost.",
+            "humid_subtropical": "Plant tubers in March-April; bloom through summer and fall."
+          },
+          "notes": "Single tuber-planting phase: dahlia tubers planted in spring bloom from midsummer through frost. Continuous cut-flower harvest from one planting; deadhead spent flowers to extend bloom."
+        }
+      ],
+      "source": "USDA-NRCS pollinator garden; Floret Farm cut flower guide"
+    },
+    {
+      "slug": "sweet-pea-spring-fall",
+      "primaryCrop": "sweet-pea-flower",
+      "category": "flower-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "sweet-pea-flower",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -28,
+          "endRelativeToFrost": 0,
+          "climateNotes": {
+            "maritime": "Sweet peas thrive in cool maritime climate; sow in February for May-July bloom.",
+            "continental": "Sow at last frost or earlier; bloom in June.",
+            "humid_subtropical": "Plant in November-December for February-April bloom; spring window is the primary sweet pea season."
+          },
+          "notes": "Spring sweet pea phase: cool-season annual; trellis on a fence. Harvest deeply every other day to extend bloom."
+        },
+        {
+          "phase": 2,
+          "crop": "sweet-pea-flower",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 105,
+          "endRelativeToFrost": 175,
+          "climateNotes": {
+            "maritime": "Fall sweet peas through November bloom.",
+            "humid_subtropical": "Fall sowings extend the sweet pea season for spring bloom."
+          },
+          "notes": "Fall sweet pea phase (mild climates): cool-season return for fall and spring bloom."
+        }
+      ],
+      "source": "Floret Farm cut flower guide; USDA-NRCS"
+    },
+    {
+      "slug": "sunflower-2wk-stagger",
+      "primaryCrop": "sunflower",
+      "category": "flower-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "sunflower",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 2,
+          "startRelativeToFrost": 7,
+          "endRelativeToFrost": 90,
+          "climateNotes": {
+            "continental": "Direct sow every 2 weeks from last frost through July for continuous cut flower production.",
+            "humid_subtropical": "Continuous sowings through August; heat-loving annual.",
+            "arid": "Heat-tolerant; thrives in arid summers with drip irrigation."
+          },
+          "notes": "Continuous sunflower phase: 2-week stagger supplies fresh cut flowers throughout summer. Single-stem cultivars (ProCut, Soraya) for cut-flower trade; branching cultivars for bouquet additions."
+        }
+      ],
+      "source": "Floret Farm cut flower guide; Cornell Cooperative Extension"
+    },
+    {
+      "slug": "snapdragon-spring-fall",
+      "primaryCrop": "snapdragon",
+      "category": "flower-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "snapdragon",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 14,
+          "climateNotes": {
+            "maritime": "Cool maritime spring extends snapdragon bloom; harvest June-August.",
+            "continental": "Spring transplants for June-July bloom; spike production benefits from cool nights.",
+            "humid_subtropical": "Fall is the primary snapdragon season; transplants from October for spring bloom."
+          },
+          "notes": "Spring snapdragon phase: tall single-stem cultivars (Rocket, Madame Butterfly) for cut flower; spike harvest at one-third bloom."
+        },
+        {
+          "phase": 2,
+          "crop": "snapdragon",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 90,
+          "endRelativeToFrost": 175,
+          "climateNotes": {
+            "humid_subtropical": "Fall transplants extend bloom through winter for southern cut-flower production.",
+            "maritime": "Fall snapdragon through December."
+          },
+          "notes": "Fall snapdragon phase (mild climates): extended bloom from fall transplants in regions with mild winters."
+        }
+      ],
+      "source": "Floret Farm cut flower guide; USDA-NRCS"
+    },
+    {
+      "slug": "larkspur-fall-sow",
+      "primaryCrop": "larkspur",
+      "category": "flower-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "larkspur",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 90,
+          "endRelativeToFrost": 175,
+          "climateNotes": {
+            "maritime": "Fall sowings in September-October for spring bloom; cold treatment required for germination.",
+            "humid_subtropical": "Fall direct sow in October for March-April bloom.",
+            "continental": "Fall sow in October; cold winter triggers spring germination."
+          },
+          "notes": "Single fall-sowing phase: larkspur requires winter cold for germination; fall direct sow yields spring cut flowers. Spring sowings typically fail to bloom."
+        }
+      ],
+      "source": "Floret Farm cut flower guide"
+    },
+    {
+      "slug": "scabiosa-succession",
+      "primaryCrop": "scabiosa",
+      "category": "flower-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "scabiosa",
+          "sowMethod": "transplant",
+          "intervalWeeks": 4,
+          "startRelativeToFrost": -7,
+          "endRelativeToFrost": 70,
+          "climateNotes": {
+            "continental": "Transplants every 4 weeks from last frost through July for continuous bloom.",
+            "maritime": "Transplants from April through August.",
+            "humid_subtropical": "Spring transplants in February; fall transplants in September."
+          },
+          "notes": "Scabiosa succession phase: continuous transplants supply pollinator-attracting cut flowers; long bloom window with deadheading."
+        }
+      ],
+      "source": "Floret Farm cut flower guide; Xerces Society"
+    },
+    {
+      "slug": "rudbeckia-cut-flower",
+      "primaryCrop": "rudbeckia",
+      "category": "flower-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "rudbeckia",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 0,
+          "endRelativeToFrost": 21,
+          "climateNotes": {
+            "continental": "Single transplant after last frost; bloom from July through October.",
+            "humid_subtropical": "Spring transplants for summer-fall bloom; continuous deadheading extends production.",
+            "arid": "Heat tolerant; native species thrive in arid summers."
+          },
+          "notes": "Single planting phase: black-eyed Susan blooms from July through frost. Native perennial; one planting produces for multiple seasons in suitable climates."
+        }
+      ],
+      "source": "Floret Farm cut flower guide; USDA-NRCS"
+    },
+    {
+      "slug": "phlox-cut-flower",
+      "primaryCrop": "phacelia",
+      "category": "flower-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "phacelia",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": 3,
+          "startRelativeToFrost": 0,
+          "endRelativeToFrost": 56,
+          "climateNotes": {
+            "continental": "Continuous direct sowings every 3 weeks; bloom in 5-6 weeks.",
+            "maritime": "Sow March through August for continuous bloom.",
+            "humid_subtropical": "Spring window: February through April."
+          },
+          "notes": "Phacelia succession phase: pollinator-attracting blue lacy flowers; mass plantings draw bumblebees and parasitic wasps."
+        }
+      ],
+      "source": "Xerces Society; USDA-NRCS"
+    },
+    {
+      "slug": "celosia-cut-flower",
+      "primaryCrop": "amaranth",
+      "category": "flower-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "amaranth",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 35,
+          "climateNotes": {
+            "humid_subtropical": "Amaranth thrives in southern heat; transplants in April for July-October bloom.",
+            "continental": "Transplants after last frost; bloom August through frost."
+          },
+          "notes": "Single planting phase: ornamental amaranth (Hopi Red Dye, Hot Biscuits) blooms continuously through summer and fall; heat-loving annual."
+        }
+      ],
+      "source": "Floret Farm cut flower guide; Native Seeds/SEARCH"
+    },
+    {
+      "slug": "tithonia-succession",
+      "primaryCrop": "tithonia",
+      "category": "flower-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "tithonia",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 35,
+          "climateNotes": {
+            "humid_subtropical": "Mexican sunflower thrives in heat; transplants in April for July-October bloom.",
+            "continental": "Transplants after last frost; reaches 6 ft height; bloom August through frost."
+          },
+          "notes": "Single planting phase: tithonia is a tall heat-loving annual; pollinator-attracting cut flowers with continuous bloom."
+        }
+      ],
+      "source": "Xerces Society; USDA-NRCS"
+    },
+    {
+      "slug": "oats-buckwheat-rye-relay",
+      "primaryCrop": "oats",
+      "category": "cover-crop-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "oats",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -28,
+          "endRelativeToFrost": -14,
+          "climateNotes": {
+            "continental": "Spring oats sown 2-3 weeks before last frost; mow at heading for 4-6 tons biomass.",
+            "maritime": "Spring oats from February sowings; mow at boot stage."
+          },
+          "notes": "Spring oats phase: fast cool-season cover crop; suppresses spring weeds and builds biomass."
+        },
+        {
+          "phase": 2,
+          "crop": "buckwheat",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 35,
+          "endRelativeToFrost": 70,
+          "climateNotes": {
+            "continental": "Buckwheat after oat termination; 4-6 week cycle from sowing to mow.",
+            "humid_subtropical": "Buckwheat sown after oats; fast summer biomass."
+          },
+          "notes": "Summer buckwheat phase: fills the warm-season gap with fast biomass and pollinator habitat. Mow at first bloom for highest biomass."
+        },
+        {
+          "phase": 3,
+          "crop": "winter-rye",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 90,
+          "endRelativeToFrost": 130,
+          "climateNotes": {
+            "continental": "Winter rye sown by October 1 for full establishment before freeze.",
+            "maritime": "Winter rye through November sowings.",
+            "humid_subtropical": "Winter rye sown in November; vigorous spring growth."
+          },
+          "notes": "Winter rye phase: overwintering cover crop scavenges N and suppresses winter weeds. Roll-kill in spring for no-till mulch."
+        }
+      ],
+      "source": "USDA-NRCS Cover Crop Chart; SARE Cover Crops field guide"
+    },
+    {
+      "slug": "clover-tomato-vetch-relay",
+      "primaryCrop": "crimson-clover",
+      "category": "cover-crop-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "crimson-clover",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -210,
+          "endRelativeToFrost": -120,
+          "climateNotes": {
+            "continental": "Crimson clover sown in September; overwinters under mulch.",
+            "maritime": "September sowings establish for spring N supply.",
+            "humid_subtropical": "Crimson clover overwinters reliably; fall sowings for spring N transfer."
+          },
+          "notes": "Fall crimson clover phase: prior-year cover crop establishes for spring N fixation. Mow at first bloom and roll-kill in place before transplant."
+        },
+        {
+          "phase": 2,
+          "crop": "tomato",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 35,
+          "climateNotes": {
+            "continental": "Transplant tomato into roll-killed clover mulch; reduced fertilizer needs from clover N.",
+            "maritime": "Tomato transplant into clover mulch; benefits from moisture retention.",
+            "humid_subtropical": "Spring tomato transplant into clover mulch."
+          },
+          "notes": "Summer tomato phase: warm-season crop benefits from N fixed by clover and mulch suppression of weeds."
+        },
+        {
+          "phase": 3,
+          "crop": "hairy-vetch",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 100,
+          "endRelativeToFrost": 130,
+          "climateNotes": {
+            "continental": "Hairy vetch sown at tomato harvest end; overwinters for next-season N supply.",
+            "maritime": "Hairy vetch through November sowings.",
+            "humid_subtropical": "Hairy vetch overwinters reliably; sow in October."
+          },
+          "notes": "Hairy vetch phase: winter N-fixing cover crop after summer crop; rolls down for next-year mulch."
+        }
+      ],
+      "source": "USDA-ARS rolled cover crop research; SARE Cover Crops field guide"
+    },
+    {
+      "slug": "pea-oats-summer-rye",
+      "primaryCrop": "field-pea",
+      "category": "cover-crop-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "field-pea",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -28,
+          "endRelativeToFrost": -14,
+          "climateNotes": {
+            "continental": "Field pea and oats co-seeded in early spring; oats nurses pea establishment.",
+            "maritime": "Spring pea-oat mix from February sowings."
+          },
+          "notes": "Spring pea-oats phase: co-seeded for N fixation plus biomass. Mow at pea bloom for highest biomass."
+        },
+        {
+          "phase": 2,
+          "crop": "buckwheat",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 35,
+          "endRelativeToFrost": 70,
+          "notes": "Summer buckwheat phase: fast warm-season cover; pollinator habitat. Buckwheat fills summer gap; fast biomass and pollinator habitat."
+        },
+        {
+          "phase": 3,
+          "crop": "winter-rye",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 90,
+          "endRelativeToFrost": 130,
+          "notes": "Winter rye phase: scavenges residual N from prior cover crops; roll-kill in spring for no-till mulch."
+        }
+      ],
+      "source": "USDA-NRCS Cover Crop Chart; Penn State Extension"
+    },
+    {
+      "slug": "vetch-corn-rye-relay",
+      "primaryCrop": "hairy-vetch",
+      "category": "cover-crop-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "hairy-vetch",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -210,
+          "endRelativeToFrost": -120,
+          "climateNotes": {
+            "continental": "Hairy vetch sown in September; overwinters for spring N supply.",
+            "maritime": "September-October sowings.",
+            "humid_subtropical": "Hairy vetch sown in October; reliable overwintering."
+          },
+          "notes": "Fall vetch phase: prior-year cover crop establishes for spring N supply to corn."
+        },
+        {
+          "phase": 2,
+          "crop": "corn-dent",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 0,
+          "endRelativeToFrost": 28,
+          "climateNotes": {
+            "continental": "Corn no-till planted into roll-killed vetch mulch; reduced N fertilizer needs.",
+            "humid_subtropical": "Spring corn into vetch mulch."
+          },
+          "notes": "Summer corn phase: heavy nitrogen feeder benefits from vetch N supply. Roll-kill vetch at bloom for no-till mulch."
+        },
+        {
+          "phase": 3,
+          "crop": "winter-rye",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 105,
+          "endRelativeToFrost": 140,
+          "notes": "Winter rye phase: scavenges residual N from corn season; roll-kill in spring for next-year mulch."
+        }
+      ],
+      "source": "USDA-ARS rolled cover crop research"
+    },
+    {
+      "slug": "rye-soybean-rye-relay",
+      "primaryCrop": "winter-rye",
+      "category": "cover-crop-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "winter-rye",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -210,
+          "endRelativeToFrost": -150,
+          "climateNotes": {
+            "continental": "Winter rye sown in September-October for full establishment."
+          },
+          "notes": "Fall rye phase: prior-year overwintering cover crop scavenges N and suppresses weeds."
+        },
+        {
+          "phase": 2,
+          "crop": "soybean",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 35,
+          "climateNotes": {
+            "continental": "Soybean no-till into roll-killed rye mulch.",
+            "humid_subtropical": "Spring soybean planting after rye termination."
+          },
+          "notes": "Summer soybean phase: legume contribution returns N to soil after rye scavenge."
+        },
+        {
+          "phase": 3,
+          "crop": "winter-rye",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 120,
+          "endRelativeToFrost": 150,
+          "notes": "Next-year rye phase: scavenges N from soybean residue; sets up the next corn rotation."
+        }
+      ],
+      "source": "USDA-NRCS Cover Crop Chart; Iowa State Extension"
+    },
+    {
+      "slug": "sorghum-sudan-cowpea-rye",
+      "primaryCrop": "sorghum-sudan",
+      "category": "cover-crop-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "sorghum-sudan",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 42,
+          "climateNotes": {
+            "continental": "Sorghum-sudan after last frost for summer biomass.",
+            "humid_subtropical": "Primary summer cover crop in southern US; heavy biomass."
+          },
+          "notes": "Summer sorghum-sudan phase: warm-season grass for heavy biomass and soil-building."
+        },
+        {
+          "phase": 2,
+          "crop": "cowpea-cover",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 42,
+          "notes": "Summer cowpea companion phase: N fixation pairs with sorghum-sudan biomass. Co-seed cowpea with sorghum-sudan for the N-fixing companion."
+        },
+        {
+          "phase": 3,
+          "crop": "winter-rye",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 100,
+          "endRelativeToFrost": 140,
+          "notes": "Winter rye phase: overwintering cover crop scavenges N from summer cover residue."
+        }
+      ],
+      "source": "USDA-NRCS Cover Crop Chart; SARE Cover Crops field guide"
+    },
+    {
+      "slug": "buckwheat-brassica-cover",
+      "primaryCrop": "buckwheat",
+      "category": "cover-crop-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "buckwheat",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 28,
+          "endRelativeToFrost": 56,
+          "notes": "Summer buckwheat phase: fills bed gap between spring and fall plantings. Buckwheat for fast 6-week summer biomass and pollinator habitat."
+        },
+        {
+          "phase": 2,
+          "crop": "mustard-cover",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 90,
+          "endRelativeToFrost": 130,
+          "climateNotes": {
+            "continental": "Mustard cover after buckwheat mow-down; biofumigation effects after incorporation.",
+            "maritime": "Mustard cover establishes through fall."
+          },
+          "notes": "Fall mustard cover phase: biofumigant for nematode and soilborne disease suppression."
+        }
+      ],
+      "source": "USDA-NRCS Cover Crop Chart; SARE Cover Crops field guide"
+    },
+    {
+      "slug": "daikon-mustard-radish-cover",
+      "primaryCrop": "daikon-cover",
+      "category": "cover-crop-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "daikon-cover",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 70,
+          "endRelativeToFrost": 105,
+          "climateNotes": {
+            "continental": "Daikon cover crop for soil-busting biological subsoiling.",
+            "maritime": "Daikon establishes through fall; deep taproot opens compacted soil."
+          },
+          "notes": "Daikon cover phase: deep tap-root opens compacted subsoil; winter-kills in cold zones leaving channels."
+        },
+        {
+          "phase": 2,
+          "crop": "mustard-cover",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 70,
+          "endRelativeToFrost": 105,
+          "notes": "Mustard cover companion phase: biofumigant effects after winter kill or incorporation. Co-seed mustard with daikon for combined biofumigation and soil-busting."
+        }
+      ],
+      "source": "USDA-NRCS Cover Crop Chart; SARE Cover Crops field guide"
+    },
+    {
+      "slug": "sun-hemp-summer-cover",
+      "primaryCrop": "sunn-hemp",
+      "category": "cover-crop-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "sunn-hemp",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 42,
+          "climateNotes": {
+            "humid_subtropical": "Sunn hemp tolerates heat; fixes 50-150 lb N/acre in 8-12 weeks."
+          },
+          "notes": "Summer sunn hemp phase: heat-loving N-fixer; suppresses nematodes when incorporated."
+        }
+      ],
+      "source": "USDA-NRCS Cover Crop Chart; UF/IFAS Extension"
+    },
+    {
+      "slug": "phacelia-cover",
+      "primaryCrop": "phacelia",
+      "category": "cover-crop-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "phacelia",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -7,
+          "endRelativeToFrost": 35,
+          "climateNotes": {
+            "continental": "Phacelia for spring pollinator habitat plus biomass; 6-week cycle.",
+            "maritime": "Phacelia establishes through cool spring; pollinator beacon for fruit crops."
+          },
+          "notes": "Spring phacelia phase: fast-cycle cover crop for pollinator habitat between cash crops."
+        }
+      ],
+      "source": "USDA-NRCS Cover Crop Chart; Xerces Society"
+    },
+    {
+      "slug": "subterranean-clover-cover",
+      "primaryCrop": "subterranean-clover",
+      "category": "cover-crop-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "subterranean-clover",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -120,
+          "endRelativeToFrost": -60,
+          "climateNotes": {
+            "mediterranean": "Self-seeding annual legume; fall sowings establish for spring N fixation.",
+            "maritime": "Mild winter establishment; reseeds annually under suitable management."
+          },
+          "notes": "Fall subterranean clover phase: self-seeding annual cover; persists through annual cycles in Mediterranean and maritime climates."
+        }
+      ],
+      "source": "USDA-NRCS; UC ANR"
+    },
+    {
+      "slug": "lacy-phacelia-pollinator-cover",
+      "primaryCrop": "lacy-phacelia",
+      "category": "cover-crop-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "lacy-phacelia",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -7,
+          "endRelativeToFrost": 35,
+          "notes": "Spring lacy-phacelia phase: extended-bloom cultivar for pollinator habitat between cash crops. Lacy phacelia for spring pollinator habitat and beneficial-insect support."
+        }
+      ],
+      "source": "Xerces Society"
+    },
+    {
+      "slug": "berseem-clover-cover",
+      "primaryCrop": "berseem-clover",
+      "category": "cover-crop-relay",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "berseem-clover",
+          "sowMethod": "direct_sow",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -7,
+          "endRelativeToFrost": 35,
+          "climateNotes": {
+            "continental": "Spring berseem clover with oats nurse; 6-8 week cycle.",
+            "maritime": "Spring berseem from March sowings."
+          },
+          "notes": "Spring berseem clover phase: dryland N-fixing legume; pairs well with oats."
+        }
+      ],
+      "source": "USDA-NRCS Cover Crop Chart"
+    },
+    {
+      "slug": "strawberry-renovation-cycle",
+      "primaryCrop": "strawberry",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "strawberry",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 14,
+          "climateNotes": {
+            "maritime": "Spring transplants for first-year establishment; harvest second year.",
+            "continental": "Spring transplants; remove first-year flowers for stronger plants."
+          },
+          "notes": "Establishment year phase: first-year strawberry transplants; remove blossoms for plant strength."
+        },
+        {
+          "phase": 2,
+          "crop": "strawberry",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 90,
+          "notes": "Production year phase: full berry harvest from established plants; renovate after harvest by cutting plants to 1 inch. Second-year mature plants produce full crop in May-June."
+        },
+        {
+          "phase": 3,
+          "crop": "strawberry",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 90,
+          "endRelativeToFrost": 140,
+          "notes": "Renovation phase: post-harvest mowing and fertilization preserves the matted-row stand for the next year's crop. Cycles for 3-4 years before replanting. Renovation phase: mow plants, fertilize, thin runners to maintain stand density."
+        }
+      ],
+      "source": "OSU Extension; Cornell Cooperative Extension"
+    },
+    {
+      "slug": "raspberry-summer-fall-overlap",
+      "primaryCrop": "raspberry",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "raspberry",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 14,
+          "climateNotes": {
+            "maritime": "Floricane-fruiting summer raspberries (Boyne, Latham) harvest June-July.",
+            "continental": "Summer-bearing harvest in late June through July."
+          },
+          "notes": "Summer-bearing floricane phase: floricane (second-year cane) production. Prune out floricanes after fruiting."
+        },
+        {
+          "phase": 2,
+          "crop": "raspberry-heritage",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 90,
+          "endRelativeToFrost": 175,
+          "climateNotes": {
+            "maritime": "Primocane-fruiting fall raspberries (Heritage, Caroline) harvest August-October.",
+            "continental": "Fall-bearing primocane harvest September-October.",
+            "humid_subtropical": "Fall primocane raspberry extends harvest through November."
+          },
+          "notes": "Fall-bearing primocane phase: first-year cane production extends raspberry season. Mow all canes to ground in winter for primocane-only production."
+        }
+      ],
+      "source": "OSU Extension berry crops; Cornell Cooperative Extension"
+    },
+    {
+      "slug": "blueberry-cultivar-spread",
+      "primaryCrop": "blueberry",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "blueberry-duke",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 14,
+          "climateNotes": {
+            "continental": "Duke harvests early in the season; pair with mid and late cultivars.",
+            "maritime": "Duke is the early northern highbush cultivar; harvest late June through early July."
+          },
+          "notes": "Early blueberry phase: Duke and other early-season cultivars (Bluetta, Northland) start the harvest."
+        },
+        {
+          "phase": 2,
+          "crop": "blueberry-bluecrop",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 56,
+          "notes": "Mid-season blueberry phase: Bluecrop, Patriot, Jersey extend the harvest. Bluecrop is the standard mid-season cultivar; harvest mid-July through August."
+        },
+        {
+          "phase": 3,
+          "crop": "blueberry-elliott",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 56,
+          "endRelativeToFrost": 105,
+          "notes": "Late blueberry phase: Elliott extends harvest into fall; pair with early and mid cultivars for 8-10 week harvest window. Elliott is the late northern highbush cultivar; harvest late August through September."
+        }
+      ],
+      "source": "OSU Extension berry crops; Cornell Cooperative Extension"
+    },
+    {
+      "slug": "everbearing-strawberry",
+      "primaryCrop": "strawberry-everbearing",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "strawberry-everbearing",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 14,
+          "climateNotes": {
+            "maritime": "Cool maritime climate suits everbearing strawberries; harvest through October.",
+            "continental": "Spring transplants for June and September harvests.",
+            "humid_subtropical": "Day-neutral cultivars produce best in spring and fall windows."
+          },
+          "notes": "Single planting phase: everbearing cultivars (Albion, Seascape, Tristar) fruit in spring and fall flushes from one planting."
+        }
+      ],
+      "source": "OSU Extension berry crops"
+    },
+    {
+      "slug": "rhubarb-spring-summer-harvest",
+      "primaryCrop": "rhubarb",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "rhubarb",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -28,
+          "endRelativeToFrost": 0,
+          "climateNotes": {
+            "maritime": "Cool maritime climate ideal for rhubarb; harvest April through July.",
+            "continental": "Crown divisions for spring harvest; perennial that produces for 10+ years.",
+            "humid_subtropical": "Marginal in hot southern climates; choose shaded site."
+          },
+          "notes": "Single planting phase: rhubarb is a long-lived perennial; one planting harvested every spring for 10+ years. Do not harvest first year."
+        }
+      ],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "asparagus-spring-harvest",
+      "primaryCrop": "asparagus",
+      "category": "continuous-harvest",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "asparagus",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 14,
+          "climateNotes": {
+            "maritime": "Spring crown plantings establish for harvest 3 years later; perennial 15+ years.",
+            "continental": "Asparagus is the longest-lived vegetable perennial; spring crown plantings.",
+            "humid_subtropical": "Mild winters favor early spring spear production; harvest March-April."
+          },
+          "notes": "Single establishment phase: asparagus crowns establish the bed for 15-20 years of spring spear harvest. Wait 2-3 years for first full harvest."
+        }
+      ],
+      "source": "Cornell Cooperative Extension; OSU Extension"
+    },
+    {
+      "slug": "mint-herb-cycle",
+      "primaryCrop": "mint-spear",
+      "category": "herb-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "mint-spear",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 0,
+          "notes": "Single planting phase: spearmint perennial; one planting in containers produces continuous fresh herb for years. Mint is a long-lived perennial; one planting produces for decades. Contain spread."
+        }
+      ],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "oregano-thyme-perennial",
+      "primaryCrop": "oregano",
+      "category": "herb-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "oregano",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 14,
+          "notes": "Spring oregano phase: perennial herb produces continuously through summer and into fall. Cut back hard at season end. Oregano is a perennial herb; one planting produces for 5+ years. Divide every 3-4 years for continued vigor."
+        },
+        {
+          "phase": 2,
+          "crop": "thyme",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 14,
+          "notes": "Thyme companion phase: perennial herb co-planted with oregano in a shared bed for kitchen-garden harvests."
+        }
+      ],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "chive-perennial-harvest",
+      "primaryCrop": "chive",
+      "category": "herb-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "chive",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 0,
+          "notes": "Single planting phase: chive perennial clump; divide every 3-4 years for renewed vigor. Chive perennial clump; one planting produces continuous spring through fall harvest for 5+ years."
+        }
+      ],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "lemon-balm-perennial",
+      "primaryCrop": "lemon-balm",
+      "category": "herb-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "lemon-balm",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 0,
+          "notes": "Single planting phase: lemon balm perennial herb; continuous harvest with deadheading to prevent self-seeding. Lemon balm spreads aggressively by rhizome; contain in a bed corner or in a buried container."
+        }
+      ],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "sage-perennial",
+      "primaryCrop": "sage",
+      "category": "herb-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "sage",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": -14,
+          "endRelativeToFrost": 0,
+          "notes": "Single planting phase: sage perennial; replace every 4-5 years as plants become woody and unproductive. Sage perennial herb; one planting produces for 4-5 years before woody renewal."
+        }
+      ],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "lemon-verbena-tender-perennial",
+      "primaryCrop": "lemon-verbena",
+      "category": "herb-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "lemon-verbena",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 35,
+          "climateNotes": {
+            "humid_subtropical": "Lemon verbena is a tender perennial in zones 9+; overwinters in southern gardens.",
+            "continental": "Grow in pots and overwinter indoors in cold zones."
+          },
+          "notes": "Spring lemon verbena phase: tender perennial in warm climates; treat as annual or pot for overwintering in cold zones."
+        }
+      ],
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "tulsi-rama-succession",
+      "primaryCrop": "tulsi-rama",
+      "category": "herb-succession",
+      "chains": [
+        {
+          "phase": 1,
+          "crop": "tulsi-rama",
+          "sowMethod": "transplant",
+          "intervalWeeks": null,
+          "startRelativeToFrost": 14,
+          "endRelativeToFrost": 35,
+          "climateNotes": {
+            "humid_subtropical": "Tulsi (holy basil) thrives in southern heat; primary medicinal-herb season.",
+            "continental": "Tender annual in cold zones; transplant after last frost.",
+            "arid": "Heat-tolerant; produces continuously through hot summers."
+          },
+          "notes": "Single planting phase: Rama tulsi (Ocimum sanctum) for medicinal leaf harvest. Pinch flowering tips to extend leaf production."
+        }
+      ],
+      "source": "ICAR-Indian Institute of Spices Research"
     }
   ]
 }
