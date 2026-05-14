@@ -14,6 +14,11 @@ import {
   buildPestDetailCommand,
   buildPestsCommand,
 } from "./commands/pest-disease.js";
+import {
+  buildBeneficialCommand,
+  buildBeneficialsCommand,
+  buildPestIntelCommand,
+} from "./commands/beneficials.js";
 import { buildSuccessionCommand } from "./commands/succession.js";
 import { buildPlantingCommand, buildZoneCommand } from "./commands/zone.js";
 
@@ -22,9 +27,9 @@ const program = new Command();
 program
   .name("cropgraph")
   .description(
-    "CropGraph CLI: USDA hardiness zones, frost dates, climate-aware planting plans, 5,006-crop calendar, 1,004 companion relationships, 12 rotation families, 102 succession chains, and 506 pest/disease associations.",
+    "CropGraph CLI: USDA hardiness zones, frost dates, climate-aware planting plans, 5,006-crop calendar, 1,004 companion relationships, 12 rotation families, 102 succession chains, 506 pest/disease associations, and 200 beneficial insects with composite pest intelligence.",
   )
-  .version("3.1.0");
+  .version("3.2.0");
 
 program.addCommand(buildZoneCommand());
 program.addCommand(buildPlantingCommand());
@@ -38,6 +43,9 @@ program.addCommand(buildRotationCheckCommand());
 program.addCommand(buildSuccessionCommand());
 program.addCommand(buildPestsCommand());
 program.addCommand(buildPestDetailCommand());
+program.addCommand(buildPestIntelCommand());
+program.addCommand(buildBeneficialCommand());
+program.addCommand(buildBeneficialsCommand());
 program.addCommand(buildConfigCommand());
 
 program.parseAsync(process.argv).catch((err: unknown) => {

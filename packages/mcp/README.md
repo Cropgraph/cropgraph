@@ -1,10 +1,11 @@
 # @cropgraph/mcp
 
-Model Context Protocol server for garden planning. Fourteen tools backed by
+Model Context Protocol server for garden planning. Eighteen tools backed by
 the curated CropGraph datasets (5,006 crops across 14 categories, 1,004
 companion relationships, 12 rotation families, 102 succession planting
-chains, 506 pest/disease associations, 120 growing degree day models, USDA
-hardiness zones, climate types). Runs over stdio. No API key, no network.
+chains, 506 pest/disease associations, 200 beneficial insects with composite
+pest intelligence, 120 growing degree day models, USDA hardiness zones,
+climate types). Runs over stdio. No API key, no network.
 
 ## Install / run
 
@@ -30,7 +31,7 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json`
 }
 ```
 
-Restart Claude Desktop. The fourteen tools will appear in the connector list.
+Restart Claude Desktop. The eighteen tools will appear in the connector list.
 
 ## Cursor
 
@@ -65,6 +66,10 @@ Add to `~/.cursor/mcp.json`:
 | `get_succession_plan` | Same chain resolved to concrete ISO dates for a zone (climate-aware, with per-phase sowing date lists). |
 | `get_crop_pests` | Pests and diseases for a crop, sorted by severity, with diagnostic symptoms, organic management, prevention, regions, and citations. |
 | `get_pest_detail` | Full record for one pest or disease across every crop it touches. |
+| `get_pest_intelligence` | Composite "now what?" report after a pest is identified: severity verdict, immediate action, companion deterrents, beneficial predators with wait-before-spraying guidance, friend-or-foe lookalikes, crop-specific symptoms when plant is supplied. |
+| `get_beneficial_insect` | Full detail for one beneficial insect or microbial control: identification, garden role, habitat needs, attractor plants, crops protected via prey relationships. |
+| `list_beneficials` | Browse the 200-entry beneficial insects catalog or filter by category (predator, parasitoid, pollinator, decomposer, microbial-control). |
+| `get_verdict` | Friend-or-foe classifier for any insect slug. Returns friend, foe, nuisance, cosmetic, or neutral. |
 
 All tools are read-only and offline. Schemas describe each input field
 in detail so an LLM can call them without external docs.

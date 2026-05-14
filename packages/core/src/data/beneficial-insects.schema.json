@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Cropgraph/cropgraph/blob/main/packages/core/src/data/beneficial-insects.schema.json",
+  "title": "CropGraph Beneficial Insects",
+  "description": "The fifth edge layer of the CropGraph: beneficial insects, microbes, and friend-not-foe invertebrates, with prey relationships to pest slugs, attractant relationships to plant slugs, and friend-or-foe identification context. Each entry is written for a gardener with a hand lens. `preyOn` references pest slugs validated against pest-disease.json at load time. `attractedBy` references plant slugs validated against crop-calendar.json at load time. `confusedWith` references either another beneficial slug or a pest slug, so the loader cross-references both fixtures.\n\nCategories: `predator` (active hunters, both adult and larval stages), `parasitoid` (insects that develop inside or attached to a host, killing it), `pollinator` (bees, butterflies, moths, syrphid adults, beetle pollinators), `decomposer` (earthworms, dung beetles, pill bugs, soil arthropods that recycle organic matter), and `microbial-control` (nematodes, Bt strains, entomopathogenic fungi, biofungicides; a slight category misnomer but coherent for downstream consumption).\n\nEvidence grounding: Xerces Society for Invertebrate Conservation, Cornell Cooperative Extension biocontrol fact sheets, UC IPM Online Natural Enemies Gallery, UF/IFAS Featured Creatures, Penn State Extension, USDA-ARS Beneficial Insects Research Unit. Identification tips prioritize visual recognition (color, shape, size, behavior) over taxonomy.",
+  "type": "object",
+  "required": ["version", "source", "license", "entries"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Schema version. Bump on breaking changes only."
+    },
+    "source": {
+      "type": "string",
+      "description": "Provenance / curation block for the whole fixture."
+    },
+    "license": {
+      "type": "string",
+      "description": "License under which the data is redistributed (e.g. CC-BY-4.0)."
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date of the last hand-curation pass."
+    },
+    "entries": {
+      "type": "array",
+      "description": "Beneficial entries. Order is not significant; helpers index by slug, category, prey pest slug, and attracted plant slug at load time.",
+      "items": { "$ref": "#/$defs/Entry" }
+    }
+  },
+  "$defs": {
+    "Entry": {
+      "type": "object",
+      "required": ["slug", "commonName", "scientificName", "category", "preyOn", "attractedBy", "habitatNeeds", "gardenRole", "identificationTips", "seasonalPresence", "regions", "source"],
+      "additionalProperties": false,
+      "properties": {
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]{1,60}$",
+          "description": "Kebab-case identifier for the beneficial. Unique within the fixture; forms its own namespace alongside crop and pest slugs."
+        },
+        "commonName": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 80,
+          "description": "Display name for the gardener. Title-case."
+        },
+        "scientificName": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 120,
+          "description": "Binomial or higher-rank Latin name. Genus capitalized; species lowercase; italicization handled at presentation time."
+        },
+        "category": {
+          "type": "string",
+          "enum": ["predator", "parasitoid", "pollinator", "decomposer", "microbial-control"],
+          "description": "Functional grouping. Several entries straddle categories (adult hover flies are pollinators while larvae are predators); the category here is the dominant functional role for the listed slug."
+        },
+        "preyOn": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^[a-z][a-z0-9-]{1,60}$" },
+          "description": "Pest or disease slugs this beneficial preys on, parasitizes, or otherwise suppresses. Validated against pest-disease.json at load time. Empty for pollinators and decomposers without a predation role."
+        },
+        "attractedBy": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^[a-z][a-z0-9-]{1,40}$" },
+          "description": "Plant slugs that attract or support this beneficial through nectar, pollen, structural habitat, or host relationships. Validated against crop-calendar.json at load time."
+        },
+        "habitatNeeds": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 500,
+          "description": "Practical habitat requirements: nesting sites, overwintering needs, moisture, temperature window, pesticide sensitivities. Actionable for the gardener."
+        },
+        "gardenRole": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 600,
+          "description": "What this beneficial actually does in a garden, why it matters, and the quantitative scale of its effect when known (e.g. 'one larva eats 200-400 aphids before pupating')."
+        },
+        "identificationTips": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 600,
+          "description": "Visual recognition cues: color, shape, size, distinctive markings, behavior. Written for a gardener with a hand lens. Concrete and specific."
+        },
+        "confusedWith": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]{1,60}$",
+          "description": "Slug of another beneficial OR a pest that this beneficial is commonly confused with. Loader validates the reference exists in either beneficial-insects.json or pest-disease.json."
+        },
+        "confusionNote": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 500,
+          "description": "How to tell the two apart in the field. Diagnostic distinguishing features and behavior."
+        },
+        "seasonalPresence": {
+          "type": "object",
+          "required": ["active", "dormant"],
+          "additionalProperties": false,
+          "properties": {
+            "active": {
+              "type": "array",
+              "items": { "type": "string", "enum": ["spring", "summer", "fall", "winter"] },
+              "description": "Seasons when the beneficial is active above ground or otherwise functional in the garden."
+            },
+            "dormant": {
+              "type": "array",
+              "items": { "type": "string", "enum": ["spring", "summer", "fall", "winter"] },
+              "description": "Seasons when the beneficial is dormant, overwintering, or otherwise absent."
+            }
+          },
+          "description": "Activity pattern across the four temperate seasons. Some entries are active year-round (greenhouse releases, soil microbes); their `dormant` array is empty."
+        },
+        "regions": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 2, "maxLength": 40 },
+          "description": "Where the beneficial is significant or common. `all` for ubiquitous beneficials; otherwise informal region labels (`pacific_northwest`, `eastern_north_america`, `midwest`, `south_central`, `southeast`, `southwest`, `mountain_west`, `arid`, `semi_arid`, `northern_us`, `canada`, `mild_winter`, `greenhouse`)."
+        },
+        "source": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 300,
+          "description": "Citation, extension service, or research publication. Multiple sources separated by semicolons."
+        }
+      }
+    }
+  }
+}

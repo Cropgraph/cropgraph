@@ -11,9 +11,9 @@ and disease management, USDA hardiness zones, and climate classification.
 
 | Package | What |
 |---------|------|
-| [`@cropgraph/core`](./packages/core) | Crop calendar (5,006 entries across 14 categories), 1,004 companion relationships, rotation families, succession chains, pest/disease associations, 120 growing degree day models, USDA zones, climate types. Pure TypeScript, offline. |
-| [`@cropgraph/mcp`](./packages/mcp) | Model Context Protocol server (stdio). Fourteen garden-planning tools for AI agents. |
-| [`cropgraph`](./packages/cli) | Command-line interface. Subcommands for zones, planting, crop lookup, companions, rotation, succession, pests, and pest-detail. |
+| [`@cropgraph/core`](./packages/core) | Crop calendar (5,006 entries across 14 categories), 1,004 companion relationships, rotation families, succession chains, pest/disease associations, 200 beneficial insects across 5 categories with composite pest intelligence, 120 growing degree day models, USDA zones, climate types. Pure TypeScript, offline. |
+| [`@cropgraph/mcp`](./packages/mcp) | Model Context Protocol server (stdio). Eighteen garden-planning tools for AI agents. |
+| [`cropgraph`](./packages/cli) | Command-line interface. Subcommands for zones, planting, crop lookup, companions, rotation, succession, pests, pest-detail, pest-intel, beneficials. |
 
 ## Quick start
 
@@ -33,6 +33,8 @@ npx cropgraph companions tomato
 npx cropgraph planting --zone 8b --climate maritime
 npx cropgraph succession lettuce --zone 8b --climate maritime
 npx cropgraph pests tomato
+npx cropgraph pest-intel tomato-hornworm --plant tomato
+npx cropgraph beneficial seven-spotted-ladybug
 ```
 
 ### Library
@@ -65,6 +67,7 @@ getSuccessionPlan({ slug: "lettuce-leaf", zone, climateType: "maritime" });
 | Rotation families | 12 | Nightshades, brassicas, cucurbits, alliums, legumes, umbellifers, grasses, amaranthaceae, composites, mints, malvaceae, miscellaneous. Every calendar slug mapped. |
 | Succession chains | 33 | Greens, roots, legumes, brassicas, cucurbits, herbs, flowers, cover crops. Frost-anchored phases with per-climate notes. |
 | Pest/disease associations | 506 | Crop-to-pest edges with diagnostic symptoms, organic management, prevention, and regions. OMRI-listed management only. |
+| Beneficial insects | 200 entries | Predators (62), parasitoids (40), pollinators (50), decomposers (29), microbial controls (22). Prey and attractant cross-references; composite "now what?" intelligence layer with hand-authored notes for the top 40 pest slugs. |
 | USDA hardiness zones | 40,283 ZIPs | PRISM 2023 + waldoj/frostline centroids, offline lookup |
 | Climate classifier | 6 types | Maritime, mediterranean, continental, humid subtropical, arid, semi-arid |
 

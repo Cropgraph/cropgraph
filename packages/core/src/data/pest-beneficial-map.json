@@ -1,0 +1,1241 @@
+{
+  "version": "1",
+  "source": "Derived from beneficial-insects.json by inverting preyOn relationships. Notes for the top-priority pests are hand-authored to surface the wait-before-spraying moment; remaining entries carry a templated note that names the categories of natural enemies present.",
+  "license": "CC-BY-4.0",
+  "lastUpdated": "2026-05-14",
+  "entries": [
+    {
+      "pest": "anthracnose",
+      "predators": [],
+      "parasitoids": [],
+      "microbials": [
+        "bacillus-amyloliquefaciens"
+      ],
+      "note": "Tracked natural enemies: microbial controls (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "aphid-cabbage",
+      "predators": [
+        "ant-lion-larva",
+        "asian-lady-beetle",
+        "big-eyed-bug",
+        "brown-lacewing",
+        "carabid-bembidion",
+        "convergent-ladybug",
+        "convergent-snakefly-agulla",
+        "damsel-bug",
+        "green-lacewing-adult",
+        "green-lacewing-larva",
+        "hover-fly-larva",
+        "jumping-spider-bold",
+        "long-legged-fly",
+        "minute-pirate-bug",
+        "pink-spotted-lady-beetle",
+        "predatory-midge-aphidoletes",
+        "scorpionfly",
+        "seven-spotted-ladybug",
+        "snakefly",
+        "soldier-beetle-pennsylvania",
+        "zelus-assassin-bug"
+      ],
+      "parasitoids": [
+        "braconid-wasp-aphidius-colemani",
+        "braconid-wasp-aphidius-ervi",
+        "braconid-wasp-diaeretiella-rapae"
+      ],
+      "microbials": [
+        "azadirachta-neem-source",
+        "beauveria-bassiana",
+        "isaria-fumosorosea",
+        "lecanicillium-muscarium"
+      ],
+      "note": "Wait 3-5 days before spraying. Look for ladybug larvae, lacewing eggs (white stalked threads under leaves), and dark mummified aphids: the parasitoid wasps and predator population is already responding. A soap spray now will reset the predator population back to zero alongside the aphids."
+    },
+    {
+      "pest": "aphid-green-peach",
+      "predators": [
+        "asian-lady-beetle",
+        "big-eyed-bug",
+        "brown-lacewing",
+        "convergent-ladybug",
+        "convergent-snakefly-agulla",
+        "damsel-bug",
+        "green-lacewing-adult",
+        "green-lacewing-larva",
+        "hover-fly-larva",
+        "jumping-spider-bold",
+        "minute-pirate-bug",
+        "pink-spotted-lady-beetle",
+        "predatory-midge-aphidoletes",
+        "seven-spotted-ladybug",
+        "snakefly",
+        "soldier-beetle-pennsylvania",
+        "tiger-beetle",
+        "zelus-assassin-bug"
+      ],
+      "parasitoids": [
+        "braconid-wasp-aphidius-colemani",
+        "braconid-wasp-lysiphlebus-testaceipes",
+        "ophyra-pupal-parasitoid"
+      ],
+      "microbials": [
+        "azadirachta-neem-source",
+        "beauveria-bassiana",
+        "lecanicillium-muscarium"
+      ],
+      "note": "The single most natural-enemy-rich aphid in vegetable gardens. Aphidius colemani, syrphid larvae, ladybug larvae, and lacewing larvae all hit this species hard. Hold off on broad-spectrum sprays; a targeted spot wash with water is enough while predators build up."
+    },
+    {
+      "pest": "aphid-lettuce",
+      "predators": [
+        "asian-lady-beetle",
+        "brown-lacewing",
+        "convergent-ladybug",
+        "green-lacewing-adult",
+        "green-lacewing-larva",
+        "hover-fly-larva",
+        "pink-spotted-lady-beetle",
+        "predatory-midge-aphidoletes",
+        "seven-spotted-ladybug"
+      ],
+      "parasitoids": [
+        "braconid-wasp-aphidius-colemani",
+        "braconid-wasp-aphidius-ervi",
+        "ophyra-pupal-parasitoid"
+      ],
+      "microbials": [],
+      "note": "Aphidius wasps and hover fly larvae specialize on lettuce aphid. Inspect for parasitoid mummies (swollen tan aphids stuck in place) before spraying."
+    },
+    {
+      "pest": "asian-citrus-psyllid",
+      "predators": [],
+      "parasitoids": [
+        "psyllaephagus-pilosus"
+      ],
+      "microbials": [],
+      "note": "Tracked natural enemies: parasitoids (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "asparagus-aphid",
+      "predators": [
+        "asian-lady-beetle",
+        "green-lacewing-larva",
+        "hover-fly-larva",
+        "seven-spotted-ladybug"
+      ],
+      "parasitoids": [],
+      "microbials": [],
+      "note": "Generalist aphid predators (ladybug larvae, lacewing larvae, hover fly larvae) provide the natural-enemy response. Avoid broad-spectrum sprays on asparagus ferns."
+    },
+    {
+      "pest": "black-cherry-aphid",
+      "predators": [
+        "seven-spotted-ladybug"
+      ],
+      "parasitoids": [],
+      "microbials": [],
+      "note": "Tracked natural enemies: predators (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "broad-mite",
+      "predators": [
+        "amblyseius-cucumeris",
+        "amblyseius-swirskii",
+        "spider-mite-destroyer"
+      ],
+      "parasitoids": [],
+      "microbials": [],
+      "note": "Tracked natural enemies: predators (3). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "cabbage-aphid",
+      "predators": [
+        "hover-fly-larva",
+        "predatory-stink-bug-zicrona",
+        "tiger-beetle"
+      ],
+      "parasitoids": [
+        "braconid-wasp-diaeretiella-rapae"
+      ],
+      "microbials": [],
+      "note": "Diaeretiella rapae parasitoid (black mummies) is specialist on brassica aphids. Mustard plantings adjacent to brassicas attract more parasitoids."
+    },
+    {
+      "pest": "cabbage-looper",
+      "predators": [
+        "carolina-praying-mantis",
+        "chinese-mantis",
+        "crab-spider-goldenrod",
+        "damsel-bug",
+        "fiery-searcher",
+        "garden-spider-yellow",
+        "harlequin-stink-bug-predator-stiretrus",
+        "jumping-spider-bold",
+        "paper-wasp-polistes",
+        "predatory-shield-bug-podisus",
+        "spined-soldier-bug",
+        "wheel-bug",
+        "wolf-spider",
+        "yellowjacket",
+        "zelus-assassin-bug"
+      ],
+      "parasitoids": [
+        "chalcid-wasp-brachymeria",
+        "ichneumon-wasp-ophion",
+        "ichneumon-wasp-pimpla",
+        "tachinid-fly-compsilura",
+        "tachinid-fly-voria",
+        "trichogramma-brassicae",
+        "trichogramma-minutum",
+        "trichogramma-pretiosum"
+      ],
+      "microbials": [
+        "azadirachta-neem-source",
+        "bt-aizawai",
+        "bt-kurstaki",
+        "spinosad-source-saccharopolyspora"
+      ],
+      "note": "Multiple parasitoids (Cotesia, Voria tachinid, Trichogramma) and predators (paper wasp, soldier bug, lacewing) work this pest hard. Scout for the parasitoid signs before spraying; Bt kurstaki or Bt aizawai if intervention is needed."
+    },
+    {
+      "pest": "cabbage-root-maggot",
+      "predators": [
+        "carabid-bembidion",
+        "ground-beetle-poecilus",
+        "ground-beetle-pterostichus",
+        "rove-beetle-aleochara",
+        "rove-beetle-staphylinid"
+      ],
+      "parasitoids": [
+        "spalangia-cameroni"
+      ],
+      "microbials": [
+        "ento-nematode-steinernema-feltiae"
+      ],
+      "note": "Aleochara rove beetle adults eat eggs; larvae parasitize pupae. Steinernema feltiae nematodes drench the soil drench for larval suppression. Floating row covers from transplant date are the single most effective intervention."
+    },
+    {
+      "pest": "cabbage-worm",
+      "predators": [
+        "damsel-bug",
+        "fiery-searcher",
+        "harlequin-stink-bug-predator-stiretrus",
+        "jumping-spider-bold",
+        "paper-wasp-polistes",
+        "predatory-shield-bug-podisus",
+        "spined-soldier-bug",
+        "wheel-bug",
+        "yellowjacket",
+        "zelus-assassin-bug"
+      ],
+      "parasitoids": [
+        "braconid-wasp-cotesia-glomerata",
+        "chalcid-wasp-brachymeria",
+        "ichneumon-wasp-pimpla",
+        "tachinid-fly-compsilura",
+        "tachinid-fly-voria"
+      ],
+      "microbials": [
+        "azadirachta-neem-source",
+        "bt-kurstaki"
+      ],
+      "note": "Look for yellow Cotesia glomerata pupal clusters on brassica leaves next to dying caterpillars; that is active biological control in progress. Bt kurstaki is the targeted control if you must spray; do not use broad-spectrum insecticide."
+    },
+    {
+      "pest": "carrot-rust-fly",
+      "predators": [],
+      "parasitoids": [],
+      "microbials": [
+        "ento-nematode-heterorhabditis-bacteriophora"
+      ],
+      "note": "Tracked natural enemies: microbial controls (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "codling-moth",
+      "predators": [],
+      "parasitoids": [
+        "ichneumon-wasp-pimpla"
+      ],
+      "microbials": [
+        "bt-kurstaki",
+        "ento-nematode-steinernema-carpocapsae",
+        "spinosad-source-saccharopolyspora"
+      ],
+      "note": "Trichogramma releases during peak moth flights, plus Steinernema carpocapsae nematode applications to bark, plus Granulosis virus sprays. Multi-spray seasons are typical in organic apple production."
+    },
+    {
+      "pest": "colorado-potato-beetle",
+      "predators": [
+        "harlequin-stink-bug-predator-stiretrus",
+        "predatory-shield-bug-podisus",
+        "spined-soldier-bug",
+        "two-spotted-stink-bug"
+      ],
+      "parasitoids": [
+        "edovum-puttleri",
+        "tachinid-fly-myiopharus"
+      ],
+      "microbials": [
+        "azadirachta-neem-source",
+        "beauveria-bassiana",
+        "bt-tenebrionis",
+        "ento-nematode-heterorhabditis-bacteriophora"
+      ],
+      "note": "Spined soldier bug, two-spotted stink bug, Myiopharus tachinid, and Beauveria bassiana fungus all target CPB larvae. Bt tenebrionis (Btt) is effective against small larvae only. Scout twice weekly during larval flushes."
+    },
+    {
+      "pest": "corn-earworm",
+      "predators": [
+        "fiery-searcher",
+        "minute-pirate-bug",
+        "pink-spotted-lady-beetle"
+      ],
+      "parasitoids": [
+        "habrobracon-hebetor",
+        "trichogramma-minutum",
+        "trichogramma-pretiosum"
+      ],
+      "microbials": [
+        "bt-kurstaki",
+        "spinosad-source-saccharopolyspora"
+      ],
+      "note": "Trichogramma egg parasitoids are the workhorse biocontrol. Habrobracon hebetor and pirate bug larvae attack early-instar larvae. Spray Bt onto silks weekly during peak moth flights if pressure warrants intervention."
+    },
+    {
+      "pest": "corn-rootworm",
+      "predators": [],
+      "parasitoids": [],
+      "microbials": [
+        "ento-nematode-heterorhabditis-bacteriophora"
+      ],
+      "note": "Tracked natural enemies: microbial controls (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "cucumber-beetle-spotted",
+      "predators": [
+        "robber-fly-laphria",
+        "soldier-beetle-pennsylvania"
+      ],
+      "parasitoids": [
+        "celatoria-setosa"
+      ],
+      "microbials": [],
+      "note": "Tracked natural enemies: predators (2), parasitoids (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "cucumber-beetle-striped",
+      "predators": [
+        "robber-fly-laphria",
+        "soldier-beetle-pennsylvania"
+      ],
+      "parasitoids": [
+        "celatoria-setosa"
+      ],
+      "microbials": [],
+      "note": "Tracked natural enemies: predators (2), parasitoids (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "cuteworm-variegated",
+      "predators": [
+        "centipede-common",
+        "ground-beetle-poecilus",
+        "ground-beetle-pterostichus",
+        "rove-beetle-staphylinid",
+        "wolf-spider"
+      ],
+      "parasitoids": [
+        "ichneumon-wasp-ophion"
+      ],
+      "microbials": [
+        "ento-nematode-steinernema-carpocapsae"
+      ],
+      "note": "Same as cutworm; entomopathogenic nematodes against larvae and ground beetle predation across the soil surface."
+    },
+    {
+      "pest": "cutworm",
+      "predators": [
+        "bombardier-beetle",
+        "centipede-common",
+        "ground-beetle-poecilus",
+        "ground-beetle-pterostichus",
+        "rove-beetle-staphylinid",
+        "wolf-spider"
+      ],
+      "parasitoids": [
+        "ichneumon-wasp-ophion"
+      ],
+      "microbials": [
+        "ento-nematode-steinernema-carpocapsae"
+      ],
+      "note": "Steinernema carpocapsae nematodes against larvae in the upper soil; ground beetles and rove beetles take cutworms at the soil surface. Plant on raised mulched beds to minimize cutworm contact with seedlings."
+    },
+    {
+      "pest": "damping-off",
+      "predators": [],
+      "parasitoids": [],
+      "microbials": [
+        "streptomyces-lydicus",
+        "trichoderma-harzianum",
+        "trichoderma-viride"
+      ],
+      "note": "Tracked natural enemies: microbial controls (3). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "diamondback-moth",
+      "predators": [
+        "fiery-searcher",
+        "paper-wasp-polistes",
+        "predatory-shield-bug-podisus",
+        "spined-soldier-bug"
+      ],
+      "parasitoids": [
+        "diadegma-insulare",
+        "ichneumon-wasp-pimpla",
+        "trichogramma-brassicae",
+        "trichogramma-minutum"
+      ],
+      "microbials": [
+        "bt-aizawai",
+        "bt-kurstaki",
+        "spinosad-source-saccharopolyspora"
+      ],
+      "note": "Diadegma insulare is the dominant North American parasitoid; under high parasitism this pest goes below threshold without intervention. Bt aizawai (Bta) is preferred for the spraying option because diamondback moth has widespread Btk resistance."
+    },
+    {
+      "pest": "downy-mildew",
+      "predators": [],
+      "parasitoids": [],
+      "microbials": [
+        "bacillus-amyloliquefaciens",
+        "bacillus-subtilis",
+        "reynoutria-knotweed-extract",
+        "streptomyces-lydicus"
+      ],
+      "note": "Tracked natural enemies: microbial controls (4). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "early-blight",
+      "predators": [],
+      "parasitoids": [],
+      "microbials": [
+        "bacillus-amyloliquefaciens",
+        "bacillus-subtilis",
+        "reynoutria-knotweed-extract"
+      ],
+      "note": "Tracked natural enemies: microbial controls (3). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "european-corn-borer",
+      "predators": [
+        "paper-wasp-polistes",
+        "pink-spotted-lady-beetle",
+        "spined-soldier-bug"
+      ],
+      "parasitoids": [
+        "macrocentrus-grandii",
+        "trichogramma-brassicae",
+        "trichogramma-minutum"
+      ],
+      "microbials": [
+        "bt-kurstaki",
+        "ento-nematode-steinernema-carpocapsae"
+      ],
+      "note": "Trichogramma brassicae and Macrocentrus grandii are the leading parasitoids; one Macrocentrus egg yields 5-30 larvae from a single host. Bt kurstaki applied to corn ear silks during peak moth flights."
+    },
+    {
+      "pest": "fall-armyworm",
+      "predators": [
+        "fiery-searcher",
+        "paper-wasp-polistes",
+        "spined-soldier-bug",
+        "wheel-bug",
+        "yellowjacket"
+      ],
+      "parasitoids": [
+        "diolcogaster-facetosa",
+        "habrobracon-hebetor",
+        "ichneumon-wasp-ophion",
+        "tachinid-fly-compsilura",
+        "tachinid-fly-voria",
+        "trichogramma-pretiosum"
+      ],
+      "microbials": [
+        "bt-aizawai",
+        "bt-kurstaki",
+        "ento-nematode-steinernema-carpocapsae",
+        "spinosad-source-saccharopolyspora"
+      ],
+      "note": "Diolcogaster braconids, Compsilura tachinid, and Bt aizawai/kurstaki all target this pest. Trichogramma releases on early-detected egg masses are the most cost-effective intervention."
+    },
+    {
+      "pest": "fire-blight",
+      "predators": [],
+      "parasitoids": [],
+      "microbials": [
+        "bacillus-amyloliquefaciens",
+        "bacillus-subtilis",
+        "reynoutria-knotweed-extract"
+      ],
+      "note": "Tracked natural enemies: microbial controls (3). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "flea-beetle",
+      "predators": [
+        "jumping-spider-bold",
+        "predatory-stink-bug-zicrona",
+        "robber-fly-laphria",
+        "tiger-beetle",
+        "wolf-spider"
+      ],
+      "parasitoids": [],
+      "microbials": [],
+      "note": "Tracked natural enemies: predators (5). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "fungus-gnat",
+      "predators": [
+        "long-legged-fly",
+        "rove-beetle-staphylinid",
+        "scorpionfly"
+      ],
+      "parasitoids": [],
+      "microbials": [
+        "bt-israelensis",
+        "ento-nematode-steinernema-feltiae"
+      ],
+      "note": "Steinernema feltiae nematodes drench (against larvae) plus Mesostigmata predatory soil mites (Stratiolaelaps scimitus) for protected production. Bti for the standing-water source."
+    },
+    {
+      "pest": "fusarium-wilt",
+      "predators": [],
+      "parasitoids": [],
+      "microbials": [
+        "streptomyces-lydicus",
+        "trichoderma-harzianum",
+        "trichoderma-viride"
+      ],
+      "note": "Tracked natural enemies: microbial controls (3). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "gray-mold-botrytis",
+      "predators": [],
+      "parasitoids": [],
+      "microbials": [
+        "bacillus-amyloliquefaciens",
+        "bacillus-subtilis"
+      ],
+      "note": "Tracked natural enemies: microbial controls (2). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "harlequin-bug",
+      "predators": [],
+      "parasitoids": [
+        "scelionid-trissolcus"
+      ],
+      "microbials": [],
+      "note": "Tracked natural enemies: parasitoids (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "japanese-beetle",
+      "predators": [
+        "carolina-praying-mantis",
+        "chinese-mantis",
+        "crab-spider-goldenrod",
+        "garden-spider-yellow",
+        "robber-fly-efferia",
+        "robber-fly-laphria",
+        "robber-fly-promachus",
+        "wheel-bug",
+        "yellowjacket",
+        "zelus-assassin-bug"
+      ],
+      "parasitoids": [
+        "tachinid-fly-istocheta"
+      ],
+      "microbials": [
+        "azadirachta-neem-source",
+        "beauveria-bassiana",
+        "ento-nematode-heterorhabditis-bacteriophora",
+        "metarhizium-anisopliae",
+        "milky-spore"
+      ],
+      "note": "Milky spore disease (Paenibacillus popilliae) gives long-term grub suppression in lawn-adjacent gardens. Heterorhabditis nematodes target second-instar grubs. Istocheta aldrichi tachinid fly increasingly targets adults in the northeast. Avoid carbaryl traps; they attract more beetles than they kill."
+    },
+    {
+      "pest": "late-blight",
+      "predators": [],
+      "parasitoids": [],
+      "microbials": [
+        "bacillus-subtilis",
+        "reynoutria-knotweed-extract"
+      ],
+      "note": "Tracked natural enemies: microbial controls (2). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "leaf-miner",
+      "predators": [],
+      "parasitoids": [
+        "dacnusa-sibirica",
+        "diglyphus-isaea"
+      ],
+      "microbials": [
+        "azadirachta-neem-source",
+        "ento-nematode-steinernema-feltiae",
+        "spinosad-source-saccharopolyspora"
+      ],
+      "note": "Diglyphus isaea and Dacnusa sibirica parasitoids in greenhouse production; Steinernema feltiae nematodes against the soil-pupating stage in field crops."
+    },
+    {
+      "pest": "leaf-miner-beet",
+      "predators": [],
+      "parasitoids": [
+        "dacnusa-sibirica",
+        "diglyphus-isaea"
+      ],
+      "microbials": [
+        "spinosad-source-saccharopolyspora"
+      ],
+      "note": "Tracked natural enemies: parasitoids (2), microbial controls (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "leaf-miner-spinach",
+      "predators": [],
+      "parasitoids": [
+        "dacnusa-sibirica",
+        "diglyphus-isaea"
+      ],
+      "microbials": [
+        "spinosad-source-saccharopolyspora"
+      ],
+      "note": "Tracked natural enemies: parasitoids (2), microbial controls (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "leafhopper-potato",
+      "predators": [
+        "big-eyed-bug",
+        "blue-dasher",
+        "carolina-praying-mantis",
+        "common-green-darner",
+        "crab-spider-goldenrod",
+        "damsel-bug",
+        "ebony-jewelwing-damselfly",
+        "garden-spider-yellow",
+        "jumping-spider-bold",
+        "predatory-stink-bug-zicrona",
+        "robber-fly-efferia",
+        "robber-fly-laphria",
+        "robber-fly-promachus",
+        "zelus-assassin-bug"
+      ],
+      "parasitoids": [
+        "anagrus-epos"
+      ],
+      "microbials": [],
+      "note": "Anagrus epos egg parasitoid is effective in vineyards and field crops; assassin bugs and spiders take adults. Sweet alyssum plantings sustain Anagrus through the season."
+    },
+    {
+      "pest": "leek-moth",
+      "predators": [],
+      "parasitoids": [],
+      "microbials": [
+        "bt-kurstaki"
+      ],
+      "note": "Tracked natural enemies: microbial controls (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "lesser-peachtree-borer",
+      "predators": [],
+      "parasitoids": [
+        "ichneumon-wasp-megarhyssa"
+      ],
+      "microbials": [
+        "ento-nematode-steinernema-carpocapsae"
+      ],
+      "note": "Tracked natural enemies: parasitoids (1), microbial controls (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "mealybug-pineapple",
+      "predators": [
+        "asian-lady-beetle",
+        "brown-lacewing",
+        "green-lacewing-larva",
+        "mealybug-destroyer",
+        "seven-spotted-ladybug",
+        "twice-stabbed-lady-beetle"
+      ],
+      "parasitoids": [],
+      "microbials": [],
+      "note": "Cryptolaemus mealybug destroyer beetle is the gold-standard biocontrol in greenhouse and conservatory settings. Released commercially; larvae mimic mealybug appearance to walk among prey undetected."
+    },
+    {
+      "pest": "mexican-bean-beetle",
+      "predators": [
+        "harlequin-stink-bug-predator-stiretrus",
+        "predatory-shield-bug-podisus",
+        "spined-soldier-bug",
+        "two-spotted-stink-bug"
+      ],
+      "parasitoids": [
+        "pediobius-foveolatus"
+      ],
+      "microbials": [
+        "beauveria-bassiana"
+      ],
+      "note": "Pediobius foveolatus parasitoid is the gold-standard biocontrol; released commercially across the mid-Atlantic. Inspect for brown mummified larvae stuck on bean leaves before intervening."
+    },
+    {
+      "pest": "onion-maggot",
+      "predators": [
+        "ground-beetle-pterostichus",
+        "rove-beetle-aleochara",
+        "rove-beetle-staphylinid"
+      ],
+      "parasitoids": [
+        "muscidifurax-raptorellus",
+        "spalangia-cameroni"
+      ],
+      "microbials": [
+        "ento-nematode-steinernema-feltiae"
+      ],
+      "note": "Same biology as cabbage root maggot. Aleochara and Steinernema feltiae nematodes; floating row covers; allium-brassica rotation respecting the egg-laying flight times."
+    },
+    {
+      "pest": "oriental-fruit-moth",
+      "predators": [],
+      "parasitoids": [
+        "ichneumon-wasp-pimpla"
+      ],
+      "microbials": [],
+      "note": "Tracked natural enemies: parasitoids (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "parsleyworm",
+      "predators": [
+        "fiery-searcher",
+        "paper-wasp-polistes"
+      ],
+      "parasitoids": [],
+      "microbials": [
+        "bt-kurstaki"
+      ],
+      "note": "Tracked natural enemies: predators (2), microbial controls (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "pea-aphid",
+      "predators": [
+        "brown-lacewing",
+        "convergent-ladybug",
+        "damsel-bug",
+        "green-lacewing-adult",
+        "green-lacewing-larva",
+        "hover-fly-larva",
+        "pink-spotted-lady-beetle",
+        "predatory-midge-aphidoletes",
+        "seven-spotted-ladybug"
+      ],
+      "parasitoids": [
+        "braconid-wasp-aphidius-ervi",
+        "ophyra-pupal-parasitoid"
+      ],
+      "microbials": [],
+      "note": "Aphidius ervi specialist parasitoid plus generalist syrphid larvae, lacewing larvae, and ladybugs. Watch for parasitoid mummies before spraying."
+    },
+    {
+      "pest": "peach-tree-borer",
+      "predators": [],
+      "parasitoids": [
+        "ichneumon-wasp-megarhyssa"
+      ],
+      "microbials": [
+        "ento-nematode-steinernema-carpocapsae"
+      ],
+      "note": "Tracked natural enemies: parasitoids (1), microbial controls (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "pepper-hornworm",
+      "predators": [],
+      "parasitoids": [
+        "braconid-wasp-cotesia-congregata",
+        "tachinid-fly-aphantorhaphopsis"
+      ],
+      "microbials": [
+        "bt-kurstaki"
+      ],
+      "note": "Same biology as tomato hornworm. Leave parasitized larvae carrying white cocoon clusters in place to release the next braconid generation."
+    },
+    {
+      "pest": "potato-leafhopper",
+      "predators": [],
+      "parasitoids": [
+        "anagrus-epos"
+      ],
+      "microbials": [],
+      "note": "Tracked natural enemies: parasitoids (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "powdery-mildew",
+      "predators": [],
+      "parasitoids": [],
+      "microbials": [
+        "bacillus-amyloliquefaciens",
+        "bacillus-subtilis",
+        "reynoutria-knotweed-extract",
+        "streptomyces-lydicus"
+      ],
+      "note": "Tracked natural enemies: microbial controls (4). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "psyllid-carrot",
+      "predators": [],
+      "parasitoids": [
+        "psyllaephagus-pilosus"
+      ],
+      "microbials": [],
+      "note": "Tracked natural enemies: parasitoids (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "raspberry-cane-borer",
+      "predators": [],
+      "parasitoids": [
+        "ichneumon-wasp-megarhyssa"
+      ],
+      "microbials": [
+        "ento-nematode-steinernema-carpocapsae"
+      ],
+      "note": "Tracked natural enemies: parasitoids (1), microbial controls (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "root-knot-nematode",
+      "predators": [
+        "centipede-common",
+        "ground-beetle-pterostichus"
+      ],
+      "parasitoids": [],
+      "microbials": [],
+      "note": "Tracked natural enemies: predators (2). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "root-rot",
+      "predators": [],
+      "parasitoids": [],
+      "microbials": [
+        "streptomyces-lydicus",
+        "trichoderma-harzianum",
+        "trichoderma-viride"
+      ],
+      "note": "Tracked natural enemies: microbial controls (3). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "russet-mite",
+      "predators": [
+        "amblyseius-swirskii",
+        "neoseiulus-fallacis",
+        "spider-mite-destroyer"
+      ],
+      "parasitoids": [],
+      "microbials": [],
+      "note": "Tracked natural enemies: predators (3). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "scale-san-jose",
+      "predators": [
+        "asian-lady-beetle",
+        "convergent-snakefly-agulla",
+        "mealybug-destroyer",
+        "seven-spotted-ladybug",
+        "snakefly",
+        "twice-stabbed-lady-beetle"
+      ],
+      "parasitoids": [
+        "metaphycus-helvolus"
+      ],
+      "microbials": [],
+      "note": "Twice-stabbed lady beetle is a specialist scale predator; Metaphycus helvolus parasitoid wasps target soft scale species. Both are sensitive to dormant oil sprays during the adult activity window."
+    },
+    {
+      "pest": "scale-white-peach",
+      "predators": [
+        "twice-stabbed-lady-beetle"
+      ],
+      "parasitoids": [
+        "metaphycus-helvolus"
+      ],
+      "microbials": [],
+      "note": "Tracked natural enemies: predators (1), parasitoids (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "septoria-leaf-spot",
+      "predators": [],
+      "parasitoids": [],
+      "microbials": [
+        "bacillus-amyloliquefaciens",
+        "bacillus-subtilis"
+      ],
+      "note": "Tracked natural enemies: microbial controls (2). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "slug",
+      "predators": [
+        "bombardier-beetle",
+        "centipede-common",
+        "firefly-larva",
+        "ground-beetle-poecilus",
+        "ground-beetle-pterostichus",
+        "wolf-spider"
+      ],
+      "parasitoids": [],
+      "microbials": [],
+      "note": "Tracked natural enemies: predators (6). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "slug-mushroom",
+      "predators": [
+        "firefly-larva"
+      ],
+      "parasitoids": [],
+      "microbials": [],
+      "note": "Tracked natural enemies: predators (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "soybean-aphid",
+      "predators": [
+        "asian-lady-beetle",
+        "convergent-ladybug",
+        "green-lacewing-adult",
+        "green-lacewing-larva",
+        "hover-fly-larva",
+        "pink-spotted-lady-beetle",
+        "predatory-midge-aphidoletes",
+        "seven-spotted-ladybug"
+      ],
+      "parasitoids": [
+        "braconid-wasp-aphidius-ervi",
+        "braconid-wasp-lysiphlebus-testaceipes"
+      ],
+      "microbials": [],
+      "note": "Mixed parasitoid and predator response. Aphidius colemani, A. ervi, hover fly larvae, and minute pirate bugs all contribute."
+    },
+    {
+      "pest": "spider-mite",
+      "predators": [
+        "asian-lady-beetle",
+        "big-eyed-bug",
+        "blue-mud-wasp",
+        "brown-lacewing",
+        "carabid-bembidion",
+        "convergent-ladybug",
+        "convergent-snakefly-agulla",
+        "green-lacewing-larva",
+        "long-legged-fly",
+        "minute-pirate-bug",
+        "mud-dauber-wasp",
+        "neoseiulus-fallacis",
+        "phytoseiulus-persimilis",
+        "pink-spotted-lady-beetle",
+        "predatory-thrips-aeolothrips",
+        "scorpionfly",
+        "seven-spotted-ladybug",
+        "snakefly",
+        "spider-mite-destroyer",
+        "tiger-beetle"
+      ],
+      "parasitoids": [],
+      "microbials": [
+        "azadirachta-neem-source",
+        "beauveria-bassiana",
+        "isaria-fumosorosea"
+      ],
+      "note": "Phytoseiulus persimilis is the gold-standard biocontrol for indoor and protected production; Neoseiulus fallacis persists outdoors year to year. Avoid sulfur and broad miticide sprays; these eliminate predator mites first and rebound mite populations harder than they started."
+    },
+    {
+      "pest": "spotted-wing-drosophila",
+      "predators": [],
+      "parasitoids": [],
+      "microbials": [
+        "spinosad-source-saccharopolyspora"
+      ],
+      "note": "Tracked natural enemies: microbial controls (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "squash-bug",
+      "predators": [
+        "chinese-mantis"
+      ],
+      "parasitoids": [
+        "tachinid-fly-trichopoda"
+      ],
+      "microbials": [],
+      "note": "Tracked natural enemies: predators (1), parasitoids (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "stink-bug",
+      "predators": [
+        "carolina-praying-mantis",
+        "chinese-mantis",
+        "common-green-darner",
+        "garden-spider-yellow",
+        "robber-fly-efferia",
+        "robber-fly-laphria",
+        "robber-fly-promachus",
+        "wheel-bug"
+      ],
+      "parasitoids": [
+        "scelionid-trissolcus",
+        "tachinid-fly-trichopoda"
+      ],
+      "microbials": [],
+      "note": "Trissolcus japonicus is the leading egg parasitoid for brown marmorated stink bug; spined soldier bug nymphs predate other pest stink bug species. Provide diverse nectar bloom for parasitoid adults."
+    },
+    {
+      "pest": "strawberry-root-weevil",
+      "predators": [],
+      "parasitoids": [],
+      "microbials": [
+        "ento-nematode-heterorhabditis-bacteriophora"
+      ],
+      "note": "Tracked natural enemies: microbial controls (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "sugarcane-aphid",
+      "predators": [],
+      "parasitoids": [
+        "braconid-wasp-lysiphlebus-testaceipes"
+      ],
+      "microbials": [],
+      "note": "Tracked natural enemies: parasitoids (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "tarnished-plant-bug",
+      "predators": [
+        "big-eyed-bug",
+        "carolina-praying-mantis",
+        "common-green-darner",
+        "crab-spider-goldenrod",
+        "damsel-bug",
+        "garden-spider-yellow",
+        "robber-fly-promachus",
+        "wheel-bug"
+      ],
+      "parasitoids": [
+        "anaphes-iole",
+        "leiophron-uniformis",
+        "tachinid-fly-trichopoda"
+      ],
+      "microbials": [],
+      "note": "Anaphes iole (egg parasitoid) and Leiophron uniformis (nymph parasitoid) combined with sweet alyssum strip plantings between strawberry rows provide measurable suppression."
+    },
+    {
+      "pest": "thrips-cabbage",
+      "predators": [
+        "amblyseius-cucumeris",
+        "amblyseius-swirskii",
+        "big-eyed-bug",
+        "brown-lacewing",
+        "carabid-bembidion",
+        "convergent-ladybug",
+        "damsel-bug",
+        "green-lacewing-larva",
+        "long-legged-fly",
+        "minute-pirate-bug",
+        "predatory-thrips-aeolothrips",
+        "rove-beetle-staphylinid",
+        "zelus-assassin-bug"
+      ],
+      "parasitoids": [],
+      "microbials": [
+        "azadirachta-neem-source",
+        "beauveria-bassiana",
+        "ento-nematode-steinernema-feltiae",
+        "isaria-fumosorosea",
+        "lecanicillium-muscarium",
+        "metarhizium-anisopliae",
+        "spinosad-source-saccharopolyspora"
+      ],
+      "note": "Minute pirate bugs, Amblyseius cucumeris, and Steinernema feltiae nematodes (against soil-pupating stage) form a layered biocontrol approach. Sweet alyssum and buckwheat plantings attract the Orius pirate bugs naturally."
+    },
+    {
+      "pest": "thrips-onion",
+      "predators": [
+        "amblyseius-cucumeris",
+        "amblyseius-swirskii",
+        "carabid-bembidion",
+        "convergent-ladybug",
+        "green-lacewing-larva",
+        "minute-pirate-bug",
+        "predatory-thrips-aeolothrips"
+      ],
+      "parasitoids": [],
+      "microbials": [
+        "ento-nematode-steinernema-feltiae",
+        "spinosad-source-saccharopolyspora"
+      ],
+      "note": "Predatory mites, minute pirate bugs, and entomopathogenic fungi all contribute. Manage by avoiding broad-spectrum sprays and providing diverse small-flowered nectar plants."
+    },
+    {
+      "pest": "tomato-fruitworm",
+      "predators": [
+        "fiery-searcher",
+        "paper-wasp-polistes",
+        "spined-soldier-bug",
+        "yellowjacket"
+      ],
+      "parasitoids": [
+        "chalcid-wasp-brachymeria",
+        "trichogramma-minutum",
+        "trichogramma-pretiosum"
+      ],
+      "microbials": [
+        "bt-kurstaki"
+      ],
+      "note": "Same species as corn earworm. Trichogramma releases when adult moth flights peak; Bt sprays on developing fruit."
+    },
+    {
+      "pest": "tomato-hornworm",
+      "predators": [
+        "carolina-praying-mantis",
+        "chinese-mantis",
+        "fiery-searcher",
+        "paper-wasp-polistes",
+        "spined-soldier-bug",
+        "wheel-bug",
+        "yellowjacket"
+      ],
+      "parasitoids": [
+        "braconid-wasp-cotesia-congregata",
+        "ichneumon-wasp-ophion",
+        "tachinid-fly-aphantorhaphopsis",
+        "tachinid-fly-compsilura"
+      ],
+      "microbials": [
+        "bt-kurstaki",
+        "ento-nematode-steinernema-carpocapsae"
+      ],
+      "note": "The single best moment to do nothing: if you see white rice-grain cocoons clustered along a hornworm's back, those are Cotesia congregata braconid wasp pupae. Leave the parasitized hornworm in place; the next wasp generation will emerge and parasitize more hornworms across your beds."
+    },
+    {
+      "pest": "tomato-russet-mite",
+      "predators": [
+        "amblyseius-swirskii",
+        "neoseiulus-fallacis",
+        "spider-mite-destroyer"
+      ],
+      "parasitoids": [],
+      "microbials": [],
+      "note": "Tracked natural enemies: predators (3). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "two-spotted-spider-mite",
+      "predators": [
+        "big-eyed-bug",
+        "convergent-ladybug",
+        "green-lacewing-larva",
+        "minute-pirate-bug",
+        "neoseiulus-fallacis",
+        "phytoseiulus-persimilis",
+        "pink-spotted-lady-beetle",
+        "seven-spotted-ladybug",
+        "spider-mite-destroyer"
+      ],
+      "parasitoids": [],
+      "microbials": [
+        "azadirachta-neem-source",
+        "beauveria-bassiana"
+      ],
+      "note": "Same as spider mite: Phytoseiulus, Neoseiulus, spider mite destroyer beetle, and lacewing larvae all hit this pest. The predator response collapses under broad-spectrum sprays."
+    },
+    {
+      "pest": "verticillium-wilt",
+      "predators": [],
+      "parasitoids": [],
+      "microbials": [
+        "trichoderma-viride"
+      ],
+      "note": "Tracked natural enemies: microbial controls (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "western-flower-thrips",
+      "predators": [
+        "amblyseius-cucumeris",
+        "amblyseius-swirskii",
+        "big-eyed-bug",
+        "brown-lacewing",
+        "convergent-ladybug",
+        "green-lacewing-larva",
+        "minute-pirate-bug",
+        "predatory-thrips-aeolothrips"
+      ],
+      "parasitoids": [],
+      "microbials": [
+        "beauveria-bassiana",
+        "ento-nematode-steinernema-feltiae",
+        "isaria-fumosorosea",
+        "metarhizium-anisopliae",
+        "spinosad-source-saccharopolyspora"
+      ],
+      "note": "Amblyseius cucumeris and A. swirskii are the standard greenhouse biocontrols; spinosad-source actinomycete (Entrust) is the spraying option if needed."
+    },
+    {
+      "pest": "wheat-aphid",
+      "predators": [
+        "asian-lady-beetle",
+        "convergent-ladybug",
+        "hover-fly-larva"
+      ],
+      "parasitoids": [
+        "braconid-wasp-lysiphlebus-testaceipes"
+      ],
+      "microbials": [],
+      "note": "Lysiphlebus testaceipes parasitoid plus generalist predators (ladybugs, syrphid larvae). Common across the southern grain belts."
+    },
+    {
+      "pest": "whitefly",
+      "predators": [
+        "amblyseius-swirskii",
+        "big-eyed-bug",
+        "blue-dasher",
+        "brown-lacewing",
+        "common-green-darner",
+        "ebony-jewelwing-damselfly",
+        "green-lacewing-larva",
+        "long-legged-fly",
+        "minute-pirate-bug"
+      ],
+      "parasitoids": [
+        "encarsia-formosa",
+        "eretmocerus-eremicus"
+      ],
+      "microbials": [
+        "azadirachta-neem-source",
+        "beauveria-bassiana",
+        "isaria-fumosorosea",
+        "lecanicillium-muscarium"
+      ],
+      "note": "Encarsia formosa and Eretmocerus eremicus together provide commercial-grade biocontrol in greenhouse vegetable production. Look for black or yellow parasitized pupae among live yellow pupae before spraying."
+    },
+    {
+      "pest": "wireworm",
+      "predators": [
+        "bombardier-beetle",
+        "ground-beetle-pterostichus"
+      ],
+      "parasitoids": [],
+      "microbials": [
+        "ento-nematode-heterorhabditis-bacteriophora",
+        "metarhizium-anisopliae"
+      ],
+      "note": "Tracked natural enemies: predators (2), microbial controls (2). Scout for visible activity before resorting to broad-spectrum sprays."
+    },
+    {
+      "pest": "woolly-apple-aphid",
+      "predators": [
+        "asian-lady-beetle",
+        "twice-stabbed-lady-beetle"
+      ],
+      "parasitoids": [
+        "diaeretus-rapae-tomato"
+      ],
+      "microbials": [],
+      "note": "Tracked natural enemies: predators (2), parasitoids (1). Scout for visible activity before resorting to broad-spectrum sprays."
+    }
+  ]
+}

@@ -37,3 +37,13 @@ export * from "./pest-disease.js";
 // plus a harvest-date estimator that falls back to NOAA Climate Normals when
 // live daily temperatures are not available.
 export * from "./gdd.js";
+
+// Beneficial insects, microbes, and friend-not-foe invertebrates: 200+
+// curated entries across predators, parasitoids, pollinators, decomposers,
+// and microbial controls with prey, attractant, and lookalike cross-refs.
+export * from "./beneficial-insects.js";
+
+// Composite pest intelligence layer: joins pest, beneficial, companion, and
+// rotation data into single "now what?" reports for identified pests and
+// beneficials.
+export * from "./pest-intelligence.js";

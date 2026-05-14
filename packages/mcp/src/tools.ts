@@ -5,12 +5,15 @@ import {
   checkRotationSequence,
   err,
   findCrop,
+  getBeneficialInsect,
+  getBeneficialIntelligence,
   getClimateType,
   getCompanions,
   getCropsForZone,
   getFrostDates,
   getHardinessZone,
   getHardinessZoneByZip,
+  getPestIntelligence,
   getPlantingPlan,
   getRelationship,
   getRotationAdvice,
@@ -20,7 +23,10 @@ import {
   getPestsByCrop,
   getSuccessionChain,
   getSuccessionPlan,
+  getVerdictForInsect,
+  listBeneficials,
   searchCrops,
+  type BeneficialCategory,
   type ClimateType,
   type Coordinates,
   type CropCategory,
@@ -66,6 +72,10 @@ export function registerAllTools(server: McpServer): void {
   registerGetSuccessionPlan(server);
   registerGetCropPests(server);
   registerGetPestDetail(server);
+  registerGetPestIntelligence(server);
+  registerGetBeneficialInsect(server);
+  registerListBeneficials(server);
+  registerGetVerdict(server);
 }
 
 // ---------------------------------------------------------------------------
@@ -726,6 +736,171 @@ function registerGetPestDetail(server: McpServer): void {
         ...detail,
         ...(cropsAffected ? { cropsAffected } : {}),
       });
+    },
+  );
+}
+
+// ---------------------------------------------------------------------------
+// 15. get_pest_intelligence
+// ---------------------------------------------------------------------------
+
+function registerGetPestIntelligence(server: McpServer): void {
+  server.registerTool(
+    "get_pest_intelligence",
+    {
+      title: "Composite Pest Intelligence (Now What After Identification)",
+      description:
+        "Returns the full 'now what?' answer after a pest is identified: severity verdict (`foe` / `nuisance` / `cosmetic`), immediate action steps drawn from the pest's organic management list, seasonal prevention practices, companion plant deterrents and trap crops, the full list of beneficial predators and parasitoids with the 'wait before spraying' guidance, friend-or-foe lookalikes, and rotation advice when applicable. " +
+        "When `plant` is supplied, returns crop-specific symptoms, that crop's companion deterrents, and rotation advice for that crop. Without `plant`, the response uses the first crop entry as the symptom reference and falls back to the derived pest-companion-map for general deterrent suggestions. " +
+        "This is the powering shape for a consumer pest-identification app: one call gives the gardener everything actionable about the identified pest in context.",
+      inputSchema: {
+        pest: pestSlugField,
+        plant: slugOrNameField.optional().describe(
+          "Optional crop slug or common name to scope the intelligence to a specific crop. Returns crop-specific symptoms, companion deterrents for the host crop, and rotation family advice when supplied.",
+        ),
+      },
+      annotations: READ_ONLY,
+    },
+    async ({ pest, plant }) => {
+      let plantSlug: string | undefined;
+      if (plant) {
+        const hit = findCrop(plant);
+        if (!hit) {
+          return failure({
+            source: SOURCE,
+            message: `no crop calendar match for "${plant}"`,
+          });
+        }
+        plantSlug = hit.slug;
+      }
+      const report = getPestIntelligence(pest, plantSlug);
+      if (!report) {
+        return failure({
+          source: SOURCE,
+          message: `no pest or disease entry for "${pest}"`,
+        });
+      }
+      return success(report);
+    },
+  );
+}
+
+// ---------------------------------------------------------------------------
+// 16. get_beneficial_insect
+// ---------------------------------------------------------------------------
+
+function registerGetBeneficialInsect(server: McpServer): void {
+  server.registerTool(
+    "get_beneficial_insect",
+    {
+      title: "Full Detail for a Beneficial Insect or Microbial Control",
+      description:
+        "Returns the full record for one beneficial insect, microbe, or friend-not-foe invertebrate from the bundled 200+ entry beneficial insects fixture (Xerces Society, Cornell Cooperative Extension biocontrol fact sheets, UC IPM Natural Enemies Gallery, UF/IFAS Featured Creatures, USDA-ARS sources). The response is a composite intelligence shape with: identification cues, garden role, habitat needs, the plants that attract this beneficial, the crops it protects via prey relationships (aggregated from preyOn into affected crops), and concrete protection tips. " +
+        "Categories covered: `predator`, `parasitoid`, `pollinator`, `decomposer`, `microbial-control`. " +
+        "Use this when the question is 'what is this insect?' and the answer is a beneficial. Use `get_pest_intelligence` when the answer is a pest. Use `get_verdict` to classify first without committing to a tool.",
+      inputSchema: {
+        slug: z
+          .string()
+          .min(1)
+          .max(80)
+          .describe(
+            "Kebab-case beneficial insect slug. Examples: `seven-spotted-ladybug`, `braconid-wasp-cotesia-congregata`, `common-eastern-bumblebee`, `mason-bee-pure-green`, `mealybug-destroyer`, `bt-kurstaki`. Use `list_beneficials` to discover slugs.",
+          ),
+      },
+      annotations: READ_ONLY,
+    },
+    async ({ slug }) => {
+      const insect = getBeneficialInsect(slug);
+      if (!insect) {
+        const verdict = getVerdictForInsect(slug);
+        if (verdict !== "neutral") {
+          return failure({
+            source: SOURCE,
+            message: `"${slug}" is recorded as a ${verdict} (pest), not a beneficial. Use get_pest_intelligence instead.`,
+          });
+        }
+        return failure({
+          source: SOURCE,
+          message: `no beneficial insect entry for "${slug}"`,
+        });
+      }
+      const report = getBeneficialIntelligence(slug);
+      if (!report) {
+        return failure({
+          source: SOURCE,
+          message: `no intelligence available for "${slug}"`,
+        });
+      }
+      return success(report);
+    },
+  );
+}
+
+// ---------------------------------------------------------------------------
+// 17. list_beneficials
+// ---------------------------------------------------------------------------
+
+function registerListBeneficials(server: McpServer): void {
+  server.registerTool(
+    "list_beneficials",
+    {
+      title: "Browse Beneficial Insects by Category",
+      description:
+        "Returns the full beneficial insects catalog or a category-filtered subset. Categories: `predator` (60+ entries: ladybugs, lacewings, ground beetles, mantises, assassin bugs, predatory mites, soldier bugs, spiders, hover fly larvae), `parasitoid` (40+ entries: braconid wasps including Cotesia hornworm specialist, Trichogramma egg parasitoids, Encarsia and Eretmocerus whitefly parasitoids, tachinid flies, ichneumon wasps), `pollinator` (50+ entries: honey bees, bumble bees including federally listed Bombus affinis, mason bees, leafcutter bees, sweat bees, mining bees, carpenter bees, squash bees, butterflies, sphinx moths), `decomposer` (30 entries: earthworms, dung beetles, pill bugs, millipedes, springtails, black soldier fly larva, soil mites), `microbial-control` (20+ entries: entomopathogenic nematodes, Bt strains, Beauveria bassiana, Trichoderma, mycorrhizal fungi, milky spore). " +
+        "Each entry has slug, commonName, scientificName, category, preyOn, attractedBy, habitatNeeds, gardenRole, identificationTips, seasonalPresence, regions, and citation. Sorted alphabetically by common name.",
+      inputSchema: {
+        category: z
+          .enum([
+            "predator",
+            "parasitoid",
+            "pollinator",
+            "decomposer",
+            "microbial-control",
+          ])
+          .optional()
+          .describe(
+            "Optional functional category filter. Omit to return all entries.",
+          ),
+      },
+      annotations: READ_ONLY,
+    },
+    async ({ category }) => {
+      const list = listBeneficials(category as BeneficialCategory | undefined);
+      return success({
+        count: list.length,
+        ...(category ? { category } : {}),
+        entries: list,
+      });
+    },
+  );
+}
+
+// ---------------------------------------------------------------------------
+// 18. get_verdict
+// ---------------------------------------------------------------------------
+
+function registerGetVerdict(server: McpServer): void {
+  server.registerTool(
+    "get_verdict",
+    {
+      title: "Friend or Foe Classification for Any Insect Slug",
+      description:
+        "Returns the friend-or-foe verdict for any insect, microbe, or invertebrate slug by checking the beneficial-insects database first, then the pest-disease database. Useful as a routing call before deciding whether to call `get_beneficial_insect` or `get_pest_intelligence`. " +
+        "Return values: `friend` (entry exists in beneficial-insects), `foe` (entry exists in pest-disease with severity high or severe), `nuisance` (pest-disease severity moderate), `cosmetic` (pest-disease severity low), `neutral` (slug not recognized in either fixture).",
+      inputSchema: {
+        slug: z
+          .string()
+          .min(1)
+          .max(80)
+          .describe(
+            "Insect, microbe, or invertebrate slug to classify. Examples: `seven-spotted-ladybug` (friend), `tomato-hornworm` (foe), `parsleyworm` (cosmetic; debatable in apiaceae beds).",
+          ),
+      },
+      annotations: READ_ONLY,
+    },
+    async ({ slug }) => {
+      const verdict = getVerdictForInsect(slug);
+      return success({ slug, verdict });
     },
   );
 }

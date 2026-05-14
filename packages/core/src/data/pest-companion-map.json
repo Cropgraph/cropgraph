@@ -1,0 +1,718 @@
+{
+  "version": "1",
+  "source": "Derived from companions.json by parsing pest_repellent and trap_crop companion entries for known pest keywords in their descriptions. Each pest slug maps to the companion plants that deter or trap it. Coverage reflects the curation depth of companions.json rather than an exhaustive pest-by-plant survey.",
+  "license": "CC-BY-4.0",
+  "lastUpdated": "2026-05-14",
+  "entries": [
+    {
+      "pest": "aphid-cabbage",
+      "deterredBy": [
+        "apple-standard",
+        "ashwagandha",
+        "asparagus",
+        "basil-genovese-pesto",
+        "basil-spicy-globe",
+        "broccoli",
+        "bush-bean",
+        "cabbage",
+        "cabbage-red",
+        "cabbage-savoy",
+        "carrot",
+        "carrot-chantenay",
+        "carrot-nantes",
+        "cauliflower",
+        "chive",
+        "cucumber-straight-eight",
+        "eggplant",
+        "european-pear",
+        "feverfew",
+        "garlic",
+        "garlic-chive",
+        "garlic-music",
+        "garlic-purple-stripe",
+        "kale",
+        "lemongrass",
+        "lettuce-head",
+        "lettuce-leaf",
+        "marigold-sparky",
+        "peach",
+        "pennyroyal",
+        "pepper-hot",
+        "pepper-jalapeno",
+        "pepper-poblano",
+        "pepper-sweet",
+        "raspberry",
+        "rose-rugosa",
+        "sage-berggarten",
+        "strawberry",
+        "strawberry-earliglow",
+        "thyme-french-summer",
+        "tomato",
+        "tomato-arkansas-traveler",
+        "tomato-eva-purple-ball",
+        "tulsi",
+        "winter-squash"
+      ],
+      "trappedBy": [
+        "brussels-sprouts",
+        "bush-bean",
+        "calendula-medicinal",
+        "collards",
+        "cucumber",
+        "eggplant",
+        "kale",
+        "milkweed-common",
+        "nasturtium",
+        "nasturtium-jewel-mix",
+        "squash-buttercup",
+        "squash-delicata",
+        "squash-hubbard",
+        "squash-kabocha",
+        "squash-spaghetti",
+        "swiss-chard",
+        "tomato",
+        "watermelon"
+      ],
+      "affectedHosts": [
+        "apple-cosmic-crisp",
+        "apple-gala",
+        "apple-pink-lady",
+        "apple-standard",
+        "apricot",
+        "basil",
+        "basil-cinnamon",
+        "basil-spicy-globe",
+        "cabbage",
+        "calendula-pacific-beauty",
+        "carrot",
+        "cherry-sweet",
+        "chervil",
+        "chive",
+        "chive-garlic-staro",
+        "cucumber-marketmore",
+        "feverfew",
+        "garlic",
+        "garlic-purple-stripe",
+        "kale-redbor",
+        "leek",
+        "lemon-balm",
+        "lettuce-leaf",
+        "marigold",
+        "marigold-signet",
+        "mint-spear",
+        "nasturtium",
+        "nasturtium-climbing-spitfire",
+        "nasturtium-empress-india",
+        "nasturtium-jewel-mix",
+        "onion",
+        "oregano",
+        "oregano-greek-true",
+        "peach",
+        "pennyroyal",
+        "pepper-jalapeno",
+        "pepper-sweet",
+        "plum-italian-prune",
+        "plum-methley",
+        "pomegranate-angel-red",
+        "pomegranate-wonderful",
+        "raspberry",
+        "rose-rugosa",
+        "sage",
+        "savory-summer",
+        "shallot",
+        "shiso-perilla-red",
+        "stevia-rebaudiana",
+        "strawberry-jewel-strawberry",
+        "tansy",
+        "tarragon",
+        "thyme",
+        "tomato"
+      ],
+      "note": "Companion plants that deter through aromatic volatiles or root chemistry, plus trap crops that decoy adults away from the main planting. Combine perimeter repellents with end-of-row trap rows."
+    },
+    {
+      "pest": "apple-maggot",
+      "deterredBy": [
+        "onion"
+      ],
+      "trappedBy": [],
+      "affectedHosts": [
+        "apple-standard"
+      ],
+      "note": "Aromatic perimeter plantings disrupt pest host-finding. Best deployed as continuous borders around main beds rather than scattered interplanting."
+    },
+    {
+      "pest": "asparagus-beetle",
+      "deterredBy": [
+        "asparagus",
+        "basil",
+        "parsley-curly",
+        "parsley-flat",
+        "tomato"
+      ],
+      "trappedBy": [],
+      "affectedHosts": [
+        "asparagus",
+        "basil",
+        "tomato"
+      ],
+      "note": "Aromatic perimeter plantings disrupt pest host-finding. Best deployed as continuous borders around main beds rather than scattered interplanting."
+    },
+    {
+      "pest": "cabbage-looper",
+      "deterredBy": [
+        "broccoli",
+        "brussels-sprouts",
+        "cabbage",
+        "cabbage-savoy"
+      ],
+      "trappedBy": [],
+      "affectedHosts": [
+        "mint-mojito",
+        "mint-spear",
+        "sage",
+        "sage-purple-icterina",
+        "thyme"
+      ],
+      "note": "Aromatic perimeter plantings disrupt pest host-finding. Best deployed as continuous borders around main beds rather than scattered interplanting."
+    },
+    {
+      "pest": "cabbage-worm",
+      "deterredBy": [
+        "broccoli",
+        "brussels-sprouts",
+        "cabbage",
+        "cauliflower",
+        "collards",
+        "feverfew",
+        "garlic-chive",
+        "kale",
+        "marigold-tagetes",
+        "rosemary-arp",
+        "sage-berggarten",
+        "thyme-french-summer"
+      ],
+      "trappedBy": [
+        "broccoli",
+        "brussels-sprouts",
+        "cabbage",
+        "calendula-medicinal",
+        "cauliflower",
+        "collards",
+        "kale"
+      ],
+      "affectedHosts": [
+        "artemisia-annua-qing-hao",
+        "broccoli",
+        "cabbage",
+        "cabbage-savoy",
+        "feverfew",
+        "garlic",
+        "hyssop",
+        "kale-redbor",
+        "lavender",
+        "leek",
+        "marjoram",
+        "mint-mojito",
+        "mint-spear",
+        "mint-spearmint-kentucky-colonel",
+        "nasturtium",
+        "onion",
+        "oregano",
+        "rosemary",
+        "rosemary-arp",
+        "sage",
+        "sage-berggarten",
+        "tansy",
+        "thyme",
+        "thyme-french-summer",
+        "thyme-lemon"
+      ],
+      "note": "Companion plants that deter through aromatic volatiles or root chemistry, plus trap crops that decoy adults away from the main planting. Combine perimeter repellents with end-of-row trap rows."
+    },
+    {
+      "pest": "carrot-rust-fly",
+      "deterredBy": [
+        "carrot",
+        "carrot-chantenay",
+        "carrot-danvers",
+        "carrot-nantes",
+        "chive",
+        "feverfew",
+        "garlic-music",
+        "leek",
+        "onion-egyptian-walking",
+        "rosemary",
+        "sage",
+        "shallot"
+      ],
+      "trappedBy": [],
+      "affectedHosts": [
+        "carrot",
+        "carrot-imperator",
+        "carrot-nantes",
+        "chive",
+        "chive-garlic-staro",
+        "mint-spear",
+        "onion",
+        "onion-vidalia",
+        "rosemary",
+        "sage",
+        "shallot"
+      ],
+      "note": "Aromatic perimeter plantings disrupt pest host-finding. Best deployed as continuous borders around main beds rather than scattered interplanting."
+    },
+    {
+      "pest": "codling-moth",
+      "deterredBy": [
+        "apple-standard",
+        "chive",
+        "tansy"
+      ],
+      "trappedBy": [],
+      "affectedHosts": [
+        "apple-cosmic-crisp",
+        "apple-gala",
+        "apple-honeycrisp",
+        "apple-pink-lady",
+        "pear-bartlett",
+        "tansy"
+      ],
+      "note": "Aromatic perimeter plantings disrupt pest host-finding. Best deployed as continuous borders around main beds rather than scattered interplanting."
+    },
+    {
+      "pest": "colorado-potato-beetle",
+      "deterredBy": [
+        "eggplant",
+        "horseradish",
+        "horseradish-bohemian",
+        "marigold",
+        "potato"
+      ],
+      "trappedBy": [],
+      "affectedHosts": [
+        "garlic",
+        "horseradish",
+        "potato",
+        "potato-yukon-gold",
+        "tansy"
+      ],
+      "note": "Aromatic perimeter plantings disrupt pest host-finding. Best deployed as continuous borders around main beds rather than scattered interplanting."
+    },
+    {
+      "pest": "cucumber-beetle-striped",
+      "deterredBy": [
+        "cucumber",
+        "cucumber-boston-pickling",
+        "cucumber-marketmore",
+        "cucumber-straight-eight",
+        "cucumber-suyo-long",
+        "marigold-african-crackerjack",
+        "shiso-perilla-green"
+      ],
+      "trappedBy": [
+        "cantaloupe",
+        "cucumber",
+        "cucumber-armenian",
+        "nasturtium-empress-india",
+        "nasturtium-jewel-mix",
+        "pumpkin",
+        "squash-hubbard",
+        "summer-squash",
+        "watermelon",
+        "winter-squash",
+        "zucchini"
+      ],
+      "affectedHosts": [
+        "catnip",
+        "catnip-nepeta-cataria-medicinal",
+        "cucumber-marketmore",
+        "cucumber-suyo-long",
+        "nasturtium",
+        "nasturtium-alaska-variegated",
+        "nasturtium-jewel-mix",
+        "radish",
+        "squash-delicata",
+        "summer-squash",
+        "watermelon-sugar-baby",
+        "winter-squash"
+      ],
+      "note": "Companion plants that deter through aromatic volatiles or root chemistry, plus trap crops that decoy adults away from the main planting. Combine perimeter repellents with end-of-row trap rows."
+    },
+    {
+      "pest": "flea-beetle",
+      "deterredBy": [
+        "beet",
+        "broccoli",
+        "cabbage",
+        "cabbage-red",
+        "cucumber",
+        "eggplant",
+        "kale",
+        "shiso-perilla-green",
+        "tulsi"
+      ],
+      "trappedBy": [
+        "amaranth-grain",
+        "amaranth-purple-prince",
+        "cabbage",
+        "cucumber",
+        "eggplant",
+        "pole-bean"
+      ],
+      "affectedHosts": [
+        "artemisia-annua-qing-hao",
+        "basil",
+        "cabbage",
+        "calendula-pacific-beauty",
+        "catnip-nepeta-cataria-medicinal",
+        "chive",
+        "cucumber-suyo-long",
+        "eggplant",
+        "garlic",
+        "kale",
+        "mint-spear",
+        "mint-spearmint-kentucky-colonel",
+        "mustard-cover",
+        "nasturtium",
+        "onion",
+        "radish",
+        "tansy",
+        "thyme-lemon",
+        "tomato"
+      ],
+      "note": "Companion plants that deter through aromatic volatiles or root chemistry, plus trap crops that decoy adults away from the main planting. Combine perimeter repellents with end-of-row trap rows."
+    },
+    {
+      "pest": "harlequin-bug",
+      "deterredBy": [],
+      "trappedBy": [
+        "cabbage"
+      ],
+      "affectedHosts": [
+        "mustard-cover"
+      ],
+      "note": "Trap crops decoy egg-laying adults away from the main planting. Inspect trap plants weekly and remove or destroy infested portions before pests disperse back."
+    },
+    {
+      "pest": "japanese-beetle",
+      "deterredBy": [
+        "apple-standard",
+        "broccoli",
+        "raspberry",
+        "rose-rugosa",
+        "strawberry",
+        "tansy"
+      ],
+      "trappedBy": [],
+      "affectedHosts": [
+        "blackberry",
+        "cherry-sweet",
+        "garlic",
+        "peach",
+        "plum-european",
+        "plum-santa-rosa",
+        "raspberry",
+        "tansy"
+      ],
+      "note": "Aromatic perimeter plantings disrupt pest host-finding. Best deployed as continuous borders around main beds rather than scattered interplanting."
+    },
+    {
+      "pest": "leaf-miner",
+      "deterredBy": [
+        "beet",
+        "pepper-sweet",
+        "tomato"
+      ],
+      "trappedBy": [
+        "swiss-chard"
+      ],
+      "affectedHosts": [
+        "chive",
+        "garlic",
+        "nasturtium",
+        "onion",
+        "shallot"
+      ],
+      "note": "Companion plants that deter through aromatic volatiles or root chemistry, plus trap crops that decoy adults away from the main planting. Combine perimeter repellents with end-of-row trap rows."
+    },
+    {
+      "pest": "leafhopper-potato",
+      "deterredBy": [
+        "cucumber",
+        "feverfew",
+        "tomato-arkansas-traveler"
+      ],
+      "trappedBy": [],
+      "affectedHosts": [
+        "lettuce-leaf",
+        "shiso-perilla-green",
+        "shiso-perilla-red"
+      ],
+      "note": "Aromatic perimeter plantings disrupt pest host-finding. Best deployed as continuous borders around main beds rather than scattered interplanting."
+    },
+    {
+      "pest": "mexican-bean-beetle",
+      "deterredBy": [
+        "bean-bush-contender",
+        "bean-bush-provider",
+        "bean-bush-roma-ii",
+        "bush-bean",
+        "pole-bean",
+        "summer-savory"
+      ],
+      "trappedBy": [
+        "bush-bean"
+      ],
+      "affectedHosts": [
+        "bean-bush-provider",
+        "cilantro-papalo",
+        "marigold",
+        "nasturtium",
+        "rosemary-tuscan-blue",
+        "savory-summer"
+      ],
+      "note": "Companion plants that deter through aromatic volatiles or root chemistry, plus trap crops that decoy adults away from the main planting. Combine perimeter repellents with end-of-row trap rows."
+    },
+    {
+      "pest": "onion-maggot",
+      "deterredBy": [
+        "carrot-nantes",
+        "onion"
+      ],
+      "trappedBy": [],
+      "affectedHosts": [
+        "carrot",
+        "onion-vidalia",
+        "onion-walla-walla"
+      ],
+      "note": "Aromatic perimeter plantings disrupt pest host-finding. Best deployed as continuous borders around main beds rather than scattered interplanting."
+    },
+    {
+      "pest": "raspberry-cane-borer",
+      "deterredBy": [
+        "tansy"
+      ],
+      "trappedBy": [],
+      "affectedHosts": [
+        "raspberry"
+      ],
+      "note": "Aromatic perimeter plantings disrupt pest host-finding. Best deployed as continuous borders around main beds rather than scattered interplanting."
+    },
+    {
+      "pest": "root-knot-nematode",
+      "deterredBy": [
+        "cucumber",
+        "eggplant",
+        "marigold-african-crackerjack",
+        "marigold-french-bonita",
+        "marigold-signet",
+        "marigold-tagetes",
+        "pepper-sweet",
+        "tomato",
+        "watermelon",
+        "winter-squash"
+      ],
+      "trappedBy": [],
+      "affectedHosts": [
+        "asparagus",
+        "broccoli",
+        "italian-heirloom-tomato",
+        "marigold",
+        "marigold-african-crackerjack",
+        "pepper-habanero",
+        "pepper-sweet",
+        "potato",
+        "san-marzano-tomato",
+        "summer-squash",
+        "sungold-tomato",
+        "tomato",
+        "winter-squash"
+      ],
+      "note": "Aromatic perimeter plantings disrupt pest host-finding. Best deployed as continuous borders around main beds rather than scattered interplanting."
+    },
+    {
+      "pest": "slug",
+      "deterredBy": [
+        "chive",
+        "garlic",
+        "lettuce-leaf",
+        "strawberry",
+        "tansy",
+        "thyme"
+      ],
+      "trappedBy": [],
+      "affectedHosts": [
+        "cherry-bing",
+        "cherry-sour",
+        "cherry-stella",
+        "cherry-sweet",
+        "chervil",
+        "onion",
+        "strawberry",
+        "strawberry-seascape",
+        "thyme"
+      ],
+      "note": "Aromatic perimeter plantings disrupt pest host-finding. Best deployed as continuous borders around main beds rather than scattered interplanting."
+    },
+    {
+      "pest": "spider-mite",
+      "deterredBy": [
+        "ashwagandha",
+        "garlic-music",
+        "pepper-sweet",
+        "tomato"
+      ],
+      "trappedBy": [],
+      "affectedHosts": [
+        "chive",
+        "garlic",
+        "oregano-greek-true",
+        "tomato"
+      ],
+      "note": "Aromatic perimeter plantings disrupt pest host-finding. Best deployed as continuous borders around main beds rather than scattered interplanting."
+    },
+    {
+      "pest": "squash-bug",
+      "deterredBy": [
+        "marigold-african-crackerjack"
+      ],
+      "trappedBy": [
+        "cantaloupe",
+        "cucumber",
+        "nasturtium-empress-india",
+        "pumpkin",
+        "squash-buttercup",
+        "squash-delicata",
+        "squash-hubbard",
+        "squash-kabocha",
+        "summer-squash",
+        "winter-squash",
+        "zucchini"
+      ],
+      "affectedHosts": [
+        "nasturtium",
+        "nasturtium-climbing-spitfire",
+        "nasturtium-jewel-mix",
+        "radish",
+        "squash-delicata",
+        "summer-squash"
+      ],
+      "note": "Companion plants that deter through aromatic volatiles or root chemistry, plus trap crops that decoy adults away from the main planting. Combine perimeter repellents with end-of-row trap rows."
+    },
+    {
+      "pest": "squash-vine-borer",
+      "deterredBy": [],
+      "trappedBy": [
+        "winter-squash"
+      ],
+      "affectedHosts": [
+        "radish"
+      ],
+      "note": "Trap crops decoy egg-laying adults away from the main planting. Inspect trap plants weekly and remove or destroy infested portions before pests disperse back."
+    },
+    {
+      "pest": "tarnished-plant-bug",
+      "deterredBy": [],
+      "trappedBy": [
+        "amaranth-grain"
+      ],
+      "affectedHosts": [
+        "pepper-sweet",
+        "tomato"
+      ],
+      "note": "Trap crops decoy egg-laying adults away from the main planting. Inspect trap plants weekly and remove or destroy infested portions before pests disperse back."
+    },
+    {
+      "pest": "thrips-cabbage",
+      "deterredBy": [
+        "basil",
+        "basil-genovese-pesto",
+        "basil-spicy-globe",
+        "onion",
+        "pepper-hot",
+        "pepper-sweet",
+        "tomato",
+        "tomato-arkansas-traveler",
+        "tulsi",
+        "tulsi-rama"
+      ],
+      "trappedBy": [],
+      "affectedHosts": [
+        "basil",
+        "basil-genovese-pesto",
+        "basil-spicy-globe",
+        "black-cherry-tomato",
+        "carrot",
+        "garlic",
+        "leek",
+        "onion",
+        "pepper-jalapeno",
+        "pepper-sweet",
+        "roma-tomato",
+        "san-marzano-tomato",
+        "shallot",
+        "tomato"
+      ],
+      "note": "Aromatic perimeter plantings disrupt pest host-finding. Best deployed as continuous borders around main beds rather than scattered interplanting."
+    },
+    {
+      "pest": "tomato-hornworm",
+      "deterredBy": [
+        "basil-genovese-pesto",
+        "pepper-poblano",
+        "tomato",
+        "tomato-arkansas-traveler",
+        "tomato-creole-louisiana"
+      ],
+      "trappedBy": [],
+      "affectedHosts": [
+        "basil",
+        "basil-cinnamon",
+        "basil-thai",
+        "borage",
+        "early-girl-tomato"
+      ],
+      "note": "Aromatic perimeter plantings disrupt pest host-finding. Best deployed as continuous borders around main beds rather than scattered interplanting."
+    },
+    {
+      "pest": "whitefly",
+      "deterredBy": [
+        "basil",
+        "basil-genovese-pesto",
+        "eggplant",
+        "garlic-music",
+        "lemongrass",
+        "marigold-sparky",
+        "pepper-sweet",
+        "tomato",
+        "tomato-arkansas-traveler",
+        "tulsi",
+        "tulsi-rama",
+        "winter-squash"
+      ],
+      "trappedBy": [
+        "eggplant",
+        "tomato"
+      ],
+      "affectedHosts": [
+        "basil",
+        "basil-genovese-pesto",
+        "black-cherry-tomato",
+        "cherokee-purple-tomato",
+        "cherry-tomato",
+        "early-girl-tomato",
+        "lemon-balm",
+        "marigold",
+        "marigold-signet",
+        "mint-spear",
+        "nasturtium",
+        "roma-tomato",
+        "san-marzano-tomato",
+        "tarragon",
+        "tomato"
+      ],
+      "note": "Companion plants that deter through aromatic volatiles or root chemistry, plus trap crops that decoy adults away from the main planting. Combine perimeter repellents with end-of-row trap rows."
+    }
+  ]
+}

@@ -12,6 +12,7 @@ calls, no API keys, no runtime dependencies beyond Zod.
 | Rotation families | 12 botanical families (nightshades, brassicas, cucurbits, alliums, legumes, umbellifers, grasses, amaranthaceae, composites, mints, malvaceae, miscellaneous). Every calendar slug is mapped. Year-gap, follow-with, and never-follow rules per family. |
 | Succession chains | 102 time-sequenced planting chains: greens cycles, root cadences, legume relays, brassica spring/fall, cucurbit replacements, herb successions, cut-flower staggers, cover-crop relays. Frost-anchored phases with per-climate notes. |
 | Pest/disease associations | 506 crop-to-pest edges with diagnostic symptoms, ordered organic management options, prevention practices, and regions of significance. OMRI-listed materials, biocontrols, and physical/cultural practices only. Curated against Cornell, UC IPM, UF/IFAS, Penn State, OSU, WSU, and Texas A&M Extension publications. |
+| Beneficial insects | 200 entries across five functional categories: 62 predators (ladybugs, lacewings, ground beetles, mantises, assassin bugs, predatory mites, soldier bugs, spiders, hover fly larvae), 40 parasitoids (braconid wasps including the Cotesia hornworm specialist, Trichogramma egg parasitoids, Encarsia and Eretmocerus whitefly parasitoids, tachinid flies, ichneumon wasps), 50 pollinators (honey bees, native bumble bees, mason bees, leafcutter bees, sweat bees, mining bees, carpenter bees, squash bees, butterflies, sphinx moths), 29 decomposers (earthworms, dung beetles, pill bugs, millipedes, springtails, black soldier fly larva, soil mites), 22 microbial controls (entomopathogenic nematodes, Bt strains, Beauveria bassiana, Trichoderma, mycorrhizal fungi, milky spore). Composite pest intelligence layer joins beneficial, companion, and rotation data into a single "now what?" report with hand-authored wait-before-spraying notes for the top 40 pest slugs. Sourced from Xerces Society, Cornell, UC IPM, UF/IFAS, USDA-ARS, Penn State. |
 | Growing degree days | 120 GDD models with cultivar-specific heat unit ranges for tomato, pepper, squash, melon, bean, corn, lettuce, root crops, and grains. Literature-grounded base temperatures and heat-unit ranges from Purdue, Cornell, UC Davis, USDA-ARS, OSU, and WSU Extension. Harvest-date estimator with NOAA Climate Normals 1991-2020 fallback (720 entries, 10 zone groups x 6 climate types x 12 months) so predictions work offline without a live weather API call. |
 | USDA hardiness zones | 40,283 ZIP-code centroids from PRISM 2023 + waldoj/frostline, with offline lookup by coordinates or ZIP. Frost-date table by zone. |
 | Climate types | Six-type classifier (maritime, mediterranean, continental, humid_subtropical, arid, semi_arid) from a coordinate-based heuristic. |
@@ -80,6 +81,17 @@ getSuccessionPlan({ slug: "lettuce-leaf", zone: zone.data, climateType: "maritim
 getPestsByCrop("tomato");          // ~21 entries sorted by severity
 getPestDetail("tomato-hornworm");  // every crop the pest affects + management
 
+// Beneficial insects and composite pest intelligence.
+getPestIntelligence("tomato-hornworm", "tomato");
+// → { verdict: "foe", severity: "high", immediateAction: [...],
+//     companionDeterrents: [...], beneficialPredators: [13 entries],
+//     beneficialNote: "white cocoons = Cotesia braconid; wait, do not spray",
+//     friendlyLookalikes: [...] }
+getBeneficialIntelligence("seven-spotted-ladybug");
+// → { verdict: "friend", attractedBy: [...], protects: [26 crops], ... }
+getVerdictForInsect("tomato-hornworm");  // "foe"
+listBeneficials("parasitoid");           // 40 entries
+
 // Growing degree days and harvest prediction.
 getGddModel("tomato");
 // → { baseTemp: 50, gddToMaturity: { min: 1200, max: 1800 }, ... }
@@ -112,6 +124,9 @@ peer-reviewed source. See the per-entry `source` field in
 [`src/data/rotation-families.json`](./src/data/rotation-families.json),
 [`src/data/succession-chains.json`](./src/data/succession-chains.json),
 [`src/data/pest-disease.json`](./src/data/pest-disease.json),
+[`src/data/beneficial-insects.json`](./src/data/beneficial-insects.json),
+[`src/data/pest-beneficial-map.json`](./src/data/pest-beneficial-map.json),
+[`src/data/pest-companion-map.json`](./src/data/pest-companion-map.json),
 and [`src/data/gdd-models.json`](./src/data/gdd-models.json),
 and the file-level descriptions in the matching `*.schema.json` files for
 the methodology rundown. Climate normals in

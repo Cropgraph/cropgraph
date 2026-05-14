@@ -1,6 +1,6 @@
 # cropgraph (CLI)
 
-Command-line interface for the CropGraph dataset. Twelve verbs, all offline,
+Command-line interface for the CropGraph dataset. Fifteen verbs, all offline,
 no API keys.
 
 ## Install
@@ -27,6 +27,9 @@ npx cropgraph zone --lat 48.118 --lng -123.43
 | `cropgraph succession <crop>` | Succession planting chain for a crop. Pass `--zone`/`--lat`/`--lng`/`--zip` for concrete dates. |
 | `cropgraph pests <crop>` | Pests and diseases affecting a crop, with organic management and prevention. |
 | `cropgraph pest-detail <pest>` | Full record for one pest or disease across every crop it touches. |
+| `cropgraph pest-intel <pest>` | Composite "now what?" report after a pest is identified: verdict, immediate action, companion deterrents, beneficial predators with wait-before-spraying guidance, friend-or-foe lookalikes. Pass `--plant <crop>` for crop-specific symptoms and rotation advice. |
+| `cropgraph beneficial <insect>` | Full detail for one beneficial insect or microbial control: identification, garden role, habitat needs, attractor plants, crops protected via prey relationships. |
+| `cropgraph beneficials` | Browse the 200-entry beneficial insects catalog or filter by `--category` (predator, parasitoid, pollinator, decomposer, microbial-control). |
 | `cropgraph config set-location` | Save a default location used when `--lat/--lng` are omitted. |
 
 Every command supports `--json` for machine-readable output.
@@ -60,6 +63,15 @@ cropgraph pests tomato
 
 # Full record for one pest across every crop it touches.
 cropgraph pest-detail cabbage-worm
+
+# Composite "now what?" report after identifying a pest on a specific crop.
+cropgraph pest-intel tomato-hornworm --plant tomato
+
+# Detail page for a beneficial insect with attractor plants and protected crops.
+cropgraph beneficial seven-spotted-ladybug
+
+# Browse beneficial insects, filtered by category.
+cropgraph beneficials --category parasitoid
 ```
 
 ## Configuration
