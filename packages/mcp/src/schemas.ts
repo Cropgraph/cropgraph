@@ -51,9 +51,16 @@ export const categoryField = z
     "cover-crop",
     "root",
     "legume",
+    "grain",
+    "mushroom",
+    "native",
+    "medicinal",
+    "fiber",
+    "forage",
+    "sprout",
   ])
   .describe(
-    "Crop category: 'vegetable' (annual food crops), 'herb' (culinary/medicinal), 'fruit' (perennial fruit-bearing trees and berries), 'flower' (companion or pollinator-attracting flowers), 'cover-crop' (soil-builders like clover, rye, vetch), 'root' (root vegetables, subset of vegetable), 'legume' (peas, beans, soil nitrogen fixers).",
+    "Crop category: 'vegetable' (annual food crops), 'herb' (culinary/medicinal), 'fruit' (perennial fruit-bearing trees and berries), 'flower' (companion or pollinator-attracting flowers), 'cover-crop' (soil-builders like clover, rye, vetch), 'root' (root vegetables, subset of vegetable), 'legume' (peas, beans, soil nitrogen fixers), 'grain' (cereals and pseudocereals like wheat, oats, quinoa, amaranth), 'mushroom' (cultivated fungi for indoor or log production), 'native' (regional native edibles such as pawpaw, ramps, prickly pear), 'medicinal' (herbs grown primarily for medicinal use), 'fiber' (fiber and dye plants such as flax, hemp, indigo, madder), 'forage' (pasture and livestock forage species), 'sprout' (sprouts and microgreens, typically indoor).",
   );
 
 export const limitField = z

@@ -28,6 +28,13 @@ const VALID_CATEGORIES: CropCategory[] = [
   "cover-crop",
   "root",
   "legume",
+  "grain",
+  "mushroom",
+  "native",
+  "medicinal",
+  "fiber",
+  "forage",
+  "sprout",
 ];
 
 export function buildCropCommand(): Command {
@@ -71,7 +78,7 @@ export function buildSearchCommand(): Command {
     )
     .option(
       "--category <name>",
-      "Filter by category (vegetable, herb, fruit, flower, cover-crop, root, legume)",
+      "Filter by category (vegetable, herb, fruit, flower, cover-crop, root, legume, grain, mushroom, native, medicinal, fiber, forage, sprout)",
     )
     .option("--json", "Print raw JSON")
     .addHelpText(

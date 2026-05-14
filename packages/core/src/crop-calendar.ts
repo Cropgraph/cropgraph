@@ -37,6 +37,13 @@ const CategorySchema = z.enum([
   "cover-crop",
   "root",
   "legume",
+  "grain",
+  "mushroom",
+  "native",
+  "medicinal",
+  "fiber",
+  "forage",
+  "sprout",
 ]);
 export type CropCategory = z.infer<typeof CategorySchema>;
 

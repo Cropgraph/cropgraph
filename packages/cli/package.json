@@ -1,7 +1,7 @@
 {
   "name": "cropgraph",
-  "version": "2.1.0",
-  "description": "CropGraph CLI: USDA hardiness zones, frost dates, climate-aware planting plans, a 2000-crop calendar (120 climate-modified entries across 6 climate types), 605 companion relationships, 12 rotation families, 33 succession planting chains, 158 pest/disease associations, and 120 growing degree day models. All offline.",
+  "version": "3.0.0",
+  "description": "CropGraph CLI: USDA hardiness zones, frost dates, climate-aware planting plans, a 5,006-crop calendar across 14 categories (120 climate-modified entries across 6 climate types), 605 companion relationships, 12 rotation families, 33 succession planting chains, 158 pest/disease associations, and 120 growing degree day models. All offline.",
   "keywords": [
     "cropgraph",
     "cli",

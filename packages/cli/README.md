@@ -18,7 +18,7 @@ npx cropgraph zone --lat 48.118 --lng -123.43
 | `cropgraph zone` | USDA hardiness zone + frost dates from `--lat/--lng` or `--zip`. |
 | `cropgraph planting` | What to plant this week, climate-aware. |
 | `cropgraph crop <name>` | Full calendar entry for a single crop. |
-| `cropgraph search <query>` | Search the 2000-crop calendar with zone/category filters. |
+| `cropgraph search <query>` | Search the 5,006-crop calendar with zone/category filters across 14 categories. |
 | `cropgraph companions <crop>` | Companion and antagonist plants for a crop. |
 | `cropgraph check <c1> <c2>` | Check a single pairwise relationship. |
 | `cropgraph plan <crops...>` | Evaluate a bed of 2-20 crops together. |

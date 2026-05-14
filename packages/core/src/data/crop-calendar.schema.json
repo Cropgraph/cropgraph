@@ -71,9 +71,16 @@
             "flower",
             "cover-crop",
             "root",
-            "legume"
+            "legume",
+            "grain",
+            "mushroom",
+            "native",
+            "medicinal",
+            "fiber",
+            "forage",
+            "sprout"
           ],
-          "description": "Top-level grouping. 'root' and 'legume' are subgroups of 'vegetable' but pulled out for filtering convenience."
+          "description": "Top-level grouping. 'root' and 'legume' are subgroups of 'vegetable' but pulled out for filtering convenience. 'grain' covers cereals and pseudocereals. 'mushroom' covers cultivated fungi. 'native' covers regional native edibles. 'medicinal' covers herbs grown primarily for medicinal use. 'fiber' covers fiber and dye crops. 'forage' covers pasture and livestock forage species. 'sprout' covers sprouts and microgreens (typically indoor)."
         },
         "season": {
           "type": "string",
