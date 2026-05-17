@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Cropgraph/cropgraph/blob/main/packages/core/src/data/pest-species.schema.json",
+  "title": "CropGraph Pest Species Catalog",
+  "description": "Slug-keyed scientific names for every pest and pathogen referenced from pest-disease.json. Each entry is the canonical name authority for one pest or disease slug, separated from the crop-association edges in pest-disease.json so that a single (slug, name) pair is curated once even when the same agent appears against many crops. Loader validates bidirectional referential integrity at module load: every distinct `pest` slug in pest-disease.json must have a row here, and every row here must be referenced by at least one entry in pest-disease.json.\n\nScope: covers pests (insects, mites, mollusks, nematodes, vertebrates) and diseases (fungi, oomycetes, bacteria, viruses) with their accepted scientific names. Physiological disorders (e.g. blossom-end-rot, sunscald, catfacing, tipburn, bitter-pit, prussic-acid-poisoning) are not biological agents; their `scientificName` is null with an explicit disorder note in the per-entry `source` field.\n\nEvidence grounding: GBIF Backbone Taxonomy, UC IPM Online, Cornell Cooperative Extension, UF/IFAS Featured Creatures, EPPO Global Database, ICTV Master Species List, USDA-ARS, Penn State Extension. Names follow the modern accepted binomial where the literature has settled; for generic slugs that cover a multi-species complex (e.g. `cutworm`, `powdery-mildew`, `damping-off`) the name is given as `Genus spp.` or `Family spp.` with the dominant member species enumerated in the source citation.",
+  "type": "object",
+  "required": ["version", "source", "license", "entries"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Schema version. Bump on breaking changes only."
+    },
+    "source": {
+      "type": "string",
+      "description": "Provenance / curation block for the whole fixture."
+    },
+    "license": {
+      "type": "string",
+      "description": "License under which the data is redistributed (e.g. CC-BY-4.0)."
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date of the last hand-curation pass."
+    },
+    "entries": {
+      "type": "array",
+      "description": "One row per unique pest or disease slug. Order is not significant; helpers index by slug at load time.",
+      "items": { "$ref": "#/$defs/Entry" }
+    }
+  },
+  "$defs": {
+    "Entry": {
+      "type": "object",
+      "required": ["slug", "commonName", "scientificName", "source"],
+      "additionalProperties": false,
+      "properties": {
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]{1,60}$",
+          "description": "Kebab-case identifier matching the `pest` slug in pest-disease.json. Unique within the fixture."
+        },
+        "commonName": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 100,
+          "description": "Display name for the gardener. Title-case. For slugs that carry a structural prefix (e.g. `aphid-cabbage`), the common name is reordered to read naturally (`Cabbage Aphid`)."
+        },
+        "scientificName": {
+          "type": ["string", "null"],
+          "minLength": 2,
+          "maxLength": 200,
+          "description": "Accepted scientific name. Binomial or higher-rank Latin name; pathovars and formae speciales use the ISPP infrasubspecific convention (`pv.`, `f.sp.`). Genus complexes that cover multiple species under one slug use `Genus spp.` with the dominant species enumerated in `source`. Null only for physiological disorders that are not biological agents; the disorder is then identified in `source`."
+        },
+        "source": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 500,
+          "description": "Taxonomic authority for the scientific name. One of GBIF Backbone Taxonomy, UC IPM Online, Cornell Cooperative Extension, UF/IFAS Featured Creatures, EPPO Global Database, ICTV Master Species List, USDA-ARS, Penn State Extension, or a combination separated by semicolons. For disorders, an explicit disorder note followed by the extension citation."
+        }
+      }
+    }
+  }
+}

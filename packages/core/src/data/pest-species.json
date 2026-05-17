@@ -1,0 +1,1466 @@
+{
+  "version": "1.0.0",
+  "source": "CropGraph pest-species fixture. Slug-keyed scientific names for every pest and disease in pest-disease.json. Each entry cites the taxonomic authority used (GBIF Backbone Taxonomy, UC IPM Online, Cornell Cooperative Extension, UF/IFAS Featured Creatures, EPPO Global Database, ICTV Master Species List, USDA-ARS, Penn State Extension). Physiological disorders carry scientificName: null with an explicit disorder note in the source.",
+  "license": "CC-BY-4.0",
+  "lastUpdated": "2026-05-17",
+  "entries": [
+    {
+      "slug": "alfalfa-mosaic-virus",
+      "commonName": "Alfalfa Mosaic Virus",
+      "scientificName": "Alfamovirus AMV",
+      "source": "ICTV Master Species List"
+    },
+    {
+      "slug": "alfalfa-weevil",
+      "commonName": "Alfalfa Weevil",
+      "scientificName": "Hypera postica",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "alternaria-leaf-blight",
+      "commonName": "Alternaria Leaf Blight",
+      "scientificName": "Alternaria spp.",
+      "source": "Cornell Cooperative Extension; UC IPM Online"
+    },
+    {
+      "slug": "alternaria-leaf-blight-carrot",
+      "commonName": "Alternaria Leaf Blight of Carrot",
+      "scientificName": "Alternaria dauci",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "alternaria-leaf-spot",
+      "commonName": "Alternaria Leaf Spot",
+      "scientificName": "Alternaria brassicicola",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "alternaria-stem-canker",
+      "commonName": "Alternaria Stem Canker",
+      "scientificName": "Alternaria alternata f.sp. lycopersici",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "angular-leaf-spot",
+      "commonName": "Angular Leaf Spot",
+      "scientificName": "Pseudomonas syringae pv. lachrymans",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "anthracnose",
+      "commonName": "Anthracnose",
+      "scientificName": "Colletotrichum spp.",
+      "source": "Cornell Cooperative Extension; UC IPM Online"
+    },
+    {
+      "slug": "aphid-cabbage",
+      "commonName": "Cabbage Aphid",
+      "scientificName": "Brevicoryne brassicae",
+      "source": "GBIF Backbone Taxonomy; UC IPM Online"
+    },
+    {
+      "slug": "aphid-green-peach",
+      "commonName": "Green Peach Aphid",
+      "scientificName": "Myzus persicae",
+      "source": "GBIF Backbone Taxonomy; UC IPM Online"
+    },
+    {
+      "slug": "aphid-lettuce",
+      "commonName": "Lettuce Aphid",
+      "scientificName": "Nasonovia ribisnigri",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "apple-maggot",
+      "commonName": "Apple Maggot",
+      "scientificName": "Rhagoletis pomonella",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "apple-scab",
+      "commonName": "Apple Scab",
+      "scientificName": "Venturia inaequalis",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "asian-citrus-psyllid",
+      "commonName": "Asian Citrus Psyllid",
+      "scientificName": "Diaphorina citri",
+      "source": "UF/IFAS Featured Creatures"
+    },
+    {
+      "slug": "asparagus-aphid",
+      "commonName": "Asparagus Aphid",
+      "scientificName": "Brachycorynella asparagi",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "asparagus-beetle",
+      "commonName": "Asparagus Beetle",
+      "scientificName": "Crioceris asparagi",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "asparagus-miner",
+      "commonName": "Asparagus Miner",
+      "scientificName": "Ophiomyia simplex",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "asparagus-rust",
+      "commonName": "Asparagus Rust",
+      "scientificName": "Puccinia asparagi",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "aster-yellows",
+      "commonName": "Aster Yellows",
+      "scientificName": "Candidatus Phytoplasma asteris",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "bacterial-blotch",
+      "commonName": "Bacterial Blotch",
+      "scientificName": "Pseudomonas tolaasii",
+      "source": "Penn State Extension"
+    },
+    {
+      "slug": "bacterial-canker",
+      "commonName": "Bacterial Canker",
+      "scientificName": "Pseudomonas syringae",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "bacterial-speck",
+      "commonName": "Bacterial Speck",
+      "scientificName": "Pseudomonas syringae pv. tomato",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "bacterial-spot",
+      "commonName": "Bacterial Spot",
+      "scientificName": "Xanthomonas euvesicatoria",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "bacterial-wilt",
+      "commonName": "Bacterial Wilt",
+      "scientificName": "Erwinia tracheiphila",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "bacterial-wilt-cucurbit",
+      "commonName": "Bacterial Wilt of Cucurbits",
+      "scientificName": "Erwinia tracheiphila",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "barley-yellow-dwarf-virus",
+      "commonName": "Barley Yellow Dwarf Virus",
+      "scientificName": "Luteovirus BYDV",
+      "source": "ICTV Master Species List"
+    },
+    {
+      "slug": "basil-downy-mildew",
+      "commonName": "Basil Downy Mildew",
+      "scientificName": "Peronospora belbahrii",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "bean-leaf-beetle",
+      "commonName": "Bean Leaf Beetle",
+      "scientificName": "Cerotoma trifurcata",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "bean-rust",
+      "commonName": "Bean Rust",
+      "scientificName": "Uromyces appendiculatus",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "bitter-pit",
+      "commonName": "Bitter Pit",
+      "scientificName": null,
+      "source": "Physiological disorder (calcium deficiency in apple); not a biological agent. Cornell Cooperative Extension."
+    },
+    {
+      "slug": "bitter-rot",
+      "commonName": "Bitter Rot",
+      "scientificName": "Colletotrichum fioriniae",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "black-cherry-aphid",
+      "commonName": "Black Cherry Aphid",
+      "scientificName": "Myzus cerasi",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "black-rot",
+      "commonName": "Black Rot",
+      "scientificName": "Xanthomonas campestris pv. campestris",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "blossom-end-rot",
+      "commonName": "Blossom End Rot",
+      "scientificName": null,
+      "source": "Physiological disorder (calcium translocation failure under water stress in tomato, pepper, eggplant, watermelon); not a biological agent. UC IPM Online."
+    },
+    {
+      "slug": "blueberry-leaf-rust",
+      "commonName": "Blueberry Leaf Rust",
+      "scientificName": "Thekopsora minima",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "blueberry-maggot",
+      "commonName": "Blueberry Maggot",
+      "scientificName": "Rhagoletis mendax",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "blueberry-stem-blight",
+      "commonName": "Blueberry Stem Blight",
+      "scientificName": "Botryosphaeria dothidea",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "bottom-rot",
+      "commonName": "Bottom Rot",
+      "scientificName": "Rhizoctonia solani",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "broad-mite",
+      "commonName": "Broad Mite",
+      "scientificName": "Polyphagotarsonemus latus",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "brown-rot",
+      "commonName": "Brown Rot",
+      "scientificName": "Monilinia fructicola",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "buckeye-rot",
+      "commonName": "Buckeye Rot",
+      "scientificName": "Phytophthora nicotianae",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "cabbage-aphid",
+      "commonName": "Cabbage Aphid",
+      "scientificName": "Brevicoryne brassicae",
+      "source": "GBIF Backbone Taxonomy; UC IPM Online"
+    },
+    {
+      "slug": "cabbage-looper",
+      "commonName": "Cabbage Looper",
+      "scientificName": "Trichoplusia ni",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "cabbage-root-maggot",
+      "commonName": "Cabbage Root Maggot",
+      "scientificName": "Delia radicum",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "cabbage-worm",
+      "commonName": "Imported Cabbageworm",
+      "scientificName": "Pieris rapae",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "carrot-rust-fly",
+      "commonName": "Carrot Rust Fly",
+      "scientificName": "Chamaepsila rosae",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "carrot-weevil",
+      "commonName": "Carrot Weevil",
+      "scientificName": "Listronotus oregonensis",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "catfacing",
+      "commonName": "Catfacing",
+      "scientificName": null,
+      "source": "Physiological disorder (cold-injury or thrips-feeding deformation of tomato fruit); not a biological agent. UC IPM Online."
+    },
+    {
+      "slug": "cedar-apple-rust",
+      "commonName": "Cedar Apple Rust",
+      "scientificName": "Gymnosporangium juniperi-virginianae",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "cercospora-leaf-spot",
+      "commonName": "Cercospora Leaf Spot",
+      "scientificName": "Cercospora beticola",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "cherry-fruit-fly",
+      "commonName": "Cherry Fruit Fly",
+      "scientificName": "Rhagoletis cingulata",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "cherry-leaf-spot",
+      "commonName": "Cherry Leaf Spot",
+      "scientificName": "Blumeriella jaapii",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "chocolate-spot",
+      "commonName": "Chocolate Spot",
+      "scientificName": "Botrytis fabae",
+      "source": "EPPO Global Database"
+    },
+    {
+      "slug": "cilantro-bolt",
+      "commonName": "Cilantro Bolt",
+      "scientificName": null,
+      "source": "Physiological disorder (heat-stress induced flowering in coriander/cilantro); not a biological agent. Cornell Cooperative Extension."
+    },
+    {
+      "slug": "citrus-canker",
+      "commonName": "Citrus Canker",
+      "scientificName": "Xanthomonas citri pv. citri",
+      "source": "UF/IFAS Featured Creatures"
+    },
+    {
+      "slug": "citrus-greening",
+      "commonName": "Citrus Greening",
+      "scientificName": "Candidatus Liberibacter asiaticus",
+      "source": "UF/IFAS Featured Creatures"
+    },
+    {
+      "slug": "clover-leaf-weevil",
+      "commonName": "Clover Leaf Weevil",
+      "scientificName": "Hypera punctata",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "clover-root-borer",
+      "commonName": "Clover Root Borer",
+      "scientificName": "Hylastinus obscurus",
+      "source": "USDA-ARS"
+    },
+    {
+      "slug": "clubroot",
+      "commonName": "Clubroot",
+      "scientificName": "Plasmodiophora brassicae",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "cobweb-mold",
+      "commonName": "Cobweb Mold",
+      "scientificName": "Cladobotryum spp.",
+      "source": "Penn State Extension"
+    },
+    {
+      "slug": "codling-moth",
+      "commonName": "Codling Moth",
+      "scientificName": "Cydia pomonella",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "colorado-potato-beetle",
+      "commonName": "Colorado Potato Beetle",
+      "scientificName": "Leptinotarsa decemlineata",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "comfrey-rust",
+      "commonName": "Comfrey Rust",
+      "scientificName": "Melampsorella symphyti",
+      "source": "EPPO Global Database"
+    },
+    {
+      "slug": "corn-earworm",
+      "commonName": "Corn Earworm",
+      "scientificName": "Helicoverpa zea",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "corn-rootworm",
+      "commonName": "Corn Rootworm",
+      "scientificName": "Diabrotica virgifera virgifera",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "corn-smut",
+      "commonName": "Corn Smut",
+      "scientificName": "Ustilago maydis",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "covered-smut",
+      "commonName": "Covered Smut",
+      "scientificName": "Ustilago hordei",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "crown-rust",
+      "commonName": "Crown Rust",
+      "scientificName": "Puccinia coronata",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "cucumber-beetle-spotted",
+      "commonName": "Spotted Cucumber Beetle",
+      "scientificName": "Diabrotica undecimpunctata howardi",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "cucumber-beetle-striped",
+      "commonName": "Striped Cucumber Beetle",
+      "scientificName": "Acalymma vittatum",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "cucumber-mosaic-virus",
+      "commonName": "Cucumber Mosaic Virus",
+      "scientificName": "Cucumovirus CMV",
+      "source": "ICTV Master Species List"
+    },
+    {
+      "slug": "cucurbit-yellow-vine",
+      "commonName": "Cucurbit Yellow Vine Disease",
+      "scientificName": "Serratia marcescens",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "curly-top-virus",
+      "commonName": "Curly Top Virus",
+      "scientificName": "Curtovirus BCTV",
+      "source": "ICTV Master Species List"
+    },
+    {
+      "slug": "cuteworm-variegated",
+      "commonName": "Variegated Cutworm",
+      "scientificName": "Peridroma saucia",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "cutworm",
+      "commonName": "Cutworm",
+      "scientificName": "Noctuidae spp.",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "damping-off",
+      "commonName": "Damping Off",
+      "scientificName": "Pythium spp., Rhizoctonia solani, Fusarium spp.",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "deer",
+      "commonName": "White-Tailed Deer",
+      "scientificName": "Odocoileus virginianus",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "diamondback-moth",
+      "commonName": "Diamondback Moth",
+      "scientificName": "Plutella xylostella",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "downy-mildew",
+      "commonName": "Downy Mildew",
+      "scientificName": "Peronosporaceae spp.",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "downy-mildew-basil",
+      "commonName": "Basil Downy Mildew",
+      "scientificName": "Peronospora belbahrii",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "downy-mildew-onion",
+      "commonName": "Onion Downy Mildew",
+      "scientificName": "Peronospora destructor",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "downy-mildew-spinach",
+      "commonName": "Spinach Downy Mildew",
+      "scientificName": "Peronospora effusa",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "early-blight",
+      "commonName": "Early Blight",
+      "scientificName": "Alternaria solani",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "elder-borer",
+      "commonName": "Elderberry Borer",
+      "scientificName": "Desmocerus palliatus",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "ergot",
+      "commonName": "Ergot",
+      "scientificName": "Claviceps purpurea",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "european-apple-sawfly",
+      "commonName": "European Apple Sawfly",
+      "scientificName": "Hoplocampa testudinea",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "european-corn-borer",
+      "commonName": "European Corn Borer",
+      "scientificName": "Ostrinia nubilalis",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "fall-armyworm",
+      "commonName": "Fall Armyworm",
+      "scientificName": "Spodoptera frugiperda",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "fescue-toxicosis",
+      "commonName": "Fescue Toxicosis",
+      "scientificName": "Epichloe coenophiala",
+      "source": "Penn State Extension"
+    },
+    {
+      "slug": "fig-mosaic-virus",
+      "commonName": "Fig Mosaic Virus",
+      "scientificName": "Emaravirus fici",
+      "source": "ICTV Master Species List"
+    },
+    {
+      "slug": "fig-rust",
+      "commonName": "Fig Rust",
+      "scientificName": "Cerotelium fici",
+      "source": "UF/IFAS Featured Creatures"
+    },
+    {
+      "slug": "fire-blight",
+      "commonName": "Fire Blight",
+      "scientificName": "Erwinia amylovora",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "flea-beetle",
+      "commonName": "Flea Beetle",
+      "scientificName": "Phyllotreta spp., Epitrix spp.",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "flyspeck",
+      "commonName": "Flyspeck",
+      "scientificName": "Schizothyrium pomi",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "fruitworm-cranberry",
+      "commonName": "Cranberry Fruitworm",
+      "scientificName": "Acrobasis vaccinii",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "fungus-gnat",
+      "commonName": "Fungus Gnat",
+      "scientificName": "Lycoriella ingenua",
+      "source": "Penn State Extension"
+    },
+    {
+      "slug": "fusarium-basal-rot",
+      "commonName": "Fusarium Basal Rot",
+      "scientificName": "Fusarium oxysporum f.sp. cepae",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "fusarium-crown-rot",
+      "commonName": "Fusarium Crown Rot",
+      "scientificName": "Fusarium pseudograminearum",
+      "source": "USDA-ARS"
+    },
+    {
+      "slug": "fusarium-head-blight",
+      "commonName": "Fusarium Head Blight",
+      "scientificName": "Fusarium graminearum",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "fusarium-wilt",
+      "commonName": "Fusarium Wilt",
+      "scientificName": "Fusarium oxysporum",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "fusarium-wilt-basil",
+      "commonName": "Fusarium Wilt Basil",
+      "scientificName": "Fusarium oxysporum f.sp. basilici",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "fusarium-wilt-lettuce",
+      "commonName": "Fusarium Wilt Lettuce",
+      "scientificName": "Fusarium oxysporum f.sp. lactucae",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "ganoderma-applanatum",
+      "commonName": "Artist's Conk",
+      "scientificName": "Ganoderma applanatum",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "garlic-bloat-nematode",
+      "commonName": "Garlic Bloat Nematode",
+      "scientificName": "Ditylenchus dipsaci",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "gray-mold-botrytis",
+      "commonName": "Gray Mold (Botrytis)",
+      "scientificName": "Botrytis cinerea",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "guava-fruit-fly",
+      "commonName": "Guava Fruit Fly",
+      "scientificName": "Anastrepha suspensa",
+      "source": "UF/IFAS Featured Creatures"
+    },
+    {
+      "slug": "harlequin-bug",
+      "commonName": "Harlequin Bug",
+      "scientificName": "Murgantia histrionica",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "hessian-fly",
+      "commonName": "Hessian Fly",
+      "scientificName": "Mayetiola destructor",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "imported-currantworm",
+      "commonName": "Imported Currantworm",
+      "scientificName": "Nematus ribesii",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "iris-yellow-spot-virus",
+      "commonName": "Iris Yellow Spot Virus",
+      "scientificName": "Orthotospovirus iridimaculaflavi",
+      "source": "ICTV Master Species List"
+    },
+    {
+      "slug": "japanese-beetle",
+      "commonName": "Japanese Beetle",
+      "scientificName": "Popillia japonica",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "late-blight",
+      "commonName": "Late Blight",
+      "scientificName": "Phytophthora infestans",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "late-blight-celery",
+      "commonName": "Celery Late Blight",
+      "scientificName": "Septoria apiicola",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "leaf-blight-cercospora",
+      "commonName": "Cercospora Leaf Blight",
+      "scientificName": "Cercospora carotae",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "leaf-miner",
+      "commonName": "Leaf Miner",
+      "scientificName": "Liriomyza spp.",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "leaf-miner-beet",
+      "commonName": "Beet Leaf Miner",
+      "scientificName": "Pegomya hyoscyami",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "leaf-miner-spinach",
+      "commonName": "Spinach Leaf Miner",
+      "scientificName": "Pegomya hyoscyami",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "leaf-mold",
+      "commonName": "Leaf Mold",
+      "scientificName": "Passalora fulva",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "leaf-rust",
+      "commonName": "Leaf Rust",
+      "scientificName": "Puccinia triticina",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "leaf-spot",
+      "commonName": "Leaf Spot",
+      "scientificName": "Cercospora spp.",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "leaf-spot-peanut",
+      "commonName": "Peanut Leaf Spot",
+      "scientificName": "Cercospora arachidicola, Cercosporidium personatum",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "leaf-spot-rhubarb",
+      "commonName": "Rhubarb Leaf Spot",
+      "scientificName": "Ramularia rhei",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "leafhopper-potato",
+      "commonName": "Potato Leafhopper",
+      "scientificName": "Empoasca fabae",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "leek-moth",
+      "commonName": "Leek Moth",
+      "scientificName": "Acrolepiopsis assectella",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "lesser-peachtree-borer",
+      "commonName": "Lesser Peachtree Borer",
+      "scientificName": "Synanthedon pictipes",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "lettuce-aphid",
+      "commonName": "Lettuce Aphid",
+      "scientificName": "Nasonovia ribisnigri",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "lettuce-downy-mildew",
+      "commonName": "Lettuce Downy Mildew",
+      "scientificName": "Bremia lactucae",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "lettuce-drop",
+      "commonName": "Lettuce Drop",
+      "scientificName": "Sclerotinia sclerotiorum",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "lettuce-mosaic-virus",
+      "commonName": "Lettuce Mosaic Virus",
+      "scientificName": "Potyvirus LMV",
+      "source": "ICTV Master Species List"
+    },
+    {
+      "slug": "lima-bean-pod-borer",
+      "commonName": "Lima Bean Pod Borer",
+      "scientificName": "Etiella zinckenella",
+      "source": "UF/IFAS Featured Creatures"
+    },
+    {
+      "slug": "mealybug-pineapple",
+      "commonName": "Pineapple Mealybug",
+      "scientificName": "Dysmicoccus brevipes",
+      "source": "UF/IFAS Featured Creatures"
+    },
+    {
+      "slug": "mexican-bean-beetle",
+      "commonName": "Mexican Bean Beetle",
+      "scientificName": "Epilachna varivestis",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "mint-rust",
+      "commonName": "Mint Rust",
+      "scientificName": "Puccinia menthae",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "mulberry-leaf-spot",
+      "commonName": "Mulberry Leaf Spot",
+      "scientificName": "Cercospora moricola",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "mummy-berry",
+      "commonName": "Mummy Berry",
+      "scientificName": "Monilinia vaccinii-corymbosi",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "neck-rot",
+      "commonName": "Neck Rot",
+      "scientificName": "Botrytis aclada",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "nettle-leaf-spot",
+      "commonName": "Nettle Leaf Spot",
+      "scientificName": "Septoria urticae",
+      "source": "EPPO Global Database"
+    },
+    {
+      "slug": "northern-anthracnose",
+      "commonName": "Northern Anthracnose",
+      "scientificName": "Kabatiella caulivora",
+      "source": "Penn State Extension"
+    },
+    {
+      "slug": "northern-corn-leaf-blight",
+      "commonName": "Northern Corn Leaf Blight",
+      "scientificName": "Exserohilum turcicum",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "oblique-banded-leafroller",
+      "commonName": "Oblique Banded Leafroller",
+      "scientificName": "Choristoneura rosaceana",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "olive-fruit-fly",
+      "commonName": "Olive Fruit Fly",
+      "scientificName": "Bactrocera oleae",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "olive-knot",
+      "commonName": "Olive Knot",
+      "scientificName": "Pseudomonas savastanoi pv. savastanoi",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "onion-maggot",
+      "commonName": "Onion Maggot",
+      "scientificName": "Delia antiqua",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "orange-rust",
+      "commonName": "Orange Rust",
+      "scientificName": "Gymnoconia nitens",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "oriental-fruit-moth",
+      "commonName": "Oriental Fruit Moth",
+      "scientificName": "Grapholita molesta",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "papaya-fruit-fly",
+      "commonName": "Papaya Fruit Fly",
+      "scientificName": "Toxotrypana curvicauda",
+      "source": "UF/IFAS Featured Creatures"
+    },
+    {
+      "slug": "papaya-ringspot-virus",
+      "commonName": "Papaya Ringspot Virus",
+      "scientificName": "Potyvirus PRSV",
+      "source": "ICTV Master Species List"
+    },
+    {
+      "slug": "parsleyworm",
+      "commonName": "Parsleyworm (Black Swallowtail)",
+      "scientificName": "Papilio polyxenes",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "pea-aphid",
+      "commonName": "Pea Aphid",
+      "scientificName": "Acyrthosiphon pisum",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "pea-leaf-weevil",
+      "commonName": "Pea Leaf Weevil",
+      "scientificName": "Sitona lineatus",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "peach-leaf-curl",
+      "commonName": "Peach Leaf Curl",
+      "scientificName": "Taphrina deformans",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "peach-tree-borer",
+      "commonName": "Peach Tree Borer",
+      "scientificName": "Synanthedon exitiosa",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "peach-twig-borer",
+      "commonName": "Peach Twig Borer",
+      "scientificName": "Anarsia lineatella",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "pear-psylla",
+      "commonName": "Pear Psylla",
+      "scientificName": "Cacopsylla pyricola",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "pear-scab",
+      "commonName": "Pear Scab",
+      "scientificName": "Venturia pyrina",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "pear-slug",
+      "commonName": "Pear Slug (Pear Sawfly)",
+      "scientificName": "Caliroa cerasi",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "pepper-anthracnose",
+      "commonName": "Pepper Anthracnose",
+      "scientificName": "Colletotrichum spp.",
+      "source": "UF/IFAS Featured Creatures"
+    },
+    {
+      "slug": "pepper-hornworm",
+      "commonName": "Pepper Hornworm",
+      "scientificName": "Manduca quinquemaculata",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "pepper-maggot",
+      "commonName": "Pepper Maggot",
+      "scientificName": "Zonosemata electa",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "pepper-weevil",
+      "commonName": "Pepper Weevil",
+      "scientificName": "Anthonomus eugenii",
+      "source": "UF/IFAS Featured Creatures"
+    },
+    {
+      "slug": "persimmon-anthracnose",
+      "commonName": "Persimmon Anthracnose",
+      "scientificName": "Colletotrichum horii",
+      "source": "UF/IFAS Featured Creatures"
+    },
+    {
+      "slug": "phytophthora-blight",
+      "commonName": "Phytophthora Blight",
+      "scientificName": "Phytophthora capsici",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "plectosporium-blight",
+      "commonName": "Plectosporium Blight",
+      "scientificName": "Plectosporium tabacinum",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "plum-curculio",
+      "commonName": "Plum Curculio",
+      "scientificName": "Conotrachelus nenuphar",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "plum-leaf-curl-aphid",
+      "commonName": "Plum Leaf Curl Aphid",
+      "scientificName": "Brachycaudus helichrysi",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "plum-pox-virus",
+      "commonName": "Plum Pox Virus",
+      "scientificName": "Potyvirus PPV",
+      "source": "ICTV Master Species List"
+    },
+    {
+      "slug": "pomegranate-fruit-rot",
+      "commonName": "Pomegranate Fruit Rot",
+      "scientificName": "Aspergillus niger",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "potato-late-blight",
+      "commonName": "Potato Late Blight",
+      "scientificName": "Phytophthora infestans",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "potato-leafhopper",
+      "commonName": "Potato Leafhopper",
+      "scientificName": "Empoasca fabae",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "potato-tuberworm",
+      "commonName": "Potato Tuberworm",
+      "scientificName": "Phthorimaea operculella",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "powdery-mildew",
+      "commonName": "Powdery Mildew",
+      "scientificName": "Erysiphaceae spp.",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "prussic-acid-poisoning",
+      "commonName": "Prussic Acid Poisoning",
+      "scientificName": null,
+      "source": "Physiological / chemical hazard (cyanogenic glycoside accumulation in sorghum, sudangrass, and stone-fruit foliage under stress); not a biological agent. Penn State Extension."
+    },
+    {
+      "slug": "psa-bacterial-canker",
+      "commonName": "PSA Bacterial Canker (Kiwifruit)",
+      "scientificName": "Pseudomonas syringae pv. actinidiae",
+      "source": "EPPO Global Database"
+    },
+    {
+      "slug": "psyllid-carrot",
+      "commonName": "Carrot Psyllid",
+      "scientificName": "Bactericera cockerelli",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "purple-blotch",
+      "commonName": "Purple Blotch",
+      "scientificName": "Alternaria porri",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "raccoon",
+      "commonName": "Raccoon",
+      "scientificName": "Procyon lotor",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "raspberry-bushy-dwarf-virus",
+      "commonName": "Raspberry Bushy Dwarf Virus",
+      "scientificName": "Idaeovirus RBDV",
+      "source": "ICTV Master Species List"
+    },
+    {
+      "slug": "raspberry-cane-borer",
+      "commonName": "Raspberry Cane Borer",
+      "scientificName": "Oberea bimaculata",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "raspberry-crown-borer",
+      "commonName": "Raspberry Crown Borer",
+      "scientificName": "Pennisetia marginata",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "rhubarb-crown-rot",
+      "commonName": "Rhubarb Crown Rot",
+      "scientificName": "Phytophthora cactorum",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "rhubarb-curculio",
+      "commonName": "Rhubarb Curculio",
+      "scientificName": "Lixus concavus",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "rhubarb-stalk-borer",
+      "commonName": "Common Stalk Borer",
+      "scientificName": "Papaipema nebris",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "root-knot-nematode",
+      "commonName": "Root-Knot Nematode",
+      "scientificName": "Meloidogyne spp.",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "root-rot",
+      "commonName": "Root Rot",
+      "scientificName": "Phytophthora spp.",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "russet-mite",
+      "commonName": "Tomato Russet Mite",
+      "scientificName": "Aculops lycopersici",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "rust-stripe",
+      "commonName": "Rust Stripe (Loose Kernel Smut)",
+      "scientificName": "Sphacelotheca cruenta",
+      "source": "Penn State Extension"
+    },
+    {
+      "slug": "scab",
+      "commonName": "Common Scab",
+      "scientificName": "Streptomyces scabiei",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "scab-common",
+      "commonName": "Common Scab",
+      "scientificName": "Streptomyces scabiei",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "scale-san-jose",
+      "commonName": "San Jose Scale",
+      "scientificName": "Diaspidiotus perniciosus",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "scale-white-peach",
+      "commonName": "White Peach Scale",
+      "scientificName": "Pseudaulacaspis pentagona",
+      "source": "UF/IFAS Featured Creatures"
+    },
+    {
+      "slug": "sclerotinia-drop",
+      "commonName": "Sclerotinia Drop",
+      "scientificName": "Sclerotinia sclerotiorum",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "scurf",
+      "commonName": "Sweet Potato Scurf",
+      "scientificName": "Monilochaetes infuscans",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "septoria-leaf-spot",
+      "commonName": "Septoria Leaf Spot",
+      "scientificName": "Septoria lycopersici",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "slug",
+      "commonName": "Slug",
+      "scientificName": "Gastropoda spp.",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "slug-mushroom",
+      "commonName": "Mushroom Slug",
+      "scientificName": "Deroceras reticulatum",
+      "source": "Penn State Extension"
+    },
+    {
+      "slug": "sooty-blotch",
+      "commonName": "Sooty Blotch",
+      "scientificName": "Schizothyrium pomi",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "sorghum-midge",
+      "commonName": "Sorghum Midge",
+      "scientificName": "Contarinia sorghicola",
+      "source": "USDA-ARS"
+    },
+    {
+      "slug": "soybean-aphid",
+      "commonName": "Soybean Aphid",
+      "scientificName": "Aphis glycines",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "soybean-cyst-nematode",
+      "commonName": "Soybean Cyst Nematode",
+      "scientificName": "Heterodera glycines",
+      "source": "USDA-ARS"
+    },
+    {
+      "slug": "spider-mite",
+      "commonName": "Spider Mite",
+      "scientificName": "Tetranychus urticae",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "spotted-wilt-virus",
+      "commonName": "Spotted Wilt Virus",
+      "scientificName": "Orthotospovirus tomatomaculae",
+      "source": "ICTV Master Species List"
+    },
+    {
+      "slug": "spotted-wing-drosophila",
+      "commonName": "Spotted Wing Drosophila",
+      "scientificName": "Drosophila suzukii",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "squash-bug",
+      "commonName": "Squash Bug",
+      "scientificName": "Anasa tristis",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "squash-vine-borer",
+      "commonName": "Squash Vine Borer",
+      "scientificName": "Melittia cucurbitae",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "stem-and-bulb-nematode",
+      "commonName": "Stem And Bulb Nematode",
+      "scientificName": "Ditylenchus dipsaci",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "stem-rust",
+      "commonName": "Stem Rust",
+      "scientificName": "Puccinia graminis",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "stink-bug",
+      "commonName": "Stink Bug",
+      "scientificName": "Pentatomidae spp.",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "strawberry-root-weevil",
+      "commonName": "Strawberry Root Weevil",
+      "scientificName": "Otiorhynchus ovatus",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "stripe-rust",
+      "commonName": "Stripe Rust",
+      "scientificName": "Puccinia striiformis",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "sudden-death-syndrome",
+      "commonName": "Sudden Death Syndrome",
+      "scientificName": "Fusarium virguliforme",
+      "source": "USDA-ARS"
+    },
+    {
+      "slug": "sugarcane-aphid",
+      "commonName": "Sugarcane Aphid",
+      "scientificName": "Melanaphis sacchari",
+      "source": "USDA-ARS"
+    },
+    {
+      "slug": "sunflower-moth",
+      "commonName": "Sunflower Moth",
+      "scientificName": "Homoeosoma electellum",
+      "source": "USDA-ARS"
+    },
+    {
+      "slug": "sunflower-rust",
+      "commonName": "Sunflower Rust",
+      "scientificName": "Puccinia helianthi",
+      "source": "USDA-ARS"
+    },
+    {
+      "slug": "sweet-potato-weevil",
+      "commonName": "Sweet Potato Weevil",
+      "scientificName": "Cylas formicarius",
+      "source": "UF/IFAS Featured Creatures"
+    },
+    {
+      "slug": "tarnished-plant-bug",
+      "commonName": "Tarnished Plant Bug",
+      "scientificName": "Lygus lineolaris",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "thistle-aphid",
+      "commonName": "Thistle Aphid",
+      "scientificName": "Brachycaudus cardui",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "thrips-cabbage",
+      "commonName": "Cabbage Thrips (Onion Thrips)",
+      "scientificName": "Thrips tabaci",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "thrips-onion",
+      "commonName": "Onion Thrips",
+      "scientificName": "Thrips tabaci",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "timothy-mite",
+      "commonName": "Timothy Mite",
+      "scientificName": "Aceria tulipae",
+      "source": "USDA-ARS"
+    },
+    {
+      "slug": "tipburn",
+      "commonName": "Tipburn",
+      "scientificName": null,
+      "source": "Physiological disorder (calcium translocation failure under heat stress in lettuce, cabbage, strawberry); not a biological agent. Cornell Cooperative Extension."
+    },
+    {
+      "slug": "tobacco-mosaic-virus",
+      "commonName": "Tobacco Mosaic Virus",
+      "scientificName": "Tobamovirus TMV",
+      "source": "ICTV Master Species List"
+    },
+    {
+      "slug": "tomato-fruitworm",
+      "commonName": "Tomato Fruitworm",
+      "scientificName": "Helicoverpa zea",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "tomato-hornworm",
+      "commonName": "Tomato Hornworm",
+      "scientificName": "Manduca quinquemaculata",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "tomato-mosaic-virus",
+      "commonName": "Tomato Mosaic Virus",
+      "scientificName": "Tobamovirus ToMV",
+      "source": "ICTV Master Species List"
+    },
+    {
+      "slug": "tomato-pinworm",
+      "commonName": "Tomato Pinworm",
+      "scientificName": "Keiferia lycopersicella",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "tomato-russet-mite",
+      "commonName": "Tomato Russet Mite",
+      "scientificName": "Aculops lycopersici",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "tomato-spotted-wilt-virus",
+      "commonName": "Tomato Spotted Wilt Virus",
+      "scientificName": "Orthotospovirus tomatomaculae",
+      "source": "ICTV Master Species List"
+    },
+    {
+      "slug": "tomato-yellow-leaf-curl-virus",
+      "commonName": "Tomato Yellow Leaf Curl Virus",
+      "scientificName": "Begomovirus coheni",
+      "source": "ICTV Master Species List"
+    },
+    {
+      "slug": "trichoderma",
+      "commonName": "Trichoderma (Green Mold)",
+      "scientificName": "Trichoderma spp.",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "two-spotted-spider-mite",
+      "commonName": "Two Spotted Spider Mite",
+      "scientificName": "Tetranychus urticae",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "valerian-rust",
+      "commonName": "Valerian Rust",
+      "scientificName": "Uromyces valerianae",
+      "source": "EPPO Global Database"
+    },
+    {
+      "slug": "verticillium-wilt",
+      "commonName": "Verticillium Wilt",
+      "scientificName": "Verticillium dahliae",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "verticillium-wilt-alfalfa",
+      "commonName": "Verticillium Wilt Alfalfa",
+      "scientificName": "Verticillium alfalfae",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "verticillium-wilt-strawberry",
+      "commonName": "Verticillium Wilt Strawberry",
+      "scientificName": "Verticillium dahliae",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "vetch-bruchid",
+      "commonName": "Vetch Bruchid",
+      "scientificName": "Bruchus brachialis",
+      "source": "GBIF Backbone Taxonomy"
+    },
+    {
+      "slug": "western-flower-thrips",
+      "commonName": "Western Flower Thrips",
+      "scientificName": "Frankliniella occidentalis",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "wheat-aphid",
+      "commonName": "Wheat Aphid",
+      "scientificName": "Sitobion avenae",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "white-pine-blister-rust",
+      "commonName": "White Pine Blister Rust",
+      "scientificName": "Cronartium ribicola",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "white-rot",
+      "commonName": "White Rot of Allium",
+      "scientificName": "Stromatinia cepivora",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "white-rust",
+      "commonName": "White Rust",
+      "scientificName": "Albugo candida",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "whitefly",
+      "commonName": "Whitefly",
+      "scientificName": "Bemisia tabaci",
+      "source": "UC IPM Online"
+    },
+    {
+      "slug": "wireworm",
+      "commonName": "Wireworm",
+      "scientificName": "Elateridae spp.",
+      "source": "Cornell Cooperative Extension"
+    },
+    {
+      "slug": "woolly-apple-aphid",
+      "commonName": "Woolly Apple Aphid",
+      "scientificName": "Eriosoma lanigerum",
+      "source": "Cornell Cooperative Extension"
+    }
+  ]
+}

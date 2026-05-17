@@ -12,3 +12,8 @@ coverage/
 .agents/
 .claude/
 CLAUDE.md
+
+# Curation scratch dirs (one-shot scripts and intermediate JSON for data
+# audits like the pest-species GBIF match). Kept local for reproducibility,
+# never shipped.
+.scratch-*/

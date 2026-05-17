@@ -33,6 +33,11 @@ export * from "./succession.js";
 // organic management options, prevention, and regions of significance.
 export * from "./pest-disease.js";
 
+// Pest species catalog: slug-keyed scientific names for every pest and
+// disease in pest-disease.json. Internal naming authority; physiological
+// disorders carry scientificName: null.
+export * from "./pest-species.js";
+
 // Growing degree day models: literature-grounded heat unit ranges per crop
 // plus a harvest-date estimator that falls back to NOAA Climate Normals when
 // live daily temperatures are not available.

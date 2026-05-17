@@ -1,5 +1,56 @@
 # CropGraph Changelog
 
+## 3.3.0 (2026-05-16)
+
+Pest species catalog. Adds a slug-keyed scientific-name authority for every
+pest and disease referenced from pest-disease.json. Internal naming layer,
+purely additive; no breaking changes.
+
+### New fixture: pest-species.json (243 entries)
+
+One row per unique `pest` slug in pest-disease.json. Each entry carries
+`slug`, `commonName`, `scientificName`, and `source`. Curated against GBIF
+Backbone Taxonomy, UC IPM Online, Cornell Cooperative Extension, UF/IFAS
+Featured Creatures, EPPO Global Database, ICTV Master Species List, USDA-ARS,
+and Penn State Extension. Modern accepted binomials throughout. Pathovars
+and formae speciales use the ISPP infrasubspecific convention (pv., f.sp.).
+Generic slugs that cover multi-species complexes (cutworm, powdery-mildew,
+damping-off, downy-mildew, flea-beetle, leaf-miner, root-knot-nematode,
+spider-mite, stink-bug, wireworm, trichoderma, slug) are named at the
+genus/family level (`Genus spp.`) with the dominant member species
+enumerated in the per-entry source citation.
+
+237 entries carry a `scientificName`. 6 physiological disorders (bitter-pit,
+blossom-end-rot, catfacing, cilantro-bolt, prussic-acid-poisoning, tipburn)
+carry `scientificName: null` with the disorder mechanism named in their
+source citation.
+
+### Loader: bidirectional cross-reference
+
+`@cropgraph/core` now asserts at module load that every distinct `pest`
+slug in pest-disease.json has a row in pest-species.json, and that every
+pest-species row is referenced by at least one pest-disease entry. A
+curation bug therefore breaks `import "@cropgraph/core"` immediately rather
+than at runtime.
+
+### New public surface (additive)
+
+* `getPestSpecies(slug)` returns the species record for a pest or disease
+  slug.
+* `listPestSpecies()` returns all species records, sorted by slug.
+* `getPestSpeciesMeta()` returns fixture meta including the
+  with-scientific-name and disorder counts.
+* New type `PestSpecies`.
+
+### Why a separate fixture
+
+The crop-association edges in pest-disease.json are per-(crop, pest), so
+the same agent appears across many rows (`tomato-hornworm` against tomato,
+pepper-sweet, etc.). Holding the scientific name on the edge would
+duplicate it 4 to 8 times per pest and risk drift on future taxonomic
+revisions. Holding it in a separate slug-keyed fixture is canonical
+and DRY.
+
 ## 3.1.0 (2026-05-14)
 
 Triple data depth release. Net dataset expansions on the three relationship
