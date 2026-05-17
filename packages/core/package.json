@@ -1,7 +1,7 @@
 {
   "name": "@cropgraph/core",
-  "version": "3.3.0",
-  "description": "CropGraph core library: curated crop calendar (5,006 entries across 14 categories with 120 climate-modified crops across 6 climate types), 1,004 companion planting relationships, 12 rotation families, 102 succession planting chains, 506 pest/disease associations across 243 unique pest and disease slugs with a slug-keyed pest species catalog of accepted scientific names, 200 beneficial insects across 5 functional categories with composite pest intelligence layer, 120 growing degree day models with NOAA Climate Normals harvest prediction, USDA hardiness zone lookup, and climate classification. Offline, zero network calls.",
+  "version": "3.4.0",
+  "description": "CropGraph core library: curated crop calendar (5,006 entries across 14 categories with 120 climate-modified crops across 6 climate types), 1,004 companion planting relationships, 12 rotation families, 102 succession planting chains, 802 pest/disease associations across 343 unique pest and disease slugs with a slug-keyed pest species catalog of accepted scientific names, 206 beneficial insects across 5 functional categories with composite pest intelligence layer, 120 growing degree day models with NOAA Climate Normals harvest prediction, USDA hardiness zone lookup, and climate classification. Offline, zero network calls.",
   "keywords": [
     "cropgraph",
     "agriculture",

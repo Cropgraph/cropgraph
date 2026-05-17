@@ -1,5 +1,85 @@
 # CropGraph Changelog
 
+## 3.4.0 (2026-05-17)
+
+Pest expansion. Adds 100 new insect, mite, mollusk, and vertebrate pest
+species across 296 new crop-pest entries, taking the fixture from 506 to
+802 total entries and from 243 to 343 unique pest and disease slugs. Also
+adds 3 dual-listed beneficial entries (paper wasp, bald-faced hornet,
+yellowjacket) since those species are major caterpillar and fly predators
+through early to mid summer while becoming orchard-fruit pests in late
+summer. Loader cross-references unchanged; all new entries pass schema and
+bidirectional validation.
+
+### Coverage added by category
+
+* Aphids: 8 new (potato, melon, corn leaf, foxglove, turnip, spirea,
+  willow-carrot, rosy apple).
+* Mites: 6 new (cyclamen, European red, bulb, Pacific spider, pear gall,
+  clover).
+* Beetles and weevils: 13 new (rose chafer, June and green June beetles,
+  click beetle, lily leaf beetle, blister beetle, banded cucumber beetle,
+  eggplant tortoise beetle, rose curculio, sunflower beetle, cereal leaf
+  beetle, imported longhorned weevil, cowpea weevil).
+* Caterpillars and moths: 14 new (tobacco hornworm, beet armyworm,
+  yellow-striped and southern armyworms, tobacco budworm, soybean looper,
+  velvetbean caterpillar, pickleworm, melonworm, green fruitworm, fall
+  webworm, eastern tent caterpillar, spongy moth, grape berry moth).
+* Flies, maggots, midges: 7 new (seedcorn maggot, European crane fly,
+  swede midge, walnut husk fly, blueberry gall midge, raspberry cane
+  maggot, narcissus bulb fly).
+* Stink bugs and true bugs: 9 new (brown marmorated, southern green,
+  brown, and green stink bugs; leaffooted and western leaffooted bugs;
+  boxelder bug; four-lined plant bug; western tarnished plant bug).
+* Leafhoppers and planthoppers: 6 new (aster, beet, glassy-winged
+  sharpshooter, grape, white apple leafhopper, spotted lanternfly).
+* Scales and mealybugs: 8 new (cottony cushion, brown soft, California
+  red, oystershell, euonymus scales; citrus, vine, longtailed mealybugs).
+* Thrips and whiteflies: 6 new (tobacco, melon, greenhouse, gladiolus
+  thrips; greenhouse and banded-winged whiteflies).
+* Slugs, snails, sowbugs: 4 new (brown garden snail, gray garden slug,
+  sowbug, pillbug).
+* Generalist garden and household bugs: 12 new (European earwig, house
+  cricket, mole cricket, three Melanoplus grasshoppers, eastern lubber
+  grasshopper, periodical and dog-day cicadas, house fly, paper wasp,
+  bald-faced hornet, yellowjacket).
+* Vertebrates: 7 new (eastern cottontail rabbit, eastern gray squirrel,
+  groundhog, eastern mole, meadow vole, pocket gopher, eastern chipmunk).
+
+### Source bar
+
+Every new entry cites Cornell Cooperative Extension, UC IPM Online,
+UF/IFAS Featured Creatures, Penn State Extension, USDA-ARS, or EPPO Global
+Database. Organic management restricted to OMRI-listed materials,
+biocontrols, and physical/cultural practices; conventional synthetic
+pesticides remain intentionally out of scope.
+
+### Beneficial dual-listings
+
+Paper wasp (Polistes spp.), bald-faced hornet (Dolichovespula maculata),
+and yellowjacket (Vespula spp.) each appear in both pest-disease.json (as
+late-season fruit and nuisance pests) and beneficial-insects.json (as
+caterpillar predators during their building phase). Beneficial entries
+prey on the new caterpillar slugs added in this release plus existing
+pieces of cabbage worm, cabbage looper, and tomato hornworm.
+
+### Counts (after 3.4.0)
+
+* pest-disease.json: 802 entries across 343 unique slugs (115 pest-type
+  unique slugs grew to 215; disease-type unchanged at 128).
+* pest-species.json: 343 entries (237 with scientificName, 6
+  physiological disorders, plus 100 new species records).
+* beneficial-insects.json: 206 entries.
+
+### Why this matters for downstream
+
+The fixture now covers the majority of garden, household, and outdoor
+insects that consumer photo-identification apps will see, while remaining
+a coherent crop-pest reference for the existing CropGraph API surface.
+All new entries use the canonical pest-disease.json schema; no schema
+changes required. cropgraph-api typechecks unchanged against the bumped
+core (additive change).
+
 ## 3.3.0 (2026-05-16)
 
 Pest species catalog. Adds a slug-keyed scientific-name authority for every
