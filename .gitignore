@@ -8,9 +8,18 @@ dist/
 !.env.example
 coverage/
 
-# Per-user AI workflow stays local — never commit.
-.agents/
-.claude/
+# Per-user AI workflow stays local, never commit. These carry client names,
+# internal strategy, and personal detail, and this repository is public.
+#
+# NO TRAILING SLASH, deliberately. `.agents/` matches a directory only. These
+# paths are kept out of the tree by replacing them with symlinks pointing
+# outside any repository, and git sees a symlink as a file rather than a
+# directory, so a trailing-slash rule stops matching the moment the directory
+# becomes a link. The entry then falls out of the ignore set silently and
+# `git add -A` will stage it. Slashless entries match a directory, a file, or
+# a symlink.
+.agents
+.claude
 CLAUDE.md
 
 # Curation scratch dirs (one-shot scripts and intermediate JSON for data
