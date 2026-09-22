@@ -3,6 +3,7 @@
 
 import { describe, expect, test } from "vitest";
 import {
+  checkRotationSequence,
   estimateHarvestDate,
   findCrop,
   getClimateNormalTemps,
@@ -18,10 +19,14 @@ import {
   getPestsByCrop,
   getPlantingPlan,
   getRelationship,
+  getRotationAdvice,
+  getRotationPartners,
   getSuccessionChain,
   getSuccessionMeta,
   getSuccessionPlan,
+  listCrops,
   listGddModels,
+  listRotationFamilies,
   listSuccessionChains,
   searchCrops,
   searchPests,
@@ -245,5 +250,35 @@ describe("@cropgraph/core smoke", () => {
     expect(plan.phases[0]?.sowingDates.length).toBeGreaterThan(1);
     expect(plan.phases[0]?.windowStart).toMatch(/^2026-/);
     expect(plan.climateType).toBe("maritime");
+  });
+
+  // Rotation. This block is the one that was absent while /api/rotation
+  // returned a 500 for four months: the coverage invariant lives in a lazy
+  // loader, so a suite that never calls a rotation function never runs it.
+  // "The single contract for shipping a new build" has to include it.
+  test("listRotationFamilies loads the fixture and covers the calendar", () => {
+    const families = listRotationFamilies();
+    expect(families.length).toBe(12);
+    const assigned = new Set(families.flatMap((f) => f.crops));
+    expect(assigned.size).toBe(listCrops().length);
+  });
+
+  test("getRotationAdvice('early-girl-tomato') returns nightshade advice", () => {
+    const advice = getRotationAdvice("early-girl-tomato");
+    expect(advice).toBeDefined();
+    expect(advice?.family).toBe("nightshades");
+    expect(advice?.rotationYears).toBe(3);
+  });
+
+  test("getRotationPartners('tomato') suggests real follow crops", () => {
+    const partners = getRotationPartners("tomato");
+    expect(partners.follow.length).toBeGreaterThan(0);
+    expect(partners.follow.map((p) => p.family)).not.toContain("nightshades");
+  });
+
+  test("checkRotationSequence flags a nightshade replant", () => {
+    const report = checkRotationSequence(["tomato", "pepper-thai"]);
+    expect(report.ok).toBe(false);
+    expect(report.issues[0]?.family).toBe("nightshades");
   });
 });

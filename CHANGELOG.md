@@ -1,5 +1,62 @@
 # CropGraph Changelog
 
+## 3.5.0 (2026-09-22)
+
+Rotation family census. Closes issue #1, where `/api/rotation/:slug`,
+`/api/rotation-check` and `/api/garden-plan` had returned a 500 since May
+because `rotation-families.json` had fallen behind the crop calendar.
+
+The reported error named one slug, `early-girl-tomato`. That was the first
+miss the loader reached before throwing, not the extent of the problem: the
+calendar grew from 1,000 entries to 2,002 and then to 5,006 across two
+expansions in May, and the families file was never expanded with it. The
+real gap was **4,006 of 5,006 slugs unassigned**, and it shipped in
+`@cropgraph/core@2.0.0`.
+
+### Data
+
+* All 4,006 unassigned slugs now carry a family. Assignment is by botanical
+  genus, derived from the 1,000 existing curated entries (384 genera, no
+  internal conflicts) and extended to 280 new genera. Every tomato and
+  pepper variety is in `nightshades`, so the advice is agronomically right
+  rather than merely non-throwing.
+* Woody perennial trees and shrubs go to `miscellaneous` regardless of
+  botany, and the principle is now recorded in the `miscellaneous` reason
+  field rather than only applied to the instances that prompted it. A family
+  assignment is a claim about what to plant next, `legumes` is named in nine
+  of the twelve `followWith` lists, and botanical purity would have made the
+  API answer "after your tomatoes, plant black locust". Bed-grown woody
+  crops are the exception and keep their family: goji stays in `nightshades`
+  for its real Verticillium and Fusarium sharing, bamboo stays in `grasses`
+  per the curated Phyllostachys precedent.
+* Family totals: nightshades 52 to 519, brassicas 70 to 167, cucurbits 49 to
+  259, alliums 26 to 155, legumes 97 to 387, umbellifers 39 to 90, grasses
+  52 to 457, amaranthaceae 32 to 87, composites 110 to 310, mints 57 to 205,
+  malvaceae 11 to 46, miscellaneous 405 to 2,324.
+
+### The invariant moved to build time
+
+The data gap was the bug. The reason it shipped and stayed shipped for four
+months is that the coverage check lives inside a lazy loader, so it only ran
+when a rotation function was actually called, and nothing called one before a
+user's HTTP request did. Build, typecheck and tests were all green the whole
+time.
+
+* `packages/core/scripts/validate-data.mjs` runs as part of `build`, against
+  the freshly built dist, calling the real loaders rather than restating
+  their rules. A second copy of an invariant is a second thing to drift.
+  Because `publish.yml` builds before it publishes, an incomplete fixture can
+  no longer reach npm.
+* `packages/core/test/rotation-coverage.test.ts` diffs calendar slugs against
+  assigned slugs in CI and reports the whole gap.
+* `smoke.test.ts`, the file whose own header calls itself the single contract
+  for shipping a new build, imported 24 core symbols and zero rotation
+  symbols. It now exercises rotation.
+* The loader's error reports the full count and a sample instead of stopping
+  at the first miss. The old message cost a census.
+
+The runtime guard stays exactly where it was, as defense in depth.
+
 ## 3.4.0 (2026-05-17)
 
 Pest expansion. Adds 100 new insect, mite, mollusk, and vertebrate pest
