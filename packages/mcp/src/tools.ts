@@ -485,7 +485,7 @@ function registerGetRotationAdvice(server: McpServer): void {
     {
       title: "Rotation Family + Year-Gap Rule for a Crop",
       description:
-        "Returns the botanical rotation family and rotation rules for a crop, drawn from the bundled 12-family partition of all 1000 calendar crops (USDA Cooperative Extension, SARE, Rodale sources). " +
+        "Returns the botanical rotation family and rotation rules for a crop, drawn from the bundled 12-family partition of every crop in the calendar (USDA Cooperative Extension, SARE, Rodale sources). " +
         "Each crop is in exactly one family (nightshades, brassicas, cucurbits, alliums, legumes, umbellifers, grasses, amaranthaceae, composites, mints, malvaceae, or miscellaneous). " +
         "Per family: `rotationYears` (recommended minimum years between successive plantings of the family in the same bed), `followWith` (families that work well after this one), `neverFollow` (families to avoid following), and `reason` (the dominant pathogens or pests behind the rule). " +
         "Returns `partners.follow` (crops in recommended follow-with families) and `partners.avoid` (crops in never-follow families). " +

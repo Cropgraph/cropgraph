@@ -117,12 +117,20 @@ function loadRotation(): RotationFile {
       cropToFamily.set(slug, e.family);
     }
   }
+  // Report the whole gap, not the first slug hit. A partial message once cost
+  // four months: the calendar had grown by 4,006 entries and the error named
+  // exactly one of them, so the miss read as a typo rather than a census.
+  const missing: string[] = [];
   for (const slug of calendarSlugs) {
-    if (!cropToFamily.has(slug)) {
-      throw new Error(
-        `rotation-families.json is missing crop slug "${slug}"; every calendar slug must be assigned to a family (or "miscellaneous")`,
-      );
-    }
+    if (!cropToFamily.has(slug)) missing.push(slug);
+  }
+  if (missing.length > 0) {
+    const sample = missing.slice(0, 10).join(", ");
+    const more =
+      missing.length > 10 ? `, and ${missing.length - 10} more` : "";
+    throw new Error(
+      `rotation-families.json is missing ${missing.length} of ${calendarSlugs.size} calendar crop slugs (${sample}${more}); every calendar slug must be assigned to a family (or "miscellaneous")`,
+    );
   }
   DATA = parsed.data;
   return DATA;
