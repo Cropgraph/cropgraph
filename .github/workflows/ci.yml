@@ -13,6 +13,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Runs before anything that can fail, so a broken build cannot hide it.
+      - name: Workspace guard
+        run: |
+          node scripts/workspace-guard.mjs
+          node scripts/workspace-guard.mjs --self-test
+
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
 
