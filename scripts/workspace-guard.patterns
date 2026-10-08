@@ -1,0 +1,13 @@
+# Path components that must never be tracked in this public repository.
+# One name per line. A tracked path is refused when ANY of its components
+# equals a name here, compared case-insensitively, at any depth.
+# Read by scripts/workspace-guard.mjs, which the pre-commit hook and CI
+# both run. Keep it in step with the agent-workspace block of .gitignore.
+.agents
+.claude
+CLAUDE.md
+governance
+STICKIES.md
+SESSION_HANDOFF.md
+METHODOLOGY.md
+API_AUDIT.md
